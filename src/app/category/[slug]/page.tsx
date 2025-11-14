@@ -1,8 +1,6 @@
 import { categories } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
-import Image from 'next/image';
 
 export async function generateStaticParams() {
   return categories.map((category) => ({
@@ -17,9 +15,6 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
     notFound();
   }
   
-  const categoryImage = PlaceHolderImages.find(p => p.id === category.image);
-  const placeholderImages = PlaceHolderImages.filter(p => p.id.startsWith('placeholder-'));
-
   return (
     <div className="container mx-auto py-12 px-4">
       <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
@@ -38,27 +33,19 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                 <CardTitle>Example Ad</CardTitle>
             </CardHeader>
             <CardContent>
-                <div className="relative aspect-video w-full rounded-md overflow-hidden">
-                    {categoryImage && (
-                        <Image src={categoryImage.imageUrl} alt={categoryImage.description} data-ai-hint={categoryImage.imageHint} fill className="object-cover"/>
-                    )}
-                </div>
-                <p className="text-muted-foreground mt-4">
+                <p className="text-muted-foreground">
                     This is an example of a high-performing ad in the {category.name.toLowerCase()} space. Notice the clear call-to-action and engaging visuals.
                 </p>
             </CardContent>
         </Card>
         
-        {placeholderImages.map((img, index) => (
+        {[...Array(3)].map((_, index) => (
              <Card key={index}>
                 <CardHeader>
                     <CardTitle>Ad Concept #{index + 1}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <div className="relative aspect-video w-full rounded-md overflow-hidden">
-                       <Image src={img.imageUrl} alt={img.description} data-ai-hint={img.imageHint} fill className="object-cover"/>
-                    </div>
-                    <p className="text-muted-foreground mt-4 text-sm">A visual concept for a modern ad campaign.</p>
+                    <p className="text-muted-foreground text-sm">A visual concept for a modern ad campaign.</p>
                 </CardContent>
             </Card>
         ))}
