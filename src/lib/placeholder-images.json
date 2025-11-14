@@ -1,28 +1,46 @@
 {
   "placeholderImages": [
     {
-      "id": "social-media-ad",
-      "description": "A person scrolling through a social media feed on their phone.",
-      "imageUrl": "https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjMwNjUzNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "social media"
-    },
-    {
-      "id": "search-engine-ad",
-      "description": "A search engine results page on a laptop screen.",
-      "imageUrl": "https://images.unsplash.com/photo-1743796055664-3473eedab36e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYXB0b3AlMjBzZWFyY2h8ZW58MHx8fHwxNzYzMDg4OTg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "laptop search"
-    },
-    {
       "id": "email-ad",
       "description": "An open email inbox showing a promotional email.",
       "imageUrl": "https://images.unsplash.com/photo-1683117927786-f146451082fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbWFpbCUyMGluYm94fGVufDB8fHx8MTc2MzA4ODk4OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "email inbox"
     },
     {
-      "id": "content-ad",
-      "description": "A person reading a blog post on a tablet.",
-      "imageUrl": "https://images.unsplash.com/photo-1635363401491-254553d7aa5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0YWJsZXQlMjByZWFkaW5nfGVufDB8fHx8MTc2MzA4ODk4OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "tablet reading"
+      "id": "automation-ad",
+      "description": "A flowchart representing a marketing automation workflow.",
+      "imageUrl": "https://images.unsplash.com/photo-1611224923853-3b48a5334a1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDE5ODJ8MHwxfHNlYXJjaHw0fHxhdXRvbWF0aW9uJTIwZmxvd2NoYXJ0fGVufDB8fHx8MTY3ODg5MDgyMQ&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "automation flowchart"
+    },
+    {
+      "id": "analytics-ad",
+      "description": "A dashboard with various charts and graphs showing data analytics.",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDE5ODJ8MHwxfHNlYXJjaHwxfHxhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNjc4ODkwODIx&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "analytics dashboard"
+    },
+    {
+      "id": "saas-ad",
+      "description": "A collage of different SaaS application logos.",
+      "imageUrl": "https://images.unsplash.com/photo-1620712943543-95f128387959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDE5ODJ8MHwxfHNlYXJjaHw3fHxzYWFzJTIwbG9nb3N8ZW58MHx8fHwxNjc4ODkwODIx&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "saas logos"
+    },
+    {
+      "id": "comparison-ad",
+      "description": "A side-by-side comparison chart of two products.",
+      "imageUrl": "https://images.unsplash.com/photo-1543286386-713bdd548da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDE5ODJ8MHwxfHNlYXJjaHwzfHxjb21wYXJpc29uJTIwY2hhcnR8ZW58MHx8fHwxNjc4ODkwODIx&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "comparison chart"
+    },
+    {
+      "id": "lead-gen-ad",
+      "description": "A landing page with a form for lead generation.",
+      "imageUrl": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDE5ODJ8MHwxfHNlYXJjaHwxfHxsZWFkJTIwZ2VuZXJhdGlvbiUyMGZvcm18ZW58MHx8fHwxNjc4ODkwODIx&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "lead form"
+    },
+    {
+      "id": "whatsapp-ad",
+      "description": "A smartphone screen showing a WhatsApp conversation with a business.",
+      "imageUrl": "https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDE5ODJ8MHwxfHNlYXJjaHwxfHx3aGF0c2FwcCUyMGNoYXR8ZW58MHx8fHwxNjc4ODkwODIx&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "whatsapp chat"
     },
     {
       "id": "placeholder-1",

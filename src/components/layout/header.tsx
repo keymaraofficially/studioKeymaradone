@@ -1,4 +1,3 @@
-
 'use client';
 
 import Link from 'next/link';
@@ -14,49 +13,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-
-const navLinks = [
-  { 
-    label: 'Email Marketing', 
-    subLinks: [
-      { href: '/category/email-marketing', label: 'Email Campaigns' },
-      { href: '/category/email-automation', label: 'Email Automation' },
-    ]
-  },
-  { 
-    label: 'Automation & Workflows',
-    subLinks: [
-      { href: '/category/marketing-automation', label: 'Marketing Automation' },
-      { href: '/category/workflow-builder', label: 'Workflow Builder' },
-    ]
-  },
-  { 
-    label: 'Growth & Analytics',
-    subLinks: [
-      { href: '/category/analytics', label: 'Analytics' },
-      { href: '/category/ab-testing', label: 'A/B Testing' },
-    ]
-  },
-  { 
-    label: 'Tools & SaaS',
-    subLinks: [
-      { href: '/category/saas-integrations', label: 'SaaS Integrations' },
-      { href: '/category/developer-api', label: 'Developer API' },
-    ]
-  },
-  { 
-    label: 'Tools Comparison',
-    subLinks: []
-  },
-  { 
-    label: 'Lead Generation',
-    subLinks: []
-  },
-  { 
-    label: 'WhatsApp & Multi-Channel',
-    subLinks: []
-  },
-];
+import { categories } from '@/lib/data';
 
 export function Header() {
   const pathname = usePathname();
@@ -78,15 +35,6 @@ export function Header() {
                 )}
                 >
                 Home
-                </Link>
-                <Link
-                href="/about"
-                className={cn(
-                    'transition-colors hover:text-primary',
-                    pathname === '/about' ? 'text-primary' : 'text-foreground'
-                )}
-                >
-                About
                 </Link>
             </nav>
         </div>
@@ -115,39 +63,17 @@ export function Header() {
                 >
                     Home
                 </Link>
-                <Link
-                    href="/about"
-                    className={cn(
-                        'transition-colors hover:text-primary',
-                        pathname === '/about' ? 'text-primary' : 'text-muted-foreground'
-                    )}
-                >
-                    About
-                </Link>
-                {navLinks.map((link) => (
-                    link.subLinks.length > 0 ? (
-                        <DropdownMenu key={link.label}>
-                            <DropdownMenuTrigger className="flex items-center text-muted-foreground hover:text-primary transition-colors">
-                                {link.label}
-                                <ChevronDown className="ml-1 h-4 w-4" />
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent>
-                                {link.subLinks.map(subLink => (
-                                    <DropdownMenuItem key={subLink.href} asChild>
-                                        <Link href={subLink.href}>{subLink.label}</Link>
-                                    </DropdownMenuItem>
-                                ))}
-                            </DropdownMenuContent>
-                        </DropdownMenu>
-                    ) : (
-                        <Link
-                            key={link.label}
-                            href="#"
-                            className="text-muted-foreground hover:text-primary transition-colors"
-                        >
-                            {link.label}
-                        </Link>
-                    )
+                {categories.map((category) => (
+                    <Link
+                        key={category.slug}
+                        href={`/category/${category.slug}`}
+                        className={cn(
+                            'transition-colors hover:text-primary',
+                            pathname === `/category/${category.slug}` ? 'text-primary' : 'text-muted-foreground'
+                        )}
+                    >
+                        {category.name}
+                    </Link>
                 ))}
                  <Button className="mt-4">Let's Talk</Button>
               </nav>
@@ -155,30 +81,14 @@ export function Header() {
           </Sheet>
       </div>
       <div className="hidden md:flex container h-16 max-w-screen-2xl items-center justify-start border-t border-border/40 gap-6">
-        {navLinks.map((link) => (
-          link.subLinks.length > 0 ? (
-            <DropdownMenu key={link.label}>
-              <DropdownMenuTrigger className="flex items-center text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                {link.label}
-                <ChevronDown className="ml-1 h-4 w-4" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent>
-                {link.subLinks.map(subLink => (
-                    <DropdownMenuItem key={subLink.href} asChild>
-                        <Link href={subLink.href}>{subLink.label}</Link>
-                    </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
-          ) : (
+        {categories.map((category) => (
             <Link
-                key={link.label}
-                href="#"
+                key={category.slug}
+                href={`/category/${category.slug}`}
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
             >
-                {link.label}
+                {category.name}
             </Link>
-          )
         ))}
       </div>
     </header>

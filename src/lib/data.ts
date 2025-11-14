@@ -1,4 +1,4 @@
-import { Share2, Search, Mail, FileText, type LucideIcon } from 'lucide-react';
+import { Share2, Search, Mail, FileText, Bot, BarChart, GitCompareArrows, Users, MessageCircle, type LucideIcon } from 'lucide-react';
 
 export type Category = {
   name: string;
@@ -10,20 +10,6 @@ export type Category = {
 
 export const categories: Category[] = [
   {
-    name: 'Social Media',
-    slug: 'social-media',
-    description: 'Boost your social presence.',
-    icon: Share2,
-    image: 'social-media-ad'
-  },
-  {
-    name: 'Search Engine',
-    slug: 'search-engine',
-    description: 'Climb the search rankings.',
-    icon: Search,
-    image: 'search-engine-ad'
-  },
-  {
     name: 'Email Marketing',
     slug: 'email-marketing',
     description: 'Engage your audience directly.',
@@ -31,10 +17,45 @@ export const categories: Category[] = [
     image: 'email-ad'
   },
   {
-    name: 'Content Marketing',
-    slug: 'content-marketing',
-    description: "Tell your brand's story.",
-    icon: FileText,
-    image: 'content-ad'
+    name: 'Automation & Workflows',
+    slug: 'automation-workflows',
+    description: 'Streamline your marketing efforts.',
+    icon: Bot,
+    image: 'automation-ad'
+  },
+  {
+    name: 'Growth & Analytics',
+    slug: 'growth-analytics',
+    description: 'Track performance and find opportunities.',
+    icon: BarChart,
+    image: 'analytics-ad'
+  },
+  {
+    name: 'Tools & SaaS',
+    slug: 'tools-saas',
+    description: 'Integrate with your favorite tools.',
+    icon: Share2,
+    image: 'saas-ad'
+  },
+  {
+    name: 'Tools Comparison',
+    slug: 'tools-comparison',
+    description: 'Find the best tools for your needs.',
+    icon: GitCompareArrows,
+    image: 'comparison-ad'
+  },
+  {
+    name: 'Lead Generation',
+    slug: 'lead-generation',
+    description: 'Grow your customer base.',
+    icon: Users,
+    image: 'lead-gen-ad'
+  },
+  {
+    name: 'WhatsApp & Multi-Channel',
+    slug: 'whatsapp-multichannel',
+    description: 'Reach customers on their preferred channels.',
+    icon: MessageCircle,
+    image: 'whatsapp-ad'
   },
 ];

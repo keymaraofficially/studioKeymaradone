@@ -50,7 +50,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {categories.map((category) => (
+            {categories.slice(0,4).map((category) => (
               <Link href={`/category/${category.slug}`} key={category.slug} className="group">
                 <Card className="h-full transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 group-hover:border-primary bg-background">
                   <CardHeader>
