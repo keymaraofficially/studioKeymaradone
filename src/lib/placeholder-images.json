@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "keymara-hero",
+      "description": "Abstract yellow and beige shapes creating a modern, warm background.",
+      "imageUrl": "https://images.unsplash.com/photo-1739204334686-277b2df097ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHllbGxvd3xlbnwwfHx8fDE3NjMwODg5ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract yellow"
+    },
+    {
+      "id": "social-media-ad",
+      "description": "A person scrolling through a social media feed on their phone.",
+      "imageUrl": "https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjMwNjUzNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social media"
+    },
+    {
+      "id": "search-engine-ad",
+      "description": "A search engine results page on a laptop screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1743796055664-3473eedab36e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYXB0b3AlMjBzZWFyY2h8ZW58MHx8fHwxNzYzMDg4OTg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop search"
+    },
+    {
+      "id": "email-ad",
+      "description": "An open email inbox showing a promotional email.",
+      "imageUrl": "https://images.unsplash.com/photo-1683117927786-f146451082fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbWFpbCUyMGluYm94fGVufDB8fHx8MTc2MzA4ODk4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "email inbox"
+    },
+    {
+      "id": "content-ad",
+      "description": "A person reading a blog post on a tablet.",
+      "imageUrl": "https://images.unsplash.com/photo-1635363401491-254553d7aa5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0YWJsZXQlMjByZWFkaW5nfGVufDB8fHx8MTc2MzA4ODk4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tablet reading"
+    },
+    {
+      "id": "placeholder-1",
+      "description": "A placeholder image for a generic ad concept.",
+      "imageUrl": "https://images.unsplash.com/photo-1701673965646-97eb825d37ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYXJrZXRpbmclMjBjb25jZXB0fGVufDB8fHx8MTc2MzA4ODk4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "marketing concept"
+    },
+    {
+      "id": "placeholder-2",
+      "description": "Another placeholder image for a generic ad concept.",
+      "imageUrl": "https://images.unsplash.com/photo-1511268559489-34b624fbfcf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkaWdpdGFsJTIwYWR2ZXJ0aXNpbmd8ZW58MHx8fHwxNzYzMDY1Mzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital advertising"
+    },
+    {
+      "id": "placeholder-3",
+      "description": "A third placeholder image for a generic ad concept.",
+      "imageUrl": "https://images.unsplash.com/photo-1585574713310-34e0a61d6d84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8b25saW5lJTIwY2FtcGFpZ258ZW58MHx8fHwxNzYzMDg4OTg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "online campaign"
+    }
+  ]
 }
