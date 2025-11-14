@@ -6,8 +6,8 @@ import { Footer } from '@/components/layout/footer';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Keymara - AI-Powered Ad Insights',
-  description: 'Analyze ad performance and get AI-powered suggestions for improvement.',
+  title: 'Keymara - Simplify Email Automation',
+  description: 'Simplify campaigns, automate your customer journeys, and boost engagement — all from one place with Keymara’s intelligent marketing tools.',
 };
 
 export default function RootLayout({
