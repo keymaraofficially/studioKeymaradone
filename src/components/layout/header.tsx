@@ -19,41 +19,39 @@ export function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-20 max-w-screen-2xl items-center justify-between">
-        <div className="flex items-center gap-12">
+    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="border-b border-border/40">
+        <div className="container flex h-20 max-w-screen-2xl items-center justify-between">
+          <div className="flex items-center gap-12">
             <Link href="/" className="flex items-center gap-2">
-                <KeymaraLogo className="h-8 w-8 text-primary" />
-                <span className="font-bold text-lg font-headline">Keymara</span>
+              <KeymaraLogo className="h-8 w-8 text-primary" />
+              <span className="font-bold text-lg font-headline">Keymara</span>
             </Link>
             <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-                <Link
+              <Link
                 href="/"
                 className={cn(
-                    'transition-colors hover:text-primary',
-                    pathname === '/' ? 'text-primary' : 'text-foreground'
+                  'transition-colors hover:text-primary',
+                  pathname === '/' ? 'text-foreground font-semibold' : 'text-muted-foreground'
                 )}
-                >
+              >
                 Home
-                </Link>
-                <DropdownMenu>
-                    <DropdownMenuTrigger className="flex items-center gap-1 text-foreground hover:text-primary transition-colors">
-                        Categories <ChevronDown className="h-4 w-4" />
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent>
-                        {categories.map((category) => (
-                        <DropdownMenuItem key={category.slug} asChild>
-                            <Link href={`/category/${category.slug}`}>{category.name}</Link>
-                        </DropdownMenuItem>
-                        ))}
-                    </DropdownMenuContent>
-                </DropdownMenu>
+              </Link>
+              <Link
+                href="/about"
+                className={cn(
+                  'transition-colors hover:text-primary',
+                  pathname === '/about' ? 'text-foreground font-semibold' : 'text-muted-foreground'
+                )}
+              >
+                About
+              </Link>
             </nav>
-        </div>
-        <div className="hidden md:flex items-center gap-4">
+          </div>
+          <div className="hidden md:flex items-center gap-4">
             <Button>Let's Talk</Button>
-        </div>
-        <Sheet>
+          </div>
+          <Sheet>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="md:hidden">
                 <Menu className="h-5 w-5" />
@@ -67,30 +65,64 @@ export function Header() {
                   <span className="font-bold text-lg font-headline">Keymara</span>
                 </Link>
                 <Link
-                    href="/"
-                    className={cn(
-                        'transition-colors hover:text-primary',
-                        pathname === '/' ? 'text-primary' : 'text-muted-foreground'
-                    )}
+                  href="/"
+                  className={cn(
+                    'transition-colors hover:text-primary',
+                    pathname === '/' ? 'text-primary' : 'text-muted-foreground'
+                  )}
                 >
-                    Home
+                  Home
                 </Link>
+                <Link
+                  href="/about"
+                  className={cn(
+                    'transition-colors hover:text-primary',
+                    pathname === '/about' ? 'text-primary' : 'text-muted-foreground'
+                  )}
+                >
+                  About
+                </Link>
+                <div className="h-px bg-border my-2" />
                 {categories.map((category) => (
-                    <Link
-                        key={category.slug}
-                        href={`/category/${category.slug}`}
-                        className={cn(
-                            'transition-colors hover:text-primary',
-                            pathname === `/category/${category.slug}` ? 'text-primary' : 'text-muted-foreground'
-                        )}
-                    >
-                        {category.name}
-                    </Link>
+                  <Link
+                    key={category.slug}
+                    href={`/category/${category.slug}`}
+                    className={cn(
+                      'transition-colors hover:text-primary text-base',
+                      pathname === `/category/${category.slug}` ? 'text-primary' : 'text-muted-foreground'
+                    )}
+                  >
+                    {category.name}
+                  </Link>
                 ))}
-                 <Button className="mt-4">Let's Talk</Button>
+                <Button className="mt-4">Let's Talk</Button>
               </nav>
             </SheetContent>
           </Sheet>
+        </div>
+      </div>
+      <div className="hidden md:flex justify-center border-b bg-card">
+         <nav className="flex items-center gap-6 text-sm font-medium h-14">
+            {categories.map((category) => (
+              <DropdownMenu key={category.slug}>
+                <DropdownMenuTrigger className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors text-sm">
+                  <Link href={`/category/${category.slug}`}>{category.name}</Link>
+                  <ChevronDown className="h-4 w-4" />
+                </DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  <DropdownMenuItem asChild>
+                    <Link href={`/category/${category.slug}`}>Overview</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href={`/category/${category.slug}`}>Examples</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href={`/category/${category.slug}`}>Best Practices</Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ))}
+          </nav>
       </div>
     </header>
   );
