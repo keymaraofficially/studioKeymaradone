@@ -25,6 +25,15 @@ export function Header() {
           <span className="font-bold text-lg font-headline">Keymara</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
+          <Link
+              href="/"
+              className={cn(
+                'transition-colors hover:text-primary',
+                pathname === '/' ? 'text-primary' : 'text-muted-foreground'
+              )}
+            >
+              Home
+            </Link>
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -57,6 +66,15 @@ export function Header() {
                 <Link href="/" className="flex items-center gap-2 mb-4">
                   <KeymaraLogo className="h-8 w-8 text-primary" />
                   <span className="font-bold text-lg font-headline">Keymara</span>
+                </Link>
+                <Link
+                    href="/"
+                    className={cn(
+                        'transition-colors hover:text-primary',
+                        pathname === '/' ? 'text-primary' : 'text-muted-foreground'
+                    )}
+                >
+                    Home
                 </Link>
                 {navLinks.map((link) => (
                   <Link
