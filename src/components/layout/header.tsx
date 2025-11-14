@@ -36,6 +36,18 @@ export function Header() {
                 >
                 Home
                 </Link>
+                <DropdownMenu>
+                    <DropdownMenuTrigger className="flex items-center gap-1 text-foreground hover:text-primary transition-colors">
+                        Categories <ChevronDown className="h-4 w-4" />
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent>
+                        {categories.map((category) => (
+                        <DropdownMenuItem key={category.slug} asChild>
+                            <Link href={`/category/${category.slug}`}>{category.name}</Link>
+                        </DropdownMenuItem>
+                        ))}
+                    </DropdownMenuContent>
+                </DropdownMenu>
             </nav>
         </div>
         <div className="hidden md:flex items-center gap-4">
@@ -79,17 +91,6 @@ export function Header() {
               </nav>
             </SheetContent>
           </Sheet>
-      </div>
-      <div className="hidden md:flex container h-16 max-w-screen-2xl items-center justify-start border-t border-border/40 gap-6">
-        {categories.map((category) => (
-            <Link
-                key={category.slug}
-                href={`/category/${category.slug}`}
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-            >
-                {category.name}
-            </Link>
-        ))}
       </div>
     </header>
   );
