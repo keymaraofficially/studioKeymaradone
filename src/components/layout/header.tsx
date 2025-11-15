@@ -10,46 +10,97 @@ import { cn } from '@/lib/utils';
 import { categories } from '@/lib/data';
 import { useEffect, useState } from 'react';
 
-export function Header() {
+const NavLinks = () => {
   const pathname = usePathname();
+  return (
+    <>
+      {categories.map((category) => (
+        <Link
+          href={`/category/${category.slug}`}
+          key={category.slug}
+          className={cn(
+            'relative transition-colors hover:text-foreground text-muted-foreground after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-primary after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100',
+            pathname === `/category/${category.slug}` ? 'text-foreground font-semibold after:scale-x-100' : 'after:scale-x-0'
+          )}
+        >
+          {category.name}
+        </Link>
+      ))}
+    </>
+  );
+};
+
+const MobileNavLinks = () => {
+  const pathname = usePathname();
+  return (
+    <>
+      <Link
+        href="/"
+        className={cn(
+          'transition-colors hover:text-primary',
+          pathname === '/' ? 'text-primary' : 'text-muted-foreground'
+        )}
+      >
+        Home
+      </Link>
+      <Link
+        href="/about"
+        className={cn(
+          'transition-colors hover:text-primary',
+          pathname === '/about' ? 'text-primary' : 'text-muted-foreground'
+        )}
+      >
+        About
+      </Link>
+      <div className="h-px bg-border my-2" />
+      {categories.map((category) => (
+        <Link
+          key={category.slug}
+          href={`/category/${category.slug}`}
+          className={cn(
+            'transition-colors hover:text-primary text-base',
+            pathname === `/category/${category.slug}` ? 'text-primary' : 'text-muted-foreground'
+          )}
+        >
+          {category.name}
+        </Link>
+      ))}
+    </>
+  );
+};
+
+const TopNavLinks = () => {
+    const pathname = usePathname();
+    return (
+        <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
+            <Link
+            href="/"
+            className={cn(
+                'transition-colors hover:text-primary',
+                pathname === '/' ? 'text-foreground font-semibold' : 'text-muted-foreground'
+            )}
+            >
+            Home
+            </Link>
+            <Link
+            href="/about"
+            className={cn(
+                'transition-colors hover:text-primary',
+                pathname === '/about' ? 'text-foreground font-semibold' : 'text-muted-foreground'
+            )}
+            >
+            About
+            </Link>
+        </nav>
+    );
+}
+
+export function Header() {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
     setIsMounted(true);
   }, []);
-
-  // Avoid rendering until the component is mounted on the client to prevent hydration mismatch
-  if (!isMounted) {
-    // Render a placeholder or null on the server and initial client render
-    return (
-      <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="border-b border-border/40">
-          <div className="container flex h-20 max-w-screen-2xl items-center justify-between">
-            <div className="flex items-center gap-12">
-              <Link href="/" className="flex items-center gap-2">
-                <KeymaraLogo className="h-8 w-8 text-primary" />
-                <span className="font-bold text-lg font-headline">Keymara</span>
-              </Link>
-            </div>
-            <div className="hidden md:flex items-center gap-4">
-              <Button>Let's Talk</Button>
-            </div>
-            <div className="md:hidden">
-              <Sheet>
-                <SheetTrigger asChild>
-                  <Button variant="outline" size="icon">
-                    <Menu className="h-5 w-5" />
-                    <span className="sr-only">Open menu</span>
-                  </Button>
-                </SheetTrigger>
-              </Sheet>
-            </div>
-          </div>
-        </div>
-        <div className="hidden md:flex justify-center border-b bg-background h-14"></div>
-      </header>
-    );
-  }
 
 
   return (
@@ -61,26 +112,7 @@ export function Header() {
               <KeymaraLogo className="h-8 w-8 text-primary" />
               <span className="font-bold text-lg font-headline">Keymara</span>
             </Link>
-            <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-              <Link
-                href="/"
-                className={cn(
-                  'transition-colors hover:text-primary',
-                  pathname === '/' ? 'text-foreground font-semibold' : 'text-muted-foreground'
-                )}
-              >
-                Home
-              </Link>
-              <Link
-                href="/about"
-                className={cn(
-                  'transition-colors hover:text-primary',
-                  pathname === '/about' ? 'text-foreground font-semibold' : 'text-muted-foreground'
-                )}
-              >
-                About
-              </Link>
-            </nav>
+            {isMounted && <TopNavLinks />}
           </div>
           <div className="hidden md:flex items-center gap-4">
             <Button>Let's Talk</Button>
@@ -98,37 +130,7 @@ export function Header() {
                   <KeymaraLogo className="h-8 w-8 text-primary" />
                   <span className="font-bold text-lg font-headline">Keymara</span>
                 </Link>
-                <Link
-                  href="/"
-                  className={cn(
-                    'transition-colors hover:text-primary',
-                    pathname === '/' ? 'text-primary' : 'text-muted-foreground'
-                  )}
-                >
-                  Home
-                </Link>
-                <Link
-                  href="/about"
-                  className={cn(
-                    'transition-colors hover:text-primary',
-                    pathname === '/about' ? 'text-primary' : 'text-muted-foreground'
-                  )}
-                >
-                  About
-                </Link>
-                <div className="h-px bg-border my-2" />
-                {categories.map((category) => (
-                  <Link
-                    key={category.slug}
-                    href={`/category/${category.slug}`}
-                    className={cn(
-                      'transition-colors hover:text-primary text-base',
-                      pathname === `/category/${category.slug}` ? 'text-primary' : 'text-muted-foreground'
-                    )}
-                  >
-                    {category.name}
-                  </Link>
-                ))}
+                {isMounted && <MobileNavLinks />}
                 <Button className="mt-4">Let's Talk</Button>
               </nav>
             </SheetContent>
@@ -137,18 +139,7 @@ export function Header() {
       </div>
       <div className="hidden md:flex justify-center border-b bg-background">
          <nav className="flex items-center gap-6 text-sm font-medium h-14">
-            {categories.map((category) => (
-                <Link
-                  href={`/category/${category.slug}`}
-                  key={category.slug}
-                  className={cn(
-                    'relative transition-colors hover:text-foreground text-muted-foreground after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-primary after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100',
-                    pathname === `/category/${category.slug}` ? 'text-foreground font-semibold after:scale-x-100' : 'after:scale-x-0'
-                  )}
-                >
-                  {category.name}
-                </Link>
-            ))}
+            {isMounted && <NavLinks />}
           </nav>
       </div>
     </header>
