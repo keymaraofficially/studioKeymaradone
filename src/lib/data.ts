@@ -1,4 +1,4 @@
-import { Share2, Search, Mail, FileText, Bot, BarChart, GitCompareArrows, Users, MessageCircle, type LucideIcon } from 'lucide-react';
+import { Share2, Search, Mail, FileText, Bot, BarChart, GitCompareArrows, Users, MessageCircle, type LucideIcon, Award, Mailbox, Send, LineChart as LineChartIcon, Users2, Wand2, Monitor, BarChart2, Briefcase, Handshake } from 'lucide-react';
 
 export type Category = {
   name: string;
@@ -57,5 +57,72 @@ export const categories: Category[] = [
     description: 'Reach customers on their preferred channels.',
     icon: MessageCircle,
     image: 'whatsapp-ad'
+  },
+];
+
+
+export const marketingTools = [
+  {
+    name: 'Brevo Recommended',
+    description: 'Powerful all-in-one marketing suite — email, CRM, SMS, and automation tools.',
+    url: 'https://www.brevo.com',
+    icon: Award,
+    isRecommended: true,
+  },
+  {
+    name: 'Mailchimp',
+    description: 'Beginner-friendly email platform with creative templates and analytics.',
+    url: 'https://mailchimp.com',
+    icon: Mailbox,
+    isRecommended: false,
+  },
+  {
+    name: 'ActiveCampaign',
+    description: 'Advanced email automation and CRM platform with behavioral workflows.',
+    url: 'https://www.activecampaign.com',
+    icon: Users2,
+    isRecommended: false,
+  },
+  {
+    name: 'MailerLite',
+    description: 'Lightweight, affordable tool for email automation and newsletters.',
+    url: 'https://www.mailerlite.com',
+    icon: Send,
+    isRecommended: false,
+  },
+  {
+    name: 'HubSpot Email Marketing',
+    description: 'Scalable email solution with deep CRM integration and reporting.',
+    url: 'https://www.hubspot.com/products/marketing/email',
+    icon: LineChartIcon,
+    isRecommended: false,
+  },
+  {
+    name: 'ConvertKit',
+    description: 'Simplified email marketing for creators, coaches, and freelancers.',
+    url: 'https://convertkit.com',
+    icon: Wand2,
+    isRecommended: false,
+  },
+  {
+    name: 'Moosend',
+    description: 'Affordable email platform with AI-powered personalization and automation.',
+    url: 'https://moosend.com',
+    icon: Briefcase,
+    isRecommended: false,
+  },
+  {
+    name: 'GetResponse',
+    description: 'All-in-one email marketing and funnel builder with webinar tools.',
+    url: 'https://www.getresponse.com',
+    icon: BarChart2,
+    isRecommended: false,
+  },
+  {
+    name: 'Campaign Monitor',
+    description: 'Design-focused email platform with great deliverability and visual templates.',
+    url: 'https://www.campaignmonitor.com',
+    icon: Monitor,
+    isRecommended: false,
   },
 ];
