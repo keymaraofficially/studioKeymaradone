@@ -145,6 +145,7 @@ export const latestInsights = [
     keyTip1: 'Pick a platform based on your automation needs, not just templates. Automation impacts long-term results far more than email design.',
     keyTip2: 'Check the contact vs. email-based pricing. Mailchimp charges per contact, while Brevo charges per email sent, which can be more cost-effective for larger lists with less frequent sends.',
     keyTip3: 'Always test the free trial. Your team’s workflow and comfort with the interface is just as important as the feature list.',
+    recommendation: 'Choose Brevo for automation and workflows. Choose Mailchimp for template-heavy visual campaigns.',
   },
   {
     slug: 'ai-in-email-marketing',
@@ -163,6 +164,7 @@ export const latestInsights = [
     keyTip1: 'Start small with AI. Use it for subject line suggestions or A/B testing before overhauling your entire content strategy.',
     keyTip2: 'Ensure your data is clean. AI is only as good as the data it learns from, so garbage in means garbage out.',
     keyTip3: 'Don’t lose the human touch. Use AI to augment your creativity, not replace it entirely. Authentic connection still matters.',
+    recommendation: 'Incorporate AI for subject line optimization and A/B testing to quickly boost engagement with minimal effort.',
   },
   {
     slug: 'whatsapp-automation-guide',
@@ -181,5 +183,6 @@ export const latestInsights = [
     keyTip1: 'Always get opt-in. Sending unsolicited messages on WhatsApp is a quick way to get blocked and reported.',
     keyTip2: 'Keep messages concise and conversational. WhatsApp is a personal platform, so avoid overly formal or lengthy marketing-speak.',
     keyTip3: 'Use rich media like images and videos to make your messages more engaging and visually appealing.',
+    recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];

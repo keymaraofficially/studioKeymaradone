@@ -217,8 +217,10 @@ export function BrevoVsMailchimpArticle() {
         <p><strong>Brevo</strong> wins if automation, workflows, segmentation, and value are your top priorities.</p>
         <p><strong>Mailchimp</strong> wins if design-rich templates and creative branding are more important to your business.</p>
 
-        <h2 className="font-headline">Keymara Recommendation</h2>
-        <p>Choose <strong>Brevo</strong> for automation and workflows. Choose <strong>Mailchimp</strong> for template-heavy visual campaigns.</p>
+        <div className="recommendation-box">
+            <strong>Keymara Recommendation:</strong>
+            <p>{post.recommendation}</p>
+        </div>
 
         <h2>CTA</h2>
         <p>Want more comparisons? Explore our other reviews to find the best email platform for your business.</p>

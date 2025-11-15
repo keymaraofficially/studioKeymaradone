@@ -224,3 +224,22 @@
     font-weight: 800;
     color: #a98500;
 }
+
+.recommendation-box {
+    background: #fff3c2;
+    border-left: 4px solid #d7b200;
+    padding: 18px 20px;
+    margin: 32px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2b2b2b;
+}
+
+.recommendation-box strong {
+    font-size: 18px;
+    font-weight: 800;
+    color: #8c6c00;
+    display: block;
+    margin-bottom: 8px;
+}
