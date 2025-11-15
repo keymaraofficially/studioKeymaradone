@@ -165,7 +165,7 @@ export default function Home() {
                 const category = categories.find(c => c.name === insight.category);
                 const categorySlug = category ? category.slug : 'tools-comparison';
                 return (
-                    <Link href={`/category/${categorySlug}#${insight.slug}`} key={index} className="group flex">
+                    <Link href={`/category/${categorySlug}/${insight.slug}`} key={index} className="group flex">
                         <Card className="w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 bg-background overflow-hidden shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
                             <CardHeader>
                                 <CardTitle className="font-headline text-lg">{insight.title}</CardTitle>
