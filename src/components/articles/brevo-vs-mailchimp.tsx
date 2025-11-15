@@ -36,7 +36,6 @@ const featureComparison = [
 export function BrevoVsMailchimpArticle() {
   return (
     <article id="brevo-vs-mailchimp" className="prose max-w-none">
-        <h1 className="font-headline"><strong>Brevo vs Mailchimp: Which Email Platform Delivers Better Value in 2025?</strong></h1>
         <p><span className="drop-cap">C</span>hoosing between <strong>Brevo</strong> and <strong>Mailchimp</strong> is one of the most common decisions small business owners and marketers struggle with in 2025. Both platforms offer email marketing, automation, segmentation, and analytics—but the way they deliver these features is completely different. One focuses on automation and affordability, while the other focuses on branding, templates, and creative design. This guide breaks down every detail you need to make the right decision.</p>
 
         <div className="key-tip">

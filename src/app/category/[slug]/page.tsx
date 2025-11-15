@@ -37,6 +37,8 @@ const YouMayLikeThis = () => {
 
 export default function CategoryPage({ params }: { params: { slug: string } }) {
   const category = categories.find((cat) => cat.slug === params.slug);
+  const post = latestInsights.find(p => p.slug === 'brevo-vs-mailchimp');
+
 
   if (!category) {
     notFound();
@@ -46,64 +48,68 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
 
   return (
     <div className="container mx-auto py-12 px-4">
-      <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
-        <category.icon className="h-16 w-16 text-primary shrink-0" />
-        <div>
-          <h1 className="text-4xl md:text-5xl font-headline font-bold">{category.name} Ads</h1>
-          <p className="text-lg text-muted-foreground mt-2 max-w-2xl">
-            {category.description} Explore examples and best practices for creating effective {category.name.toLowerCase()} campaigns.
-          </p>
-        </div>
-      </div>
-      
-      {category.slug === 'tools-comparison' && (
+      {category.slug === 'tools-comparison' && post && (
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
-          <div className="lg:col-span-3">
-            <BrevoVsMailchimpArticle />
-          </div>
-          <aside className="lg:col-span-1 space-y-8">
-            <div>
-              <h3 className="text-xl font-bold font-headline mb-4 relative">
-                Table of Contents
-                <span className="absolute -bottom-1 left-0 h-1 w-16 bg-primary"></span>
-              </h3>
-              <p className="text-muted-foreground">Coming soon...</p>
+            <div className="lg:col-span-3">
+            <h1 className="article-title fade-in">{post.title}</h1>
+            <div className="prose-container">
+                <BrevoVsMailchimpArticle />
             </div>
-            <div>
-              <h3 className="text-xl font-bold font-headline mb-4 relative">
-                You May Like This
-                <span className="absolute -bottom-1 left-0 h-1 w-16 bg-primary"></span>
-              </h3>
-              <YouMayLikeThis />
             </div>
-          </aside>
+            <aside className="lg:col-span-1 space-y-8 mt-12 pt-8">
+                <div>
+                    <h3 className="text-xl font-bold font-headline mb-4 relative">
+                        Table of Contents
+                        <span className="absolute -bottom-1 left-0 h-1 w-16 bg-primary"></span>
+                    </h3>
+                    <p className="text-muted-foreground">Coming soon...</p>
+                </div>
+                <div>
+                    <h3 className="text-xl font-bold font-headline mb-4 relative">
+                        You May Like This
+                        <span className="absolute -bottom-1 left-0 h-1 w-16 bg-primary"></span>
+                    </h3>
+                    <YouMayLikeThis />
+                </div>
+            </aside>
         </div>
       )}
 
       {category.slug !== 'tools-comparison' && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <Card className="lg:col-span-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
-              <CardHeader>
-                  <CardTitle>Example Ad</CardTitle>
-              </CardHeader>
-              <CardContent>
-                  <p className="text-muted-foreground">
-                      This is an example of a high-performing ad in the {category.name.toLowerCase()} space. Notice the clear call-to-action and engaging visuals.
-                  </p>
-              </CardContent>
-          </Card>
-          
-          {[...Array(3)].map((_, index) => (
-               <Card key={index} className="shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
-                  <CardHeader>
-                      <CardTitle>Ad Concept #{index + 1}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                      <p className="text-muted-foreground text-sm">A visual concept for a modern ad campaign.</p>
-                  </CardContent>
-              </Card>
-          ))}
-        </div>
+        <>
+            <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
+                <category.icon className="h-16 w-16 text-primary shrink-0" />
+                <div>
+                <h1 className="text-4xl md:text-5xl font-headline font-bold">{category.name} Ads</h1>
+                <p className="text-lg text-muted-foreground mt-2 max-w-2xl">
+                    {category.description} Explore examples and best practices for creating effective {category.name.toLowerCase()} campaigns.
+                </p>
+                </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="lg:col-span-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
+                <CardHeader>
+                    <CardTitle>Example Ad</CardTitle>
+                </CardHeader>
+                <CardContent>
+                    <p className="text-muted-foreground">
+                        This is an example of a high-performing ad in the {category.name.toLowerCase()} space. Notice the clear call-to-action and engaging visuals.
+                    </p>
+                </CardContent>
+            </Card>
+            
+            {[...Array(3)].map((_, index) => (
+                <Card key={index} className="shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
+                    <CardHeader>
+                        <CardTitle>Ad Concept #{index + 1}</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                        <p className="text-muted-foreground text-sm">A visual concept for a modern ad campaign.</p>
+                    </CardContent>
+                </Card>
+            ))}
+            </div>
+        </>
       )}
     </div>
   );
