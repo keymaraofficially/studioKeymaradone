@@ -3,6 +3,8 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { categories, marketingTools } from '@/lib/data';
 import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow, Award } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const features = [
     { text: 'Automate email and WhatsApp marketing in one dashboard' },
@@ -146,6 +148,51 @@ export default function Home() {
                 </Card>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 md:py-24 bg-card">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">
+              Insight Latest
+            </h2>
+            <p className="text-lg text-muted-foreground mt-2 max-w-2xl mx-auto">
+              Stay ahead of the curve with the latest marketing trends, tips, and insights from our experts.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[...Array(3)].map((_, index) => {
+                const image = PlaceHolderImages.find(img => img.id === `placeholder-${index + 1}`);
+                return (
+                    <Link href="#" key={index} className="group flex">
+                        <Card className="w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 bg-background overflow-hidden">
+                            {image && (
+                                <div className="relative h-48 w-full">
+                                    <Image
+                                        src={image.imageUrl}
+                                        alt={image.description}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        data-ai-hint={image.imageHint}
+                                    />
+                                </div>
+                            )}
+                            <CardHeader>
+                                <CardTitle className="font-headline text-lg">Unlocking the Power of AI in Email Marketing</CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-grow">
+                                <CardDescription>Discover how artificial intelligence is reshaping email campaigns and what it means for your business.</CardDescription>
+                            </CardContent>
+                            <CardFooter>
+                                <span className="text-sm font-semibold text-primary group-hover:underline">Read More</span>
+                                <ArrowRight className="h-4 w-4 text-primary ml-2 transition-transform group-hover:translate-x-1" />
+                            </CardFooter>
+                        </Card>
+                    </Link>
+                );
+            })}
           </div>
         </div>
       </section>
