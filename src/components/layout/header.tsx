@@ -8,9 +8,49 @@ import { KeymaraLogo } from '@/components/icons';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { categories } from '@/lib/data';
+import { useEffect, useState } from 'react';
 
 export function Header() {
   const pathname = usePathname();
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  // Avoid rendering until the component is mounted on the client to prevent hydration mismatch
+  if (!isMounted) {
+    // Render a placeholder or null on the server and initial client render
+    return (
+      <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="border-b border-border/40">
+          <div className="container flex h-20 max-w-screen-2xl items-center justify-between">
+            <div className="flex items-center gap-12">
+              <Link href="/" className="flex items-center gap-2">
+                <KeymaraLogo className="h-8 w-8 text-primary" />
+                <span className="font-bold text-lg font-headline">Keymara</span>
+              </Link>
+            </div>
+            <div className="hidden md:flex items-center gap-4">
+              <Button>Let's Talk</Button>
+            </div>
+            <div className="md:hidden">
+              <Sheet>
+                <SheetTrigger asChild>
+                  <Button variant="outline" size="icon">
+                    <Menu className="h-5 w-5" />
+                    <span className="sr-only">Open menu</span>
+                  </Button>
+                </SheetTrigger>
+              </Sheet>
+            </div>
+          </div>
+        </div>
+        <div className="hidden md:flex justify-center border-b bg-background h-14"></div>
+      </header>
+    );
+  }
+
 
   return (
     <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
