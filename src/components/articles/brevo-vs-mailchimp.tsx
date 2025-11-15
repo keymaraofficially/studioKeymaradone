@@ -1,19 +1,71 @@
 import './article.css';
 
+const featureComparison = [
+    {
+        feature: 'Pricing',
+        brevo: 'Starts at $8.08/month for 5,000 emails',
+        drip: 'Starts at $39/month for 2,500 contacts'
+    },
+    {
+        feature: 'Automation',
+        brevo: 'Multi-channel (Email, SMS, WhatsApp) automation builder',
+        drip: 'E-commerce focused automation only'
+    },
+    {
+        feature: 'CRM',
+        brevo: 'Built-in CRM with deal tracking',
+        drip: 'Limited CRM (needs integrations)'
+    },
+    {
+        feature: 'AI Features',
+        brevo: 'AI content generator, send-time optimization',
+        drip: 'AI recommendations, basic automation rule'
+    },
+    {
+        feature: 'Deliverability',
+        brevo: '97% inbox rate (dedicated IP + automation throttling)',
+        drip: '95% inbox rate (shared IPs)'
+    },
+    {
+        feature: 'E-commerce Integration',
+        brevo: 'Shopify, WooCommerce, Zapier, Meta Ads',
+        drip: 'Shopify, WooCommerce, BigCommerce'
+    }
+];
+
 export function BrevoVsMailchimpArticle() {
   return (
-    <article id="brevo-vs-mailchimp" className="prose lg:prose-xl max-w-none mx-auto bg-card p-8 rounded-lg shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
-        <h1><strong>Brevo vs Mailchimp: Which Email Platform Delivers Better Value in 2025?</strong></h1>
+    <article id="brevo-vs-mailchimp" className="prose max-w-none">
+        <h1 className="font-headline"><strong>Brevo vs Mailchimp: Which Email Platform Delivers Better Value in 2025?</strong></h1>
         <p><span className="drop-cap">C</span>hoosing between <strong>Brevo</strong> and <strong>Mailchimp</strong> is one of the most common decisions small business owners and marketers struggle with in 2025. Both platforms offer email marketing, automation, segmentation, and analytics—but the way they deliver these features is completely different. One focuses on automation and affordability, while the other focuses on branding, templates, and creative design. This guide breaks down every detail you need to make the right decision.</p>
 
         <div className="key-tip">
         <strong>Key Tip:</strong> Pick a platform based on your automation needs, not just templates. Automation impacts long-term results far more than email design.
         </div>
+        
+        <h2 className="font-headline">Feature Comparison: Brevo vs Drip (2025)</h2>
+        <div className="feature-comparison-table">
+            <div className="table-header">
+                <div className="table-cell feature">Feature</div>
+                <div className="table-cell">Brevo</div>
+                <div className="table-cell">Drip</div>
+            </div>
+            {featureComparison.map((item, index) => (
+                <div key={index} className="table-row">
+                    <div className="table-cell feature">{item.feature}</div>
+                    <div className="table-cell">{item.brevo}</div>
+                    <div className="table-cell">{item.drip}</div>
+                </div>
+            ))}
+        </div>
 
-        <h2>Why This Comparison Matters</h2>
+        <h2 className="font-headline">Pricing — Affordability Meets Functionality</h2>
+        <p>Pricing in 2025 continues to shape the marketing tool decision. Brevo remains one of the most affordable automation tools on the market.</p>
+        
+        <h2 className="font-headline">Why This Comparison Matters</h2>
         <p>Email marketing has become extremely competitive, and choosing the wrong tool can slow down your growth. Businesses want automation that saves time, segmentation that improves targeting, and pricing that makes sense as subscribers grow. <strong>Brevo</strong> and <strong>Mailchimp</strong> both dominate the market, but they serve different types of users. This comparison explains real performance benchmarks and practical use cases so you can choose confidently.</p>
 
-        <h2>Feature Breakdown</h2>
+        <h2 className="font-headline">Feature Breakdown</h2>
 
         <h3>1. Email Builder</h3>
         <ul>
@@ -57,7 +109,7 @@ export function BrevoVsMailchimpArticle() {
         <li><strong>Mailchimp:</strong> More complex interface—powerful but more overwhelming.</li>
         </ul>
 
-        <h2>Use Cases</h2>
+        <h2 className="font-headline">Use Cases</h2>
 
         <h3>Best For Beginners</h3>
         <p><strong>Brevo</strong> is easier, cleaner, and faster to set up.</p>
@@ -78,7 +130,7 @@ export function BrevoVsMailchimpArticle() {
         <p><strong>Brevo</strong> due to multi-account & client management.</p>
 
 
-        <h2>Pricing Table (2025 Updated)</h2>
+        <h2 className="font-headline">Pricing Table (2025 Updated)</h2>
 
         <table>
         <thead>
@@ -117,7 +169,7 @@ export function BrevoVsMailchimpArticle() {
         </tbody>
         </table>
 
-        <h2>Pros & Cons</h2>
+        <h2 className="font-headline">Pros & Cons</h2>
 
         <h3>Brevo Pros</h3>
         <ul>
@@ -149,11 +201,11 @@ export function BrevoVsMailchimpArticle() {
         <li>Interface can overwhelm beginners</li>
         </ul>
 
-        <h2>Final Verdict</h2>
+        <h2 className="font-headline">Final Verdict</h2>
         <p><strong>Brevo</strong> wins if automation, workflows, segmentation, and value are your top priorities.</p>
         <p><strong>Mailchimp</strong> wins if design-rich templates and creative branding are more important to your business.</p>
 
-        <h2>Keymara Recommendation</h2>
+        <h2 className="font-headline">Keymara Recommendation</h2>
         <p>Choose <strong>Brevo</strong> for automation and workflows. Choose <strong>Mailchimp</strong> for template-heavy visual campaigns.</p>
 
         <h2>CTA</h2>
