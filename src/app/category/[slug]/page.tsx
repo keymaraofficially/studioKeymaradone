@@ -51,25 +51,50 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
       {category.slug === 'tools-comparison' && post && (
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
             <div className="lg:col-span-3">
-            <h1 className="article-title fade-in">{post.title}</h1>
-            <div className="prose-container">
-                <BrevoVsMailchimpArticle />
-            </div>
+              <div className="article-category">{post.category}</div>
+              <h1 className="article-hero-title fade-in">{post.title}</h1>
+              <div className="article-meta">
+                  <span className="author-name">{post.author}</span>
+                  <span className="publish-date">{post.date}</span>
+              </div>
+              <div className="prose-container">
+                  <BrevoVsMailchimpArticle />
+              </div>
             </div>
             <aside className="lg:col-span-1 space-y-8 mt-12 pt-8">
-                <div>
-                    <h3 className="text-xl font-bold font-headline mb-4 relative">
-                        Table of Contents
-                        <span className="absolute -bottom-1 left-0 h-1 w-16 bg-primary"></span>
-                    </h3>
-                    <p className="text-muted-foreground">Coming soon...</p>
+                <div className="sidebar-section">
+                   <h3>Related Articles</h3>
+                   <YouMayLikeThis />
                 </div>
-                <div>
-                    <h3 className="text-xl font-bold font-headline mb-4 relative">
-                        You May Like This
-                        <span className="absolute -bottom-1 left-0 h-1 w-16 bg-primary"></span>
-                    </h3>
-                    <YouMayLikeThis />
+
+                <div className="sidebar-section">
+                   <h3>Quote of the Day</h3>
+                   <p className="quote-box">{post.quote}</p>
+                </div>
+
+                <div className="sidebar-section">
+                   <h3>Key Takeaways</h3>
+                   <ul>{post.takeaways.map((t, i) => <li key={i}>{t}</li>)}</ul>
+                </div>
+
+                <div className="sidebar-section">
+                   <h3>Mini Glossary</h3>
+                   <p className="glossary-box">{post.glossary}</p>
+                </div>
+
+                <div className="sidebar-section">
+                   <h3>Email Marketing Facts</h3>
+                   <ul>{post.facts.map((f, i) => <li key={i}>{f}</li>)}</ul>
+                </div>
+
+                <div className="sidebar-section">
+                   <h3>Quick Summary</h3>
+                   <p className="summary-box">{post.summary}</p>
+                </div>
+
+                <div className="sidebar-section">
+                   <h3>Community Insight</h3>
+                   <p className="insight-box">{post.insight}</p>
                 </div>
             </aside>
         </div>

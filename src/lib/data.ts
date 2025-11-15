@@ -128,25 +128,49 @@ export const marketingTools = [
 ];
 
 export const latestInsights = [
-    {
-      slug: 'brevo-vs-mailchimp',
-      title: 'Brevo vs Mailchimp: Which Email Platform Delivers Better Value in 2025?',
-      description: 'A complete 2025 comparison of Brevo and Mailchimp covering automation, workflow power, pricing, AI tools, segmentation, and real performance benchmarks.',
-      category: 'Tools Comparison',
-      image: 'comparison-ad',
-    },
-    {
-      slug: 'ai-in-email-marketing',
-      title: 'Unlocking the Power of AI in Email Marketing',
-      description: 'Discover how artificial intelligence is reshaping email campaigns and what it means for your business.',
-      category: 'Email Marketing',
-      image: 'email-ad',
-    },
-    {
-      slug: 'whatsapp-automation-guide',
-      title: 'The Ultimate Guide to WhatsApp Automation',
-      description: 'Learn how to automate your customer communication on WhatsApp to drive sales and engagement.',
-      category: 'WhatsApp & Multi-Channel',
-      image: 'whatsapp-ad',
-    }
-  ];
+  {
+    slug: 'brevo-vs-mailchimp',
+    title: 'Brevo vs Mailchimp: Which Email Platform Delivers Better Value in 2025?',
+    description: 'A complete 2025 comparison of Brevo and Mailchimp covering automation, workflow power, pricing, AI tools, segmentation, and real performance benchmarks.',
+    category: 'Tools Comparison',
+    image: 'comparison-ad',
+    author: 'Jane Doe',
+    date: 'October 26, 2025',
+    quote: "The best marketing doesn't feel like marketing.",
+    takeaways: ['Automation is key to scaling.', 'Design matters for brand perception.', 'Value is more than just price.'],
+    glossary: 'Deliverability: The measure of how many of your emails reach the inbox instead of the spam folder.',
+    facts: ['Email generates $42 for every $1 spent.', 'Personalized emails have 6x higher transaction rates.'],
+    summary: 'Brevo excels in automation and value, while Mailchimp leads in design and ease of use for beginners. Choose based on your primary business need.',
+    insight: 'Community members find Brevo\'s CRM a game-changer for managing leads without extra cost.'
+  },
+  {
+    slug: 'ai-in-email-marketing',
+    title: 'Unlocking the Power of AI in Email Marketing',
+    description: 'Discover how artificial intelligence is reshaping email campaigns and what it means for your business.',
+    category: 'Email Marketing',
+    image: 'email-ad',
+    author: 'John Smith',
+    date: 'October 25, 2025',
+    quote: 'AI will not replace you, but a person using AI will.',
+    takeaways: ['AI helps personalize content at scale.', 'Predictive analytics can boost open rates.', 'Automated subject line generation saves time.'],
+    glossary: 'Predictive Analytics: Using data, statistical algorithms and machine learning techniques to identify the likelihood of future outcomes based on historical data.',
+    facts: ['70% of marketers use AI for content personalization.', 'AI can increase marketing ROI by over 30%.'],
+    summary: 'AI is no longer a futuristic concept but a practical tool for marketers to improve efficiency, personalization, and ROI in email marketing.',
+    insight: 'Users report that AI-driven send-time optimization has significantly improved their engagement rates.'
+  },
+  {
+    slug: 'whatsapp-automation-guide',
+    title: 'The Ultimate Guide to WhatsApp Automation',
+    description: 'Learn how to automate your customer communication on WhatsApp to drive sales and engagement.',
+    category: 'WhatsApp & Multi-Channel',
+    image: 'whatsapp-ad',
+    author: 'Emily White',
+    date: 'October 24, 2025',
+    quote: 'Meet your customers where they are.',
+    takeaways: ['WhatsApp has over 2 billion active users.', 'Automation can handle customer service inquiries.', 'Broadcasts can be used for targeted promotions.'],
+    glossary: 'WhatsApp Business API: A programmable interface that allows businesses to send and receive messages on WhatsApp at scale.',
+    facts: ['WhatsApp messages have a 98% open rate.', '53% of people say they are more likely to shop with a business they can message directly.'],
+    summary: 'WhatsApp automation allows businesses to engage with customers on their preferred platform, leading to higher open rates and better customer relationships.',
+    insight: 'Small businesses have seen a 20% increase in sales by using WhatsApp for abandoned cart recovery.'
+  }
+];
