@@ -168,17 +168,6 @@ export default function Home() {
                 return (
                     <Link href="#" key={index} className="group flex">
                         <Card className="w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 bg-background overflow-hidden">
-                            {image && (
-                                <div className="relative h-48 w-full">
-                                    <Image
-                                        src={image.imageUrl}
-                                        alt={image.description}
-                                        layout="fill"
-                                        objectFit="cover"
-                                        data-ai-hint={image.imageHint}
-                                    />
-                                </div>
-                            )}
                             <CardHeader>
                                 <CardTitle className="font-headline text-lg">Unlocking the Power of AI in Email Marketing</CardTitle>
                             </CardHeader>
