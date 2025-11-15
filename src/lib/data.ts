@@ -141,7 +141,10 @@ export const latestInsights = [
     glossary: 'Deliverability: The measure of how many of your emails reach the inbox instead of the spam folder.',
     facts: ['Email generates $42 for every $1 spent.', 'Personalized emails have 6x higher transaction rates.'],
     summary: 'Brevo excels in automation and value, while Mailchimp leads in design and ease of use for beginners. Choose based on your primary business need.',
-    insight: 'Community members find Brevo\'s CRM a game-changer for managing leads without extra cost.'
+    insight: 'Community members find Brevo\'s CRM a game-changer for managing leads without extra cost.',
+    keyTip1: 'Pick a platform based on your automation needs, not just templates. Automation impacts long-term results far more than email design.',
+    keyTip2: 'Check the contact vs. email-based pricing. Mailchimp charges per contact, while Brevo charges per email sent, which can be more cost-effective for larger lists with less frequent sends.',
+    keyTip3: 'Always test the free trial. Your team’s workflow and comfort with the interface is just as important as the feature list.',
   },
   {
     slug: 'ai-in-email-marketing',
@@ -156,7 +159,10 @@ export const latestInsights = [
     glossary: 'Predictive Analytics: Using data, statistical algorithms and machine learning techniques to identify the likelihood of future outcomes based on historical data.',
     facts: ['70% of marketers use AI for content personalization.', 'AI can increase marketing ROI by over 30%.'],
     summary: 'AI is no longer a futuristic concept but a practical tool for marketers to improve efficiency, personalization, and ROI in email marketing.',
-    insight: 'Users report that AI-driven send-time optimization has significantly improved their engagement rates.'
+    insight: 'Users report that AI-driven send-time optimization has significantly improved their engagement rates.',
+    keyTip1: 'Start small with AI. Use it for subject line suggestions or A/B testing before overhauling your entire content strategy.',
+    keyTip2: 'Ensure your data is clean. AI is only as good as the data it learns from, so garbage in means garbage out.',
+    keyTip3: 'Don’t lose the human touch. Use AI to augment your creativity, not replace it entirely. Authentic connection still matters.',
   },
   {
     slug: 'whatsapp-automation-guide',
@@ -171,6 +177,9 @@ export const latestInsights = [
     glossary: 'WhatsApp Business API: A programmable interface that allows businesses to send and receive messages on WhatsApp at scale.',
     facts: ['WhatsApp messages have a 98% open rate.', '53% of people say they are more likely to shop with a business they can message directly.'],
     summary: 'WhatsApp automation allows businesses to engage with customers on their preferred platform, leading to higher open rates and better customer relationships.',
-    insight: 'Small businesses have seen a 20% increase in sales by using WhatsApp for abandoned cart recovery.'
+    insight: 'Small businesses have seen a 20% increase in sales by using WhatsApp for abandoned cart recovery.',
+    keyTip1: 'Always get opt-in. Sending unsolicited messages on WhatsApp is a quick way to get blocked and reported.',
+    keyTip2: 'Keep messages concise and conversational. WhatsApp is a personal platform, so avoid overly formal or lengthy marketing-speak.',
+    keyTip3: 'Use rich media like images and videos to make your messages more engaging and visually appealing.',
   }
 ];

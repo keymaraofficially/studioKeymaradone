@@ -1,3 +1,4 @@
+import { latestInsights } from '@/lib/data';
 import './article.css';
 
 const featureComparison = [
@@ -34,12 +35,16 @@ const featureComparison = [
 ];
 
 export function BrevoVsMailchimpArticle() {
+  const post = latestInsights.find(p => p.slug === 'brevo-vs-mailchimp');
+
+  if (!post) return null;
+
   return (
     <article id="brevo-vs-mailchimp" className="prose max-w-none">
         <p><span className="drop-cap">C</span>hoosing between <strong>Brevo</strong> and <strong>Mailchimp</strong> is one of the most common decisions small business owners and marketers struggle with in 2025. Both platforms offer email marketing, automation, segmentation, and analytics—but the way they deliver these features is completely different. One focuses on automation and affordability, while the other focuses on branding, templates, and creative design. This guide breaks down every detail you need to make the right decision.</p>
 
-        <div className="key-tip">
-        <strong>Key Tip:</strong> Pick a platform based on your automation needs, not just templates. Automation impacts long-term results far more than email design.
+        <div className="key-tip-block">
+            <strong>Key Tip #1:</strong> {post.keyTip1}
         </div>
         
         <h2 className="font-headline">Feature Comparison: Brevo vs Drip (2025)</h2>
@@ -77,6 +82,10 @@ export function BrevoVsMailchimpArticle() {
         <li><strong>Brevo:</strong> Advanced workflows even on low-tier plans. Visual automation builder, behavioral triggers, multi-step journeys.</li>
         <li><strong>Mailchimp:</strong> Good automation tools but locked behind higher plans. More suited for basic funnels and simple follow-up sequences.</li>
         </ul>
+
+        <div className="key-tip-block">
+            <strong>Key Tip #2:</strong> {post.keyTip2}
+        </div>
 
         <h3>3. CRM & Contact Management</h3>
         <ul>
@@ -167,6 +176,10 @@ export function BrevoVsMailchimpArticle() {
             </tr>
         </tbody>
         </table>
+
+        <div className="key-tip-block">
+            <strong>Key Tip #3:</strong> {post.keyTip3}
+        </div>
 
         <h2 className="font-headline">Pros & Cons</h2>
 
