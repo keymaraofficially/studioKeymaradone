@@ -108,7 +108,7 @@ export function Header() {
         <div className="container flex h-20 max-w-screen-2xl items-center justify-between">
           <div className="flex items-center gap-12">
             <Link href="/" className="flex items-center gap-2">
-              <KeymaraLogo className="h-8 w-8 text-primary" />
+              <KeymaraLogo className="h-8 w-8" />
               <span className="font-bold text-lg font-headline">Keymara</span>
             </Link>
             {isMounted && <TopNavLinks />}
@@ -126,7 +126,7 @@ export function Header() {
             <SheetContent side="right">
               <nav className="grid gap-6 text-lg font-medium mt-10">
                 <Link href="/" className="flex items-center gap-2 mb-4">
-                  <KeymaraLogo className="h-8 w-8 text-primary" />
+                  <KeymaraLogo className="h-8 w-8" />
                   <span className="font-bold text-lg font-headline">Keymara</span>
                 </Link>
                 {isMounted && <MobileNavLinks />}
