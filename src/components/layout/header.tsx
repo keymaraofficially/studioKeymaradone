@@ -102,8 +102,8 @@ export function Header() {
                   href={`/category/${category.slug}`}
                   key={category.slug}
                   className={cn(
-                    'transition-colors hover:text-foreground text-muted-foreground',
-                    pathname === `/category/${category.slug}` ? 'text-foreground font-semibold' : ''
+                    'relative transition-colors hover:text-foreground text-muted-foreground after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-primary after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100',
+                    pathname === `/category/${category.slug}` ? 'text-foreground font-semibold after:scale-x-100' : 'after:scale-x-0'
                   )}
                 >
                   {category.name}
