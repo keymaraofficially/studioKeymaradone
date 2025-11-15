@@ -12,29 +12,20 @@
     to { opacity: 1; transform: translateY(0); }
 }
 
-.article-title {
-    font-size: 42px;
-    font-weight: 800;
-    color: #111;
-    margin-bottom: 28px;
-    letter-spacing: -0.5px;
-    line-height: 1.25;
-}
-
 .article-category {
+    color: #c89b00;
+    font-weight: 700;
     font-size: 14px;
-    font-weight: 600;
-    color: #008545;
-    margin-bottom: 6px;
     text-transform: uppercase;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.8px;
 }
 
 .article-hero-title {
-    font-size: 44px;
-    font-weight: 800;
-    color: #0b0b0b;
-    line-height: 1.22;
+    font-size: 46px;
+    font-weight: 900;
+    color: #0a0a0a;
+    letter-spacing: -0.8px;
+    line-height: 1.15;
     margin-bottom: 20px;
 }
 
@@ -47,30 +38,48 @@
 }
 
 .sidebar-section {
-    background: #f1fff4;
+    background: #fff8d9; /* Keymara theme beige-yellow */
+    border: 1px solid #f1d98b;
     border-radius: 12px;
     padding: 18px;
     margin-bottom: 22px;
 }
 
 .sidebar-section h3 {
-    font-size: 18px;
-    font-weight: 700;
-    color: #007e4f;
+    font-size: 20px;
+    font-weight: 900;
+    color: #8a6a00;
     margin-bottom: 12px;
+    letter-spacing: -0.4px;
 }
 
 .sidebar-section ul {
     padding-left: 1.2rem;
 }
 
+.sidebar-section ul li {
+    margin-bottom: 6px;
+    font-size: 15px;
+    color: #47421f;
+}
+
+.sidebar-section a {
+    font-weight: 700;
+    color: #5a4800;
+    text-decoration: none;
+}
+
+.sidebar-section a:hover {
+    color: #a47d00;
+}
+
 .quote-box, .glossary-box, .summary-box, .insight-box {
-    background: #e4ffee;
+    background: #fff3c4; 
     padding: 12px 14px;
-    border-left: 4px solid #009a63;
+    border-left: 4px solid #c79a00;
     border-radius: 8px;
     font-size: 15px;
-    color: #1a1a1a;
+    color: #2c2c2c;
 }
 
 .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
