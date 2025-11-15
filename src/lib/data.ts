@@ -126,3 +126,27 @@ export const marketingTools = [
     isRecommended: false,
   },
 ];
+
+export const latestInsights = [
+    {
+      slug: 'brevo-vs-mailchimp',
+      title: 'Brevo vs Mailchimp: Which Email Platform Delivers Better Value in 2025?',
+      description: 'A complete 2025 comparison of Brevo and Mailchimp covering automation, workflow power, pricing, AI tools, and more.',
+      category: 'Tools Comparison',
+      image: 'comparison-ad',
+    },
+    {
+      slug: 'ai-in-email-marketing',
+      title: 'Unlocking the Power of AI in Email Marketing',
+      description: 'Discover how artificial intelligence is reshaping email campaigns and what it means for your business.',
+      category: 'Email Marketing',
+      image: 'email-ad',
+    },
+    {
+      slug: 'whatsapp-automation-guide',
+      title: 'The Ultimate Guide to WhatsApp Automation',
+      description: 'Learn how to automate your customer communication on WhatsApp to drive sales and engagement.',
+      category: 'WhatsApp & Multi-Channel',
+      image: 'whatsapp-ad',
+    }
+  ];

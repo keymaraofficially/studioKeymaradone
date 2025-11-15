@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { categories, marketingTools } from '@/lib/data';
+import { categories, marketingTools, latestInsights } from '@/lib/data';
 import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow, Award } from 'lucide-react';
 import Link from 'next/link';
 
@@ -161,15 +161,17 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[...Array(3)].map((_, index) => {
+            {latestInsights.map((insight, index) => {
+                const category = categories.find(c => c.name === insight.category);
+                const categorySlug = category ? category.slug : 'tools-comparison';
                 return (
-                    <Link href="#" key={index} className="group flex">
+                    <Link href={`/category/${categorySlug}#${insight.slug}`} key={index} className="group flex">
                         <Card className="w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 bg-background overflow-hidden shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
                             <CardHeader>
-                                <CardTitle className="font-headline text-lg">Unlocking the Power of AI in Email Marketing</CardTitle>
+                                <CardTitle className="font-headline text-lg">{insight.title}</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <CardDescription>Discover how artificial intelligence is reshaping email campaigns and what it means for your business.</CardDescription>
+                                <CardDescription>{insight.description}</CardDescription>
                             </CardContent>
                             <CardFooter>
                                 <span className="text-sm font-semibold text-primary group-hover:underline">Read More</span>

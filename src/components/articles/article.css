@@ -1,0 +1,83 @@
+.prose {
+    color: hsl(var(--foreground));
+}
+  
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    color: hsl(var(--foreground));
+    font-family: 'Montserrat', sans-serif;
+}
+  
+.prose p, .prose ul, .prose ol, .prose li {
+    color: hsl(var(--muted-foreground));
+    font-family: 'Open Sans', sans-serif;
+}
+
+.prose strong {
+    color: hsl(var(--foreground));
+}
+
+.prose .drop-cap {
+    float: left;
+    font-size: 4rem;
+    line-height: 0.8;
+    margin-right: 0.2em;
+    color: hsl(var(--primary));
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+.prose .key-tip {
+    background-color: hsla(var(--primary) / 0.1);
+    border-left: 4px solid hsl(var(--primary));
+    padding: 1rem 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+}
+  
+.prose .key-tip strong {
+    color: hsl(var(--primary));
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    border: 2px solid hsl(var(--primary));
+}
+
+.prose th, .prose td {
+    border: 1px solid hsl(var(--border));
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.prose th {
+    background-color: hsla(var(--primary) / 0.1);
+    font-weight: bold;
+    color: hsl(var(--foreground));
+}
+
+.prose tr:nth-child(even) {
+    background-color: hsla(var(--muted) / 0.5);
+}
+
+.prose ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+  
+.prose li::marker {
+    color: hsl(var(--primary));
+}
+  
+@media (max-width: 768px) {
+    .prose {
+        padding: 1.5rem;
+    }
+}
+  
+#brevo-vs-mailchimp {
+    scroll-margin-top: 150px;
+}

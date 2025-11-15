@@ -1,6 +1,7 @@
 import { categories } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { BrevoVsMailchimpArticle } from '@/components/articles/brevo-vs-mailchimp';
 
 export async function generateStaticParams() {
   return categories.map((category) => ({
@@ -27,29 +28,33 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
         </div>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <Card className="lg:col-span-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
-            <CardHeader>
-                <CardTitle>Example Ad</CardTitle>
-            </CardHeader>
-            <CardContent>
-                <p className="text-muted-foreground">
-                    This is an example of a high-performing ad in the {category.name.toLowerCase()} space. Notice the clear call-to-action and engaging visuals.
-                </p>
-            </CardContent>
-        </Card>
-        
-        {[...Array(3)].map((_, index) => (
-             <Card key={index} className="shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
-                <CardHeader>
-                    <CardTitle>Ad Concept #{index + 1}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                    <p className="text-muted-foreground text-sm">A visual concept for a modern ad campaign.</p>
-                </CardContent>
-            </Card>
-        ))}
-      </div>
+      {category.slug === 'tools-comparison' && <BrevoVsMailchimpArticle />}
+
+      {category.slug !== 'tools-comparison' && (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <Card className="lg:col-span-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
+              <CardHeader>
+                  <CardTitle>Example Ad</CardTitle>
+              </CardHeader>
+              <CardContent>
+                  <p className="text-muted-foreground">
+                      This is an example of a high-performing ad in the {category.name.toLowerCase()} space. Notice the clear call-to-action and engaging visuals.
+                  </p>
+              </CardContent>
+          </Card>
+          
+          {[...Array(3)].map((_, index) => (
+               <Card key={index} className="shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
+                  <CardHeader>
+                      <CardTitle>Ad Concept #{index + 1}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                      <p className="text-muted-foreground text-sm">A visual concept for a modern ad campaign.</p>
+                  </CardContent>
+              </Card>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
