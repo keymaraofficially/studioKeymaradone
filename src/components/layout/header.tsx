@@ -3,16 +3,10 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, ChevronDown } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { KeymaraLogo } from '@/components/icons';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
 import { categories } from '@/lib/data';
 
 export function Header() {
@@ -104,23 +98,16 @@ export function Header() {
       <div className="hidden md:flex justify-center border-b bg-background">
          <nav className="flex items-center gap-6 text-sm font-medium h-14">
             {categories.map((category) => (
-              <DropdownMenu key={category.slug}>
-                <DropdownMenuTrigger className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors text-sm">
-                  <Link href={`/category/${category.slug}`}>{category.name}</Link>
-                  <ChevronDown className="h-4 w-4" />
-                </DropdownMenuTrigger>
-                <DropdownMenuContent>
-                  <DropdownMenuItem asChild>
-                    <Link href={`/category/${category.slug}`}>Overview</Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href={`/category/${category.slug}`}>Examples</Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href={`/category/${category.slug}`}>Best Practices</Link>
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
+                <Link
+                  href={`/category/${category.slug}`}
+                  key={category.slug}
+                  className={cn(
+                    'transition-colors hover:text-foreground text-muted-foreground',
+                    pathname === `/category/${category.slug}` ? 'text-foreground font-semibold' : ''
+                  )}
+                >
+                  {category.name}
+                </Link>
             ))}
           </nav>
       </div>
