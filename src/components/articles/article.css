@@ -38,10 +38,10 @@
 }
 
 .sidebar-section {
-    background: #fff8d9; /* Keymara theme beige-yellow */
-    border: 1px solid #f1d98b;
-    border-radius: 12px;
+    background: #fff3c2;
+    border: 1px solid #f3d88e;
     padding: 18px;
+    border-radius: 12px;
     margin-bottom: 22px;
 }
 
@@ -246,7 +246,7 @@
 
 .sidebar-article-card {
     display: block;
-    background: #fff;
+    background: #ffffff;
     padding: 12px 14px;
     border-radius: 10px;
     border: 1px solid #f1d98b;
@@ -254,6 +254,7 @@
     color: #333;
     font-weight: 600;
     text-decoration: none;
+    line-height: 1.4;
 }
 
 .sidebar-article-card .article-tag {

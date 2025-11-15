@@ -14,11 +14,11 @@ export async function generateStaticParams() {
 }
 
 const YouMayLikeThis = () => {
-    const similarArticles = latestInsights.filter(insight => insight.slug !== 'brevo-vs-mailchimp').slice(0, 2);
+    const shuffled = [...latestInsights].filter(insight => insight.slug !== 'brevo-vs-mailchimp').sort(() => Math.random() - 0.5);
   
     return (
         <div className="space-y-3">
-        {similarArticles.map(article => {
+        {shuffled.slice(0, 2).map(article => {
             const category = categories.find(c => c.name === article.category);
             const categorySlug = category ? category.slug : 'tools-comparison';
             return (
@@ -33,11 +33,11 @@ const YouMayLikeThis = () => {
 };
 
 const RelatedArticles = () => {
-    const similarArticles = latestInsights.filter(insight => insight.slug !== 'brevo-vs-mailchimp');
+    const shuffled = [...latestInsights].filter(insight => insight.slug !== 'brevo-vs-mailchimp').sort(() => Math.random() - 0.5);
   
     return (
       <div className="space-y-3">
-        {similarArticles.map(article => {
+        {shuffled.slice(0, 2).map(article => {
             const category = categories.find(c => c.name === article.category);
             const categorySlug = category ? category.slug : 'tools-comparison';
             return (
@@ -50,6 +50,26 @@ const RelatedArticles = () => {
       </div>
     );
 };
+
+const PeopleAlsoRead = () => {
+    const shuffled = [...latestInsights].filter(insight => insight.slug !== 'brevo-vs-mailchimp').sort(() => Math.random() - 0.5);
+  
+    return (
+      <div className="space-y-3">
+        {shuffled.slice(0, 2).map(article => {
+            const category = categories.find(c => c.name === article.category);
+            const categorySlug = category ? category.slug : 'tools-comparison';
+            return (
+                <Link key={article.slug} href={`/category/${categorySlug}#${article.slug}`} className="sidebar-article-card group">
+                    <span className="article-tag">{article.category}</span>
+                    <h4 className="font-bold text-sm group-hover:text-primary transition-colors">{article.title}</h4>
+                </Link>
+            )
+        })}
+      </div>
+    );
+};
+
 
 export default function CategoryPage({ params }: { params: { slug: string } }) {
   const category = categories.find((cat) => cat.slug === params.slug);
@@ -86,6 +106,11 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                 <div className="sidebar-section">
                    <h3>Related Articles</h3>
                    <RelatedArticles />
+                </div>
+                
+                <div className="sidebar-section">
+                   <h3>People Also Read</h3>
+                   <PeopleAlsoRead />
                 </div>
 
                 <div className="sidebar-section">
