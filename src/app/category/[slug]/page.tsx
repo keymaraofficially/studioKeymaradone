@@ -17,23 +17,39 @@ const YouMayLikeThis = () => {
     const similarArticles = latestInsights.filter(insight => insight.slug !== 'brevo-vs-mailchimp').slice(0, 2);
   
     return (
-      <div className="space-y-6">
+        <div className="space-y-3">
         {similarArticles.map(article => {
             const category = categories.find(c => c.name === article.category);
             const categorySlug = category ? category.slug : 'tools-comparison';
             return (
-          <Link key={article.slug} href={`/category/${categorySlug}#${article.slug}`} className="block group">
-            <Card className="hover:shadow-lg transition-shadow duration-300">
-              <CardContent className="p-4">
-                <Badge variant="outline" className="mb-2">{article.category}</Badge>
-                <h4 className="font-bold text-md group-hover:text-primary transition-colors">{article.title}</h4>
-              </CardContent>
-            </Card>
-          </Link>
-        )})}
+                <Link key={article.slug} href={`/category/${categorySlug}#${article.slug}`} className="sidebar-article-card group">
+                    <span className="article-tag">{article.category}</span>
+                    <h4 className="font-bold text-sm group-hover:text-primary transition-colors">{article.title}</h4>
+                </Link>
+            )
+        })}
+        </div>
+    );
+};
+
+const RelatedArticles = () => {
+    const similarArticles = latestInsights.filter(insight => insight.slug !== 'brevo-vs-mailchimp');
+  
+    return (
+      <div className="space-y-3">
+        {similarArticles.map(article => {
+            const category = categories.find(c => c.name === article.category);
+            const categorySlug = category ? category.slug : 'tools-comparison';
+            return (
+                <Link key={article.slug} href={`/category/${categorySlug}#${article.slug}`} className="sidebar-article-card group">
+                    <span className="article-tag">{article.category}</span>
+                    <h4 className="font-bold text-sm group-hover:text-primary transition-colors">{article.title}</h4>
+                </Link>
+            )
+        })}
       </div>
     );
-  };
+};
 
 export default function CategoryPage({ params }: { params: { slug: string } }) {
   const category = categories.find((cat) => cat.slug === params.slug);
@@ -63,8 +79,13 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
             </div>
             <aside className="lg:col-span-1 space-y-8 mt-12 pt-8">
                 <div className="sidebar-section">
-                   <h3>Related Articles</h3>
+                   <h3>You May Like This</h3>
                    <YouMayLikeThis />
+                </div>
+                
+                <div className="sidebar-section">
+                   <h3>Related Articles</h3>
+                   <RelatedArticles />
                 </div>
 
                 <div className="sidebar-section">
