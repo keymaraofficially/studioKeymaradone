@@ -34,7 +34,7 @@ const whyChooseKeymara = [
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <section className="py-20 md:py-32">
+      <section className="py-20 md:py-32 animate-fade-in">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-headline font-bold text-foreground max-w-4xl mx-auto">
             Simplify Email Automation to Deliver Real Value to Every Inbox
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 md:py-24">
+      <section className="py-20 md:py-24 animate-fade-in animation-delay-200">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-headline font-bold">Why Marketers Choose Keymara</h2>
@@ -87,7 +87,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 md:py-24 bg-card">
+      <section className="py-20 md:py-24 bg-card animate-fade-in animation-delay-400">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-headline font-bold">
@@ -126,7 +126,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 md:py-24">
+      <section className="py-20 md:py-24 animate-fade-in animation-delay-600">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-headline font-bold">
@@ -152,7 +152,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 md:py-24 bg-card">
+      <section className="py-20 md:py-24 bg-card animate-fade-in animation-delay-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-headline font-bold">
@@ -164,7 +164,6 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[...Array(3)].map((_, index) => {
-                const image = PlaceHolderImages.find(img => img.id === `placeholder-${index + 1}`);
                 return (
                     <Link href="#" key={index} className="group flex">
                         <Card className="w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 bg-background overflow-hidden">
