@@ -101,7 +101,7 @@ export function Header() {
           </Sheet>
         </div>
       </div>
-      <div className="hidden md:flex justify-center border-b bg-card">
+      <div className="hidden md:flex justify-center border-b bg-background">
          <nav className="flex items-center gap-6 text-sm font-medium h-14">
             {categories.map((category) => (
               <DropdownMenu key={category.slug}>
