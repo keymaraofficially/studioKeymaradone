@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { categories } from '@/lib/data';
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow } from 'lucide-react';
 import Link from 'next/link';
 
 const features = [
@@ -10,6 +10,24 @@ const features = [
     { text: 'Convert leads faster with smart segmentation' },
     { text: 'Grow your business using data-driven insights' },
 ];
+
+const whyChooseKeymara = [
+  {
+    icon: Zap,
+    title: 'AI-Powered Email Automation',
+    description: 'Automate campaigns, save time, and boost engagement with AI-driven workflows.'
+  },
+  {
+    icon: LineChart,
+    title: 'Smarter Campaign Insights',
+    description: 'Get data-backed analytics that help you understand what drives results.'
+  },
+  {
+    icon: Workflow,
+    title: 'Unified Workflow Management',
+    description: 'Manage everything — emails, automation, and performance — from one clean dashboard.'
+  }
+]
 
 export default function Home() {
   return (
@@ -36,6 +54,32 @@ export default function Home() {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
+        </div>
+      </section>
+
+      <section className="py-20 md:py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">Why Marketers Choose Keymara</h2>
+            <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
+              We simplify complex marketing with automation that teaches you how to grow. Keymara helps businesses learn, adapt, and connect intelligently — so every campaign feels smarter, faster, and easier to manage.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {whyChooseKeymara.map((item, index) => (
+              <Card key={index} className="bg-card text-center p-6 border-0 shadow-none rounded-2xl">
+                 <div className="inline-block bg-primary/10 p-3 rounded-full mb-4">
+                  <item.icon className="h-8 w-8 text-primary" />
+                </div>
+                <CardHeader className="p-0">
+                  <CardTitle className="font-headline text-xl">{item.title}</CardTitle>
+                </CardHeader>
+                <CardDescription className="mt-2 text-base">
+                  {item.description}
+                </CardDescription>
+              </Card>
+            ))}
+          </div>
         </div>
       </section>
 
