@@ -12,10 +12,9 @@ export function KeymaraLogo(props: SVGProps<SVGSVGElement>) {
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M4 4h6l-6 8v8" />
-      <path d="M20 4h-6l6 8V4z" />
-      <path d="M12.5 10.5L4 20" />
-      <path d="M11.5 10.5L20 20" />
+      <rect width="20" height="20" x="2" y="2" rx="4" ry="4" fill="hsl(var(--primary))" stroke="none" />
+      <circle cx="12" cy="12" r="6" stroke="hsl(var(--primary-foreground))" strokeWidth="2" fill="none" />
+      <circle cx="12" cy="12" r="2.5" fill="hsl(var(--primary-foreground))" stroke="none" />
     </svg>
   );
 }
