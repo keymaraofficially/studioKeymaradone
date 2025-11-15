@@ -28,7 +28,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <Card className="lg:col-span-2">
+        <Card className="lg:col-span-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
             <CardHeader>
                 <CardTitle>Example Ad</CardTitle>
             </CardHeader>
@@ -40,7 +40,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
         </Card>
         
         {[...Array(3)].map((_, index) => (
-             <Card key={index}>
+             <Card key={index} className="shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
                 <CardHeader>
                     <CardTitle>Ad Concept #{index + 1}</CardTitle>
                 </CardHeader>

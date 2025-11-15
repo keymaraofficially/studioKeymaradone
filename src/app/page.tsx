@@ -3,8 +3,6 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { categories, marketingTools } from '@/lib/data';
 import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow, Award } from 'lucide-react';
 import Link from 'next/link';
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const features = [
     { text: 'Automate email and WhatsApp marketing in one dashboard' },
@@ -69,7 +67,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {whyChooseKeymara.map((item, index) => (
-              <Card key={index} className="bg-card text-center p-6 border-0 shadow-none rounded-2xl">
+              <Card key={index} className="bg-card text-center p-6 border-0 shadow-none rounded-2xl shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
                  <div className="inline-block bg-primary/10 p-3 rounded-full mb-4">
                   <item.icon className="h-8 w-8 text-primary" />
                 </div>
@@ -100,7 +98,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {marketingTools.map((tool) => (
               <Link href={tool.url} key={tool.name} target="_blank" rel="noopener noreferrer" className="group flex">
-                <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 ${tool.isRecommended ? 'border-primary bg-primary/5' : 'bg-background'}`}>
+                <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)] ${tool.isRecommended ? 'border-primary bg-primary/5' : 'bg-background'}`}>
                   <CardHeader>
                     {tool.isRecommended && (
                       <div className="flex items-center gap-2 text-sm font-semibold text-primary mb-2">
@@ -139,7 +137,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {categories.map((category) => (
               <Link href={`/category/${category.slug}`} key={category.slug} className="group">
-                <Card className="h-full transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 group-hover:border-primary bg-background">
+                <Card className="h-full transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 group-hover:border-primary bg-background shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
                   <CardHeader>
                     <category.icon className="h-10 w-10 mb-4 text-primary" />
                     <CardTitle className="font-headline">{category.name}</CardTitle>
@@ -166,11 +164,11 @@ export default function Home() {
             {[...Array(3)].map((_, index) => {
                 return (
                     <Link href="#" key={index} className="group flex">
-                        <Card className="w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 bg-background overflow-hidden">
+                        <Card className="w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 bg-background overflow-hidden shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
                             <CardHeader>
                                 <CardTitle className="font-headline text-lg">Unlocking the Power of AI in Email Marketing</CardTitle>
                             </CardHeader>
-                            <CardContent className="flex-grow">
+                            <CardContent>
                                 <CardDescription>Discover how artificial intelligence is reshaping email campaigns and what it means for your business.</CardDescription>
                             </CardContent>
                             <CardFooter>
