@@ -5,11 +5,16 @@
 .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
     color: hsl(var(--foreground));
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 14px;
 }
   
 .prose p, .prose ul, .prose ol, .prose li {
     color: hsl(var(--muted-foreground));
     font-family: 'Open Sans', sans-serif;
+}
+
+.prose li {
+    margin-bottom: 8px;
 }
 
 .prose strong {
@@ -18,20 +23,20 @@
 
 .prose .drop-cap {
     float: left;
-    font-size: 4rem;
-    line-height: 0.8;
-    margin-right: 0.2em;
+    font-size: 52px;
+    line-height: 45px;
+    padding-right: 10px;
     color: hsl(var(--primary));
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
   
 .prose .key-tip {
-    background-color: hsla(var(--primary) / 0.1);
+    background-color: hsl(var(--primary) / 0.1);
     border-left: 4px solid hsl(var(--primary));
-    padding: 1rem 1.5rem;
-    margin: 2rem 0;
-    border-radius: 0.5rem;
+    padding: 12px 18px;
+    margin: 20px 0;
+    border-radius: 8px;
 }
   
 .prose .key-tip strong {
@@ -43,13 +48,13 @@
 .prose table {
     width: 100%;
     border-collapse: collapse;
-    margin: 2rem 0;
+    margin: 25px 0;
     border: 2px solid hsl(var(--primary));
 }
 
 .prose th, .prose td {
     border: 1px solid hsl(var(--border));
-    padding: 0.75rem 1rem;
+    padding: 10px;
     text-align: left;
 }
 
@@ -66,6 +71,7 @@
 .prose ul {
     list-style-type: disc;
     padding-left: 1.5rem;
+    margin: 15px 0;
 }
   
 .prose li::marker {

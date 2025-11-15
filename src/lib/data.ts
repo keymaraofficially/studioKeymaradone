@@ -131,7 +131,7 @@ export const latestInsights = [
     {
       slug: 'brevo-vs-mailchimp',
       title: 'Brevo vs Mailchimp: Which Email Platform Delivers Better Value in 2025?',
-      description: 'A complete 2025 comparison of Brevo and Mailchimp covering automation, workflow power, pricing, AI tools, and more.',
+      description: 'A complete 2025 comparison of Brevo and Mailchimp covering automation, workflow power, pricing, AI tools, segmentation, and real performance benchmarks.',
       category: 'Tools Comparison',
       image: 'comparison-ad',
     },
