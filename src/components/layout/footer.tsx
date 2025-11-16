@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { useEffect, useState, useRef } from 'react';
 
 const footerNav = [
-    { name: 'Blog', href: '/tools-hub' }, // Assuming blog will be the tools hub for now
+    { name: 'Blog', href: '/blog' },
     { name: 'Email Marketing', href: '/category/email-marketing' },
     { name: 'Automation & Workflows', href: '/category/automation-workflows' },
     { name: 'Growth & Analytics', href: '/category/growth-analytics' },
