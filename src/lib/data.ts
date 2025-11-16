@@ -1293,25 +1293,6 @@ export const latestInsights = [
     keyTip2: 'If your business does not need multi-layer branching automations, choosing a complex tool will slow you down instead of helping you.',
     keyTip3: 'Always choose the platform that reduces your workload—not the one that creates more steps.',
     recommendation: 'Pick Brevo if your priority is simplicity, automation, CRM integration, and multichannel communication. Pick ActiveCampaign if your workflows are complex, your team manages advanced mapping, or your business depends on behavioral predictions.',
-  },
-  {
-    slug: 'whatsapp-automation-guide',
-    title: 'The Ultimate Guide to WhatsApp Automation',
-    description: 'Learn how to automate your customer communication on WhatsApp to drive sales and engagement.',
-    category: 'WhatsApp & Multi-Channel',
-    image: 'whatsapp-ad',
-    author: 'Emily White',
-    date: 'October 24, 2025',
-    quote: 'Meet your customers where they are.',
-    takeaways: ['WhatsApp has over 2 billion active users.', 'Automation can handle customer service inquiries.', 'Broadcasts can be used for targeted promotions.'],
-    glossary: 'WhatsApp Business API: A programmable interface that allows businesses to send and receive messages on WhatsApp at scale.',
-    facts: ['WhatsApp messages have a 98% open rate.', '53% of people say they are more likely to shop with a business they can message directly.'],
-    summary: 'WhatsApp automation allows businesses to engage with customers on their preferred platform, leading to higher open rates and better customer relationships.',
-    insight: 'Small businesses have seen a 20% increase in sales by using WhatsApp for abandoned cart recovery.',
-    keyTip1: 'Always get opt-in. Sending unsolicited messages on WhatsApp is a quick way to get blocked and reported.',
-    keyTip2: 'Keep messages concise and conversational. WhatsApp is a personal platform, so avoid overly formal or lengthy marketing-speak.',
-    keyTip3: 'Use rich media like images and videos to make your messages more engaging and visually appealing.',
-    recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
 
