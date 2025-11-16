@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'lead-scoring-explained',
+    title: 'Lead Scoring Explained: How to Identify Your Most Engaged Subscribers',
+    description: 'A complete educational guide explaining lead scoring, how engagement patterns shape subscriber quality, and how to identify your most active and valuable contacts without bias or guesswork.',
+    category: 'Lead Generation',
+    image: 'lead-gen-ad',
+    author: 'Keymara Team',
+    date: 'December 31, 2025',
+    quote: 'Lead scoring is not about ranking people. It is about understanding engagement patterns and improving list health.',
+    takeaways: ['Identify engagement levels.', 'Use a simple scoring model.', 'Protect deliverability.'],
+    glossary: 'Lead Scoring: A methodology used to rank prospects on a scale representing their perceived value, based on their behavior and engagement.',
+    facts: ['Businesses that use lead scoring see a 77% increase in lead generation ROI.', 'Lead scoring can improve conversion rates by over 300%.'],
+    summary: 'This guide explains how lead scoring works by assigning points to subscriber actions to measure engagement, helping marketers to identify their most valuable contacts and improve list health.',
+    insight: 'Users find that a simple, behavior-based lead scoring model is more effective and easier to maintain than a complex, multi-variable system.',
+    keyTip1: 'Lead scoring is not about ranking people. It is about understanding engagement patterns and improving list health.',
+    keyTip2: 'Lead scoring does not fix weak content. It reveals where content alignment needs improvement.',
+    keyTip3: 'Lead scoring works best when it guides your decisions—not replaces your judgment.',
+    recommendation: 'Start simple. Track a few core behaviors—opens, clicks, and read time. Once these patterns become clear, expand your scoring gradually.',
+  },
+  {
     slug: 'ethical-lead-generation',
     title: 'Ethical Lead Generation: What to Avoid, What to Follow, and How to Stay Compliant',
     description: 'A complete educational guide explaining ethical lead generation, how to avoid harmful practices, what compliance requires, and how to attract the right audience without manipulation or shortcuts.',
@@ -1079,6 +1098,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 
