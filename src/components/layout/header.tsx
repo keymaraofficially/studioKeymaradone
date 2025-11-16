@@ -132,7 +132,9 @@ export function Header() {
             {isMounted && <TopNavLinks />}
           </div>
           <div className="hidden md:flex items-center gap-4">
-            <Button>Let's Talk</Button>
+            <Button asChild>
+              <Link href="/contact">Let's Talk</Link>
+            </Button>
           </div>
           <Sheet>
             <SheetTrigger asChild>
@@ -148,7 +150,9 @@ export function Header() {
                   <span className="font-bold text-lg font-headline">Keymara</span>
                 </Link>
                 {isMounted && <MobileNavLinks />}
-                <Button className="mt-4">Let's Talk</Button>
+                <Button asChild className="mt-4">
+                  <Link href="/contact">Let's Talk</Link>
+                </Button>
               </nav>
             </SheetContent>
           </Sheet>
