@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'brevo-vs-hubspot',
+    title: 'Brevo vs HubSpot: Which Platform Offers Better Automation, CRM Power, and Marketing Value?',
+    description: 'A complete expert comparison of Brevo and HubSpot. Learn which platform gives better automation, CRM features, analytics, segmentation, pricing, AI tools, and value for growing businesses.',
+    category: 'Tools Comparison',
+    image: 'comparison-ad',
+    author: 'Alex Morgan',
+    date: 'October 30, 2025',
+    quote: 'The goal is to turn data into information, and information into insight.',
+    takeaways: ['Platform choice depends on team size.', 'Affordability matters for SMBs.', 'Complexity can slow down execution.'],
+    glossary: 'Customer Relationship Management (CRM): A technology for managing all your company’s relationships and interactions with customers and potential customers.',
+    facts: ['Businesses using marketing automation report an average of 451% increase in qualified leads.', 'Personalized CTAs convert 202% better than default versions.'],
+    summary: 'Brevo is ideal for growing businesses needing a powerful, affordable, all-in-one solution. HubSpot is a premium choice for larger organizations requiring deep CRM and sales integration.',
+    insight: 'Users agree that Brevo offers the best value for automation at its price point, while HubSpot is unmatched for enterprise-level sales and marketing alignment.',
+    keyTip1: 'Never choose a platform only because it’s popular. Choose the one that matches your team size, your workflow needs, and your long-term automation requirements.',
+    keyTip2: 'If your team is small, using an enterprise-level system will slow execution instead of improving automation.',
+    keyTip3: 'High-priced platforms are only valuable if your business uses 60–70% of their features. Otherwise, you’re paying for tools you don’t need.',
+    recommendation: 'Pick Brevo if you need automation, CRM, and email marketing without high monthly costs. Pick HubSpot if your business runs full-scale marketing + sales workflows and depends on advanced lifecycle automation.',
+  },
+  {
     slug: 'brevo-vs-mailchimp',
     title: 'Brevo vs Mailchimp: Which Email Platform Delivers Better Value in 2025?',
     description: 'A complete 2025 comparison of Brevo and Mailchimp covering automation, workflow power, pricing, AI tools, segmentation, and real performance benchmarks.',
