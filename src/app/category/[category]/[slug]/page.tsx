@@ -31,6 +31,7 @@ import { ActiveCampaignWorkflowsExplainedArticle } from '@/components/articles/a
 import { WhatIsConvertKitArticle } from '@/components/articles/what-is-convertkit';
 import { HowEmailMarketingWorksArticle } from '@/components/articles/how-email-marketing-works';
 import { UnderstandingEmailDeliverabilityArticle } from '@/components/articles/understanding-email-deliverability';
+import { EmailListBuildingFundamentalsArticle } from '@/components/articles/email-list-building-fundamentals';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -147,6 +148,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <HowEmailMarketingWorksArticle />;
       case 'understanding-email-deliverability':
         return <UnderstandingEmailDeliverabilityArticle />;
+      case 'email-list-building-fundamentals':
+        return <EmailListBuildingFundamentalsArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

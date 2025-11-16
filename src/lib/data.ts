@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'email-list-building-fundamentals',
+    title: 'Email List Building Fundamentals Every Marketer Should Understand',
+    description: 'A complete educational guide explaining how email lists are built, how permission-based growth works, why quality matters more than quantity, and the core fundamentals every marketer must understand.',
+    category: 'Email Marketing',
+    image: 'email-ad',
+    author: 'Keymara Team',
+    date: 'December 12, 2025',
+    quote: 'Quality over quantity. A small, engaged list is better than a large, uninterested one.',
+    takeaways: ['Permission is mandatory.', 'Offer a clear value exchange.', 'Clean data is crucial.'],
+    glossary: 'Lead Magnet: An incentive that marketers offer to potential buyers in exchange for their email address or other contact information.',
+    facts: ['The average email opt-in rate across all industries is 1.95%.', 'Using lead magnets can increase opt-in rates by up to 50%.'],
+    summary: 'Email list building is the process of collecting permission-based subscribers through valuable offers. It is the foundation of a successful email marketing strategy, emphasizing quality over quantity.',
+    insight: 'Users find that highly specific lead magnets tailored to a particular audience segment yield the most engaged and valuable subscribers over time.',
+    keyTip1: 'Focus on quality over volume. A smaller, engaged list outperforms a large list of unresponsive or uninterested subscribers every single time.',
+    keyTip2: 'Forms convert best when the value is visible and the action feels low-friction. Clarity always wins over clever design.',
+    keyTip3: 'A strong welcome email strengthens your list from the beginning by setting expectations and delivering immediate value.',
+    recommendation: 'Build your email list with value-driven opt-ins, clean data practices, and clear expectations. The strongest results come from audiences who join willingly and stay engaged because your content consistently helps them.',
+  },
+  {
     slug: 'understanding-email-deliverability',
     title: 'Understanding Email Deliverability: The Factors That Actually Matter',
     description: 'A deep educational guide explaining how email deliverability works, what affects inbox placement, and the most important factors you must manage to maintain a healthy sender reputation.',
