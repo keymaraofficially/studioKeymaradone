@@ -13,6 +13,7 @@ import { MailerliteVsBrevoVsMailchimpArticle } from '@/components/articles/maile
 import { BestEmailToolForSmallBusinessesArticle } from '@/components/articles/best-email-tool-for-small-businesses';
 import { BestPlatformForEcommerceArticle } from '@/components/articles/best-platform-for-ecommerce';
 import { BestChoiceForCoachesArticle } from '@/components/articles/best-choice-for-coaches';
+import { BestAllInOneForStartupsArticle } from '@/components/articles/best-all-in-one-for-startups';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -93,6 +94,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <BestPlatformForEcommerceArticle />;
       case 'best-choice-for-coaches':
         return <BestChoiceForCoachesArticle />;
+      case 'best-all-in-one-for-startups':
+        return <BestAllInOneForStartupsArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
