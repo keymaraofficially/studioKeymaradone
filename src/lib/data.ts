@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
     {
+    slug: 'what-is-lead-generation',
+    title: 'What Is Lead Generation? A Complete Beginner-to-Advanced Breakdown',
+    description: 'A deeply educational guide explaining what lead generation really is, how it works, why quality matters more than volume, and how modern brands attract the right audience ethically and effectively.',
+    category: 'Lead Generation',
+    image: 'lead-gen-ad',
+    author: 'Keymara Team',
+    date: 'December 26, 2025',
+    quote: 'Lead generation is not about more leads; it is about the right leads. A small qualified list outperforms a large unqualified audience every time.',
+    takeaways: ['Quality over quantity.', 'Build trust with value.', 'Nurture leads effectively.'],
+    glossary: 'Lead Generation: The marketing process of stimulating and capturing interest in a product or service for the purpose of developing a sales pipeline.',
+    facts: ['Content marketing generates over three times as many leads as traditional marketing and costs 62% less.', '91% of marketers say lead generation is their most important goal.'],
+    summary: 'This guide explains that lead generation is a structured system of attracting and converting the right individuals into interested subscribers through value, relevance, and trust, emphasizing quality over quantity.',
+    insight: 'Users who focus on creating highly relevant lead magnets for niche segments report the highest long-term engagement and conversion rates from their email lists.',
+    keyTip1: 'Lead generation is not about more leads; it is about the right leads. A small qualified list outperforms a large unqualified audience every time.',
+    keyTip2: 'Visitors subscribe when they understand exactly what they will receive. Confusion kills conversions.',
+    keyTip3: 'Never build leads faster than you can nurture them. Growth without nurturing becomes silent growth.',
+    recommendation: 'Build your lead generation around clarity and relevance. The more aligned your message is with your audience’s needs, the stronger your long-term engagement will be.',
+  },
+  {
     slug: 'how-to-track-long-term-subscriber-growth',
     title: 'How to Track Long-Term Subscriber Growth (Without Vanity Metrics)',
     description: 'A complete educational breakdown explaining how to track long-term subscriber growth using real signals, engagement patterns, retention metrics, and list health indicators without relying on misleading vanity numbers.',
@@ -984,6 +1003,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 

@@ -45,6 +45,7 @@ import { SubscriberBehaviorAnalyticsArticle } from '@/components/articles/subscr
 import { DeliverabilityAnalyticsExplainedArticle } from '@/components/articles/deliverability-analytics-explained';
 import { HowToAnalyzeAutomationPerformanceArticle } from '@/components/articles/how-to-analyze-automation-performance';
 import { HowToTrackLongTermSubscriberGrowthArticle } from '@/components/articles/how-to-track-long-term-subscriber-growth';
+import { WhatIsLeadGenerationArticle } from '@/components/articles/what-is-lead-generation';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -189,6 +190,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <HowToAnalyzeAutomationPerformanceArticle />;
       case 'how-to-track-long-term-subscriber-growth':
         return <HowToTrackLongTermSubscriberGrowthArticle />;
+      case 'what-is-lead-generation':
+        return <WhatIsLeadGenerationArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
