@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'deliverability-analytics-explained',
+    title: 'Deliverability Analytics Explained: Signals Mailbox Providers Use to Score Your Email Reputation',
+    description: 'A complete educational breakdown of deliverability analytics, explaining how mailbox providers score sender reputation, analyze engagement signals, detect inboxing quality, and decide which emails reach the inbox, promotions, or spam.',
+    category: 'Growth & Analytics',
+    image: 'analytics-ad',
+    author: 'Keymara Team',
+    date: 'December 23, 2025',
+    quote: 'Inboxing is not luck. It is a score. Every sender has a reputation rating, and your engagement directly affects it.',
+    takeaways: ['Engagement is everything.', 'Authentication is mandatory.', 'Monitor your reputation.'],
+    glossary: 'Deliverability Analytics: Data signals used by mailbox providers to score sender reputation and determine inbox placement.',
+    facts: ['A good sender reputation can improve inbox placement by up to 95%.', 'ISPs consider over 300 different factors when deciding whether to deliver an email.'],
+    summary: 'This guide explains the key deliverability analytics mailbox providers use, including sender reputation, engagement signals, and technical authentication, to help you maintain stable inbox placement.',
+    insight: 'Users find that monitoring deliverability analytics allows them to proactively address issues before they impact campaign performance, leading to more consistent results.',
+    keyTip1: 'Inboxing is not luck. It is a score. Every sender has a reputation rating, and your engagement directly affects it.',
+    keyTip2: 'Deliverability issues rarely appear suddenly. They build slowly through declining engagement and silent subscribers.',
+    keyTip3: 'Treat deliverability as a core metric, not a technical afterthought. Strong inboxing multiplies the impact of every email you send.',
+    recommendation: 'Monitor engagement patterns weekly. If opens and clicks decline together, investigate deliverability first before changing content.',
+  },
+  {
     slug: 'subscriber-behavior-analytics',
     title: 'Subscriber Behavior Analytics: How to Read Engagement Patterns Properly',
     description: 'A clear and deeply educational guide explaining how to understand subscriber behavior analytics, track engagement patterns, interpret signals, and build smarter email decisions using real behavioral data.',
@@ -927,6 +946,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 
