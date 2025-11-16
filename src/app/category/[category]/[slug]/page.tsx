@@ -39,6 +39,7 @@ import { HowTriggerBasedAutomationsWorkArticle } from '@/components/articles/how
 import { BuildingAHighEngagementWelcomeFlowArticle } from '@/components/articles/building-a-high-engagement-welcome-flow';
 import { BehaviorBasedAutomationExplainedArticle } from '@/components/articles/behavior-based-automation-explained';
 import { LifecycleAutomationExplainedArticle } from '@/components/articles/lifecycle-automation-explained';
+import { UnderstandingEmailMetricsArticle } from '@/components/articles/understanding-email-metrics';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -171,6 +172,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <BehaviorBasedAutomationExplainedArticle />;
       case 'lifecycle-automation-explained':
         return <LifecycleAutomationExplainedArticle />;
+      case 'understanding-email-metrics':
+        return <UnderstandingEmailMetricsArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

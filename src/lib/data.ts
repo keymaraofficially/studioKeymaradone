@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'understanding-email-metrics',
+    title: 'Understanding Email Metrics: Opens, Clicks, CTR, CTOR, and Read Time Explained',
+    description: 'A complete educational breakdown of essential email metrics including opens, clicks, CTR, CTOR, read time, and how to interpret engagement data accurately without relying on vanity metrics.',
+    category: 'Growth & Analytics',
+    image: 'analytics-ad',
+    author: 'Keymara Team',
+    date: 'December 20, 2025',
+    quote: 'Metrics are only meaningful when you understand how they connect. Never judge performance using a single number alone.',
+    takeaways: ['Metrics should be read together.', 'Clicks are stronger than opens.', 'CTOR reveals true engagement.'],
+    glossary: 'CTOR (Click-to-Open Rate): The percentage of unique clicks relative to unique opens, indicating how engaging the email content was for those who opened it.',
+    facts: ['CTOR is often considered a more accurate measure of content quality than CTR alone.', 'Privacy changes have made open rates less reliable, increasing the importance of click-based metrics.'],
+    summary: 'A guide to understanding key email metrics like open rate, click-through rate (CTR), click-to-open rate (CTOR), and read time, explaining how to interpret them together for a more accurate view of campaign performance.',
+    insight: 'Users find that focusing on CTOR and click maps provides more actionable insights for content improvement than obsessing over open rates.',
+    keyTip1: 'Metrics are only meaningful when you understand how they connect. Never judge performance using a single number alone.',
+    keyTip2: 'Aim for patterns, not isolated numbers. Reliable growth comes from consistent signals across multiple metrics.',
+    keyTip3: 'Metrics make sense only when they form a pattern. Always compare multiple signals before making any decision.',
+    recommendation: 'Focus on CTR, CTOR, and read time as your primary indicators. Use open rate only as a supporting signal, not a performance benchmark.',
+  },
+  {
     slug: 'lifecycle-automation-explained',
     title: 'Lifecycle Automation: New, Active, Silent, and Re-Engaged Subscriber Journeys Explained',
     description: 'A complete educational guide explaining lifecycle automation, including new subscriber journeys, active reader flows, silent subscriber detection, and re-engagement automation logic.',
@@ -870,5 +889,6 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
