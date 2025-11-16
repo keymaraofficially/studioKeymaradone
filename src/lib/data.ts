@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'mailerlite-automation-builder-explained',
+    title: 'MailerLite Automation Builder Explained: A Complete Step-by-Step Guide',
+    description: 'A full guide to MailerLite automation. Learn how triggers, delays, conditions, segments, workflows, and email sequences work to build smart automated systems for small businesses.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'December 3, 2025',
+    quote: 'Automation works best when it is simple and reliable.',
+    takeaways: ['Organize your audience.', 'Start with simple workflows.', 'Use delays to time your messages.'],
+    glossary: 'Workflow: A series of automated emails and actions that are triggered when a subscriber meets a predefined condition.',
+    facts: ['Automated emails get 86% higher open rates.', 'Businesses that use automation see a 14.5% increase in sales productivity.'],
+    summary: 'MailerLite\'s automation builder is a simple, clean, and visual tool that allows small businesses to create effective automated workflows without complexity. It offers essential features like triggers, actions, delays, and conditions.',
+    insight: 'Users appreciate MailerLite for its straightforward approach to automation, which allows them to set up powerful sequences in minutes, not hours.',
+    keyTip1: 'MailerLite automation works best when your segments, groups, and tags are clean. The more organized your audience is, the smarter your workflows become.',
+    keyTip2: 'Start with simple workflows. Complicated journeys often fail because they require perfect tagging—begin with 3–4 emails and scale later.',
+    keyTip3: 'Build one workflow at a time. Automation grows stronger when each flow has a clear purpose and clean subscriber logic.',
+    recommendation: 'Use MailerLite automation if you want a clean visual builder with essential workflows. It\'s ideal for small teams that need effective automation without complicated CRM systems.',
+  },
+  {
     slug: 'what-is-mailerlite',
     title: 'What Is MailerLite? Clean Email Marketing for Small Businesses',
     description: 'A complete beginner-friendly guide to MailerLite. Learn how MailerLite’s email builder, automation, landing pages, segmentation, and pricing work for small businesses, creators, and ecommerce brands.',
