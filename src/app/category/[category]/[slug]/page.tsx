@@ -23,6 +23,7 @@ import { BrevoMultichannelMessagingExplainedArticle } from '@/components/article
 import { BrevoPricingExplainedArticle } from '@/components/articles/brevo-pricing-explained';
 import { WhatIsMailchimpArticle } from '@/components/articles/what-is-mailchimp';
 import { MailchimpAutomationExplainedArticle } from '@/components/articles/mailchimp-automation-explained';
+import { WhatIsMailerliteArticle } from '@/components/articles/what-is-mailerlite';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -123,6 +124,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <WhatIsMailchimpArticle />;
       case 'mailchimp-automation-explained':
         return <MailchimpAutomationExplainedArticle />;
+      case 'what-is-mailerlite':
+        return <WhatIsMailerliteArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

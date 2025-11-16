@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'what-is-mailerlite',
+    title: 'What Is MailerLite? Clean Email Marketing for Small Businesses',
+    description: 'A complete beginner-friendly guide to MailerLite. Learn how MailerLite’s email builder, automation, landing pages, segmentation, and pricing work for small businesses, creators, and ecommerce brands.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'December 2, 2025',
+    quote: 'Simplicity is the ultimate sophistication.',
+    takeaways: ['Clean design is key.', 'Simple workflows are effective.', 'Affordable pricing enables growth.'],
+    glossary: 'Landing Page: A standalone web page, created specifically for a marketing or advertising campaign, where a visitor “lands” after they click on a link.',
+    facts: ['MailerLite is used by over 1 million businesses worldwide.', 'Simplicity in email design can increase click-through rates by up to 25%.'],
+    summary: 'MailerLite is a lightweight email marketing tool known for its clean design, simple workflows, and affordable pricing, making it ideal for small businesses and creators.',
+    insight: 'Users praise MailerLite for its intuitive interface and beautiful templates, which allow them to create professional-looking campaigns without a steep learning curve.',
+    keyTip1: 'MailerLite is perfect for users who want clean, minimal, fast email workflows without dealing with complicated dashboards or bloated marketing software.',
+    keyTip2: 'MailerLite’s strength is simplicity. If you want advanced CRM workflows, choose another tool. If you want clean email execution, MailerLite is perfect.',
+    keyTip3: 'Start with a simple welcome flow. Once you understand MailerLite’s automation logic, build more advanced sequences step by step.',
+    recommendation: 'Choose MailerLite if your priority is simplicity, clean design, and easy automation. It’s perfect for small businesses, creators, and ecommerce brands that want modern email marketing without advanced CRM needs.',
+  },
+  {
     slug: 'mailchimp-automation-explained',
     title: 'Mailchimp Automation, Journeys, and Customer Paths Explained',
     description: 'A complete breakdown of how Mailchimp automation, customer journeys, branching paths, triggers, conditions, and behavioral workflows work. Learn how to build smarter campaigns, improve engagement, and automate business communication.',
