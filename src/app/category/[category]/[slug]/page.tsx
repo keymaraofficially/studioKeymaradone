@@ -32,6 +32,7 @@ import { WhatIsConvertKitArticle } from '@/components/articles/what-is-convertki
 import { HowEmailMarketingWorksArticle } from '@/components/articles/how-email-marketing-works';
 import { UnderstandingEmailDeliverabilityArticle } from '@/components/articles/understanding-email-deliverability';
 import { EmailListBuildingFundamentalsArticle } from '@/components/articles/email-list-building-fundamentals';
+import { TheScienceOfEmailEngagementArticle } from '@/components/articles/the-science-of-email-engagement';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -150,6 +151,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <UnderstandingEmailDeliverabilityArticle />;
       case 'email-list-building-fundamentals':
         return <EmailListBuildingFundamentalsArticle />;
+      case 'the-science-of-email-engagement':
+        return <TheScienceOfEmailEngagementArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'the-science-of-email-engagement',
+    title: 'The Science of Email Engagement: Opens, Clicks, and Subscriber Behavior',
+    description: 'A complete educational guide explaining how email engagement works, why subscribers behave the way they do, and the signals mailbox providers use to evaluate sender reputation.',
+    category: 'Email Marketing',
+    image: 'email-ad',
+    author: 'Keymara Team',
+    date: 'December 13, 2025',
+    quote: 'Engagement is not a single metric, but a pattern of behavior that signals value and trust to mailbox providers.',
+    takeaways: ['Engagement is a pattern.', 'Relevance drives clicks.', 'Consistency builds trust.'],
+    glossary: 'Engagement Rate: A measure of how actively involved with your content your audience is. It includes opens, clicks, replies, and forwards.',
+    facts: ['Personalized subject lines can increase open rates by 26%.', 'Emails with a single, clear call-to-action can increase clicks by over 300%.'],
+    summary: 'Email engagement is driven by user psychology, behavior patterns, timing, relevance, and trust. Understanding these factors is key to improving deliverability and campaign performance.',
+    insight: 'Users find that segmenting their audience based on past engagement is the most effective way to improve open and click-through rates.',
+    keyTip1: 'Engagement is not one metric—it is a pattern. Mailbox algorithms evaluate your behavior over time, not just a single campaign.',
+    keyTip2: 'Engagement grows when your emails help subscribers achieve small wins. Practical value beats promotional messaging every time.',
+    keyTip3: 'Engagement improves when each email has one purpose, one message, and one clear takeaway. Simplicity always wins.',
+    recommendation: 'Focus on clarity, usefulness, and consistent communication. Strong engagement forms when subscribers trust that every email you send will help, inform, or guide them.',
+  },
+  {
     slug: 'email-list-building-fundamentals',
     title: 'Email List Building Fundamentals Every Marketer Should Understand',
     description: 'A complete educational guide explaining how email lists are built, how permission-based growth works, why quality matters more than quantity, and the core fundamentals every marketer must understand.',
