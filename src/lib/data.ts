@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'whatsapp-messaging-explained',
+    title: 'WhatsApp Messaging Explained: Opt-In Rules, Subscriber Behavior, and Message Types',
+    description: 'A complete educational breakdown of WhatsApp messaging, including opt-in rules, subscriber behavior patterns, allowed message types, and how to communicate responsibly across multi-channel systems.',
+    category: 'WhatsApp & Multi-Channel',
+    image: 'whatsapp-ad',
+    author: 'Keymara Team',
+    date: 'January 5, 2026',
+    quote: 'WhatsApp only works when subscribers clearly know what they are opting into. Permission is the foundation of every message.',
+    takeaways: ['Permission is everything.', 'Respect the channel\'s purpose.', 'Keep messages short and clear.'],
+    glossary: 'WhatsApp Opt-In: Explicit consent given by a user to receive messages from a business on WhatsApp, which is a strict requirement by the platform.',
+    facts: ['WhatsApp has over 2 billion monthly active users worldwide.', 'Messages sent via WhatsApp Business API have open rates as high as 98%.'],
+    summary: 'This guide explains the rules and best practices for using WhatsApp for business messaging, including opt-in requirements, message types, and responsible communication strategies.',
+    insight: 'Users report that using WhatsApp for transactional messages like order confirmations and delivery updates has significantly improved customer satisfaction and reduced support queries.',
+    keyTip1: 'WhatsApp only works when subscribers clearly know what they are opting into. Permission is the foundation of every message.',
+    keyTip2: 'If your message needs paragraphs, use email. If it needs urgency, use SMS. If it needs clarity and speed, use WhatsApp.',
+    keyTip3: 'WhatsApp works best when subscribers always know why you are messaging them.',
+    recommendation: 'Use WhatsApp for clarity and speed. Keep messages short, expectations transparent, and frequency low to maintain long-term trust.',
+  },
+  {
     slug: 'what-is-multichannel-messaging-explained',
     title: 'What Is Multi-Channel Messaging? A Clean Beginner-to-Advanced Breakdown',
     description: 'A complete educational breakdown explaining multi-channel messaging, how email, SMS, WhatsApp, and transactional messages work together, and how brands use them to deliver value without overwhelming subscribers.',
@@ -1117,6 +1136,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 
