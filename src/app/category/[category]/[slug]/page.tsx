@@ -49,6 +49,7 @@ import { WhatIsLeadGenerationArticle } from '@/components/articles/what-is-lead-
 import { HowToBuildHighQualityLeadMagnetsArticle } from '@/components/articles/how-to-build-high-quality-lead-magnets';
 import { LandingPagesThatConvertArticle } from '@/components/articles/landing-pages-that-convert-explained';
 import { HowToUseEmailToNurtureColdLeadsIntoEngagedSubscribersArticle } from '@/components/articles/how-to-use-email-to-nurture-cold-leads-into-engaged-subscribers';
+import { EthicalLeadGenerationArticle } from '@/components/articles/ethical-lead-generation';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -201,6 +202,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <LandingPagesThatConvertArticle />;
       case 'how-to-use-email-to-nurture-cold-leads-into-engaged-subscribers':
         return <HowToUseEmailToNurtureColdLeadsIntoEngagedSubscribersArticle />;
+      case 'ethical-lead-generation':
+        return <EthicalLeadGenerationArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

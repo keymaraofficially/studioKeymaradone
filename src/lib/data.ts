@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'ethical-lead-generation',
+    title: 'Ethical Lead Generation: What to Avoid, What to Follow, and How to Stay Compliant',
+    description: 'A complete educational guide explaining ethical lead generation, how to avoid harmful practices, what compliance requires, and how to attract the right audience without manipulation or shortcuts.',
+    category: 'Lead Generation',
+    image: 'lead-gen-ad',
+    author: 'Keymara Team',
+    date: 'December 30, 2025',
+    quote: 'Ethical lead generation is not just about compliance; it’s about building a foundation of trust with your audience.',
+    takeaways: ['Transparency is key.', 'Respect user consent.', 'Provide genuine value.'],
+    glossary: 'Ethical Lead Generation: The practice of attracting and converting individuals into leads through honest, transparent, and permission-based marketing strategies.',
+    facts: ['86% of consumers say transparency from businesses is more important than ever before.', 'Businesses that prioritize ethics are 63% more trusted by their customers.'],
+    summary: 'This guide explains that ethical lead generation, which focuses on transparency, consent, and genuine value, is crucial for building a high-quality, engaged email list and maintaining long-term trust.',
+    insight: 'Users find that ethical lead generation practices not only improve compliance and deliverability but also result in a more loyal and engaged subscriber base over time.',
+    keyTip1: 'Ethical lead generation attracts people who want your content—not people who signed up by mistake, pressure, or confusion.',
+    keyTip2: 'People trust what they understand. If your messaging is clear, ethical, and honest, they will join willingly—and stay longer.',
+    keyTip3: 'A lead generated ethically will engage naturally. A lead generated through pressure will disengage quickly.',
+    recommendation: 'Always choose clarity over cleverness. Ethical lead generation builds lists that stay active, engaged, and aligned with your educational purpose.',
+  },
+  {
     slug: 'how-to-use-email-to-nurture-cold-leads-into-engaged-subscribers',
     title: 'How to Use Email to Nurture Cold Leads into Engaged Subscribers',
     description: 'A complete educational guide explaining how to use email to nurture cold leads, build trust, improve engagement, and move subscribers from passive to active through structure, timing, and value-based communication.',
@@ -1060,6 +1079,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 
