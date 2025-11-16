@@ -19,6 +19,7 @@ import { BestEcommerceAutomationToolsBrevoVsKlaviyoVsActiveCampaignArticle } fro
 import { WhatIsBrevoArticle } from '@/components/articles/what-is-brevo';
 import { BrevoAutomationBuilderExplainedArticle } from '@/components/articles/brevo-automation-builder-explained';
 import { BrevoCrmExplainedArticle } from '@/components/articles/brevo-crm-explained';
+import { BrevoMultichannelMessagingExplainedArticle } from '@/components/articles/brevo-multichannel-messaging-explained';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -111,6 +112,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <BrevoAutomationBuilderExplainedArticle />;
       case 'brevo-crm-explained':
         return <BrevoCrmExplainedArticle />;
+      case 'brevo-multichannel-messaging-explained':
+        return <BrevoMultichannelMessagingExplainedArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

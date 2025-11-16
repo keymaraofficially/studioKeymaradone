@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'brevo-multichannel-messaging-explained',
+    title: 'Brevo Multi-Channel Messaging Explained: Email, SMS, WhatsApp, and Transactional Communication',
+    description: 'A complete educational guide to Brevo’s multi-channel messaging system. Learn how Brevo handles email, SMS, WhatsApp, and transactional messaging to create stronger customer journeys and smarter automation.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'November 28, 2025',
+    quote: 'The future of marketing is conversational. Meet your customers where they are.',
+    takeaways: ['Each channel has a purpose.', 'Combine channels for better journeys.', 'Automation connects everything.'],
+    glossary: 'Multi-channel Messaging: The practice of using multiple communication channels like email, SMS, and WhatsApp to engage with customers throughout their journey.',
+    facts: ['Businesses that use three or more channels in a campaign see a 287% higher purchase rate.', 'SMS messages have a 98% open rate, compared to about 20% for email.'],
+    summary: 'Brevo integrates email, SMS, WhatsApp, and transactional messaging into a single automation engine, allowing businesses to create seamless, multi-channel customer experiences without needing separate tools.',
+    insight: 'Users report that combining email with SMS for abandoned cart recovery has increased their recovery rates by over 30% compared to using email alone.',
+    keyTip1: 'Multi-channel messaging helps you reach customers where they respond fastest — not only where you prefer to send messages.',
+    keyTip2: 'Use email for content, SMS for urgency, WhatsApp for engagement, and transactional messages for trust. Each channel has a purpose.',
+    keyTip3: 'Multi-channel messaging works best when every channel has a purpose. Don’t send everything everywhere — use each channel strategically.',
+    recommendation: 'Use Brevo if you want email, SMS, WhatsApp, and transactional messaging in one workflow that helps customers receive the right message on the right channel at the right time.',
+  },
+  {
     slug: 'brevo-crm-explained',
     title: 'Brevo CRM Explained: Deals, Pipelines, and Contact Management',
     description: 'A complete beginner-friendly breakdown of Brevo CRM. Learn how deals, pipelines, contact management, tasks, scoring, and automation help you organize your sales and customer relationships.',
