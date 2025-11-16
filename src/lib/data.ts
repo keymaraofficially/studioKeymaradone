@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'brevo-pricing-explained',
+    title: 'Brevo Pricing Explained: Simple Plans, Clear Costs, and the Best Value Breakdown',
+    description: 'A complete guide to Brevo pricing. Understand every plan including Starter, Business, BrevoPlus, SMS, WhatsApp, and transactional email costs. Learn which plan fits your business and how to save money while scaling.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'November 29, 2025',
+    quote: 'The best pricing model is the one you don\'t have to think about.',
+    takeaways: ['Unlimited contacts on all plans.', 'Pricing is based on email volume.', 'Business plan offers the best value.'],
+    glossary: 'Email Volume: The total number of emails you send in a given period, which is how Brevo calculates pricing, unlike subscriber-based models.',
+    facts: ['Brevo is often cited as up to 3x cheaper than Mailchimp for similar features.', 'Unlimited contacts can save growing businesses hundreds of dollars per month.'],
+    summary: 'Brevo\'s pricing is simple and predictable, based on email volume, not contacts. This makes it an affordable and scalable solution for businesses of all sizes, with the Business plan offering the most comprehensive features for growth.',
+    insight: 'Users appreciate that they can grow their audience without fear of sudden price hikes, which is a common pain point with other platforms.',
+    keyTip1: 'Brevo doesn’t charge for contacts — meaning you can grow your list without paying more. You only pay for emails sent and features used.',
+    keyTip2: 'Most businesses only need the Business Plan. It unlocks automation, CRM, and multi-channel features that give the highest ROI.',
+    keyTip3: 'Start with the plan that fits your current needs — not your ideal future strategy. Upgrade only when your email volume demands it.',
+    recommendation: 'Choose the Business Plan for the best price-to-feature balance. You get automation, CRM, multi-channel tools, segmentation, and A/B testing — making it ideal for real growth.',
+  },
+  {
     slug: 'brevo-multichannel-messaging-explained',
     title: 'Brevo Multi-Channel Messaging Explained: Email, SMS, WhatsApp, and Transactional Communication',
     description: 'A complete educational guide to Brevo’s multi-channel messaging system. Learn how Brevo handles email, SMS, WhatsApp, and transactional messaging to create stronger customer journeys and smarter automation.',

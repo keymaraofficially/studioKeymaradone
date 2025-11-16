@@ -20,6 +20,7 @@ import { WhatIsBrevoArticle } from '@/components/articles/what-is-brevo';
 import { BrevoAutomationBuilderExplainedArticle } from '@/components/articles/brevo-automation-builder-explained';
 import { BrevoCrmExplainedArticle } from '@/components/articles/brevo-crm-explained';
 import { BrevoMultichannelMessagingExplainedArticle } from '@/components/articles/brevo-multichannel-messaging-explained';
+import { BrevoPricingExplainedArticle } from '@/components/articles/brevo-pricing-explained';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -114,6 +115,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <BrevoCrmExplainedArticle />;
       case 'brevo-multichannel-messaging-explained':
         return <BrevoMultichannelMessagingExplainedArticle />;
+      case 'brevo-pricing-explained':
+        return <BrevoPricingExplainedArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
