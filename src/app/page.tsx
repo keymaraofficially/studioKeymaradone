@@ -53,7 +53,7 @@ export default function Home() {
             ))}
           </div>
           <Button asChild size="lg" className="mt-10">
-            <Link href="/ai-tool">
+            <Link href="/tools-hub">
               Explore Keymara Tools
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
