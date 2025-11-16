@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'activecampaign-workflows-explained',
+    title: 'ActiveCampaign Workflows & Advanced Segmentation Explained',
+    description: 'A deep educational guide to ActiveCampaign workflows, automation logic, conditions, goals, tagging, and advanced segmentation. Learn how to build data-driven customer journeys that scale with your business.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'December 7, 2025',
+    quote: 'The strongest automation combines data, timing, and personalization.',
+    takeaways: ['Treat workflows as systems.', 'Combine tags, behavior, and scoring.', 'Build your tag system first.'],
+    glossary: 'Workflow: A sequence of automated actions in ActiveCampaign that can include emails, CRM updates, and behavioral conditions.',
+    facts: ['ActiveCampaign users report an average 3x ROI from using automation.', 'Advanced segmentation can lift revenue by as much as 760%.'],
+    summary: 'ActiveCampaign provides one of the most powerful workflow and segmentation engines for serious marketers who want precision, behavior-based logic, and CRM-connected customer journeys.',
+    insight: 'Users find that the "Goals" feature is a key differentiator, allowing for highly efficient workflows that adapt to customer actions in real-time, preventing redundant messaging.',
+    keyTip1: 'Treat ActiveCampaign workflows as “systems,” not individual sequences. The more your tags, fields, scoring, and triggers align, the stronger your automation becomes.',
+    keyTip2: 'The strongest segments combine tags + behavior + scoring. This gives you marketing that feels intelligent and personal.',
+    keyTip3: 'Build your tag system first. A clean tagging strategy makes every workflow and segmentation rule stronger, smarter, and easier to maintain.',
+    recommendation: 'Use ActiveCampaign if you want automation that reacts to behavior, segmentation that adapts to user data, and CRM workflows that scale with your business. This tool is built for serious marketers.',
+  },
+  {
     slug: 'what-is-activecampaign',
     title: 'ActiveCampaign Overview: CRM, Email Marketing, and Automation Power Explained',
     description: 'A full beginner-to-pro overview of ActiveCampaign. Learn how its CRM, advanced automation, segmentation, email marketing, predictive actions, and pricing work for growing businesses and marketing teams.',

@@ -27,6 +27,7 @@ import { WhatIsMailerliteArticle } from '@/components/articles/what-is-mailerlit
 import { MailerliteAutomationBuilderExplainedArticle } from '@/components/articles/mailerlite-automation-builder-explained';
 import { WhatIsGetResponseArticle } from '@/components/articles/what-is-getresponse';
 import { WhatIsActiveCampaignArticle } from '@/components/articles/what-is-activecampaign';
+import { ActiveCampaignWorkflowsExplainedArticle } from '@/components/articles/activecampaign-workflows-explained';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -135,6 +136,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <WhatIsGetResponseArticle />;
       case 'what-is-activecampaign':
         return <WhatIsActiveCampaignArticle />;
+      case 'activecampaign-workflows-explained':
+        return <ActiveCampaignWorkflowsExplainedArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
