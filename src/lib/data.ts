@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'what-is-convertkit',
+    title: 'ConvertKit Overview: Simple, Creator-Focused Email Marketing',
+    description: 'A deep beginner-friendly overview of ConvertKit. Learn how ConvertKit’s email tools, automation, creator features, visual sequences, tagging, and pricing help creators grow and monetize their audience.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'December 8, 2025',
+    quote: 'The best marketing is created for humans. It’s not for a list, an audience, or a segment. It’s for a person.',
+    takeaways: ['Simplicity over complexity', 'Audience connection is key', 'Monetize your passion'],
+    glossary: 'Sequence: A series of automated emails sent to a subscriber over a period of time, often used for email courses or onboarding.',
+    facts: ['ConvertKit is used by over 400,000 creators.', 'Creators on ConvertKit have sold over $1 billion in digital products and services.'],
+    summary: 'ConvertKit is a creator-focused email platform built for simplicity and audience growth, offering clear workflows, clean tagging, and built-in tools for selling digital products.',
+    insight: 'Users love ConvertKit\'s minimal editor because it encourages them to focus on writing and storytelling, rather than getting caught up in complex design elements.',
+    keyTip1: 'ConvertKit is built for creators who send consistent, value-driven emails. If you want simplicity, speed, and relationship-focused communication, ConvertKit is ideal.',
+    keyTip2: 'ConvertKit becomes powerful when you combine sequences + tagging + automations. This creates personalized journeys without needing complex workflows.',
+    keyTip3: 'Start with one sequence and one lead magnet. ConvertKit becomes extremely effective when your audience enters a simple but well-structured journey.',
+    recommendation: "Choose ConvertKit if you're a creator who wants clean writing tools, simple automation, and a platform that supports newsletters, digital product sales, and audience growth without complexity.",
+  },
+  {
     slug: 'activecampaign-workflows-explained',
     title: 'ActiveCampaign Workflows & Advanced Segmentation Explained',
     description: 'A deep educational guide to ActiveCampaign workflows, automation logic, conditions, goals, tagging, and advanced segmentation. Learn how to build data-driven customer journeys that scale with your business.',
