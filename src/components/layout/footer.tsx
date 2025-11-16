@@ -37,10 +37,8 @@ export function Footer() {
     const emailInputRef = useRef<HTMLInputElement>(null);
 
     useEffect(() => {
-        if (typeof window !== 'undefined') {
-            if (!localStorage.getItem('km_cookie_choice')) {
-                setShowCookieBanner(true);
-            }
+        if (typeof window !== 'undefined' && !localStorage.getItem('km_cookie_choice')) {
+            setShowCookieBanner(true);
         }
     }, []);
 
