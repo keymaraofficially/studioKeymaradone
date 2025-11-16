@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'how-to-use-email-to-nurture-cold-leads-into-engaged-subscribers',
+    title: 'How to Use Email to Nurture Cold Leads into Engaged Subscribers',
+    description: 'A complete educational guide explaining how to use email to nurture cold leads, build trust, improve engagement, and move subscribers from passive to active through structure, timing, and value-based communication.',
+    category: 'Lead Generation',
+    image: 'lead-gen-ad',
+    author: 'Keymara Team',
+    date: 'December 29, 2025',
+    quote: 'Cold leads are not uninterested—they are simply unfamiliar. Your job is to guide them from curiosity to engagement.',
+    takeaways: ['Nurturing builds trust.', 'Structure is key.', 'Value over volume.'],
+    glossary: 'Lead Nurturing: The process of developing and reinforcing relationships with buyers at every stage of the sales funnel.',
+    facts: ['Nurtured leads make 47% larger purchases than non-nurtured leads.', '74% of companies say converting leads into customers is their top priority.'],
+    summary: 'This guide explains how to use email to nurture cold leads into engaged subscribers by providing structured, value-based communication that builds trust and familiarity over time.',
+    insight: 'Users find that a slow, value-driven nurturing sequence is more effective for long-term engagement than a fast, aggressive one.',
+    keyTip1: 'Cold leads warm up when you remove friction, not when you increase pressure.',
+    keyTip2: 'Never overwhelm cold leads. Slow, steady value is more effective than heavy content early.',
+    keyTip3: 'A nurturing sequence is strongest when the subscriber can predict value before opening your email.',
+    recommendation: 'Design your nurturing sequence around clarity, not cleverness. The more predictable your value delivery is, the faster cold leads warm into engaged subscribers.',
+  },
+  {
     slug: 'landing-pages-that-convert-explained',
     title: 'Landing Pages That Convert: Structure, Clarity, and User Behavior Explained',
     description: 'A complete educational breakdown explaining how high-converting landing pages work, how clarity influences user behavior, and how to create structured, trustworthy, and reader-friendly landing experiences.',
@@ -1041,6 +1060,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 
