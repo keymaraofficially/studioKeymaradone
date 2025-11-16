@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'how-sms-works-in-multi-channel-marketing',
+    title: 'How SMS Works in Multi-Channel Marketing (Timing, Tone, and Best Practices)',
+    description: 'A complete educational breakdown explaining how SMS works inside multi-channel marketing, including timing psychology, message tone, restrictions, and responsible best practices.',
+    category: 'WhatsApp & Multi-Channel',
+    image: 'whatsapp-ad',
+    author: 'Keymara Team',
+    date: 'January 6, 2026',
+    quote: 'SMS succeeds when it is rare, short, and meaningful. Overuse destroys trust instantly.',
+    takeaways: ['SMS is for urgency.', 'Timing is critical.', 'Keep it short and clear.'],
+    glossary: 'SMS Marketing: A marketing channel that uses text messages to send promotional or transactional messages to customers.',
+    facts: ['SMS messages have a 98% open rate, compared to 20% for email.', '75% of consumers are comfortable receiving SMS messages from brands (as long as they opted in).'],
+    summary: 'This guide explains how to use SMS effectively in a multi-channel marketing strategy by focusing on timing, tone, and best practices to ensure messages are clear, compliant, and valuable.',
+    insight: 'Users report that the highest ROI from SMS comes from time-sensitive alerts and reminders, not from general marketing promotions.',
+    keyTip1: 'SMS succeeds when it is rare, short, and meaningful. Overuse destroys trust instantly.',
+    keyTip2: 'The more urgent your message, the shorter your SMS should be. Length reduces urgency.',
+    keyTip3: 'If the subscriber would not consider the message urgent, it does not belong in SMS.',
+    recommendation: 'Use SMS only when timing is critical. A single well-timed SMS delivers more value than multiple unnecessary reminders.',
+  },
+  {
     slug: 'whatsapp-messaging-explained',
     title: 'WhatsApp Messaging Explained: Opt-In Rules, Subscriber Behavior, and Message Types',
     description: 'A complete educational breakdown of WhatsApp messaging, including opt-in rules, subscriber behavior patterns, allowed message types, and how to communicate responsibly across multi-channel systems.',
@@ -1136,6 +1155,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 

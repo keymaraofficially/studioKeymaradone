@@ -53,6 +53,7 @@ import { EthicalLeadGenerationArticle } from '@/components/articles/ethical-lead
 import { LeadScoringExplainedArticle } from '@/components/articles/lead-scoring-explained';
 import { WhatIsMultiChannelMessagingExplainedArticle } from '@/components/articles/what-is-multichannel-messaging-explained';
 import { WhatsAppMessagingExplainedArticle } from '@/components/articles/whatsapp-messaging-explained';
+import { HowSmsWorksInMultiChannelMarketingArticle } from '@/components/articles/how-sms-works-in-multi-channel-marketing';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -213,6 +214,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <WhatIsMultiChannelMessagingExplainedArticle />;
       case 'whatsapp-messaging-explained':
         return <WhatsAppMessagingExplainedArticle />;
+      case 'how-sms-works-in-multi-channel-marketing':
+        return <HowSmsWorksInMultiChannelMarketingArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
