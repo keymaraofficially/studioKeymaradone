@@ -55,6 +55,7 @@ import { WhatIsMultiChannelMessagingExplainedArticle } from '@/components/articl
 import { WhatsAppMessagingExplainedArticle } from '@/components/articles/whatsapp-messaging-explained';
 import { HowSmsWorksInMultiChannelMarketingArticle } from '@/components/articles/how-sms-works-in-multi-channel-marketing';
 import { UnifiedMultichannelStrategyArticle } from '@/components/articles/unified-multichannel-strategy';
+import { TransactionalMessagingExplainedArticle } from '@/components/articles/transactional-messaging-explained';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -219,6 +220,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <HowSmsWorksInMultiChannelMarketingArticle />;
       case 'unified-multichannel-strategy':
         return <UnifiedMultichannelStrategyArticle />;
+      case 'transactional-messaging-explained':
+        return <TransactionalMessagingExplainedArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

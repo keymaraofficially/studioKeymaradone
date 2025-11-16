@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'transactional-messaging-explained',
+    title: 'Transactional Messaging Explained (Order Updates, Alerts, OTPs, and Reliability)',
+    description: 'A complete educational breakdown explaining transactional messaging, how order updates and OTPs work, why reliability matters, and how messaging systems deliver essential alerts across channels.',
+    category: 'WhatsApp & Multi-Channel',
+    image: 'whatsapp-ad',
+    author: 'Keymara Team',
+    date: 'January 8, 2026',
+    quote: 'Transactional messages must be instant, accurate, and consistent. Speed is helpful, but reliability is mandatory.',
+    takeaways: ['Reliability is key.', 'Accuracy builds trust.', 'Speed matters for OTPs.'],
+    glossary: 'Transactional Messaging: Automated, non-promotional messages triggered by a user action or system event, such as order confirmations, password resets, and shipping updates.',
+    facts: ['Transactional emails have 8x more opens and clicks than any other type of email.', '64% of consumers consider transactional emails to be the most valuable messages they receive.'],
+    summary: 'This guide explains how transactional messaging works, focusing on reliability, accuracy, and speed for essential communications like order updates, OTPs, and system alerts.',
+    insight: 'Users report that prioritizing the reliability and speed of transactional messages has significantly reduced customer support tickets and improved overall user trust.',
+    keyTip1: 'Transactional messages must be instant, accurate, and consistent. Speed is helpful, but reliability is mandatory.',
+    keyTip2: 'OTPs and security alerts should always go through the channel with the fastest, most reliable delivery—not the most convenient for the sender.',
+    keyTip3: 'Reliability matters more than creativity. Transactional messages must deliver certainty, not style.',
+    recommendation: 'Treat transactional messaging as the most important communication layer. Everything must be simple, neutral, and delivered without delay.',
+  },
+  {
     slug: 'unified-multichannel-strategy',
     title: 'Email + SMS + WhatsApp: How to Build a Unified, Non-Overlapping Multi-Channel Strategy',
     description: 'A complete educational guide showing how email, SMS, and WhatsApp work together in a unified multi-channel strategy without message overlap or subscriber fatigue.',
