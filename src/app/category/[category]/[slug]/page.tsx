@@ -35,6 +35,7 @@ import { EmailListBuildingFundamentalsArticle } from '@/components/articles/emai
 import { TheScienceOfEmailEngagementArticle } from '@/components/articles/the-science-of-email-engagement';
 import { WhyCleanListManagementProtectsYourDeliverabilityArticle } from '@/components/articles/why-clean-list-management-protects-your-deliverability';
 import { WhatAreEmailAutomationsArticle } from '@/components/articles/what-are-email-automations';
+import { HowTriggerBasedAutomationsWorkArticle } from '@/components/articles/how-trigger-based-automations-work';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -159,6 +160,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <WhyCleanListManagementProtectsYourDeliverabilityArticle />;
       case 'what-are-email-automations':
         return <WhatAreEmailAutomationsArticle />;
+      case 'how-trigger-based-automations-work':
+        return <HowTriggerBasedAutomationsWorkArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

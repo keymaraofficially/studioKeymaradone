@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'how-trigger-based-automations-work',
+    title: 'How Trigger-Based Automations Actually Work (Events, Signals, and Timing Explained)',
+    description: 'A clear educational breakdown of how trigger-based email automations work, how events activate workflows, how timing rules function, and how behavior signals shape automated journeys.',
+    category: 'Automation & Workflows',
+    image: 'automation-ad',
+    author: 'Keymara Team',
+    date: 'December 16, 2025',
+    quote: 'A trigger is not just an event—it is a signal that starts a logical chain. The quality of your trigger determines the quality of your entire automation.',
+    takeaways: ['Triggers start workflows.', 'Behavioral signals improve relevance.', 'Timing is everything.'],
+    glossary: 'Trigger: An event or condition that initiates an automated workflow in an email marketing platform.',
+    facts: ['Triggered emails have open rates up to 95%, which is significantly higher than traditional emails.', 'Automations based on behavioral triggers can increase conversion rates by up to 50%.'],
+    summary: 'Trigger-based automations are the foundation of modern email workflows, activating when a subscriber performs a specific action. They ensure timely, relevant communication, which is essential for building high-performing automated journeys.',
+    insight: 'Users find that the most effective triggers are those tied to high-intent actions, such as viewing a pricing page or downloading a specific resource.',
+    keyTip1: 'A trigger is not just an event—it is a signal that starts a logical chain. The quality of your trigger determines the quality of your entire automation.',
+    keyTip2: 'The best automations activate only when the subscriber shows clear interest. Never force a workflow to run without a meaningful trigger.',
+    keyTip3: 'The cleaner your triggers, the cleaner your entire automation system. Always refine logic before adding complexity.',
+    recommendation: 'Start with simple, clear triggers: new subscriber joins, user clicks, or user downloads. Build complexity only when your workflow logic is stable and your engagement patterns are strong.',
+  },
+  {
     slug: 'what-are-email-automations',
     title: 'What Are Email Automations? A Complete Beginner-to-Advanced Breakdown',
     description: 'A complete educational guide explaining what email automations are, how they work, why triggers matter, and how marketers use automated workflows to deliver timely, relevant communication.',
