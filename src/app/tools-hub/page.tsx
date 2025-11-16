@@ -111,13 +111,6 @@ export default function ToolsHubPage() {
                 </CardContent>
             </Card>
 
-            <Card className="mb-4 bg-white border-[#efe5c9]">
-                <CardHeader><CardTitle>Why this hub?</CardTitle></CardHeader>
-                <CardContent>
-                    <p className="text-gray-600">SEO-focused hub to centralize learning, improve internal linking, and speed up Brevo/partner approvals by clearly showing educational intent.</p>
-                </CardContent>
-            </Card>
-
              <Card className="bg-white border-[#efe5c9]">
                 <CardHeader><CardTitle>Subscribe for tool deep dives</CardTitle></CardHeader>
                 <CardContent>
