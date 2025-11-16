@@ -17,6 +17,7 @@ import { BestAllInOneForStartupsArticle } from '@/components/articles/best-all-i
 import { BrevoVsKlaviyoVsMailchimpArticle } from '@/components/articles/brevo-vs-klaviyo-vs-mailchimp';
 import { BestEcommerceAutomationToolsBrevoVsKlaviyoVsActiveCampaignArticle } from '@/components/articles/best-ecommerce-automation-tools-brevo-vs-klaviyo-vs-activecampaign';
 import { WhatIsBrevoArticle } from '@/components/articles/what-is-brevo';
+import { BrevoAutomationBuilderExplainedArticle } from '@/components/articles/brevo-automation-builder-explained';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -105,6 +106,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <BestEcommerceAutomationToolsBrevoVsKlaviyoVsActiveCampaignArticle />;
       case 'what-is-brevo':
         return <WhatIsBrevoArticle />;
+      case 'brevo-automation-builder-explained':
+        return <BrevoAutomationBuilderExplainedArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

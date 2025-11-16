@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'brevo-automation-builder-explained',
+    title: 'Brevo Automation Builder Explained: Workflows, Triggers, Journeys, and Smart Marketing Systems',
+    description: 'A complete, beginner-friendly guide to the Brevo Automation Builder. Learn how workflows, triggers, journeys, segmentation, and multi-channel automation work inside Brevo to grow your business faster.',
+    category: 'Automation & Workflows',
+    image: 'automation-ad',
+    author: 'Keymara Team',
+    date: 'November 26, 2025',
+    quote: 'Automation is the engine of modern marketing. Master it, and you master growth.',
+    takeaways: ['Automation replaces manual tasks.', 'Behavioral triggers are powerful.', 'Multi-channel journeys convert better.'],
+    glossary: 'Workflow: A sequence of automated actions triggered by a specific event or condition, designed to nurture leads or guide customers.',
+    facts: ['Automated welcome emails have an average open rate of 82%.', 'Businesses using automation see a 451% increase in qualified leads.'],
+    summary: 'The Brevo Automation Builder allows you to visually create multi-step, multi-channel customer journeys triggered by user behavior, CRM updates, or e-commerce events.',
+    insight: 'Users love that Brevo offers advanced automation features, typically found in enterprise tools, on its lower-priced plans, making it accessible for small businesses.',
+    keyTip1: 'If you master the automation builder, you can double your conversions without sending more campaigns. Automation replaces manual follow-ups, reminders, and repetitive tasks.',
+    keyTip2: 'Personalization is most powerful when it’s based on behavior, not just on names. Use site visits, link clicks, and purchase triggers for real results.',
+    keyTip3: 'Start small. Build one workflow. Improve it. Then expand. Automation works when it grows with you, not when you try to build everything on day one.',
+    recommendation: 'Use Brevo automation to build predictable revenue systems. Start with simple journeys, then add behavior-based branches, scoring, and CRM steps to scale your customer relationship system.',
+  },
+  {
     slug: 'what-is-brevo',
     title: 'What Is Brevo? Complete Breakdown of Features, Automation, and CRM Tools',
     description: 'A complete guide to Brevo’s email marketing, automation, CRM, segmentation, and multi-channel tools.',
