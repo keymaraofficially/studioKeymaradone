@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'brevo-crm-explained',
+    title: 'Brevo CRM Explained: Deals, Pipelines, and Contact Management',
+    description: 'A complete beginner-friendly breakdown of Brevo CRM. Learn how deals, pipelines, contact management, tasks, scoring, and automation help you organize your sales and customer relationships.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'November 27, 2025',
+    quote: 'Automation is to your time what compound interest is to your money.',
+    takeaways: ['CRM organizes leads.', 'Pipelines visualize sales.', 'Automation streamlines follow-ups.'],
+    glossary: 'CRM (Customer Relationship Management): A system for managing a company\'s relationships and interactions with customers and potential customers.',
+    facts: ['Using a CRM can increase sales by up to 29%.', '74% of users say their CRM system gave them improved access to customer data.'],
+    summary: 'Brevo CRM provides an integrated solution for managing deals, pipelines, and contacts, directly connected to its marketing automation platform, making it ideal for small to medium-sized businesses.',
+    insight: 'Users find that having CRM and automation in one platform simplifies workflows and eliminates the need for costly and complex integrations with third-party tools.',
+    keyTip1: 'Brevo’s CRM is most powerful when you connect it with automation. Deals, pipelines, and contact updates can run without manual work.',
+    keyTip2: 'Combine automation + CRM pipelines. This creates a self-running system where leads move through stages automatically.',
+    keyTip3: 'Your CRM becomes powerful when every contact has a next step. Build clear pipeline stages and automate transitions.',
+    recommendation: 'Use Brevo CRM if you want one system to manage contacts, automate follow-ups, track deals, and organize pipelines without learning a complex CRM.',
+  },
+  {
     slug: 'brevo-automation-builder-explained',
     title: 'Brevo Automation Builder Explained: Workflows, Triggers, Journeys, and Smart Marketing Systems',
     description: 'A complete, beginner-friendly guide to the Brevo Automation Builder. Learn how workflows, triggers, journeys, segmentation, and multi-channel automation work inside Brevo to grow your business faster.',
