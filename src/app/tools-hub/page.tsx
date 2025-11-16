@@ -81,6 +81,23 @@ export default function ToolsHubPage() {
 
         <aside className="relative">
           <div className="sticky top-6">
+            <Card className="mb-4 bg-[#fefcee] border-[#f3e8b3]">
+              <CardHeader>
+                  <CardTitle className="text-xl font-bold text-[#2b2b2b]">About This Learning Hub</CardTitle>
+              </CardHeader>
+              <CardContent>
+                  <p className="text-sm leading-relaxed text-gray-700">
+                      This hub organizes all educational resources related to email platforms, automation,
+                      CRM, and multi-channel messaging. Every guide is designed to help learners understand
+                      tools clearly without promotions or sales intent.
+                  </p>
+                  <p className="text-sm leading-relaxed text-gray-700 mt-2.5">
+                      Our goal is to simplify complex systems and provide step-by-step learning material
+                      for small businesses, creators, and beginners.
+                  </p>
+              </CardContent>
+            </Card>
+
             <Card className="mb-4 bg-white border-[#efe5c9]">
                 <CardHeader><CardTitle>Quick Links</CardTitle></CardHeader>
                 <CardContent>
