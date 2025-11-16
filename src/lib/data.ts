@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
     {
+    slug: 'how-to-build-high-quality-lead-magnets',
+    title: 'How to Build High-Quality Lead Magnets That Attract the Right Audience',
+    description: 'A complete educational breakdown explaining how to create high-quality lead magnets that attract aligned subscribers, deliver real value, and strengthen long-term email engagement without relying on promotional tactics.',
+    category: 'Lead Generation',
+    image: 'lead-gen-ad',
+    author: 'Keymara Team',
+    date: 'December 27, 2025',
+    quote: 'A lead magnet is only successful when the subscriber opens your next email with interest—not out of obligation.',
+    takeaways: ['Quality over quantity.', 'Relevance is key.', 'Provide immediate value.'],
+    glossary: 'Lead Magnet: An incentive offered to potential customers in exchange for their email address or other contact information, typically a piece of digital, downloadable content.',
+    facts: ['Lead magnets can increase conversion rates by up to 785% in some cases.', '50% of marketers who use lead magnets report higher conversion rates.'],
+    summary: 'This guide explains how to create ethical, high-value lead magnets that attract aligned subscribers, build trust, and drive long-term engagement by providing immediate, relevant value.',
+    insight: 'Users find that lead magnets focused on solving a single, specific problem for their niche audience generate the most loyal and engaged subscribers.',
+    keyTip1: 'A lead magnet succeeds only if it attracts people who will actually open, read, and engage with your future emails.',
+    keyTip2: 'Your lead magnet should be a preview of your long-term content—not a distraction from it.',
+    keyTip3: 'A lead magnet is only successful when the subscriber opens your next email with interest—not out of obligation.',
+    recommendation: 'Choose one problem your audience struggles with and solve it clearly in your lead magnet. Keep it simple, practical, and aligned with your long-term content.',
+    },
+    {
     slug: 'what-is-lead-generation',
     title: 'What Is Lead Generation? A Complete Beginner-to-Advanced Breakdown',
     description: 'A deeply educational guide explaining what lead generation really is, how it works, why quality matters more than volume, and how modern brands attract the right audience ethically and effectively.',
@@ -1003,6 +1022,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 
