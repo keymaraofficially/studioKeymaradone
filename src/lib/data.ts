@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'what-are-email-automations',
+    title: 'What Are Email Automations? A Complete Beginner-to-Advanced Breakdown',
+    description: 'A complete educational guide explaining what email automations are, how they work, why triggers matter, and how marketers use automated workflows to deliver timely, relevant communication.',
+    category: 'Automation & Workflows',
+    image: 'automation-ad',
+    author: 'Keymara Team',
+    date: 'December 15, 2025',
+    quote: 'Automation is not about sending more emails—it is about sending smarter emails that match user behavior and intent.',
+    takeaways: ['Automation saves time.', 'Triggers start the journey.', 'Workflows create structure.'],
+    glossary: 'Email Automation: A process of creating and sending emails to subscribers automatically based on predefined triggers, timing, or user behavior.',
+    facts: ['Automated emails generate 320% more revenue than non-automated emails.', 'Businesses that use marketing automation to nurture prospects experience a 451% increase in qualified leads.'],
+    summary: 'Email automations are pre-built workflows that send messages based on triggers, logic, and timing. They save time, improve engagement, and create predictable communication systems for modern email marketing.',
+    insight: 'Users report that simple, well-timed welcome sequences are the highest-impact automations for building long-term subscriber trust.',
+    keyTip1: 'Automation is not about sending more emails—it is about sending smarter emails that match user behavior and intent.',
+    keyTip2: 'Use simple conditions. Over-complicated workflows often confuse systems and reduce clarity.',
+    keyTip3: 'Automations become stronger when they stay simple. Clarity improves engagement, deliverability, and system accuracy.',
+    recommendation: 'Start with simple automations: a clear welcome sequence and a clean educational flow. Build complexity only when you understand your audience and workflow logic deeply.',
+  },
+  {
     slug: 'why-clean-list-management-protects-your-deliverability',
     title: 'Why Clean List Management Protects Your Deliverability',
     description: 'A complete educational guide explaining why clean list management is essential, how it protects your deliverability, and the signals mailbox providers use to evaluate your list quality.',
