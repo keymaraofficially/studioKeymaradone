@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'subscriber-behavior-analytics',
+    title: 'Subscriber Behavior Analytics: How to Read Engagement Patterns Properly',
+    description: 'A clear and deeply educational guide explaining how to understand subscriber behavior analytics, track engagement patterns, interpret signals, and build smarter email decisions using real behavioral data.',
+    category: 'Growth & Analytics',
+    image: 'analytics-ad',
+    author: 'Keymara Team',
+    date: 'December 22, 2025',
+    quote: 'Behavior analytics is not about chasing perfect engagement—it\'s about understanding how your audience naturally interacts with your content.',
+    takeaways: ['Focus on patterns.', 'Behavior tells the real story.', 'Inactivity is a signal.'],
+    glossary: 'Behavior Analytics: The method of using data about people\'s behavior to understand intent and predict future actions.',
+    facts: ['Tracking behavior can increase email engagement by up to 200%.', '75% of consumers are more likely to buy from a retailer that recognizes them by name and recommends options based on past purchases.'],
+    summary: 'This guide explains how to interpret subscriber behavior by analyzing engagement patterns in opens, clicks, timing, and read-time to make smarter marketing decisions.',
+    insight: 'Users find that creating segments based on click behavior, rather than just opens, leads to significantly more effective and targeted campaigns.',
+    keyTip1: 'Behavior analytics must focus on patterns, not snapshots. One email means nothing—your trends tell the real story.',
+    keyTip2: 'Inactivity is not failure—it is a pattern. Treat it as data, not punishment.',
+    keyTip3: 'Behavior analytics is not about chasing perfect engagement—it\'s about understanding how your audience naturally interacts with your content.',
+    recommendation: 'Track behavior across at least 4–6 emails before making decisions. Patterns develop over time, not in single messages.',
+  },
+  {
     slug: 'how-to-interpret-email-performance',
     title: 'How to Interpret Email Performance: What Good, Average, and Poor Metrics Actually Mean',
     description: 'A clear, educational breakdown explaining how to interpret email performance metrics properly, including what counts as good, average, and poor engagement across key signals like opens, clicks, CTR, CTOR, and behavior patterns.',
@@ -908,6 +927,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 
