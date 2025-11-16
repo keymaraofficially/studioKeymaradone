@@ -37,6 +37,7 @@ import { WhyCleanListManagementProtectsYourDeliverabilityArticle } from '@/compo
 import { WhatAreEmailAutomationsArticle } from '@/components/articles/what-are-email-automations';
 import { HowTriggerBasedAutomationsWorkArticle } from '@/components/articles/how-trigger-based-automations-work';
 import { BuildingAHighEngagementWelcomeFlowArticle } from '@/components/articles/building-a-high-engagement-welcome-flow';
+import { BehaviorBasedAutomationExplainedArticle } from '@/components/articles/behavior-based-automation-explained';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -165,6 +166,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <HowTriggerBasedAutomationsWorkArticle />;
       case 'building-a-high-engagement-welcome-flow':
         return <BuildingAHighEngagementWelcomeFlowArticle />;
+      case 'behavior-based-automation-explained':
+        return <BehaviorBasedAutomationExplainedArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'behavior-based-automation-explained',
+    title: 'Behavior-Based Automation: Clicks, Opens, and Page Visits Flow Explained',
+    description: 'A complete educational guide explaining how behavior-based email automation works, how clicks, opens, and page visits shape workflow paths, and how to build responsive, high-engagement journeys.',
+    category: 'Automation & Workflows',
+    image: 'automation-ad',
+    author: 'Keymara Team',
+    date: 'December 18, 2025',
+    quote: 'Behavior-based automation is the most advanced and accurate way to deliver relevant emails. Instead of guessing what subscribers want, behavior automations read their actions.',
+    takeaways: ['Actions speak louder than words.', 'Personalization improves engagement.', 'Timing is crucial for relevance.'],
+    glossary: 'Behavior-Based Automation: An automation strategy that triggers emails and other marketing actions based on a user\'s behavior, such as clicks, page visits, or purchase history.',
+    facts: ['Behaviorally-targeted emails can increase open rates by 50%.', 'Personalized email marketing generates a median ROI of 122%.'],
+    summary: 'Behavior-based automation uses subscriber actions like clicks, opens, and page visits to create responsive, personalized email journeys that adapt to individual interests and improve engagement.',
+    insight: 'Users find that segmenting based on link clicks is the most effective way to start with behavior-based automation, as it provides clear intent signals.',
+    keyTip1: 'Behavior-based automation works only when actions are meaningful. Choose signals that show real intent, not accidental engagement.',
+    keyTip2: 'Behavior automations fail when timing is too aggressive. Give subscribers time to act before triggering next steps.',
+    keyTip3: 'Behavior automation works best when pathways remain simple. Clarity keeps subscribers engaged and workflows stable.',
+    recommendation: 'Start simple: use click-based behavior first, then expand into page visits and advanced branching. Build complexity gradually as your engagement patterns become predictable.',
+  },
+  {
     slug: 'building-a-high-engagement-welcome-flow',
     title: 'Building a High-Engagement Welcome Flow (Structure, Timing, and Content Logic)',
     description: 'A deeply educational guide explaining how to build a high-engagement welcome flow, including structure, timing, behavior logic, and best practices for creating predictable email onboarding journeys.',
@@ -832,3 +851,4 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
