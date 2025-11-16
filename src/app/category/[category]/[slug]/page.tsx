@@ -25,6 +25,7 @@ import { WhatIsMailchimpArticle } from '@/components/articles/what-is-mailchimp'
 import { MailchimpAutomationExplainedArticle } from '@/components/articles/mailchimp-automation-explained';
 import { WhatIsMailerliteArticle } from '@/components/articles/what-is-mailerlite';
 import { MailerliteAutomationBuilderExplainedArticle } from '@/components/articles/mailerlite-automation-builder-explained';
+import { WhatIsGetResponseArticle } from '@/components/articles/what-is-getresponse';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -129,6 +130,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <WhatIsMailerliteArticle />;
       case 'mailerlite-automation-builder-explained':
         return <MailerliteAutomationBuilderExplainedArticle />;
+      case 'what-is-getresponse':
+        return <WhatIsGetResponseArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

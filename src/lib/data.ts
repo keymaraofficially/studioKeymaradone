@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'what-is-getresponse',
+    title: 'GetResponse Overview: Complete Marketing Suite for Growing Businesses',
+    description: 'A complete beginner-friendly overview of GetResponse. Learn how its email marketing, automation, funnels, ecommerce tools, AI features, and pricing work for small businesses and growing brands.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'December 4, 2025',
+    quote: 'The right tool connects every part of your marketing system.',
+    takeaways: ['Use funnels for guided journeys.', 'Automation saves time and boosts sales.', 'Webinars are great for engagement.'],
+    glossary: 'Conversion Funnel: A guided path that prospects travel through, from first contact to conversion, designed to move them step-by-step toward a purchase.',
+    facts: ['Businesses using funnels can see a 300% increase in lead-to-sale conversion rates.', 'Webinars can generate high-quality leads, with conversion rates up to 20%.'],
+    summary: 'GetResponse is an all-in-one marketing platform that combines email marketing with powerful automation, landing pages, conversion funnels, and webinars, making it ideal for businesses that want a fully integrated marketing suite.',
+    insight: 'Users highlight the Autofunnel feature as a game-changer, allowing them to build complete marketing campaigns, from traffic generation to sales, within a single tool.',
+    keyTip1: 'GetResponse is strongest when you use multiple tools together—emails, automation, funnels, and lead-generation pages all work as one connected system.',
+    keyTip2: 'GetResponse segmentation becomes powerful when you combine tags + behavior filters + lead scoring. This turns your list into a data-driven system.',
+    keyTip3: 'Start with one funnel—don’t try to build everything at once. GetResponse becomes extremely powerful when your campaigns connect into a single customer journey.',
+    recommendation: 'Choose GetResponse if your brand needs funnels, landing pages, automation, webinars, and ecommerce features in a single connected platform. It is ideal for growing businesses that want an all-in-one marketing suite.',
+  },
+  {
     slug: 'mailerlite-automation-builder-explained',
     title: 'MailerLite Automation Builder Explained: A Complete Step-by-Step Guide',
     description: 'A full guide to MailerLite automation. Learn how triggers, delays, conditions, segments, workflows, and email sequences work to build smart automated systems for small businesses.',
