@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'lifecycle-automation-explained',
+    title: 'Lifecycle Automation: New, Active, Silent, and Re-Engaged Subscriber Journeys Explained',
+    description: 'A complete educational guide explaining lifecycle automation, including new subscriber journeys, active reader flows, silent subscriber detection, and re-engagement automation logic.',
+    category: 'Automation & Workflows',
+    image: 'automation-ad',
+    author: 'Keymara Team',
+    date: 'December 19, 2025',
+    quote: 'Lifecycle automation is the backbone of long-term email performance. It treats each subscriber according to their behavior and engagement level, ensuring communication stays relevant, timed, and predictable.',
+    takeaways: ['Every stage has a purpose.', 'Behavior determines the stage.', 'Timing is everything.'],
+    glossary: 'Lifecycle Automation: The practice of automating marketing communications and actions based on where a customer is in their journey with your brand.',
+    facts: ['Lifecycle marketing can lead to a 30% increase in customer lifetime value.', 'Segmenting customers by their lifecycle stage can improve email open rates by 14%.'],
+    summary: 'Lifecycle automation is a system that adjusts communication based on a subscriber\'s engagement stage (New, Active, Silent, Re-Engaged). It ensures relevance, protects deliverability, and strengthens long-term engagement.',
+    insight: 'Users find that defining clear timing rules for each lifecycle stage is the most critical step for building a stable and effective automation system.',
+    keyTip1: 'Lifecycle automation works only when every stage has its own purpose. Clarity prevents overlap and keeps the system clean.',
+    keyTip2: 'Never upgrade a subscriber to “Active” unless engagement is consistent. One open is not enough.',
+    keyTip3: 'Lifecycle automation is not about more emails—it is about matching messaging with behavior and timing.',
+    recommendation: 'Start by defining clear timing rules for each stage. Once lifecycle paths are stable, expand into behavior-based branching to improve accuracy even further.',
+  },
+  {
     slug: 'behavior-based-automation-explained',
     title: 'Behavior-Based Automation: Clicks, Opens, and Page Visits Flow Explained',
     description: 'A complete educational guide explaining how behavior-based email automation works, how clicks, opens, and page visits shape workflow paths, and how to build responsive, high-engagement journeys.',
@@ -851,4 +870,5 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
