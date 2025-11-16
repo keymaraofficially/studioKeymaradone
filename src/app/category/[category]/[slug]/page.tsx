@@ -10,6 +10,7 @@ import { BrevoVsHubspotArticle } from '@/components/articles/brevo-vs-hubspot';
 import { GetResponseVsActiveCampaignVsBrevoArticle } from '@/components/articles/getresponse-vs-activecampaign-vs-brevo';
 import { ActiveCampaignVsHubspotVsBrevoArticle } from '@/components/articles/activecampaign-vs-hubspot-vs-brevo';
 import { MailerliteVsBrevoVsMailchimpArticle } from '@/components/articles/mailerlite-vs-brevo-vs-mailchimp';
+import { BestEmailToolForSmallBusinessesArticle } from '@/components/articles/best-email-tool-for-small-businesses';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -84,6 +85,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <ActiveCampaignVsHubspotVsBrevoArticle />;
       case 'mailerlite-vs-brevo-vs-mailchimp':
         return <MailerliteVsBrevoVsMailchimpArticle />;
+      case 'best-email-tool-for-small-businesses':
+        return <BestEmailToolForSmallBusinessesArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

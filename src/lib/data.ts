@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'best-email-tool-for-small-businesses',
+    title: 'Best Email Tool for Small Businesses: Brevo vs MailerLite vs ConvertKit',
+    description: 'A complete expert comparison of Brevo, MailerLite, and ConvertKit to help small businesses choose the best email marketing tool for automation, templates, pricing, CRM, and business growth.',
+    category: 'Tools Comparison',
+    image: 'comparison-ad',
+    author: 'Alex Morgan',
+    date: 'November 5, 2025',
+    quote: 'The best tool is not the one with the most features. It’s the one you can actually use consistently.',
+    takeaways: ['Simplicity beats complexity.', 'Automation saves time.', 'Affordability matters for scaling.'],
+    glossary: 'Creator Economy: A system where independent creators (writers, artists, educators) monetize their skills and content directly with their audience.',
+    facts: ['Small businesses with blogs get 126% more lead growth than small businesses without.', 'Email is 40x more effective at acquiring new customers than Facebook or Twitter.'],
+    summary: 'Brevo is best for businesses that want workflows and CRM. MailerLite is ideal for design-heavy newsletters. ConvertKit is perfect for creators and coaches.',
+    insight: 'For small businesses, the consensus is that affordability and ease of use are the most critical factors, making Brevo and MailerLite top contenders depending on the need for automation vs. design.',
+    keyTip1: 'For small businesses, the best tool is not the one with the most features. It’s the one you can actually use consistently.',
+    keyTip2: 'Don’t chase features you won’t use. As a small business, your real gains come from simple, consistent automation.',
+    keyTip3: 'Your success depends more on consistent messaging than advanced features. Choose the tool that keeps you consistent.',
+    recommendation: 'Pick Brevo for long-term automation, CRM power, and predictable pricing. Pick MailerLite if your main goal is beautiful, highly branded newsletters. Pick ConvertKit if you are a creator selling courses, ebooks, or digital experiences.',
+  },
+  {
     slug: 'mailerlite-vs-brevo-vs-mailchimp',
     title: 'MailerLite vs Brevo vs Mailchimp: Which Email Platform Offers the Best Value, Automation, and Marketing Power?',
     description: 'A complete expert comparison of MailerLite, Brevo, and Mailchimp. Discover which email marketing platform delivers the best templates, automation, pricing, segmentation, and long-term business value.',
