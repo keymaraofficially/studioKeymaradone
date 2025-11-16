@@ -4,6 +4,7 @@ import { BrevoVsMailchimpArticle } from '@/components/articles/brevo-vs-mailchim
 import { BrevoVsMailerliteArticle } from '@/components/articles/brevo-vs-mailerlite';
 import Link from 'next/link';
 import { YouMayLikeThis } from '@/components/articles/you-may-like-this';
+import { BrevoVsGetResponseArticle } from '@/components/articles/brevo-vs-getresponse';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -66,6 +67,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <BrevoVsMailchimpArticle />;
       case 'brevo-vs-mailerlite':
         return <BrevoVsMailerliteArticle />;
+      case 'brevo-vs-getresponse':
+        return <BrevoVsGetResponseArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
