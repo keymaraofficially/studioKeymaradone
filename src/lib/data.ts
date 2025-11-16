@@ -136,6 +136,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'what-is-crm-explained',
+    title: 'What Is CRM? A Clean, Beginner-to-Advanced Overview (Email Marketers Edition)',
+    description: 'A complete educational breakdown explaining CRM for email marketers, including contact management, pipelines, segmentation, automations, and why platforms like Brevo provide a clean, modern CRM experience.',
+    category: 'CRM & Integrations',
+    image: 'crm-ad',
+    author: 'Keymara Team',
+    date: 'January 10, 2026',
+    quote: 'A CRM is not just a contact list—it\'s a live, structured record of every action, event, and behavior that shapes long-term communication.',
+    takeaways: ['A CRM is not just a contact list.', 'Tags explain what a contact has done. Custom fields explain who the contact is.', 'A CRM grows stronger when you keep it simple, clean, and consistent.'],
+    glossary: 'CRM: A CRM is the central brain where all your subscriber data lives—contacts, behaviors, tags, deals, preferences, activities, and every action your audience takes.',
+    facts: ['Using a CRM can increase sales by up to 29%.', '74% of users say their CRM system gave them improved access to customer data.'],
+    summary: 'This guide explains CRM from the ground up so you can understand how it works, why it matters, and how to use it responsibly inside a multi-channel communication system.',
+    insight: 'Users find that having CRM and automation in one platform simplifies workflows and eliminates the need for costly and complex integrations with third-party tools.',
+    keyTip1: 'A CRM is not just a contact list—it\'s a live, structured record of every action, event, and behavior that shapes long-term communication.',
+    keyTip2: 'Tags explain what a contact has done. Custom fields explain who the contact is.',
+    keyTip3: 'A CRM grows stronger when you keep it simple, clean, and consistent.',
+    recommendation: 'Start with a simple CRM structure: clean tags, clear custom fields, and one pipeline. Add complexity only when the basics are stable.',
+  },
+  {
     slug: 'when-to-use-email-vs-sms-vs-whatsapp',
     title: 'When to Use Email vs SMS vs WhatsApp: A Smart Decision Framework',
     description: 'A complete educational breakdown explaining when to use email, SMS, or WhatsApp based on message purpose, timing, urgency, and subscriber behavior. A practical decision-making framework for clean multi-channel communication.',
@@ -1219,3 +1238,5 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
+    
