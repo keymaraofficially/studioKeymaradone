@@ -36,6 +36,7 @@ import { TheScienceOfEmailEngagementArticle } from '@/components/articles/the-sc
 import { WhyCleanListManagementProtectsYourDeliverabilityArticle } from '@/components/articles/why-clean-list-management-protects-your-deliverability';
 import { WhatAreEmailAutomationsArticle } from '@/components/articles/what-are-email-automations';
 import { HowTriggerBasedAutomationsWorkArticle } from '@/components/articles/how-trigger-based-automations-work';
+import { BuildingAHighEngagementWelcomeFlowArticle } from '@/components/articles/building-a-high-engagement-welcome-flow';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -162,6 +163,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <WhatAreEmailAutomationsArticle />;
       case 'how-trigger-based-automations-work':
         return <HowTriggerBasedAutomationsWorkArticle />;
+      case 'building-a-high-engagement-welcome-flow':
+        return <BuildingAHighEngagementWelcomeFlowArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'building-a-high-engagement-welcome-flow',
+    title: 'Building a High-Engagement Welcome Flow (Structure, Timing, and Content Logic)',
+    description: 'A deeply educational guide explaining how to build a high-engagement welcome flow, including structure, timing, behavior logic, and best practices for creating predictable email onboarding journeys.',
+    category: 'Automation & Workflows',
+    image: 'automation-ad',
+    author: 'Keymara Team',
+    date: 'December 17, 2025',
+    quote: 'A welcome flow is the most important automation in email marketing. It introduces new subscribers to your content, sets expectations, builds trust, and guides them through their first steps with your brand or newsletter.',
+    takeaways: ['Structure is key.', 'Timing matters.', 'Deliver value early.'],
+    glossary: 'Welcome Flow: An automated sequence of emails sent to new subscribers immediately after they join your list, designed to onboard and engage them.',
+    facts: ['Welcome emails have an average open rate of 82%.', 'Subscribers who receive a welcome email show 33% more long-term brand engagement.'],
+    summary: 'A high-engagement welcome flow is a critical automation that introduces new subscribers to your brand, sets expectations, and builds trust through a structured, well-timed sequence of emails.',
+    insight: 'Users find that a simple 3-4 email welcome sequence focused on orientation and value delivers the best long-term engagement results.',
+    keyTip1: 'A welcome flow must feel structured but simple. Overloading new subscribers with too much information reduces engagement from day one.',
+    keyTip2: 'Add behavior logic only after the basic flow works consistently. Over-complication weakens clarity for new subscribers.',
+    keyTip3: 'Consistency and clarity matter more than complexity. A simple, predictable welcome flow always outperforms a complicated one.',
+    recommendation: 'Start with a simple 3–4 email welcome flow that delivers clarity and helpful value. Expand it only after your engagement patterns become stable and predictable.',
+  },
+  {
     slug: 'how-trigger-based-automations-work',
     title: 'How Trigger-Based Automations Actually Work (Events, Signals, and Timing Explained)',
     description: 'A clear educational breakdown of how trigger-based email automations work, how events activate workflows, how timing rules function, and how behavior signals shape automated journeys.',
