@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'how-to-analyze-automation-performance',
+    title: 'How to Analyze Automation Performance: Flow Drop-Offs, Path Behavior, and Timing Accuracy',
+    description: 'A complete educational guide explaining how to analyze automation performance, understand flow drop-offs, evaluate behavior paths, and measure timing accuracy for stronger, more predictable email automation systems.',
+    category: 'Growth & Analytics',
+    image: 'analytics-ad',
+    author: 'Keymara Team',
+    date: 'December 24, 2025',
+    quote: 'A healthy automation is one that is analyzed regularly—not written once and left untouched.',
+    takeaways: ['Analyze drop-offs.', 'Evaluate path behavior.', 'Measure timing accuracy.'],
+    glossary: 'Automation Performance: The measurement of how effectively an automated workflow achieves its goals, analyzed through metrics like engagement, drop-off rates, and path behavior.',
+    facts: ['Optimizing automation timing can improve open rates by 20%.', 'Automations with clear, single-purpose steps have a 50% higher completion rate.'],
+    summary: 'This guide explains how to analyze email automation performance by examining flow drop-offs, path behavior, and timing accuracy to build more effective and predictable systems.',
+    insight: 'Users find that monitoring step-by-step engagement is the most effective way to identify and fix weak points in their automation flows, leading to better overall performance.',
+    keyTip1: 'Strong automations don’t rely on creative design—they rely on clean logic, correct timing, and stable engagement patterns.',
+    keyTip2: 'When timing is wrong, even strong content performs poorly. Fix timing before rewriting messages.',
+    keyTip3: 'A strong automation is not fast—it is stable. Prioritize clarity and timing over complexity.',
+    recommendation: 'Review automation analytics every 30 days. If you see repeated drop-offs at the same step, fix timing first, then adjust content.',
+  },
+  {
     slug: 'deliverability-analytics-explained',
     title: 'Deliverability Analytics Explained: Signals Mailbox Providers Use to Score Your Email Reputation',
     description: 'A complete educational breakdown of deliverability analytics, explaining how mailbox providers score sender reputation, analyze engagement signals, detect inboxing quality, and decide which emails reach the inbox, promotions, or spam.',
@@ -183,7 +202,7 @@ export const latestInsights = [
     keyTip1: 'Never judge an email using only one metric. Performance becomes accurate only when signals are interpreted together.',
     keyTip2: 'Never ignore read time. It reveals the real depth of engagement that clicks and opens cannot show.',
     keyTip3: 'Good email performance is never about big numbers—it is about consistent, predictable engagement from the right audience.',
-    recommendation: 'Judge performance using CTR, CTOR, clicks, and read time together. Use open rate only as a supporting indicator, not the main evaluation metric.',
+    recommendation: 'Judge performance using CTR, CTOR, clicks, and read time together. Use open rate only as a supporting indicator, not a performance benchmark.',
   },
   {
     slug: 'understanding-email-metrics',
@@ -946,6 +965,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 

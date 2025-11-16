@@ -43,6 +43,7 @@ import { UnderstandingEmailMetricsArticle } from '@/components/articles/understa
 import { HowToInterpretEmailPerformanceArticle } from '@/components/articles/how-to-interpret-email-performance';
 import { SubscriberBehaviorAnalyticsArticle } from '@/components/articles/subscriber-behavior-analytics';
 import { DeliverabilityAnalyticsExplainedArticle } from '@/components/articles/deliverability-analytics-explained';
+import { HowToAnalyzeAutomationPerformanceArticle } from '@/components/articles/how-to-analyze-automation-performance';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -183,6 +184,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <SubscriberBehaviorAnalyticsArticle />;
       case 'deliverability-analytics-explained':
         return <DeliverabilityAnalyticsExplainedArticle />;
+      case 'how-to-analyze-automation-performance':
+        return <HowToAnalyzeAutomationPerformanceArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
