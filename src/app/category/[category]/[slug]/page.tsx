@@ -22,6 +22,7 @@ import { BrevoCrmExplainedArticle } from '@/components/articles/brevo-crm-explai
 import { BrevoMultichannelMessagingExplainedArticle } from '@/components/articles/brevo-multichannel-messaging-explained';
 import { BrevoPricingExplainedArticle } from '@/components/articles/brevo-pricing-explained';
 import { WhatIsMailchimpArticle } from '@/components/articles/what-is-mailchimp';
+import { MailchimpAutomationExplainedArticle } from '@/components/articles/mailchimp-automation-explained';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -120,6 +121,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <BrevoPricingExplainedArticle />;
       case 'what-is-mailchimp':
         return <WhatIsMailchimpArticle />;
+      case 'mailchimp-automation-explained':
+        return <MailchimpAutomationExplainedArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

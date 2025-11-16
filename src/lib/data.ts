@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'mailchimp-automation-explained',
+    title: 'Mailchimp Automation, Journeys, and Customer Paths Explained',
+    description: 'A complete breakdown of how Mailchimp automation, customer journeys, branching paths, triggers, conditions, and behavioral workflows work. Learn how to build smarter campaigns, improve engagement, and automate business communication.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'December 1, 2025',
+    quote: 'The best automation systems grow in layers, not all at once.',
+    takeaways: ['Organize your audience with tags.', 'Combine email activity with tags.', 'Start simple and expand.'],
+    glossary: 'Customer Journey: A visual automation builder in Mailchimp that allows you to create automated workflows with triggers, actions, and conditions.',
+    facts: ['Automated emails can lead to a 70.5% higher open rate.', 'Mailchimp is used by millions of businesses worldwide.'],
+    summary: 'Mailchimp\'s automation is a visual, beginner-friendly tool for creating customer journeys. It is ideal for welcome series, abandoned cart reminders, and simple lead nurturing, making it a great choice for small businesses and creators.',
+    insight: 'Users find the visual journey builder in Mailchimp to be one of the most intuitive ways to get started with email automation, even without prior experience.',
+    keyTip1: 'Mailchimp automation works best when your audience is organized using tags, groups, and segments. Clean data makes customer journeys far more effective.',
+    keyTip2: 'Mailchimp automation is strongest when you combine email activity + tags. Tags make your journeys more accurate and personalized.',
+    keyTip3: 'Start with one journey — master it — then expand. The most effective automation systems grow in layers, not all at once.',
+    recommendation: 'Choose Mailchimp automation if you prefer a clean visual builder and simple logic. For deep automation, consider platforms built for advanced workflows — but for most small businesses, Mailchimp journeys are more than enough.',
+  },
+  {
     slug: 'what-is-mailchimp',
     title: 'What Is Mailchimp? Complete Breakdown for Beginners',
     description: 'A deep beginner-friendly guide to Mailchimp. Learn how Mailchimp’s email builder, automation tools, customer journeys, segmentation, analytics, and pricing work for businesses of all sizes.',
