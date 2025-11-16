@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'understanding-email-deliverability',
+    title: 'Understanding Email Deliverability: The Factors That Actually Matter',
+    description: 'A deep educational guide explaining how email deliverability works, what affects inbox placement, and the most important factors you must manage to maintain a healthy sender reputation.',
+    category: 'Email Marketing',
+    image: 'email-ad',
+    author: 'Keymara Team',
+    date: 'December 11, 2025',
+    quote: 'Deliverability is the foundation of email marketing success.',
+    takeaways: ['Authentication is non-negotiable.', 'Engagement is your best friend.', 'List hygiene is critical.'],
+    glossary: 'Sender Reputation: A score that an Internet Service Provider (ISP) assigns to an organization that sends email. It’s a crucial component in determining email deliverability.',
+    facts: ['Approximately 20% of all emails never reach the intended inbox.', 'A high number of spam complaints is the fastest way to damage your sender reputation.'],
+    summary: 'Email deliverability is your ability to reach the inbox. It is influenced by sender reputation, domain authentication, engagement, list hygiene, content, and more. Understanding these factors is key to successful email marketing.',
+    insight: 'Users who actively manage their sender reputation by monitoring engagement and cleaning their lists see a significant improvement in inbox placement over time.',
+    keyTip1: 'Deliverability is not about sending fewer emails—it\'s about sending clean, authenticated, permission-based emails to engaged subscribers.',
+    keyTip2: 'Engagement drops quickly when subscribers don’t remember opting in. Clear confirmation and consistent communication prevent this.',
+    keyTip3: 'If open rates drop suddenly, check your authentication, list health, and engagement segments immediately.',
+    recommendation: 'Focus on subscriber engagement, authentication, and clean list practices. These are the foundation of strong deliverability and long-term email performance.',
+  },
+  {
     slug: 'how-email-marketing-works',
     title: 'How Email Marketing Works: A Complete Beginner’s Breakdown',
     description: 'A fully educational, beginner-friendly guide explaining how email marketing works, including deliverability, segmentation, automations, content strategy, analytics, and best practices.',
