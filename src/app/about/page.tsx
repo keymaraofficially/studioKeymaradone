@@ -1,4 +1,41 @@
 import { Users } from 'lucide-react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
+const faqItems = [
+    {
+        question: "What is Keymara?",
+        answer: "Keymara is an educational platform focused on email marketing, automation, CRM, and multi-channel messaging. Our goal is to teach small businesses how modern marketing works."
+    },
+    {
+        question: "Do you sell or manage email marketing services?",
+        answer: "No. We do not sell campaigns, automation services, or email management. All content on Keymara is educational only."
+    },
+    {
+        question: "Why do you write about tools like Brevo, Mailchimp, or others?",
+        answer: "We cover popular email tools only for learning purposes — so readers understand how different features work and how to choose tools based on their real needs. We are not affiliated with these platforms."
+    },
+    {
+        question: "How often do you update your content?",
+        answer: "We regularly update our guides when major changes happen in automation, CRM, analytics, or email marketing tools to ensure accuracy and clarity."
+    },
+    {
+        question: "Is your content beginner-friendly?",
+        answer: "Yes. All articles are written in a step-by-step, easy-to-understand format so beginners and small business owners can learn without confusion."
+    },
+    {
+        question: "Do you collect any unnecessary user data?",
+        answer: "No. We only collect the email a user enters voluntarily to receive educational updates. Users can unsubscribe anytime. We never share or sell data."
+    },
+    {
+        question: "How can I contact the Keymara team?",
+        answer: "You can reach us anytime through our Contact page. We respond to all educational or feedback-related queries."
+    }
+];
 
 export default function AboutPage() {
   return (
@@ -13,7 +50,7 @@ export default function AboutPage() {
         </p>
       </div>
 
-      <div className="bg-card border rounded-lg p-8 space-y-6 text-center">
+      <div className="bg-card border rounded-lg p-8 space-y-6 text-center mb-16">
         <h2 className="text-2xl font-headline font-bold">Our Story</h2>
         <p className="text-muted-foreground">
           Keymara was founded with the belief that powerful marketing tools should be accessible to everyone, not just large corporations. Our platform is designed to be intuitive, intelligent, and effective, empowering you to create campaigns that deliver real value.
@@ -22,6 +59,25 @@ export default function AboutPage() {
           From automating customer journeys to providing data-driven insights, we're here to support your growth every step of the way.
         </p>
       </div>
+
+      <section className="py-16 bg-background">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-headline font-bold text-center mb-8">
+            Frequently Asked Questions
+          </h2>
+          <Accordion type="single" collapsible className="w-full">
+            {faqItems.map((item, index) => (
+              <AccordionItem value={`item-${index + 1}`} key={index}>
+                <AccordionTrigger className="text-lg font-semibold text-left">{item.question}</AccordionTrigger>
+                <AccordionContent className="text-base text-muted-foreground">
+                  {item.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+      </section>
+
     </div>
   );
 }
