@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'how-email-marketing-works',
+    title: 'How Email Marketing Works: A Complete Beginner’s Breakdown',
+    description: 'A fully educational, beginner-friendly guide explaining how email marketing works, including deliverability, segmentation, automations, content strategy, analytics, and best practices.',
+    category: 'Email Marketing',
+    image: 'email-ad',
+    author: 'Keymara Team',
+    date: 'December 10, 2025',
+    quote: 'The best marketing doesn’t feel like marketing.',
+    takeaways: ['Permission is everything.', 'Consistency builds trust.', 'Value over volume.'],
+    glossary: 'Deliverability: The measure of how many of your emails successfully reach the subscribers\' inboxes rather than their spam folders.',
+    facts: ['Email generates an average of $42 for every $1 spent.', 'Segmented campaigns can drive a 760% increase in revenue.'],
+    summary: 'Email marketing is a powerful channel for building direct relationships with your audience through strategic, value-driven communication. Understanding its core components like deliverability, segmentation, and automation is key to success.',
+    insight: 'Users find that cleaning their email list regularly not only improves deliverability but also provides a clearer picture of their most engaged audience members.',
+    keyTip1: 'Email marketing is not about sending more emails—it’s about sending the right message to the right person at the right time.',
+    keyTip2: 'Automations should be simple and focused. Complicated workflows often confuse users and reduce long-term engagement.',
+    keyTip3: 'The more value your emails deliver, the stronger your long-term engagement becomes. Trust drives results—not volume.',
+    recommendation: 'Email marketing works best when you focus on education, clarity, and consistency. Keep your lists clean, treat your subscribers with respect, and send emails that genuinely help them.',
+  },
+  {
     slug: 'what-is-convertkit',
     title: 'ConvertKit Overview: Simple, Creator-Focused Email Marketing',
     description: 'A deep beginner-friendly overview of ConvertKit. Learn how ConvertKit’s email tools, automation, creator features, visual sequences, tagging, and pricing help creators grow and monetize their audience.',
