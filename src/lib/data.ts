@@ -136,6 +136,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'how-to-improve-email-engagement',
+    title: 'How to Improve Email Engagement Without Discounts or Promotions',
+    description: 'A complete educational guide explaining how to increase email engagement without using discounts or promotions. Learn content structure, timing, segmentation, behavior logic, and multi-channel practices used by modern email marketers.',
+    category: 'Email Marketing',
+    image: 'email-ad',
+    author: 'Keymara Team',
+    date: 'January 16, 2026',
+    quote: 'Engagement rises when the message answers a question the subscriber already has in their mind.',
+    takeaways: ['Relevance is key.', 'Clarity improves trust.', 'Timing follows behavior.'],
+    glossary: 'Natural Email Engagement: The process of improving email interaction rates through value-driven content, relevance, and timing, rather than promotional incentives.',
+    facts: ['Emails with personalized subject lines are 26% more likely to be opened.', 'Segmented campaigns can drive a 760% increase in revenue.'],
+    summary: 'This guide explains how to improve email engagement naturally by focusing on value, clarity, timing, relevance, and structure, without resorting to discounts or promotions.',
+    insight: 'Users consistently find that sending educational, value-driven content builds a more loyal and engaged audience than any promotional strategy.',
+    keyTip1: 'Engagement rises when the message answers a question the subscriber already has in their mind.',
+    keyTip2: 'Engagement rises when messages feel useful, not urgent.',
+    keyTip3: 'Subscribers engage with clarity, not pressure. Keep the message clean, honest, and useful.',
+    recommendation: 'Focus on value-driven messaging, behavior-based triggers, and predictable content patterns. Engagement grows when your emails feel like guidance—not pressure.',
+  },
+  {
     slug: 'crm-automation-explained',
     title: 'CRM Automation: How Data, Segments, and Triggers Work Together',
     description: 'A complete educational guide explaining how CRM automation works, how data, segments, and triggers interact, and how platforms like Brevo structure clean automation flows for predictable communication.',
@@ -1297,3 +1316,4 @@ export const latestInsights = [
 ];
 
     
+

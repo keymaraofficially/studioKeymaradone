@@ -63,6 +63,7 @@ import { IntegrationsExplainedArticle } from '@/components/articles/integrations
 import { ApiVsNativeIntegrationsArticle } from '@/components/articles/api-vs-native-integrations';
 import { HowMultiPlatformDataSyncWorksArticle } from '@/components/articles/how-multi-platform-data-sync-works';
 import { CrmAutomationExplainedArticle } from '@/components/articles/crm-automation-explained';
+import { HowToImproveEmailEngagementArticle } from '@/components/articles/how-to-improve-email-engagement';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -243,6 +244,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <HowMultiPlatformDataSyncWorksArticle />;
       case 'crm-automation-explained':
         return <CrmAutomationExplainedArticle />;
+      case 'how-to-improve-email-engagement':
+        return <HowToImproveEmailEngagementArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
