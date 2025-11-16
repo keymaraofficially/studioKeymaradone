@@ -18,7 +18,8 @@ export const YouMayLikeThis = ({ currentSlug }: { currentSlug: string }) => {
     }, [currentSlug]);
 
     if (!shuffled.length) {
-        return null; // Or a loading skeleton
+        // Render a placeholder or null on the server and initial client render
+        return null; 
     }
   
     return (
