@@ -60,6 +60,7 @@ import { WhenToUseEmailVsSmsVsWhatsappArticle } from '@/components/articles/when
 import { WhatIsCrmExplainedArticle } from '@/components/articles/what-is-crm-explained';
 import { HowCrmPipelinesWorkArticle } from '@/components/articles/how-crm-pipelines-work';
 import { IntegrationsExplainedArticle } from '@/components/articles/integrations-explained';
+import { ApiVsNativeIntegrationsArticle } from '@/components/articles/api-vs-native-integrations';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -234,6 +235,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <HowCrmPipelinesWorkArticle />;
       case 'integrations-explained':
         return <IntegrationsExplainedArticle />;
+      case 'api-vs-native-integrations':
+        return <ApiVsNativeIntegrationsArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
