@@ -5,9 +5,7 @@ import Image from 'next/image';
 import { useEffect, useState, useRef } from 'react';
 
 const footerNav = [
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'Tools Hub', href: '/tools-hub' },
+    { name: 'Blog', href: '/tools-hub' }, // Assuming blog will be the tools hub for now
     { name: 'Email Marketing', href: '/category/email-marketing' },
     { name: 'Automation & Workflows', href: '/category/automation-workflows' },
     { name: 'Growth & Analytics', href: '/category/growth-analytics' },
@@ -19,6 +17,8 @@ const footerNav = [
 ];
 
 const complianceLinks = [
+    { name: 'Contact', href: '/contact' },
+    { name: 'About', href: '/about' },
     { name: 'Privacy Policy', href: '/privacy-policy' },
     { name: 'Terms of Service', href: '/terms-of-service' },
     { name: 'Cookie Policy', href: '/cookie-policy' },
@@ -54,7 +54,8 @@ export function Footer() {
         setShowCookieBanner(false);
     };
 
-    const handleSubscribe = () => {
+    const handleSubscribe = (event: React.FormEvent) => {
+        event.preventDefault();
         const email = emailInputRef.current?.value.trim();
         if (!email || !email.includes('@')) {
             alert('Please enter a valid email');
@@ -69,53 +70,74 @@ export function Footer() {
     
     return (
         <>
-            <footer className="bg-background text-foreground py-12 px-8" id="keymara-footer">
-                <div className="max-w-7xl mx-auto flex flex-wrap gap-6">
-                    <div className="flex-grow min-w-[260px] flex-[1_1_380px]">
-                        <h3 className="text-xl font-bold mb-2">Educational Project Statement</h3>
-                        <p className="text-muted-foreground mb-4 leading-relaxed">
-                            <strong>Keymara</strong> is an educational platform focused on email marketing, automation, CRM, and digital growth. We publish guides, tutorials, and research-backed learning resources to help small businesses improve marketing skills. We do not sell email services — our mission is to educate.
+            <footer className="bg-[#fdf8e8] py-16 border-t border-[#eee]" id="keymara-footer">
+                <div className="container max-w-7xl mx-auto px-5">
+
+                    <div className="mb-10">
+                        <h3 className="font-bold text-xl mb-4">Educational Project Statement</h3>
+                        <p className="max-w-2xl leading-relaxed">
+                            <strong>Keymara</strong> is an educational platform focused on email marketing, automation, CRM, and digital growth. 
+                            We publish guides, tutorials, and research-backed learning resources to help small businesses improve their marketing 
+                            skills. We do not sell email services — our mission is to educate.
                         </p>
-                        <h4 className="text-lg font-bold mb-2">Stay Updated With Email Marketing Insights</h4>
-                        <p className="text-muted-foreground mb-4 leading-relaxed">Get weekly educational content on email marketing, automation, CRM, and growth strategies. No promotions. No spam.</p>
-                        <div className="flex gap-3 items-center mt-2">
-                            <input ref={emailInputRef} id="km-sub-email" type="email" placeholder="Enter your email" aria-label="Subscribe email" className="w-full md:w-[260px] p-3 border border-border rounded-md bg-white"/>
-                            <button id="km-sub-btn" onClick={handleSubscribe} className="bg-primary border-none py-3 px-4 rounded-lg text-primary-foreground font-bold cursor-pointer">Subscribe to Insights</button>
-                        </div>
-                        <div className="mt-3 p-3 border-l-4 border-primary bg-primary/10 rounded-md text-foreground">
-                            <small><strong>No Selling — Educational Only.</strong> All content on Keymara is educational. We do not sell email services or manage campaigns.</small>
+                    </div>
+
+                    <div className="my-9">
+                        <h3 className="font-bold text-xl mb-2.5">Stay Updated With Email Marketing Insights</h3>
+                        <p className="max-w-xl mb-5 text-muted-foreground">
+                            Get weekly educational content on email marketing, automation, CRM, and growth strategies. 
+                            No promotions. No spam.
+                        </p>
+
+                        <form onSubmit={handleSubscribe} className="flex gap-2.5 max-w-lg">
+                            <input ref={emailInputRef} id="km-sub-email" type="email" placeholder="Enter your email" aria-label="Subscribe email" className="flex-1 p-3 border border-gray-300 rounded-md text-base"/>
+                            <button type="submit" className="bg-[#f4c02a] py-3 px-5 border-none rounded-md cursor-pointer font-semibold">
+                                Subscribe to Insights
+                            </button>
+                        </form>
+
+                        <div className="mt-4 bg-[#fff8dc] p-3.5 rounded-md text-sm">
+                            <strong>No Selling — Educational Only.</strong> All content on Keymara is educational. 
+                            We do not sell email services or manage campaigns.
                         </div>
                     </div>
 
-                    <div className="flex-grow min-w-[180px] flex-[1_1_220px]">
-                        <h4 className="text-sm font-bold mb-3 uppercase">Navigation</h4>
-                        {footerNav.map(item => (
-                            <Link key={item.name} href={item.href} className="block text-muted-foreground no-underline py-1.5 hover:text-primary transition-colors">{item.name}</Link>
-                        ))}
-                    </div>
+                    <div className="flex justify-between flex-wrap mt-12">
+                        <div className="min-w-[200px] mb-7">
+                            <h4 className="font-bold mb-3">Navigation</h4>
+                            <ul className="list-none p-0 leading-loose">
+                                {footerNav.map(item => (
+                                    <li key={item.name}><Link href={item.href} className="text-foreground no-underline hover:text-primary transition-colors">{item.name}</Link></li>
+                                ))}
+                            </ul>
+                        </div>
 
-                    <div className="flex-grow min-w-[180px] flex-[1_1_220px]">
-                        <h4 className="text-sm font-bold mb-3 uppercase">Compliance</h4>
-                        {complianceLinks.map(item => (
-                            <Link key={item.name} href={item.href} className="block text-muted-foreground no-underline py-1.5 hover:text-primary transition-colors">{item.name}</Link>
-                        ))}
+                        <div className="min-w-[220px] mb-7">
+                            <h4 className="font-bold mb-3">Compliance</h4>
+                            <ul className="list-none p-0 leading-loose">
+                                {complianceLinks.map(item => (
+                                    <li key={item.name}><Link href={item.href} className="text-foreground no-underline hover:text-primary transition-colors">{item.name}</Link></li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className="min-w-[200px] mb-7">
+                            <h4 className="font-bold mb-3">Connect</h4>
+                            <div className="flex gap-4 items-center">
+                                {socialLinks.map(social => (
+                                <Link href={social.href} key={social.name} target="_blank" rel="noopener noreferrer">
+                                    <Image src={social.icon} alt={social.name} width={social.name === 'YouTube' ? 28 : 24} height={social.name === 'YouTube' ? 28 : 24} />
+                                </Link>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                     
-                    <div className="flex-grow-0 flex-[1_1_180px] flex flex-col gap-3 items-start">
-                        <h4 className="text-sm font-bold mb-3 uppercase">Connect</h4>
-                        <div className="flex gap-2.5">
-                             {socialLinks.map(social => (
-                             <Link href={social.href} key={social.name} target="_blank" rel="noopener noreferrer">
-                                <Image src={social.icon} alt={social.name} width={social.name === 'YouTube' ? 32 : 28} height={social.name === 'YouTube' ? 32 : 28} />
-                             </Link>
-                           ))}
-                        </div>
+                    <div className="mt-10 text-sm text-gray-500">
+                        <p>All content on Keymara is educational. We do not sell email services or manage campaigns.</p>
+                        <p className="mt-2">© 2025 Keymara. All rights reserved.</p>
                     </div>
-                </div>
 
-                <div className="border-t border-border mt-7 pt-5 flex justify-between items-center flex-wrap gap-2 max-w-7xl mx-auto" role="contentinfo">
-                    <div className="text-muted-foreground text-sm">© 2025 Keymara. All rights reserved.</div>
-                    <div className="text-muted-foreground text-sm">All content on Keymara is educational. We do not sell email services or manage campaigns.</div>
                 </div>
             </footer>
 
