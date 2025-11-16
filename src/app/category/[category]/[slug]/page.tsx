@@ -47,6 +47,7 @@ import { HowToAnalyzeAutomationPerformanceArticle } from '@/components/articles/
 import { HowToTrackLongTermSubscriberGrowthArticle } from '@/components/articles/how-to-track-long-term-subscriber-growth';
 import { WhatIsLeadGenerationArticle } from '@/components/articles/what-is-lead-generation';
 import { HowToBuildHighQualityLeadMagnetsArticle } from '@/components/articles/how-to-build-high-quality-lead-magnets';
+import { LandingPagesThatConvertArticle } from '@/components/articles/landing-pages-that-convert-explained';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -195,6 +196,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <WhatIsLeadGenerationArticle />;
       case 'how-to-build-high-quality-lead-magnets':
         return <HowToBuildHighQualityLeadMagnetsArticle />;
+      case 'landing-pages-that-convert-explained':
+        return <LandingPagesThatConvertArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
