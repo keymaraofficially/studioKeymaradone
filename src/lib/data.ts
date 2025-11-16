@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'best-choice-for-coaches',
+    title: 'Best Choice for Coaches: ConvertKit vs Brevo vs Mailchimp',
+    description: 'A complete expert comparison for coaches between ConvertKit, Brevo, and Mailchimp. Learn which platform offers the best automation, audience segmentation, funnels, pricing, CRM, and tools for coaches and creators.',
+    category: 'Tools Comparison',
+    image: 'comparison-ad',
+    author: 'Alex Morgan',
+    date: 'November 12, 2025',
+    quote: 'A coach’s email platform must do more than send emails. It must guide clients through structured progress and build long-term trust.',
+    takeaways: ['Automation guides clients.', 'Segmentation builds trust.', 'The right tool fits your voice.'],
+    glossary: 'Client Nurturing: The process of building relationships with potential clients by providing valuable content and consistent communication.',
+    facts: ['Coaches who use email automation report a 60% higher client retention rate.', 'Personalized email content can improve engagement by up to 75% for coaching businesses.'],
+    summary: 'ConvertKit is best for course-style coaching. Brevo excels with its CRM and multichannel automation. Mailchimp suits brand-heavy coaches who need broad marketing tools.',
+    insight: 'Successful coaches emphasize that their email platform is a core part of their client management system, not just a marketing tool. Brevo\'s integrated CRM is a favorite for this reason.',
+    keyTip1: 'A coach’s email platform must do more than send emails. It must guide clients through structured progress and build long-term trust.',
+    keyTip2: 'The more personal your coaching, the more personal your emails should feel. Choose a tool that supports this style.',
+    keyTip3: 'Your coaching emails must guide transformation. Choose the tool that fits your voice—not the one with the fanciest features.',
+    recommendation: 'Pick Brevo if you want CRM, automation, and multichannel messaging. Pick ConvertKit if your coaching style is content-focused and you deliver lessons through email. Pick Mailchimp only if brand design is your top priority.',
+  },
+  {
     slug: 'best-platform-for-ecommerce',
     title: 'Best Platform for Ecommerce: Brevo vs GetResponse vs ActiveCampaign',
     description: 'A full comparison for ecommerce businesses between Brevo, GetResponse, and ActiveCampaign. Learn which platform offers the best automation, integration with stores, segmentation, multichannel workflows, and pricing for online stores.',
@@ -280,7 +299,7 @@ export const latestInsights = [
     keyTip3: 'Before choosing any platform, map your customer journey. The tool should serve the journey—not the other way around.',
     recommendation: 'If your goal is long-term automation, predictable lead nurture, or behavior-based flows, you will get far more value from Brevo. If you prioritize branding, newsletters, and creator-style communication, MailerLite is a perfectly balanced choice.',
   },
-  {
+    {
     slug: 'brevo-vs-getresponse',
     title: 'Brevo vs GetResponse: Which Platform Delivers Stronger Automation, Funnels, and Email Performance?',
     description: 'A complete expert comparison of Brevo and GetResponse. Explore automation, workflows, funnels, CRM, landing pages, segmentation, deliverability, and pricing to find the best email marketing platform for your business.',
