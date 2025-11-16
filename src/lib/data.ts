@@ -128,6 +128,25 @@ export const marketingTools = [
 ];
 
 export const latestInsights = [
+    {
+    slug: 'how-to-track-long-term-subscriber-growth',
+    title: 'How to Track Long-Term Subscriber Growth (Without Vanity Metrics)',
+    description: 'A complete educational breakdown explaining how to track long-term subscriber growth using real signals, engagement patterns, retention metrics, and list health indicators without relying on misleading vanity numbers.',
+    category: 'Growth & Analytics',
+    image: 'analytics-ad',
+    author: 'Keymara Team',
+    date: 'December 25, 2025',
+    quote: 'Total subscriber count means nothing without engagement. A small active list outperforms a big silent one every time.',
+    takeaways: ['Track active subscribers.', 'Measure retention.', 'Avoid vanity metrics.'],
+    glossary: 'Subscriber Lifetime Value (SLV): A measure of how long a subscriber remains engaged with your emails, indicating list health and stability.',
+    facts: ['Improving subscriber retention by 5% can increase profitability by 25% to 95%.', 'Only 30-40% of an average email list is considered "active" after 12 months.'],
+    summary: 'This guide explains how to measure real subscriber growth by tracking retention, engagement quality, and list health over time, rather than focusing on misleading vanity metrics like total subscriber count.',
+    insight: 'Users who focus on the "active subscriber percentage" rather than total list size report more stable engagement and better deliverability over the long run.',
+    keyTip1: 'Total subscriber count means nothing without engagement. A small active list outperforms a big silent one every time.',
+    keyTip2: 'Growth is not about how fast your list expands. It is about how slowly your list decays.',
+    keyTip3: 'A list that grows slowly but engages deeply will outperform a large, silent list every single time.',
+    recommendation: 'Track growth in 30, 60, and 120-day cycles. If retention drops at the same point every time, adjust your onboarding and mid-term content sequence.',
+  },
   {
     slug: 'how-to-analyze-automation-performance',
     title: 'How to Analyze Automation Performance: Flow Drop-Offs, Path Behavior, and Timing Accuracy',
@@ -965,6 +984,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 
