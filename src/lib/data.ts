@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'best-ecommerce-automation-tools-brevo-vs-klaviyo-vs-activecampaign',
+    title: 'Best Ecommerce Automation Tools: Brevo vs Klaviyo vs ActiveCampaign',
+    description: 'A complete expert comparison of Brevo, Klaviyo, and ActiveCampaign for ecommerce automation. Explore scalability, workflows, segmentation, personalization, pricing, and advanced automation features for online stores.',
+    category: 'Tools Comparison',
+    image: 'comparison-ad',
+    author: 'Alex Morgan',
+    date: 'November 22, 2025',
+    quote: 'Real ecommerce scaling comes from lifecycle automation. Choose the platform that helps you automate your customer journey—not just your campaigns.',
+    takeaways: ['Understand customer behavior.', 'Deeper segmentation wins.', 'Lifecycle automation is key.'],
+    glossary: 'Lifecycle Automation: The practice of automating marketing communications and actions based on where a customer is in their journey, from first-time visitor to loyal advocate.',
+    facts: ['Ecommerce stores that excel at personalization generate 40% more revenue from it than average players.', 'Automating abandoned cart emails can recover up to 15% of lost sales.'],
+    summary: 'Brevo is perfect for ecommerce stores needing multichannel automation (email, SMS, WhatsApp) on a scalable budget. Klaviyo offers the most powerful, data-driven automation engine for Shopify stores. ActiveCampaign excels at deep behavioral and CRM-based automation.',
+    insight: 'Ecommerce managers consistently report that Klaviyo’s predictive analytics give them a significant edge, while Brevo’s unified multichannel workflows simplify global communication and save costs.',
+    keyTip1: 'Ecommerce automation works only when the platform understands customer behavior—not just email triggers.',
+    keyTip2: 'Ecommerce automation pays off when your platform delivers accurate segmentation and timing—not just fancy templates.',
+    keyTip3: 'Real ecommerce scaling comes from lifecycle automation. Choose the platform that helps you automate your customer journey—not just your campaigns.',
+    recommendation: 'Pick Brevo for global multichannel ecommerce automation. Pick Klaviyo for data-driven ecommerce that depends on advanced behavioral flows. Pick ActiveCampaign for brands that want automation tied directly to a CRM and pipeline.',
+  },
+  {
     slug: 'brevo-vs-klaviyo-vs-mailchimp',
     title: 'Best Platform for Ecommerce Scaling: Brevo vs Klaviyo vs Mailchimp',
     description: 'A complete ecommerce scaling comparison of Brevo, Klaviyo, and Mailchimp. Learn which platform offers the best automation, segmentation, multichannel workflows, pricing, and growth tools for scaling online stores.',
