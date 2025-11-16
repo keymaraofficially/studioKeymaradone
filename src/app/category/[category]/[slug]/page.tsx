@@ -7,6 +7,7 @@ import { YouMayLikeThis } from '@/components/articles/you-may-like-this';
 import { BrevoVsGetResponseArticle } from '@/components/articles/brevo-vs-getresponse';
 import { BrevoVsActiveCampaignArticle } from '@/components/articles/brevo-vs-activecampaign';
 import { BrevoVsHubspotArticle } from '@/components/articles/brevo-vs-hubspot';
+import { GetResponseVsActiveCampaignVsBrevoArticle } from '@/components/articles/getresponse-vs-activecampaign-vs-brevo';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -75,6 +76,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <BrevoVsActiveCampaignArticle />;
       case 'brevo-vs-hubspot':
         return <BrevoVsHubspotArticle />;
+      case 'getresponse-vs-activecampaign-vs-brevo':
+        return <GetResponseVsActiveCampaignVsBrevoArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

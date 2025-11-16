@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'getresponse-vs-activecampaign-vs-brevo',
+    title: 'GetResponse vs ActiveCampaign vs Brevo: Which Email Platform Delivers the Best Automation, Value, and Marketing Power?',
+    description: 'A complete expert comparison of GetResponse, ActiveCampaign, and Brevo. Discover which platform offers the best automation, CRM tools, deliverability, pricing, segmentation, and growth-focused features.',
+    category: 'Tools Comparison',
+    image: 'comparison-ad',
+    author: 'Alex Morgan',
+    date: 'November 2, 2025',
+    quote: 'The right tool is the one that gets used.',
+    takeaways: ['Match tool to team size.', 'Complexity can be a feature or a flaw.', 'Affordability unlocks consistency.'],
+    glossary: 'Behavioral Automation: Marketing automation that triggers actions based on a user\'s behavior (e.g., website visits, email clicks, purchase history).',
+    facts: ['82% of marketers report that automation makes them more efficient.', 'Personalized emails deliver 6x higher transaction rates.'],
+    summary: 'Brevo is best for affordable all-in-one automation. GetResponse excels at funnels and webinars. ActiveCampaign offers the most powerful, deep-level automation for data-driven teams.',
+    insight: 'Users often agree Brevo is the easiest to start with, GetResponse is the best for course creators, and ActiveCampaign is the professional\'s choice for complex workflows.',
+    keyTip1: 'Don\'t choose a platform because it “feels advanced.” Choose the one your business can realistically use every day.',
+    keyTip2: 'Over-complicated setups kill execution. Choose the tool you can actually maintain.',
+    keyTip3: 'You don’t need all three. You need the one your business can execute consistently.',
+    recommendation: 'Pick Brevo for simple, scalable, affordable automation. Pick GetResponse when funnels and webinars are part of your growth strategy. Pick ActiveCampaign for personalization-heavy workflows with deep data triggers.',
+  },
+  {
     slug: 'brevo-vs-hubspot',
     title: 'Brevo vs HubSpot: Which Platform Offers Better Automation, CRM Power, and Marketing Value?',
     description: 'A complete expert comparison of Brevo and HubSpot. Learn which platform gives better automation, CRM features, analytics, segmentation, pricing, AI tools, and value for growing businesses.',
