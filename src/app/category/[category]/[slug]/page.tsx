@@ -1,3 +1,5 @@
+'use client';
+
 import { categories, latestInsights } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { BrevoVsMailchimpArticle } from '@/components/articles/brevo-vs-mailchimp';
@@ -64,19 +66,24 @@ import { ApiVsNativeIntegrationsArticle } from '@/components/articles/api-vs-nat
 import { HowMultiPlatformDataSyncWorksArticle } from '@/components/articles/how-multi-platform-data-sync-works';
 import { CrmAutomationExplainedArticle } from '@/components/articles/crm-automation-explained';
 import { HowToImproveEmailEngagementArticle } from '@/components/articles/how-to-improve-email-engagement';
+import { useEffect, useState } from 'react';
 
-export async function generateStaticParams() {
-  return latestInsights.map((post) => {
-    const category = categories.find(c => c.name === post.category);
-    return {
-      category: category ? category.slug : 'tools-comparison',
-      slug: post.slug,
-    };
-  });
-}
+// We can't use generateStaticParams here because this is a client component
+// due to the fix for the hydration error. Next.js will still be able
+// to statically generate the pages if it can find all the links.
+
+type Article = typeof latestInsights[0];
 
 const RelatedArticles = ({ currentSlug }: { currentSlug: string }) => {
-    const shuffled = [...latestInsights].filter(insight => insight.slug !== currentSlug).sort(() => 0.5 - Math.random()).slice(2, 4);
+    const [shuffled, setShuffled] = useState<Article[]>([]);
+
+    useEffect(() => {
+        const filtered = latestInsights.filter(insight => insight.slug !== currentSlug);
+        const shuffledInsights = [...filtered].sort(() => 0.5 - Math.random());
+        setShuffled(shuffledInsights.slice(2, 4));
+    }, [currentSlug]);
+
+    if (!shuffled.length) return null;
   
     return (
       <div className="space-y-3">
@@ -95,7 +102,15 @@ const RelatedArticles = ({ currentSlug }: { currentSlug: string }) => {
 };
 
 const PeopleAlsoRead = ({ currentSlug }: { currentSlug: string }) => {
-    const shuffled = [...latestInsights].filter(insight => insight.slug !== currentSlug).sort(() => 0.5 - Math.random()).slice(4, 6);
+    const [shuffled, setShuffled] = useState<Article[]>([]);
+
+    useEffect(() => {
+        const filtered = latestInsights.filter(insight => insight.slug !== currentSlug);
+        const shuffledInsights = [...filtered].sort(() => 0.5 - Math.random());
+        setShuffled(shuffledInsights.slice(4, 6));
+    }, [currentSlug]);
+
+    if (!shuffled.length) return null;
   
     return (
       <div className="space-y-3">
