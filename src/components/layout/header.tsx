@@ -52,6 +52,15 @@ const MobileNavLinks = () => {
       >
         About
       </Link>
+      <Link
+        href="/blog"
+        className={cn(
+          'transition-colors hover:text-primary',
+          pathname === '/blog' ? 'text-primary' : 'text-muted-foreground'
+        )}
+      >
+        Blog
+      </Link>
       <div className="h-px bg-border my-2" />
       {categories.map((category) => (
         <Link
@@ -90,6 +99,15 @@ const TopNavLinks = () => {
             )}
             >
             About
+            </Link>
+            <Link
+            href="/blog"
+            className={cn(
+                'transition-colors hover:text-primary',
+                pathname === '/blog' ? 'text-foreground font-semibold' : 'text-muted-foreground'
+            )}
+            >
+            Blog
             </Link>
         </nav>
     );
