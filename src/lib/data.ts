@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'when-to-use-email-vs-sms-vs-whatsapp',
+    title: 'When to Use Email vs SMS vs WhatsApp: A Smart Decision Framework',
+    description: 'A complete educational breakdown explaining when to use email, SMS, or WhatsApp based on message purpose, timing, urgency, and subscriber behavior. A practical decision-making framework for clean multi-channel communication.',
+    category: 'WhatsApp & Multi-Channel',
+    image: 'whatsapp-ad',
+    author: 'Keymara Team',
+    date: 'January 9, 2026',
+    quote: 'The best channel is the one that matches message purpose, urgency, and subscriber mindset—not the one most convenient for the sender.',
+    takeaways: ['Match message to channel.', 'Respect user behavior.', 'Timing is everything.'],
+    glossary: 'Decision Framework: A structured approach to making choices by evaluating options against a set of criteria, in this case, for selecting the appropriate communication channel.',
+    facts: ['Using the right channel can increase engagement by up to 50%.', '78% of consumers say that receiving a message on their preferred channel makes them more likely to purchase.'],
+    summary: 'This guide provides a decision framework for choosing between email, SMS, and WhatsApp based on message purpose, urgency, and user behavior to create a clear and effective multi-channel communication strategy.',
+    insight: 'Users report that creating a simple channel decision tree for their teams has drastically reduced message overlap and improved campaign clarity.',
+    keyTip1: 'The best channel is the one that matches message purpose, urgency, and subscriber mindset—not the one most convenient for the sender.',
+    keyTip2: 'If the user must read immediately, use SMS. If the user can read later, use email. If the user may reply, use WhatsApp.',
+    keyTip3: 'The channel should never overpower the message. Let purpose decide the platform.',
+    recommendation: 'Use email for depth, SMS for urgency, WhatsApp for clarity, and transactional for essential confirmations. One message—one channel.',
+  },
+  {
     slug: 'transactional-messaging-explained',
     title: 'Transactional Messaging Explained (Order Updates, Alerts, OTPs, and Reliability)',
     description: 'A complete educational breakdown explaining transactional messaging, how order updates and OTPs work, why reliability matters, and how messaging systems deliver essential alerts across channels.',
