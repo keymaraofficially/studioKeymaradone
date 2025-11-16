@@ -30,6 +30,10 @@ const whyChooseKeymara = [
 ]
 
 export default function Home() {
+  const brevoArticles = latestInsights.filter(insight => insight.title.toLowerCase().includes('brevo')).slice(0, 3);
+  const otherArticles = latestInsights.filter(insight => !insight.title.toLowerCase().includes('brevo')).slice(0, 3);
+  const featuredInsights = [...brevoArticles, ...otherArticles];
+
   return (
     <div className="flex flex-col">
       <section className="py-20 md:py-32 animate-fade-in">
@@ -161,7 +165,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {latestInsights.map((insight, index) => {
+            {featuredInsights.map((insight, index) => {
                 const category = categories.find(c => c.name === insight.category);
                 const categorySlug = category ? category.slug : 'tools-comparison';
                 return (
