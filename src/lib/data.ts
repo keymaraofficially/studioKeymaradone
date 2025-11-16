@@ -136,6 +136,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'how-crm-pipelines-work',
+    title: 'How CRM Pipelines Work: Stages, Deals, Scoring, and Contact Movement',
+    description: 'A complete educational guide explaining how CRM pipelines work, how deals move across stages, how scoring identifies engagement, and how platforms like Brevo help keep your pipeline organized and structured.',
+    category: 'CRM & Integrations',
+    image: 'crm-ad',
+    author: 'Keymara Team',
+    date: 'January 11, 2026',
+    quote: 'A pipeline is not about selling—it is about understanding where each contact stands and what message fits next.',
+    takeaways: ['A pipeline is not about selling—it is about understanding where each contact stands and what message fits next.', 'Scoring identifies intent. Pipelines organize progression.', 'Pipelines only work when stages are clear.'],
+    glossary: 'CRM Pipeline: A visual representation of a sales process, from the first contact to the final sale.',
+    facts: ['Businesses that use a CRM pipeline see an average of 15% increase in revenue.', 'Visualizing sales data can help salespeople better understand their performance and improve by up to 10%.'],
+    summary: 'This guide explains how CRM pipelines work, covering stages, deals, scoring, and contact movement to help you create clear, predictable communication and organize your sales process.',
+    insight: 'Users report that automating contact movement between pipeline stages based on behavior (like email opens or link clicks) has dramatically improved their follow-up consistency and lead management efficiency.',
+    keyTip1: 'A pipeline is not about selling—it is about understanding where each contact stands and what message fits next.',
+    keyTip2: 'Scoring identifies intent. Pipelines organize progression. Both must be clean to work correctly.',
+    keyTip3: 'Pipelines only work when stages are clear. If you cannot explain a stage in one sentence, remove it.',
+    recommendation: 'Start with a simple pipeline. As your communication grows, expand only when you\'re confident your stages are clean and meaningful.',
+  },
+  {
     slug: 'what-is-crm-explained',
     title: 'What Is CRM? A Clean, Beginner-to-Advanced Overview (Email Marketers Edition)',
     description: 'A complete educational breakdown explaining CRM for email marketers, including contact management, pipelines, segmentation, automations, and why platforms like Brevo provide a clean, modern CRM experience.',

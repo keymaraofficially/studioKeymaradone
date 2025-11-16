@@ -58,6 +58,7 @@ import { UnifiedMultichannelStrategyArticle } from '@/components/articles/unifie
 import { TransactionalMessagingExplainedArticle } from '@/components/articles/transactional-messaging-explained';
 import { WhenToUseEmailVsSmsVsWhatsappArticle } from '@/components/articles/when-to-use-email-vs-sms-vs-whatsapp';
 import { WhatIsCrmExplainedArticle } from '@/components/articles/what-is-crm-explained';
+import { HowCrmPipelinesWorkArticle } from '@/components/articles/how-crm-pipelines-work';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -228,6 +229,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <WhenToUseEmailVsSmsVsWhatsappArticle />;
       case 'what-is-crm-explained':
         return <WhatIsCrmExplainedArticle />;
+      case 'how-crm-pipelines-work':
+        return <HowCrmPipelinesWorkArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
