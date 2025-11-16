@@ -79,7 +79,7 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <BrevoVsGetResponseArticle />;
       case 'brevo-vs-activecampaign':
         return <BrevoVsActiveCampaignArticle />;
-      case 'brevo-vs-hubspot':
+      case 'hubspot-vs-brevo':
         return <BrevoVsHubspotArticle />;
       case 'getresponse-vs-activecampaign-vs-brevo':
         return <GetResponseVsActiveCampaignVsBrevoArticle />;
