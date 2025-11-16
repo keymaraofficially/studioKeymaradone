@@ -33,6 +33,7 @@ import { HowEmailMarketingWorksArticle } from '@/components/articles/how-email-m
 import { UnderstandingEmailDeliverabilityArticle } from '@/components/articles/understanding-email-deliverability';
 import { EmailListBuildingFundamentalsArticle } from '@/components/articles/email-list-building-fundamentals';
 import { TheScienceOfEmailEngagementArticle } from '@/components/articles/the-science-of-email-engagement';
+import { WhyCleanListManagementProtectsYourDeliverabilityArticle } from '@/components/articles/why-clean-list-management-protects-your-deliverability';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -153,6 +154,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <EmailListBuildingFundamentalsArticle />;
       case 'the-science-of-email-engagement':
         return <TheScienceOfEmailEngagementArticle />;
+      case 'why-clean-list-management-protects-your-deliverability':
+        return <WhyCleanListManagementProtectsYourDeliverabilityArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
