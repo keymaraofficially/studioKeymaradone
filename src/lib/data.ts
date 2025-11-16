@@ -58,6 +58,13 @@ export const categories: Category[] = [
     icon: MessageCircle,
     image: 'whatsapp-ad'
   },
+  {
+    name: 'CRM & Integrations',
+    slug: 'crm-integrations',
+    description: 'Connect your tools and manage customer relationships.',
+    icon: Handshake,
+    image: 'crm-ad'
+  },
 ];
 
 
