@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'how-to-interpret-email-performance',
+    title: 'How to Interpret Email Performance: What Good, Average, and Poor Metrics Actually Mean',
+    description: 'A clear, educational breakdown explaining how to interpret email performance metrics properly, including what counts as good, average, and poor engagement across key signals like opens, clicks, CTR, CTOR, and behavior patterns.',
+    category: 'Growth & Analytics',
+    image: 'analytics-ad',
+    author: 'Keymara Team',
+    date: 'December 21, 2025',
+    quote: 'Good email performance is never about big numbers—it is about consistent, predictable engagement from the right audience.',
+    takeaways: ['Interpret metrics together.', 'Patterns over single numbers.', 'Context is crucial.'],
+    glossary: 'Email Performance: The measure of how well an email campaign achieves its objectives, evaluated through metrics like open rate, click-through rate, and conversion rate.',
+    facts: ['Benchmarking against industry averages can provide context, but your own historical performance is the best measure of success.', 'A declining trend in engagement is a more critical indicator than a single low-performing email.'],
+    summary: 'This guide explains how to interpret email performance by analyzing patterns in metrics like open rates, click rates, CTR, and CTOR, helping marketers make informed decisions.',
+    insight: 'Users find that focusing on the trend of their CTOR over several campaigns gives them the most reliable insight into content quality and audience interest.',
+    keyTip1: 'Never judge an email using only one metric. Performance becomes accurate only when signals are interpreted together.',
+    keyTip2: 'Never ignore read time. It reveals the real depth of engagement that clicks and opens cannot show.',
+    keyTip3: 'Good email performance is never about big numbers—it is about consistent, predictable engagement from the right audience.',
+    recommendation: 'Judge performance using CTR, CTOR, clicks, and read time together. Use open rate only as a supporting indicator, not the main evaluation metric.',
+  },
+  {
     slug: 'understanding-email-metrics',
     title: 'Understanding Email Metrics: Opens, Clicks, CTR, CTOR, and Read Time Explained',
     description: 'A complete educational breakdown of essential email metrics including opens, clicks, CTR, CTOR, read time, and how to interpret engagement data accurately without relying on vanity metrics.',
@@ -889,6 +908,7 @@ export const latestInsights = [
     recommendation: 'Start with an abandoned cart recovery flow on WhatsApp. It’s a high-impact, low-effort way to see immediate results.',
   }
 ];
+
 
 
 

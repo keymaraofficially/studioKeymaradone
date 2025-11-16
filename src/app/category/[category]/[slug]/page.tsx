@@ -40,6 +40,7 @@ import { BuildingAHighEngagementWelcomeFlowArticle } from '@/components/articles
 import { BehaviorBasedAutomationExplainedArticle } from '@/components/articles/behavior-based-automation-explained';
 import { LifecycleAutomationExplainedArticle } from '@/components/articles/lifecycle-automation-explained';
 import { UnderstandingEmailMetricsArticle } from '@/components/articles/understanding-email-metrics';
+import { HowToInterpretEmailPerformanceArticle } from '@/components/articles/how-to-interpret-email-performance';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -174,6 +175,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <LifecycleAutomationExplainedArticle />;
       case 'understanding-email-metrics':
         return <UnderstandingEmailMetricsArticle />;
+      case 'how-to-interpret-email-performance':
+        return <HowToInterpretEmailPerformanceArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
