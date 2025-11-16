@@ -62,6 +62,7 @@ import { HowCrmPipelinesWorkArticle } from '@/components/articles/how-crm-pipeli
 import { IntegrationsExplainedArticle } from '@/components/articles/integrations-explained';
 import { ApiVsNativeIntegrationsArticle } from '@/components/articles/api-vs-native-integrations';
 import { HowMultiPlatformDataSyncWorksArticle } from '@/components/articles/how-multi-platform-data-sync-works';
+import { CrmAutomationExplainedArticle } from '@/components/articles/crm-automation-explained';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -240,6 +241,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <ApiVsNativeIntegrationsArticle />;
       case 'how-multi-platform-data-sync-works':
         return <HowMultiPlatformDataSyncWorksArticle />;
+      case 'crm-automation-explained':
+        return <CrmAutomationExplainedArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

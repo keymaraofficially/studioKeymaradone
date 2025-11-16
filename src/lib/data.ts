@@ -136,6 +136,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'crm-automation-explained',
+    title: 'CRM Automation: How Data, Segments, and Triggers Work Together',
+    description: 'A complete educational guide explaining how CRM automation works, how data, segments, and triggers interact, and how platforms like Brevo structure clean automation flows for predictable communication.',
+    category: 'CRM & Integrations',
+    image: 'crm-ad',
+    author: 'Keymara Team',
+    date: 'January 15, 2026',
+    quote: 'Clean automation is built on clean data. If your inputs are messy, your workflows will be messy too.',
+    takeaways: ['Data powers automation.', 'Segments filter audiences.', 'Triggers activate workflows.'],
+    glossary: 'CRM Automation: The use of software to automate marketing, sales, and customer service tasks within a CRM system to create more efficient and personalized customer journeys.',
+    facts: ['Automating lead nurturing can increase qualified leads by 451%.', 'CRM automation can reduce marketing overhead by an average of 12.2%.'],
+    summary: 'This guide explains how CRM automation uses data, segments, and triggers to create structured, behavior-based communication, making your marketing more efficient and predictable.',
+    insight: 'Users consistently report that the biggest "aha!" moment in CRM automation is when they connect their segmentation rules directly to their workflow triggers, creating a self-sustaining system.',
+    keyTip1: 'CRM automation only works when your data is clean, your segments are clear, and your triggers are intentional.',
+    keyTip2: 'Branch only when behavior meaningfully changes the next message. Extra branching creates noise.',
+    keyTip3: 'Automation is only as strong as the data feeding it. Clean data builds clean journeys.',
+    recommendation: 'Start automation with one simple flow. Add complexity only when every data source, tag, and segment is clean and fully tested.',
+  },
+  {
     slug: 'how-multi-platform-data-sync-works',
     title: 'How Multi-Platform Data Sync Works (Contacts, Events, Tags, and Custom Fields)',
     description: 'A complete educational breakdown explaining how multi-platform data sync works across CRM systems. Learn how contacts, events, tags, and custom fields flow between tools, and how platforms like Brevo manage clean, real-time syncing.',
