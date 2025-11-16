@@ -26,6 +26,7 @@ import { MailchimpAutomationExplainedArticle } from '@/components/articles/mailc
 import { WhatIsMailerliteArticle } from '@/components/articles/what-is-mailerlite';
 import { MailerliteAutomationBuilderExplainedArticle } from '@/components/articles/mailerlite-automation-builder-explained';
 import { WhatIsGetResponseArticle } from '@/components/articles/what-is-getresponse';
+import { WhatIsActiveCampaignArticle } from '@/components/articles/what-is-activecampaign';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -132,6 +133,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <MailerliteAutomationBuilderExplainedArticle />;
       case 'what-is-getresponse':
         return <WhatIsGetResponseArticle />;
+      case 'what-is-activecampaign':
+        return <WhatIsActiveCampaignArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;

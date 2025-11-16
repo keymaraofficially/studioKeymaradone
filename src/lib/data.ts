@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'what-is-activecampaign',
+    title: 'ActiveCampaign Overview: CRM, Email Marketing, and Automation Power Explained',
+    description: 'A full beginner-to-pro overview of ActiveCampaign. Learn how its CRM, advanced automation, segmentation, email marketing, predictive actions, and pricing work for growing businesses and marketing teams.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'December 6, 2025',
+    quote: 'The best automation adapts to the customer; it does not force the customer to adapt to the automation.',
+    takeaways: ['Combine email, automation, and CRM.', 'Use goals to streamline journeys.', 'Start with a simple pipeline and workflow.'],
+    glossary: 'Lead Scoring: A methodology used to rank prospects against a scale that represents the perceived value each lead represents to the organization.',
+    facts: ['Businesses that use ActiveCampaign see an average ROI of 3800%.', 'Automated lead nurturing can increase sales opportunities by 20%.'],
+    summary: 'ActiveCampaign is a powerful "automation-first" CRM system for serious marketers, combining advanced workflows, deep segmentation, and CRM automation to move beyond basic newsletters to data-driven customer journeys.',
+    insight: 'Users consistently highlight the "Goals" feature in automations as a key differentiator, allowing for more efficient and customer-centric workflows that adapt in real-time.',
+    keyTip1: 'ActiveCampaign works best when you combine email + automation + CRM together. The platform is built for connected journeys, not isolated campaigns.',
+    keyTip2: 'Treat ActiveCampaign as a CRM platform, not just an email tool. Automations become far more powerful when connected to deal pipelines and scoring.',
+    keyTip3: 'Start with a simple pipeline + 1 workflow. Then expand. ActiveCampaign becomes unstoppable when CRM and automation work as one system.',
+    recommendation: 'Choose ActiveCampaign if your business needs serious automation, CRM pipelines, behavior-based personalization, and scalable marketing systems connected inside one platform.',
+  },
+  {
     slug: 'what-is-getresponse',
     title: 'GetResponse Overview: Complete Marketing Suite for Growing Businesses',
     description: 'A complete beginner-friendly overview of GetResponse. Learn how its email marketing, automation, funnels, ecommerce tools, AI features, and pricing work for small businesses and growing brands.',
