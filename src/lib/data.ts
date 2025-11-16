@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'what-is-mailchimp',
+    title: 'What Is Mailchimp? Complete Breakdown for Beginners',
+    description: 'A deep beginner-friendly guide to Mailchimp. Learn how Mailchimp’s email builder, automation tools, customer journeys, segmentation, analytics, and pricing work for businesses of all sizes.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'November 30, 2025',
+    quote: 'Design is not just what it looks like and feels like. Design is how it works.',
+    takeaways: ['Mailchimp is design-first.', 'Automation is visual and simple.', 'Pricing is subscriber-based.'],
+    glossary: 'Audience: In Mailchimp, an Audience is a list of contacts. You can have multiple audiences, but contacts are counted across all of them for billing.',
+    facts: ['Mailchimp was founded in 2001.', 'It is one of the most recognized email marketing brands globally.'],
+    summary: 'Mailchimp is a beginner-friendly email marketing platform known for its beautiful templates and simple-to-use editor. It offers email campaigns, automation, landing pages, and analytics, making it a strong choice for those who prioritize design and ease of use.',
+    insight: 'Users love Mailchimp for its intuitive interface, which allows them to create professional-looking emails without any coding knowledge.',
+    keyTip1: 'Mailchimp is a design-first email builder. If you want beautiful templates and simple email creation, Mailchimp is one of the easiest platforms for beginners.',
+    keyTip2: 'Mailchimp is strongest for design-driven newsletters. If your priority is heavy automation, you may need to compare it with automation-first tools.',
+    keyTip3: 'Mailchimp works best when you keep your audiences organized. Bad list management can increase cost quickly — use tags, segments, and groups wisely.',
+    recommendation: 'Choose Mailchimp if you need a beginner-friendly email tool with beautiful templates, simple journeys, and solid analytics. It’s perfect for newsletters, creators, and small business communication.',
+  },
+  {
     slug: 'brevo-pricing-explained',
     title: 'Brevo Pricing Explained: Simple Plans, Clear Costs, and the Best Value Breakdown',
     description: 'A complete guide to Brevo pricing. Understand every plan including Starter, Business, BrevoPlus, SMS, WhatsApp, and transactional email costs. Learn which plan fits your business and how to save money while scaling.',
