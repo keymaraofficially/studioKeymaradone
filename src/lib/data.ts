@@ -129,6 +129,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'best-platform-for-ecommerce',
+    title: 'Best Platform for Ecommerce: Brevo vs GetResponse vs ActiveCampaign',
+    description: 'A full comparison for ecommerce businesses between Brevo, GetResponse, and ActiveCampaign. Learn which platform offers the best automation, integration with stores, segmentation, multichannel workflows, and pricing for online stores.',
+    category: 'Tools Comparison',
+    image: 'comparison-ad',
+    author: 'Alex Morgan',
+    date: 'November 10, 2025',
+    quote: 'The best platform supports the entire customer lifecycle—not just email sends.',
+    takeaways: ['Integrations are key.', 'Multichannel is crucial.', 'Scalability matters for growth.'],
+    glossary: 'Customer Lifetime Value (CLV): A prediction of the net profit attributed to the entire future relationship with a customer.',
+    facts: ['Ecommerce stores with an omnichannel presence earn 250% higher purchase rates.', 'Automated cart recovery emails can recover up to 10% of lost sales.'],
+    summary: 'Brevo offers the best value for multichannel automation. GetResponse excels at funnels and upsells. ActiveCampaign provides the deepest personalization and behavioral triggers for scaling stores.',
+    insight: 'Ecommerce owners find Brevo’s combined SMS and email workflows to be highly effective for cart recovery, while ActiveCampaign users praise its deep segmentation capabilities for increasing customer lifetime value.',
+    keyTip1: 'The best platform supports the entire customer lifecycle—not just email sends.',
+    keyTip2: 'Your store growth is not just about traffic—it’s about follow-up, segmentation, and timing. Choose the tool that supports your lifecycle workflows.',
+    keyTip3: 'Scale your automation before scaling your list. The platform that supports your workflows will deliver better ROI.',
+    recommendation: 'For ecommerce stores seeking value and multichannel automation, Brevo is the most balanced choice. For stores built around funnels and landing pages, GetResponse is ideal. For high-growth stores prioritizing personalization and customer journeys, ActiveCampaign is best suited.',
+  },
+  {
     slug: 'best-email-tool-for-small-businesses',
     title: 'Best Email Tool for Small Businesses: Brevo vs MailerLite vs ConvertKit',
     description: 'A complete expert comparison of Brevo, MailerLite, and ConvertKit to help small businesses choose the best email marketing tool for automation, templates, pricing, CRM, and business growth.',
