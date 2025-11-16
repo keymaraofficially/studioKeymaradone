@@ -59,6 +59,7 @@ import { TransactionalMessagingExplainedArticle } from '@/components/articles/tr
 import { WhenToUseEmailVsSmsVsWhatsappArticle } from '@/components/articles/when-to-use-email-vs-sms-vs-whatsapp';
 import { WhatIsCrmExplainedArticle } from '@/components/articles/what-is-crm-explained';
 import { HowCrmPipelinesWorkArticle } from '@/components/articles/how-crm-pipelines-work';
+import { IntegrationsExplainedArticle } from '@/components/articles/integrations-explained';
 
 export async function generateStaticParams() {
   return latestInsights.map((post) => {
@@ -231,6 +232,8 @@ export default function ArticlePage({ params }: { params: { category: string, sl
         return <WhatIsCrmExplainedArticle />;
       case 'how-crm-pipelines-work':
         return <HowCrmPipelinesWorkArticle />;
+      case 'integrations-explained':
+        return <IntegrationsExplainedArticle />;
       // Add other articles here
       default:
         return <p>Article content not found.</p>;
@@ -301,5 +304,3 @@ export default function ArticlePage({ params }: { params: { category: string, sl
     </div>
   );
 }
-
-    
