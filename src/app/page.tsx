@@ -1,31 +1,29 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { categories, marketingTools, latestInsights } from '@/lib/data';
-import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow, Award } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow, Award, BarChart, Bot, Handshake, BrainCircuit } from 'lucide-react';
 import Link from 'next/link';
-
-const features = [
-    { text: 'Automate email and WhatsApp marketing in one dashboard' },
-    { text: 'Save time with AI-powered templates and triggers' },
-    { text: 'Convert leads faster with smart segmentation' },
-    { text: 'Grow your business using data-driven insights' },
-];
 
 const whyChooseKeymara = [
   {
-    icon: Zap,
-    title: 'AI-Powered Email Automation',
-    description: 'Automate campaigns, save time, and boost engagement with AI-driven workflows.'
+    icon: Bot,
+    title: 'Brevo Automation Made Simple',
+    description: 'Learn how Brevo’s workflows, triggers, and conditions help automate emails, customer journeys, and follow-ups with ease.'
   },
   {
-    icon: LineChart,
-    title: 'Smarter Campaign Insights',
-    description: 'Get data-backed analytics that help you understand what drives results.'
+    icon: BarChart,
+    title: 'Data Insights Using Brevo Analytics',
+    description: 'Understand Brevo’s reporting features to see what drives engagement, conversions, and long-term customer growth.'
   },
   {
-    icon: Workflow,
-    title: 'Unified Workflow Management',
-    description: 'Manage everything — emails, automation, and performance — from one clean dashboard.'
+    icon: Handshake,
+    title: 'Brevo CRM + Multi-Channel Power',
+    description: 'Manage emails, CRM, SMS, and WhatsApp inside Brevo’s unified dashboard — and learn how to use it effectively for real business impact.'
+  },
+  {
+    icon: BrainCircuit,
+    title: 'Brevo Deliverability & Best Practices',
+    description: 'Learn sender reputation, warm-up routines, authentication setup, and deliverability techniques that help your Brevo campaigns reach the inbox.'
   }
 ]
 
@@ -63,12 +61,12 @@ export default function Home() {
       <section className="py-20 md:py-24 animate-fade-in animation-delay-200">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold">Why Marketers Choose Keymara</h2>
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">Why Marketers Choose Keymara for Brevo Learning</h2>
             <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
-              We simplify complex marketing with automation that teaches you how to grow. Keymara helps businesses learn, adapt, and connect intelligently — so every campaign feels smarter, faster, and easier to manage.
+              We simplify email marketing by teaching you how to use Brevo’s automation, CRM, segmentation, and multi-channel tools in a practical, beginner-friendly way. Keymara helps businesses understand Brevo deeply — so every campaign becomes smarter, faster, and easier to manage.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {whyChooseKeymara.map((item, index) => (
               <Card key={index} className="bg-card text-center p-6 border-0 shadow-none rounded-2xl shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
                  <div className="inline-block bg-primary/10 p-3 rounded-full mb-4">
