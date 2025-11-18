@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { categories, marketingTools, latestInsights } from '@/lib/data';
@@ -47,7 +48,7 @@ export default function Home() {
                 <Button asChild size="lg">
                     <Link href="/tools-hub">Email &amp; Automation Tools — Complete Learning Hub</Link>
                 </Button>
-                <Link href="/about" className="text-muted-foreground underline text-sm">About Keymara</Link>
+                <Link href="https://www.brevo.com/company/about/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline text-sm">About Brevo</Link>
             </div>
         </div>
         <style>{`
