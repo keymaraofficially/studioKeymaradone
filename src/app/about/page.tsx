@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import Link from 'next/link';
 
 const faqItems = [
     {
@@ -30,10 +31,6 @@ const faqItems = [
     {
         question: "Do you collect any unnecessary user data?",
         answer: "No. We only collect the email a user enters voluntarily to receive educational updates. Users can unsubscribe anytime. We never share or sell data."
-    },
-    {
-        question: "How can I contact the Keymara team?",
-        answer: "You can reach us anytime through our Contact page. We respond to all educational or feedback-related queries."
     }
 ];
 
@@ -76,6 +73,13 @@ export default function AboutPage() {
             ))}
           </Accordion>
         </div>
+      </section>
+
+      <section className="mt-16 text-center">
+        <h3 className="text-2xl font-headline font-bold">Contact</h3>
+        <p className="text-muted-foreground mt-2">
+            For any questions related to our educational content, feel free to email us at <a href="mailto:support@keymara.com" className="font-semibold text-foreground hover:text-primary">support@keymara.com</a>.
+        </p>
       </section>
 
     </div>

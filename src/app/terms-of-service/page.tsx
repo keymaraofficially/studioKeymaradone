@@ -22,13 +22,13 @@ export default function TermsOfServicePage() {
         <p>All information provided is educational. We do not guarantee business outcomes, results, or performance from implementing our tutorials.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">External Links</h2>
-        <p>Some content may reference third-party tools. We are not responsible for external websites or services.</p>
+        <p>Keymara is not responsible for external websites or third-party tools referenced in guides.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Changes to Terms</h2>
         <p>We may update these Terms to improve compliance and clarity.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Contact</h2>
-        <p>For questions, email us at: support@keymara.com</p>
+        <p>For questions, email us at: <a href="mailto:support@keymara.com" className="font-semibold text-foreground hover:text-primary">support@keymara.com</a></p>
       </div>
     </div>
   );

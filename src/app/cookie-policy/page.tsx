@@ -27,7 +27,7 @@ export default function CookiePolicyPage() {
         <p>You can accept or decline cookies through the cookie banner. You can also disable cookies in your browser settings.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Contact</h2>
-        <p>If you have questions about our cookie usage, email support@keymara.com</p>
+        <p>If you have questions about our cookie usage, email <a href="mailto:support@keymara.com" className="font-semibold text-foreground hover:text-primary">support@keymara.com</a></p>
       </div>
     </div>
   );
