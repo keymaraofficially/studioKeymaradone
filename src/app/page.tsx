@@ -36,29 +36,28 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <section className="py-20 md:py-32 animate-fade-in">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-headline font-bold text-foreground max-w-4xl mx-auto">
-            Simplify Email Automation to Deliver Real Value to Every Inbox
-          </h1>
-          <p className="text-lg text-muted-foreground mt-6 max-w-3xl mx-auto">
-            Simplify campaigns, automate your customer journeys, and boost engagement — all from one place with Keymara’s intelligent marketing tools.
-          </p>
-          <div className="grid md:grid-cols-2 gap-x-8 gap-y-4 max-w-3xl mx-auto mt-8 text-left">
-            {features.map((feature, index) => (
-                <div key={index} className="flex items-center gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-primary" />
-                    <span className="text-foreground">{feature.text}</span>
-                </div>
-            ))}
-          </div>
-          <Button asChild size="lg" className="mt-10">
-            <Link href="/tools-hub">
-              Explore Keymara Tools
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </Button>
+      <section aria-labelledby="hero-title" className="py-16">
+        <div className="container mx-auto px-6 max-w-7xl">
+            <h1 id="hero-title" className="text-4xl md:text-6xl font-extrabold leading-tight mb-5 animate-fade-in" style={{ animationName: 'fadeInUp' }}>
+                Learn Modern Email Automation With Tools Like <strong>Brevo</strong> — Built for Smarter Customer Journeys
+            </h1>
+            <p className="text-lg text-muted-foreground mb-7 max-w-4xl leading-relaxed">
+                Simplify campaigns, automate your customer journeys, and understand how platforms like <strong>Brevo</strong> power email automation, segmentation, and CRM.
+                Learn practical strategies that help you deliver real value to your audience.
+            </p>
+            <div className="flex gap-4 items-center">
+                <Button asChild size="lg">
+                    <Link href="/tools-hub">Email &amp; Automation Tools — Complete Learning Hub</Link>
+                </Button>
+                <Link href="/about" className="text-muted-foreground underline text-sm">About Keymara</Link>
+            </div>
         </div>
+        <style>{`
+            @keyframes fadeInUp {
+                from { transform: translateY(10px); opacity: 0; }
+                to   { transform: translateY(0);  opacity: 1; }
+            }
+        `}</style>
       </section>
 
       <section className="py-20 md:py-24 animate-fade-in animation-delay-200">
