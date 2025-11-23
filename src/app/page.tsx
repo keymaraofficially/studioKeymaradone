@@ -2,70 +2,14 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { categories, marketingTools, latestInsights } from '@/lib/data';
-import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow, Award, BarChart, Bot, Handshake, BrainCircuit, Share2, Search, Mail, FileText, GitCompareArrows, Users, MessageCircle, Mailbox, Send, LineChart as LineChartIcon, Users2, Wand2, Monitor, Briefcase, BarChart2 } from 'lucide-react';
+import { categories, marketingTools, latestInsights, brevoFeatures, brevoIntegrations } from '@/lib/data';
+import { ArrowRight, Award } from 'lucide-react';
 import Link from 'next/link';
-import Image from 'next/image';
-
-const brevoIntegrations = [
-    {
-        name: "WordPress",
-        description: "Connect Brevo to WordPress for email capture, automation, and subscriber syncing."
-    },
-    {
-        name: "Shopify",
-        description: "Sync ecommerce customers, abandoned carts, SMS alerts, and automated marketing flows."
-    },
-    {
-        name: "WooCommerce",
-        description: "Integrate sales data and trigger campaigns based on customer behavior."
-    },
-    {
-        name: "Google Analytics",
-        description: "Track conversions, engagement, and performance from inside your Brevo campaigns."
-    },
-    {
-        name: "Zapier",
-        description: "Automate thousands of workflows connecting Brevo to your entire toolset."
-    },
-    {
-        name: "Facebook Lead Ads",
-        description: "Automatically send Facebook leads into Brevo for instant follow-ups."
-    }
-];
 
 const brandNames = [
   "Ebay", "Michelin", "Montblanc", "The Kooples", "Bodybuilding.com", 
   "Bloomreach", "Louis Vuitton", "L’Occitane", "Florida Trend", "Amnesty International"
 ];
-
-const brevoFeatures = [
-    {
-        title: "Email Marketing",
-        description: "Create high-converting campaigns with drag-and-drop editors, dynamic content and A/B testing — fast to build, proven to convert."
-    },
-    {
-        title: "Automation Workflows",
-        description: "Design multi-step journeys with triggers, delays and conditions to automate welcome flows, cart recovery and lifecycle campaigns."
-    },
-    {
-        title: "Multi-channel Messaging",
-        description: "Email plus SMS, WhatsApp and push notifications from one platform — keep messaging consistent across every touchpoint."
-    },
-    {
-        title: "Deliverability Tools",
-        description: "Built-in warm-up, authentication checks and reputation tools so your emails reach inboxes reliably at scale."
-    },
-    {
-        title: "CRM & Segmentation",
-        description: "Unify contacts, score leads and create audience segments to deliver truly personalized campaigns that drive conversions."
-    },
-    {
-        title: "Analytics & Reporting",
-        description: "Real-time insights and campaign-level reporting to measure ROI, spot trends, and iterate on what actually works."
-    }
-];
-
 
 export default function Home() {
   const brevoArticles = latestInsights.filter(insight => insight.title.toLowerCase().includes('brevo')).slice(0, 6);
@@ -112,7 +56,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 md:py-24 animate-fade-in animation-delay-200 bg-[#fcf7ec] text-[#112]">
+      <section className="bg-[#fcf7ec] text-[#112] py-20 md:py-24">
         <div className="container max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-2.5">Why Marketers Prefer Brevo for Email Automation</h2>
           <p className="text-[#5b6b72] mb-9 text-lg">
@@ -128,7 +72,7 @@ export default function Home() {
           </div>
           <div className="mt-8">
             <Button asChild size="lg" className="bg-[#f5b301] text-[#082] hover:bg-[#f5b301]/90 font-bold">
-              <Link href="/brevo-tools-comparison-hub">Explore Brevo Features →</Link>
+              <Link href="https://www.brevo.com/features/" target="_blank" rel="noopener noreferrer">Explore Brevo Features →</Link>
             </Button>
           </div>
         </div>

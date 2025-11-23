@@ -8,6 +8,42 @@ export type Category = {
   image: string;
 };
 
+export const brevoFeatures = [
+    {
+        title: 'Email Marketing',
+        description: 'Create high-converting campaigns with drag-and-drop editors, dynamic content and A/B testing — fast to build, proven to convert.',
+    },
+    {
+        title: 'Automation Workflows',
+        description: 'Design multi-step journeys with triggers, delays and conditions to automate welcome flows, cart recovery and lifecycle campaigns.',
+    },
+    {
+        title: 'Multi-channel Messaging',
+        description: 'Email plus SMS, WhatsApp and push notifications from one platform — keep messaging consistent across every touchpoint.',
+    },
+    {
+        title: 'Deliverability Tools',
+        description: 'Built-in warm-up, authentication checks and reputation tools so your emails reach inboxes reliably at scale.',
+    },
+    {
+        title: 'CRM & Segmentation',
+        description: 'Unify contacts, score leads and create audience segments to deliver truly personalized campaigns that drive conversions.',
+    },
+    {
+        title: 'Analytics & Reporting',
+        description: 'Real-time insights and campaign-level reporting to measure ROI, spot trends, and iterate on what actually works.',
+    },
+];
+
+export const brevoIntegrations = [
+    { name: 'WordPress', description: 'Connect Brevo to WordPress for email capture, automation, and subscriber syncing.' },
+    { name: 'Shopify', description: 'Sync ecommerce customers, abandoned carts, SMS alerts, and automated marketing flows.' },
+    { name: 'WooCommerce', description: 'Integrate sales data and trigger campaigns based on customer behavior.' },
+    { name: 'Google Analytics', description: 'Track conversions, engagement, and performance from inside your Brevo campaigns.' },
+    { name: 'Zapier', description: 'Automate thousands of workflows connecting Brevo to your entire toolset.' },
+    { name: 'Facebook Lead Ads', description: 'Automatically send Facebook leads into Brevo for instant follow-ups.' }
+];
+
 export const categories: Category[] = [
   {
     name: 'Email Marketing',
@@ -1316,6 +1352,7 @@ export const latestInsights = [
 ];
 
     
+
 
 
 
