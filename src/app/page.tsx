@@ -3,7 +3,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { categories, marketingTools, latestInsights } from '@/lib/data';
-import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow, Award, BarChart, Bot, Handshake, BrainCircuit } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow, Award, BarChart, Bot, Handshake, BrainCircuit, Share2, Search, Mail, FileText, GitCompareArrows, Users, MessageCircle, Mailbox, Send, LineChart as LineChartIcon, Users2, Wand2, Monitor, Briefcase, BarChart2 } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -37,6 +37,33 @@ const brevoIntegrations = [
 const brandNames = [
   "Ebay", "Michelin", "Montblanc", "The Kooples", "Bodybuilding.com", 
   "Bloomreach", "Louis Vuitton", "L’Occitane", "Florida Trend", "Amnesty International"
+];
+
+const brevoFeatures = [
+    {
+        title: "Email Marketing",
+        description: "Create high-converting campaigns with drag-and-drop editors, dynamic content and A/B testing — fast to build, proven to convert."
+    },
+    {
+        title: "Automation Workflows",
+        description: "Design multi-step journeys with triggers, delays and conditions to automate welcome flows, cart recovery and lifecycle campaigns."
+    },
+    {
+        title: "Multi-channel Messaging",
+        description: "Email plus SMS, WhatsApp and push notifications from one platform — keep messaging consistent across every touchpoint."
+    },
+    {
+        title: "Deliverability Tools",
+        description: "Built-in warm-up, authentication checks and reputation tools so your emails reach inboxes reliably at scale."
+    },
+    {
+        title: "CRM & Segmentation",
+        description: "Unify contacts, score leads and create audience segments to deliver truly personalized campaigns that drive conversions."
+    },
+    {
+        title: "Analytics & Reporting",
+        description: "Real-time insights and campaign-level reporting to measure ROI, spot trends, and iterate on what actually works."
+    }
 ];
 
 
@@ -85,16 +112,24 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 md:py-24 animate-fade-in animation-delay-200">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold">Why Marketers Rely on Brevo for Smarter Email Automation</h2>
-            <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
-              We simplify email marketing by teaching you how to use Brevo’s automation, CRM,
-              segmentation, and multi-channel tools in a practical, beginner-friendly way.
-              Keymara helps businesses understand Brevo deeply — so every campaign becomes smarter,
-              faster, and easier to manage.
-            </p>
+      <section className="py-20 md:py-24 animate-fade-in animation-delay-200 bg-[#fcf7ec] text-[#112]">
+        <div className="container max-w-7xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-2.5">Why Marketers Prefer Brevo for Email Automation</h2>
+          <p className="text-[#5b6b72] mb-9 text-lg">
+            Powerful email, automation and analytics built to grow revenue — simple to use, reliable at scale.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {brevoFeatures.map((feature, index) => (
+              <article key={index} className="bg-white border border-[rgba(14,31,35,0.06)] p-7 rounded-xl shadow-[0_6px_18px_rgba(17,17,17,0.04)] text-left transition-all duration-200 ease-in-out hover:-translate-y-1.5 hover:shadow-[0_18px_40px_rgba(17,17,17,0.08)]">
+                <h3 className="text-xl font-bold mb-2 text-[#0f2130]">{feature.title}</h3>
+                <p className="text-[#5b6b72] leading-normal">{feature.description}</p>
+              </article>
+            ))}
+          </div>
+          <div className="mt-8">
+            <Button asChild size="lg" className="bg-[#f5b301] text-[#082] hover:bg-[#f5b301]/90 font-bold">
+              <Link href="/brevo-tools-comparison-hub">Explore Brevo Features →</Link>
+            </Button>
           </div>
         </div>
       </section>
