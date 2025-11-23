@@ -30,32 +30,31 @@ const whyChooseKeymara = [
   }
 ]
 
-const brevoFeatureSections = [
-  {
-    title: "Brevo Automation Workflows",
-    description: "Learn how Brevo’s workflows, triggers, delays, and conditions help automate customer journeys with precision.",
-    quote: "“Smart automation isn’t about sending more emails — it’s about sending the right email at the right time.”"
-  },
-  {
-    title: "Brevo Analytics & Reporting",
-    description: "Understand engagement, conversions, and customer behavior using Brevo’s powerful real-time analytics.",
-    quote: "“Data turns guesswork into clarity — and Brevo gives you the data that actually moves revenue.”"
-  },
-  {
-    title: "Brevo CRM + Contact Management",
-    description: "Manage contacts, segment audiences, score leads, and personalize experiences inside Brevo’s unified CRM.",
-    quote: "“A powerful CRM doesn’t collect contacts — it builds relationships that convert.”"
-  },
-  {
-    title: "Brevo Multi-Channel Messaging",
-    description: "Use email, SMS, WhatsApp, and push notifications in one centralized platform for smoother customer communication.",
-    quote: "“Consistent messaging builds trust — and Brevo helps you stay consistent across every channel.”"
-  },
-  {
-    title: "Brevo Email Deliverability Tools",
-    description: "Improve inbox placement with Brevo’s warm-up systems, authentication setup, domain reputation checks, and deliverability tools.",
-    quote: "“Deliverability decides everything — if your email isn’t seen, nothing else matters.”"
-  }
+const brevoIntegrations = [
+    {
+        name: "WordPress",
+        description: "Connect Brevo to WordPress for email capture, automation, and subscriber syncing."
+    },
+    {
+        name: "Shopify",
+        description: "Sync ecommerce customers, abandoned carts, SMS alerts, and automated marketing flows."
+    },
+    {
+        name: "WooCommerce",
+        description: "Integrate sales data and trigger campaigns based on customer behavior."
+    },
+    {
+        name: "Google Analytics",
+        description: "Track conversions, engagement, and performance from inside your Brevo campaigns."
+    },
+    {
+        name: "Zapier",
+        description: "Automate thousands of workflows connecting Brevo to your entire toolset."
+    },
+    {
+        name: "Facebook Lead Ads",
+        description: "Automatically send Facebook leads into Brevo for instant follow-ups."
+    }
 ];
 
 const brandNames = [
@@ -140,60 +139,6 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="py-8">
-          <div className="container mx-auto px-4">
-              <div className="flex flex-col gap-10">
-                  {brevoFeatureSections.map((section, index) => (
-                      <div key={index} className="bg-white rounded-2xl p-8 border border-border">
-                          <h3 className="text-2xl font-headline font-bold mb-3">{section.title}</h3>
-                          <p className="text-muted-foreground mb-5">{section.description}</p>
-                          <hr className="my-5 border-border" />
-                          <p className="text-muted-foreground italic">{section.quote}</p>
-                      </div>
-                  ))}
-              </div>
-          </div>
-      </section>
-
-      <section className="py-20 md:py-24 bg-card animate-fade-in animation-delay-400">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold">
-              Automate Smarter. Connect Better. Grow Faster.
-            </h2>
-            <p className="text-lg text-muted-foreground mt-2 max-w-3xl mx-auto">
-             Discover tools that make email marketing simpler, smarter, and more effective. Learn, automate, and scale with Keymara’s AI-powered marketing suite.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {marketingTools.map((tool) => (
-              <Link href={tool.url} key={tool.name} target="_blank" rel="noopener noreferrer" className="group flex">
-                <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)] ${tool.isRecommended ? 'border-primary bg-primary/5' : 'bg-background'}`}>
-                  <CardHeader>
-                    {tool.isRecommended && (
-                      <div className="flex items-center gap-2 text-sm font-semibold text-primary mb-2">
-                        <Award className="h-5 w-5" />
-                        Keymara pick
-                      </div>
-                    )}
-                     <div className="flex items-center gap-3">
-                      {!tool.isRecommended && <tool.icon className="h-6 w-6 text-primary" />}
-                      <CardTitle className="font-headline text-lg">{tool.name.replace(' Recommended', '')}</CardTitle>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="flex-grow">
-                    <CardDescription>{tool.description}</CardDescription>
-                  </CardContent>
-                  <CardFooter>
-                    <ArrowRight className="h-5 w-5 text-muted-foreground ml-auto transition-transform group-hover:translate-x-1" />
-                  </CardFooter>
-                </Card>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="py-20 md:py-24 animate-fade-in animation-delay-600">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -263,6 +208,74 @@ export default function Home() {
               </p>
               <p className="text-sm italic text-muted-foreground/80 border-t pt-4">“Data becomes useful when AI turns it into direction.”</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+       <section className="py-16 bg-[#F8FFF4]">
+        <div className="container max-w-6xl mx-auto">
+            <h2 className="text-center text-4xl text-[#1B3A2E] mb-4 font-bold">
+            Brevo Integrations That Power Your Marketing
+            </h2>
+            <p className="text-center max-w-3xl mx-auto text-[#4A5A52] text-lg mb-12">
+            Connect Brevo with your favorite business tools—from CRM to ecommerce, analytics, forms, and automation systems. 
+            Build a unified workflow without complexity.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {brevoIntegrations.map((integration, index) => (
+                    <div key={index} className="bg-white rounded-xl p-6 border border-[#E2F5D6]">
+                        <h3 className="text-xl font-semibold text-[#193B2D]">{integration.name}</h3>
+                        <p className="text-[#5B6A63] text-base mt-2">
+                            {integration.description}
+                        </p>
+                    </div>
+                ))}
+            </div>
+            <div className="text-center mt-12">
+            <Button asChild size="lg" className="bg-[#1B3A2E] hover:bg-[#1B3A2E]/90">
+                <Link href="/category/crm-integrations">
+                    Explore Full Integration Hub →
+                </Link>
+            </Button>
+            </div>
+        </div>
+        </section>
+
+      <section className="py-20 md:py-24 bg-card animate-fade-in animation-delay-400">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">
+              Automate Smarter. Connect Better. Grow Faster.
+            </h2>
+            <p className="text-lg text-muted-foreground mt-2 max-w-3xl mx-auto">
+             Discover tools that make email marketing simpler, smarter, and more effective. Learn, automate, and scale with Keymara’s AI-powered marketing suite.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {marketingTools.map((tool) => (
+              <Link href={tool.url} key={tool.name} target="_blank" rel="noopener noreferrer" className="group flex">
+                <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)] ${tool.isRecommended ? 'border-primary bg-primary/5' : 'bg-background'}`}>
+                  <CardHeader>
+                    {tool.isRecommended && (
+                      <div className="flex items-center gap-2 text-sm font-semibold text-primary mb-2">
+                        <Award className="h-5 w-5" />
+                        Keymara pick
+                      </div>
+                    )}
+                     <div className="flex items-center gap-3">
+                      {!tool.isRecommended && <tool.icon className="h-6 w-6 text-primary" />}
+                      <CardTitle className="font-headline text-lg">{tool.name.replace(' Recommended', '')}</CardTitle>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="flex-grow">
+                    <CardDescription>{tool.description}</CardDescription>
+                  </CardContent>
+                  <CardFooter>
+                    <ArrowRight className="h-5 w-5 text-muted-foreground ml-auto transition-transform group-hover:translate-x-1" />
+                  </CardFooter>
+                </Card>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
