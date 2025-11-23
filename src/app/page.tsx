@@ -388,6 +388,31 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-20 bg-card">
+        <div className="container max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-headline font-bold mb-8">
+            Dive Deeper into Brevo
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center gap-4">
+            <Button asChild size="lg" variant="outline">
+              <Link href="https://www.brevo.com/products/" target="_blank" rel="noopener noreferrer">
+                Explore Products
+              </Link>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <Link href="https://www.brevo.com/pricing/" target="_blank" rel="noopener noreferrer">
+                View Pricing
+              </Link>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <Link href="https://www.brevo.com/resources/" target="_blank" rel="noopener noreferrer">
+                Browse Resources
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
