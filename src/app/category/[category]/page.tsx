@@ -19,7 +19,23 @@ export default function CategoryListPage({ params }: { params: { category: strin
     notFound();
   }
 
-  const postsInCategory = latestInsights.filter(p => p.category === category.name);
+  let postsInCategory = latestInsights.filter(p => p.category === category.name);
+  
+  // Custom sorting for 'Tools & SaaS' category
+  if (params.category === 'tools-saas') {
+    postsInCategory.sort((a, b) => {
+      const aIsBrevo = a.title.toLowerCase().includes('brevo');
+      const bIsBrevo = b.title.toLowerCase().includes('brevo');
+      if (aIsBrevo && !bIsBrevo) {
+        return -1;
+      }
+      if (!aIsBrevo && bIsBrevo) {
+        return 1;
+      }
+      return 0; // or any other secondary sort logic
+    });
+  }
+
   const placeholderImage = PlaceHolderImages.find(p => p.id === category.image);
 
   return (
