@@ -65,19 +65,19 @@ export default function Home() {
       <section className="bg-[#fcf7ec] text-[#112] py-20 md:py-24">
         <div className="container max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-2.5">Why Marketers Prefer Brevo for Email Automation</h2>
-          <p className="text-[#5b6b72] mb-9 text-lg">
+          <p className="text-muted-foreground mb-9 text-lg">
             Powerful email, automation and analytics built to grow revenue — simple to use, reliable at scale.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {brevoFeatures.map((feature, index) => (
-              <article key={index} className="bg-white border border-[rgba(14,31,35,0.06)] p-7 rounded-xl shadow-[0_6px_18px_rgba(17,17,17,0.04)] text-left transition-all duration-200 ease-in-out hover:-translate-y-1.5 hover:shadow-[0_18px_40px_rgba(17,17,17,0.08)]">
-                <h3 className="text-xl font-bold mb-2 text-[#0f2130]">{feature.title}</h3>
-                <p className="text-[#5b6b72] leading-normal">{feature.description}</p>
+              <article key={index} className="bg-white border border-border p-7 rounded-xl shadow-[0_6px_18px_rgba(17,17,17,0.04)] text-left transition-all duration-200 ease-in-out hover:-translate-y-1.5 hover:shadow-[0_18px_40px_rgba(17,17,17,0.08)]">
+                <h3 className="text-xl font-bold mb-2 text-foreground">{feature.title}</h3>
+                <p className="text-muted-foreground leading-normal">{feature.description}</p>
               </article>
             ))}
           </div>
           <div className="mt-8">
-            <Button asChild size="lg" className="bg-[#f5b301] text-[#082] hover:bg-[#f5b301]/90 font-bold">
+            <Button asChild size="lg">
               <Link href="https://www.brevo.com/features/" target="_blank" rel="noopener noreferrer">Explore Brevo Features →</Link>
             </Button>
           </div>
@@ -344,6 +344,67 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      <section className="py-20 bg-[#FAF7EE]">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+            
+            <h2 className="text-4xl font-bold text-foreground mb-4">
+               Real Brands Growing Faster With Brevo
+            </h2>
+
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-14">
+               These real-world case studies show how businesses use Brevo’s automation, CRM, and
+               multi-channel tools to boost engagement, save time, and increase revenue.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-8">
+
+                <div className="p-8 bg-white shadow-sm rounded-2xl border border-border">
+                    <h3 className="text-xl font-semibold text-foreground mb-3">
+                        Ecommerce Brand Increased Repeat Customers by 42%
+                    </h3>
+                    <p className="text-muted-foreground mb-4">
+                        A mid-sized ecommerce store used Brevo’s automation workflows and segmentation to send
+                        perfectly-timed product reminders, boosting customer retention and lifetime value.
+                    </p>
+                    <Link href="https://www.brevo.com/customers/" target="_blank" 
+                       className="text-primary font-medium hover:underline">
+                       Read full story →
+                    </Link>
+                </div>
+
+                <div className="p-8 bg-white shadow-sm rounded-2xl border border-border">
+                    <h3 className="text-xl font-semibold text-foreground mb-3">
+                        SaaS Company Cut Manual Work by 70%
+                    </h3>
+                    <p className="text-muted-foreground mb-4">
+                        By using Brevo’s CRM + automation triggers, the team removed repetitive tasks, launched
+                        smarter onboarding emails, and doubled their activation rate.
+                    </p>
+                    <Link href="https://www.brevo.com/customers/" target="_blank" 
+                       className="text-primary font-medium hover:underline">
+                       See how they optimized →
+                    </Link>
+                </div>
+
+                <div className="p-8 bg-white shadow-sm rounded-2xl border border-border">
+                    <h3 className="text-xl font-semibold text-foreground mb-3">
+                        Local Services Business 3× More Leads With Brevo
+                    </h3>
+                    <p className="text-muted-foreground mb-4">
+                        Using Brevo’s forms, WhatsApp messaging, and follow-up automation, a small business
+                        tripled inbound leads and kept clients engaged automatically.
+                    </p>
+                    <Link href="https://www.brevo.com/customers/" target="_blank" 
+                       className="text-primary font-medium hover:underline">
+                       View their results →
+                    </Link>
+                </div>
+
+            </div>
+        </div>
+      </section>
+
     </div>
   );
 }
