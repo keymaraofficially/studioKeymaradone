@@ -92,17 +92,17 @@ export default function Home() {
         `}</style>
       </section>
 
-      <section className="py-12 bg-[#faf7ef] text-center">
+      <section className="py-12 bg-card text-center">
         <div className="w-full overflow-hidden relative">
-          <h3 className="text-2xl font-semibold text-gray-800 mb-8">
+          <h3 className="text-2xl font-semibold text-foreground mb-8">
             Join 500,000+ customers around the world who trust Brevo
           </h3>
           <div className="flex gap-x-16 whitespace-nowrap animate-scroll-brands">
             {brandNames.map((name, index) => (
-              <span key={index} className="text-xl font-medium text-gray-700 opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
+              <span key={index} className="text-xl font-medium text-muted-foreground opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
             ))}
             {brandNames.map((name, index) => (
-              <span key={`dup-${index}`} className="text-xl font-medium text-gray-700 opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
+              <span key={`dup-${index}`} className="text-xl font-medium text-muted-foreground opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
             ))}
           </div>
         </div>
@@ -212,27 +212,27 @@ export default function Home() {
         </div>
       </section>
 
-       <section className="py-16 bg-[#F8FFF4]">
+       <section className="py-16 bg-card">
         <div className="container max-w-6xl mx-auto">
-            <h2 className="text-center text-4xl text-[#1B3A2E] mb-4 font-bold">
+            <h2 className="text-center text-4xl text-foreground mb-4 font-bold">
             Brevo Integrations That Power Your Marketing
             </h2>
-            <p className="text-center max-w-3xl mx-auto text-[#4A5A52] text-lg mb-12">
+            <p className="text-center max-w-3xl mx-auto text-muted-foreground text-lg mb-12">
             Connect Brevo with your favorite business tools—from CRM to ecommerce, analytics, forms, and automation systems. 
             Build a unified workflow without complexity.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {brevoIntegrations.map((integration, index) => (
-                    <div key={index} className="bg-white rounded-xl p-6 border border-[#E2F5D6]">
-                        <h3 className="text-xl font-semibold text-[#193B2D]">{integration.name}</h3>
-                        <p className="text-[#5B6A63] text-base mt-2">
+                    <div key={index} className="bg-background rounded-xl p-6 border border-border">
+                        <h3 className="text-xl font-semibold text-foreground">{integration.name}</h3>
+                        <p className="text-muted-foreground text-base mt-2">
                             {integration.description}
                         </p>
                     </div>
                 ))}
             </div>
             <div className="text-center mt-12">
-            <Button asChild size="lg" className="bg-[#1B3A2E] hover:bg-[#1B3A2E]/90">
+            <Button asChild size="lg">
                 <Link href="/category/crm-integrations">
                     Explore Full Integration Hub →
                 </Link>
