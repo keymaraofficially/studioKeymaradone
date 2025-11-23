@@ -369,9 +369,6 @@ export default function Home() {
                         A mid-sized ecommerce store used Brevo’s automation workflows and segmentation to send
                         perfectly-timed product reminders, boosting customer retention and lifetime value.
                     </p>
-                    <span className="text-primary font-medium">
-                       Read full story →
-                    </span>
                 </div>
 
                 <div className="p-8 bg-card shadow-sm rounded-2xl border border-border">
@@ -382,9 +379,6 @@ export default function Home() {
                         By using Brevo’s CRM + automation triggers, the team removed repetitive tasks, launched
                         smarter onboarding emails, and doubled their activation rate.
                     </p>
-                    <span className="text-primary font-medium">
-                       See how they optimized →
-                    </span>
                 </div>
 
                 <div className="p-8 bg-card shadow-sm rounded-2xl border border-border">
