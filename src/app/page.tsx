@@ -7,33 +7,6 @@ import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow, Award, BarChart, Bo
 import Link from 'next/link';
 import Image from 'next/image';
 
-const whyChooseKeymara = [
-  {
-    icon: Bot,
-    title: 'Brevo Automation Made Simple',
-    description: 'Learn how Brevo’s workflows, triggers, and conditions help automate emails, customer journeys, and follow-ups with ease.',
-    quote: '“Smart automation is not about sending more emails — it’s about sending the right email at the right time.”'
-  },
-  {
-    icon: BarChart,
-    title: 'Brevo Analytics & Reporting',
-    description: 'Understand engagement, conversions, and customer behavior using Brevo’s powerful real-time analytics.',
-    quote: '“Data turns guesswork into clarity — and Brevo gives you the data that actually moves revenue.”'
-  },
-  {
-    icon: Handshake,
-    title: 'Brevo CRM + Contact Management',
-    description: 'Manage contacts, segment audiences, score leads, and personalize experiences inside Brevo’s unified CRM.',
-    quote: '“A powerful CRM doesn’t collect contacts — it builds relationships that convert.”'
-  },
-  {
-    icon: BrainCircuit,
-    title: 'Brevo Email Deliverability Tools',
-    description: 'Improve inbox placement with Brevo’s warm-up systems, authentication setup, domain reputation checks, and deliverability tools.',
-    quote: '“Deliverability decides everything — if your email isn’t seen, nothing else matters.”'
-  }
-]
-
 const brevoIntegrations = [
     {
         name: "WordPress",
@@ -123,20 +96,39 @@ export default function Home() {
               faster, and easier to manage.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {whyChooseKeymara.map((item, index) => (
-              <div key={index} className="bg-white rounded-2xl p-8 border border-border">
-                <h3 className="text-2xl font-bold mb-3 text-foreground">{item.title}</h3>
-                <p className="text-base text-muted-foreground mb-5">
-                  {item.description}
-                </p>
-                <hr className="my-5 border-t border-dashed border-border" />
-                <p className="text-sm italic text-muted-foreground">
-                  {item.quote}
-                </p>
-              </div>
-            ))}
+        </div>
+      </section>
+      
+      <section className="bg-card py-16 rounded-2xl my-16">
+        <div className="container max-w-6xl mx-auto text-center">
+          
+          <h2 className="text-4xl font-bold text-foreground mb-5">
+            Brevo is Used Worldwide — Every Single Month
+          </h2>
+
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12">
+            Millions of businesses rely on <strong>Brevo</strong> each month to automate campaigns, drive conversions, and power customer experiences across the globe.
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-10">
+
+            <div className="flex-1 min-w-[220px]">
+              <h3 className="text-5xl text-primary font-bold mb-2">500k+</h3>
+              <p className="text-base text-muted-foreground">Active Monthly Businesses</p>
+            </div>
+
+            <div className="flex-1 min-w-[220px]">
+              <h3 className="text-5xl text-primary font-bold mb-2">180+</h3>
+              <p className="text-base text-muted-foreground">Countries Using Brevo</p>
+            </div>
+
+            <div className="flex-1 min-w-[220px]">
+              <h3 className="text-5xl text-primary font-bold mb-2">12B+</h3>
+              <p className="text-base text-muted-foreground">Emails & Messages Sent Monthly</p>
+            </div>
+
           </div>
+
         </div>
       </section>
       
