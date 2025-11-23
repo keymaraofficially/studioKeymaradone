@@ -260,50 +260,38 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 bg-background">
-        <div className="container max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold font-headline text-foreground">
-              Enterprise Power with Brevo Intelligence
-            </h2>
-            <p className="text-lg text-muted-foreground mt-3 max-w-3xl mx-auto">
-              Take your marketing operations to the next level with Brevo’s enterprise-grade tools. 
-              From automation to analytics, manage everything at scale with the reliability global brands trust.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-            <div className="bg-card p-8 rounded-2xl border border-border">
-              <h3 className="text-2xl font-bold font-headline text-primary mb-3">
-                Unified Customer Data
-              </h3>
-              <p className="text-base text-muted-foreground leading-relaxed">
+      <section className="py-20 bg-background text-foreground">
+        <div className="container max-w-7xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-2.5">Enterprise Power with Brevo Intelligence</h2>
+          <p className="text-muted-foreground mb-9 text-lg">
+            Take your marketing operations to the next level with Brevo’s enterprise-grade tools. 
+            From automation to analytics, manage everything at scale with the reliability global brands trust.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-card border border-border p-7 rounded-xl shadow-[0_6px_18px_rgba(17,17,17,0.04)] text-left transition-all duration-200 ease-in-out hover:-translate-y-1.5 hover:shadow-[0_18px_40px_rgba(17,17,17,0.08)]">
+              <h3 className="text-xl font-bold mb-2 text-foreground">Unified Customer Data</h3>
+              <p className="text-muted-foreground leading-normal">
                 Sync all customer interactions across email, SMS, WhatsApp, and CRM tools inside Brevo’s centralized
                 data hub — a single source of truth for smarter enterprise campaigns.
               </p>
             </div>
-            <div className="bg-card p-8 rounded-2xl border border-border">
-              <h3 className="text-2xl font-bold font-headline text-primary mb-3">
-                AI-Driven Personalization
-              </h3>
-              <p className="text-base text-muted-foreground leading-relaxed">
+            <div className="bg-card border border-border p-7 rounded-xl shadow-[0_6px_18px_rgba(17,17,17,0.04)] text-left transition-all duration-200 ease-in-out hover:-translate-y-1.5 hover:shadow-[0_18px_40px_rgba(17,17,17,0.08)]">
+              <h3 className="text-xl font-bold mb-2 text-foreground">AI-Driven Personalization</h3>
+              <p className="text-muted-foreground leading-normal">
                 Use Brevo’s AI tools to tailor messaging at scale, optimize subject lines, personalize journeys,
                 and deliver high-impact campaigns with zero manual effort.
               </p>
             </div>
-            <div className="bg-card p-8 rounded-2xl border border-border">
-              <h3 className="text-2xl font-bold font-headline text-primary mb-3">
-                Real-Time Enterprise Analytics
-              </h3>
-              <p className="text-base text-muted-foreground leading-relaxed">
+            <div className="bg-card border border-border p-7 rounded-xl shadow-[0_6px_18px_rgba(17,17,17,0.04)] text-left transition-all duration-200 ease-in-out hover:-translate-y-1.5 hover:shadow-[0_18px_40px_rgba(17,17,17,0.08)]">
+              <h3 className="text-xl font-bold mb-2 text-foreground">Real-Time Enterprise Analytics</h3>
+              <p className="text-muted-foreground leading-normal">
                 Track multi-channel performance with real-time dashboards and deep analytics that help you
                 reduce waste, increase ROI, and refine campaigns at scale.
               </p>
             </div>
-            <div className="bg-card p-8 rounded-2xl border border-border">
-              <h3 className="text-2xl font-bold font-headline text-primary mb-3">
-                Built for Large Teams
-              </h3>
-              <p className="text-base text-muted-foreground leading-relaxed">
+            <div className="bg-card border border-border p-7 rounded-xl shadow-[0_6px_18px_rgba(17,17,17,0.04)] text-left transition-all duration-200 ease-in-out hover:-translate-y-1.5 hover:shadow-[0_18px_40px_rgba(17,17,17,0.08)]">
+              <h3 className="text-xl font-bold mb-2 text-foreground">Built for Large Teams</h3>
+              <p className="text-muted-foreground leading-normal">
                 Role permissions, team collaboration tools, advanced API options, and stable infrastructure — 
                 Brevo makes enterprise marketing secure, scalable, and effortless.
               </p>
@@ -359,7 +347,7 @@ export default function Home() {
                multi-channel tools to boost engagement, save time, and increase revenue.
             </p>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
                 <div className="p-8 bg-card shadow-sm rounded-2xl border border-border">
                     <h3 className="text-xl font-semibold text-foreground mb-3">
