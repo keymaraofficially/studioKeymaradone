@@ -65,9 +65,7 @@ const brandNames = [
 
 
 export default function Home() {
-  const brevoArticles = latestInsights.filter(insight => insight.title.toLowerCase().includes('brevo')).slice(0, 3);
-  const otherArticles = latestInsights.filter(insight => !insight.title.toLowerCase().includes('brevo')).slice(0, 3);
-  const featuredInsights = [...brevoArticles, ...otherArticles];
+  const brevoArticles = latestInsights.filter(insight => insight.title.toLowerCase().includes('brevo')).slice(0, 6);
 
   return (
     <div className="flex flex-col">
@@ -280,7 +278,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {latestInsights.map((insight, index) => {
+            {brevoArticles.map((insight, index) => {
                 const category = categories.find(c => c.name === insight.category);
                 const categorySlug = category ? category.slug : 'brevo-tools-comparison-hub';
                 return (
