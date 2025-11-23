@@ -11,22 +11,26 @@ const whyChooseKeymara = [
   {
     icon: Bot,
     title: 'Brevo Automation Made Simple',
-    description: 'Learn how Brevo’s workflows, triggers, and conditions help automate emails, customer journeys, and follow-ups with ease.'
+    description: 'Learn how Brevo’s workflows, triggers, and conditions help automate emails, customer journeys, and follow-ups with ease.',
+    quote: '“Smart automation is not about sending more emails — it’s about sending the right email at the right time.”'
   },
   {
     icon: BarChart,
-    title: 'Data Insights Using Brevo Analytics',
-    description: 'Understand Brevo’s reporting features to see what drives engagement, conversions, and long-term customer growth.'
+    title: 'Brevo Analytics & Reporting',
+    description: 'Understand engagement, conversions, and customer behavior using Brevo’s powerful real-time analytics.',
+    quote: '“Data turns guesswork into clarity — and Brevo gives you the data that actually moves revenue.”'
   },
   {
     icon: Handshake,
-    title: 'Brevo CRM + Multi-Channel Power',
-    description: 'Manage emails, CRM, SMS, and WhatsApp inside Brevo’s unified dashboard — and learn how to use it effectively for real business impact.'
+    title: 'Brevo CRM + Contact Management',
+    description: 'Manage contacts, segment audiences, score leads, and personalize experiences inside Brevo’s unified CRM.',
+    quote: '“A powerful CRM doesn’t collect contacts — it builds relationships that convert.”'
   },
   {
     icon: BrainCircuit,
-    title: 'Brevo Deliverability & Best Practices',
-    description: 'Learn sender reputation, warm-up routines, authentication setup, and deliverability techniques that help your Brevo campaigns reach the inbox.'
+    title: 'Brevo Email Deliverability Tools',
+    description: 'Improve inbox placement with Brevo’s warm-up systems, authentication setup, domain reputation checks, and deliverability tools.',
+    quote: '“Deliverability decides everything — if your email isn’t seen, nothing else matters.”'
   }
 ]
 
@@ -119,21 +123,18 @@ export default function Home() {
               faster, and easier to manage.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {whyChooseKeymara.map((item, index) => (
-              <Card key={index} className="bg-card text-center p-6 border-0 shadow-none rounded-2xl shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
-                 <div className="inline-block bg-primary/10 p-3 rounded-full mb-4">
-                  <item.icon className="h-8 w-8 text-primary" />
-                </div>
-                <CardHeader className="p-0">
-                  <CardTitle className="font-headline text-xl">{item.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="mt-2 text-base">
-                    {item.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
+              <div key={index} className="bg-white rounded-2xl p-8 border border-border">
+                <h3 className="text-2xl font-bold mb-3 text-foreground">{item.title}</h3>
+                <p className="text-base text-muted-foreground mb-5">
+                  {item.description}
+                </p>
+                <hr className="my-5 border-t border-dashed border-border" />
+                <p className="text-sm italic text-muted-foreground">
+                  {item.quote}
+                </p>
+              </div>
             ))}
           </div>
         </div>
@@ -276,6 +277,58 @@ export default function Home() {
                 </Card>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-background">
+        <div className="container max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold font-headline text-foreground">
+              Enterprise Power with Brevo Intelligence
+            </h2>
+            <p className="text-lg text-muted-foreground mt-3 max-w-3xl mx-auto">
+              Take your marketing operations to the next level with Brevo’s enterprise-grade tools. 
+              From automation to analytics, manage everything at scale with the reliability global brands trust.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+            <div className="bg-card p-8 rounded-2xl border border-border">
+              <h3 className="text-2xl font-bold font-headline text-primary mb-3">
+                Unified Customer Data
+              </h3>
+              <p className="text-base text-muted-foreground leading-relaxed">
+                Sync all customer interactions across email, SMS, WhatsApp, and CRM tools inside Brevo’s centralized
+                data hub — a single source of truth for smarter enterprise campaigns.
+              </p>
+            </div>
+            <div className="bg-card p-8 rounded-2xl border border-border">
+              <h3 className="text-2xl font-bold font-headline text-primary mb-3">
+                AI-Driven Personalization
+              </h3>
+              <p className="text-base text-muted-foreground leading-relaxed">
+                Use Brevo’s AI tools to tailor messaging at scale, optimize subject lines, personalize journeys,
+                and deliver high-impact campaigns with zero manual effort.
+              </p>
+            </div>
+            <div className="bg-card p-8 rounded-2xl border border-border">
+              <h3 className="text-2xl font-bold font-headline text-primary mb-3">
+                Real-Time Enterprise Analytics
+              </h3>
+              <p className="text-base text-muted-foreground leading-relaxed">
+                Track multi-channel performance with real-time dashboards and deep analytics that help you
+                reduce waste, increase ROI, and refine campaigns at scale.
+              </p>
+            </div>
+            <div className="bg-card p-8 rounded-2xl border border-border">
+              <h3 className="text-2xl font-bold font-headline text-primary mb-3">
+                Built for Large Teams
+              </h3>
+              <p className="text-base text-muted-foreground leading-relaxed">
+                Role permissions, team collaboration tools, advanced API options, and stable infrastructure — 
+                Brevo makes enterprise marketing secure, scalable, and effortless.
+              </p>
+            </div>
           </div>
         </div>
       </section>
