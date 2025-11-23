@@ -68,15 +68,14 @@ export default function Home() {
       </section>
 
       <section className="py-12 bg-[#faf7ef] text-center">
-        <h3 className="text-2xl font-semibold text-gray-800 mb-8">
-          Join 500,000+ customers around the world who trust Brevo
-        </h3>
         <div className="w-full overflow-hidden relative">
+          <h3 className="text-2xl font-semibold text-gray-800 mb-8">
+            Join 500,000+ customers around the world who trust Brevo
+          </h3>
           <div className="flex gap-x-16 whitespace-nowrap animate-scroll-brands">
             {brandNames.map((name, index) => (
               <span key={index} className="text-xl font-medium text-gray-700 opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
             ))}
-            {/* Duplicate for infinite loop */}
             {brandNames.map((name, index) => (
               <span key={`dup-${index}`} className="text-xl font-medium text-gray-700 opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
             ))}
@@ -175,6 +174,53 @@ export default function Home() {
                 </Card>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 md:py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">How Brevo AI Helps You Grow Smarter</h2>
+            <p className="text-lg text-muted-foreground mt-2 max-w-3xl mx-auto">
+              Brevo AI turns your everyday marketing tasks into automated, insight-driven workflows. 
+              From messaging to analytics, AI gives you more clarity, more efficiency, and more growth — 
+              with less effort.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-card p-8 rounded-lg shadow-[0_0_15px_5px_hsl(var(--primary)/0.05)] border border-border">
+              <h3 className="text-xl font-headline font-bold mb-2">AI-Powered Content Suggestions</h3>
+              <p className="text-muted-foreground mb-4">
+                Generate subject lines, email copy, and message variations instantly. Brevo AI improves 
+                your tone, clarity, and engagement using real performance data.
+              </p>
+              <p className="text-sm italic text-muted-foreground/80 border-t pt-4">“Better content isn’t written — it’s optimized with AI.”</p>
+            </div>
+            <div className="bg-card p-8 rounded-lg shadow-[0_0_15px_5px_hsl(var(--primary)/0.05)] border border-border">
+              <h3 className="text-xl font-headline font-bold mb-2">Smarter Audience Targeting</h3>
+              <p className="text-muted-foreground mb-4">
+                Brevo AI analyzes user behavior and segments customers intelligently so you reach the 
+                right people at exactly the right moment.
+              </p>
+              <p className="text-sm italic text-muted-foreground/80 border-t pt-4">“Precision targeting creates real conversions.”</p>
+            </div>
+            <div className="bg-card p-8 rounded-lg shadow-[0_0_15px_5px_hsl(var(--primary)/0.05)] border border-border">
+              <h3 className="text-xl font-headline font-bold mb-2">AI-Driven Workflow Efficiency</h3>
+              <p className="text-muted-foreground mb-4">
+                Reduce manual steps with AI that triggers actions, builds journeys, and recommends 
+                automation improvements based on your performance.
+              </p>
+              <p className="text-sm italic text-muted-foreground/80 border-t pt-4">“Automation gets powerful when AI runs the logic.”</p>
+            </div>
+            <div className="bg-card p-8 rounded-lg shadow-[0_0_15px_5px_hsl(var(--primary)/0.05)] border border-border">
+              <h3 className="text-xl font-headline font-bold mb-2">Instant Insights & Predictions</h3>
+              <p className="text-muted-foreground mb-4">
+                Track engagement, conversions, and trends through AI-powered reporting that predicts 
+                what will perform best before you even hit send.
+              </p>
+              <p className="text-sm italic text-muted-foreground/80 border-t pt-4">“Data becomes useful when AI turns it into direction.”</p>
+            </div>
           </div>
         </div>
       </section>
