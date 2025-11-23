@@ -16,28 +16,34 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <section aria-labelledby="hero-title" className="py-16">
-        <div className="container mx-auto px-6 max-w-7xl">
-            <h1 id="hero-title" className="text-4xl md:text-6xl font-extrabold leading-tight mb-5 animate-fade-in" style={{ animationName: 'fadeInUp' }}>
-                Learn Modern Email Automation With Tools Like <strong>Brevo</strong> — Built for Smarter Customer Journeys
-            </h1>
-            <p className="text-lg text-muted-foreground mb-7 max-w-4xl leading-relaxed">
-                Simplify campaigns, automate your customer journeys, and understand how platforms like <strong>Brevo</strong> power email automation, segmentation, and CRM.
-                Learn practical strategies that help you deliver real value to your audience.
-            </p>
-            <div className="flex gap-4 items-center">
-                <Button asChild size="lg">
-                    <Link href="/brevo-tools-comparison-hub">Email &amp; Automation Tools — Complete Learning Hub</Link>
-                </Button>
-                <Link href="https://www.brevo.com/company/about/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline text-sm">About Brevo</Link>
-            </div>
+      <section className="px-6 py-20 max-w-5xl mx-auto text-center">
+        <h1 className="text-4xl md:text-6xl font-extrabold text-foreground mb-6 leading-tight">
+          Become a Brevo-Powered Email Marketer
+        </h1>
+
+        <p className="text-lg text-muted-foreground mb-10 max-w-3xl mx-auto">
+          Learn how to use Brevo’s automation, segmentation, and smarter email workflows 
+          to build high-performing customer journeys. Master the exact tools today’s top 
+          marketers rely on to scale campaigns with confidence.
+        </p>
+
+        <div className="flex items-center justify-center gap-4">
+          <Button asChild size="lg">
+            <Link 
+              href="https://www.brevo.com/features/automation/"
+              target="_blank" 
+              rel="noopener noreferrer">
+              Explore Brevo Automation Guides
+            </Link>
+          </Button>
+
+          <Button asChild variant="link">
+            <Link 
+              href="/about-brevo">
+              Learn More About Brevo
+            </Link>
+          </Button>
         </div>
-        <style>{`
-            @keyframes fadeInUp {
-                from { transform: translateY(10px); opacity: 0; }
-                to   { transform: translateY(0);  opacity: 1; }
-            }
-        `}</style>
       </section>
 
       <section className="py-12 bg-card text-center">
