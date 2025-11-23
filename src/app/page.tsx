@@ -31,12 +31,12 @@ const whyChooseKeymara = [
 ]
 
 const brandLogos = [
-    { name: "eBay", src: "https://upload.wikimedia.org/wikipedia/commons/a/a9/EBay_logo.png" },
-    { name: "Michelin", src: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Michelin_Man_logo.png" },
-    { name: "Montblanc", src: "https://upload.wikimedia.org/wikipedia/commons/6/62/Montblanc_logo.png" },
-    { name: "The Kooples", src: "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Kooples_logo.png" },
-    { name: "Bodybuilding.com", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bodybuilding.com_logo.png/320px-Bodybuilding.com_logo.png" },
-    { name: "Bloomreach", src: "https://upload.wikimedia.org/wikipedia/commons/3/33/Bloomreach_logo.png" },
+    { name: "eBay", src: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ebay_logo.png" },
+    { name: "Michelin", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Michelin.svg/512px-Michelin.svg.png" },
+    { name: "Montblanc", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Montblanc_logo.svg/512px-Montblanc_logo.svg.png" },
+    { name: "The Kooples", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/The_Kooples_Logo.svg/512px-The_Kooples_Logo.svg.png" },
+    { name: "Bodybuilding.com", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bodybuilding.com_logo.png/512px-Bodybuilding.com_logo.png" },
+    { name: "Bloomreach", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bloomreach_logo.png/512px-Bloomreach_logo.png" },
 ];
 
 
