@@ -59,8 +59,8 @@ const brevoFeatureSections = [
 ];
 
 const brandNames = [
-  "Ebay", "Michelin", "Montblanc", "The Kooples", "Bodybuilding.com", "Bloomreach", 
-  "Louis Vuitton", "L’Occitane", "Florida Trend", "Amnesty International"
+  "Ebay", "Michelin", "Montblanc", "The Kooples", "Bodybuilding.com", 
+  "Bloomreach", "Louis Vuitton", "L’Occitane", "Florida Trend", "Amnesty International"
 ];
 
 
