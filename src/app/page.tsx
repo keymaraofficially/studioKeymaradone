@@ -31,17 +31,16 @@ const whyChooseKeymara = [
 ]
 
 const brandLogos = [
-    { name: "Amnesty International", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Amnesty_International_logo.svg/1280px-Amnesty_International_logo.svg.png" },
-    { name: "eBay", src: "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" },
-    { name: "Michelin", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Michelin_logo.svg/1280px-Michelin_logo.svg.png" },
-    { name: "Montblanc", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Montblanc_logo.svg/1280px-Montblanc_logo.svg.png" },
-    { name: "The Kooples", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Kooples_logo.svg/1280px-The_Kooples_logo.svg.png" },
-    { name: "Bodybuilding.com", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bodybuilding.com_logo.svg/1280px-Bodybuilding.com_logo.svg.png" },
-    { name: "Louis Vuitton", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Louis_Vuitton_LV_logo.svg/1280px-Louis_Vuitton_LV_logo.svg.png" },
+    { name: "eBay", src: "https://upload.wikimedia.org/wikipedia/commons/a/a9/EBay_logo.png" },
+    { name: "Michelin", src: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Michelin_Man_logo.png" },
+    { name: "Montblanc", src: "https://upload.wikimedia.org/wikipedia/commons/6/62/Montblanc_logo.png" },
+    { name: "The Kooples", src: "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Kooples_logo.png" },
+    { name: "Bodybuilding.com", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bodybuilding.com_logo.png/320px-Bodybuilding.com_logo.png" },
+    { name: "Bloomreach", src: "https://upload.wikimedia.org/wikipedia/commons/3/33/Bloomreach_logo.png" },
 ];
 
 
-const allLogos = [...brandLogos, ...brandLogos];
+const allLogos = [...brandLogos, ...brandLogos, ...brandLogos];
 
 
 export default function Home() {
@@ -62,7 +61,7 @@ export default function Home() {
             </p>
             <div className="flex gap-4 items-center">
                 <Button asChild size="lg">
-                    <Link href="/blog">Email &amp; Automation Tools — Complete Learning Hub</Link>
+                    <Link href="/tools-hub">Email &amp; Automation Tools — Complete Learning Hub</Link>
                 </Button>
                 <Link href="https://www.brevo.com/company/about/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline text-sm">About Brevo</Link>
             </div>
