@@ -34,7 +34,7 @@ const brevoFeatureSections = [
     {
         title: "Brevo Automation Workflows",
         description: "Learn how Brevo’s workflows, triggers, delays, and conditions help automate customer journeys with precision.",
-        quote: "“Smart automation is not about sending more emails — it’s about sending the right email at the right time.”"
+        quote: "“Smart automation isn’t about sending more emails — it’s about sending the right email at the right time.”"
     },
     {
         title: "Brevo Analytics & Reporting",
@@ -142,14 +142,16 @@ export default function Home() {
       
       <section className="py-16">
           <div className="container mx-auto px-4 max-w-4xl">
-              {brevoFeatureSections.map((section, index) => (
-                  <div key={index} className="bg-[#fffdf5] border border-gray-200 rounded-2xl p-9 mb-9">
-                      <h3 className="text-2xl font-bold mb-3">{section.title}</h3>
-                      <p className="text-base text-gray-600 mb-5">{section.description}</p>
-                      <div className="border-t border-gray-200 mt-5 pt-3.5 text-sm text-gray-600" dangerouslySetInnerHTML={{ __html: section.quote }}>
-                      </div>
+              <div className="flex flex-col w-full gap-10 mt-10">
+                {brevoFeatureSections.map((section, index) => (
+                  <div key={index} className="bg-white rounded-xl p-8 border border-[#eee7d2]">
+                    <h2 className="mb-3 text-2xl text-[#1d1d1d] font-bold">{section.title}</h2>
+                    <p className="text-lg text-[#333]">{section.description}</p>
+                    <hr className="my-5 border-0 border-b border-[#e4dcbc]" />
+                    <p className="italic text-[#595959] text-base" dangerouslySetInnerHTML={{ __html: section.quote.replace(/<b>(.*?)<\/b>/g, '<strong class="font-semibold text-foreground/80">$1</strong>') }}></p>
                   </div>
-              ))}
+                ))}
+              </div>
           </div>
       </section>
 
