@@ -74,25 +74,17 @@ export default function Home() {
         `}</style>
       </section>
 
-      <section className="py-16 bg-[#faf7ef]">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-2xl font-bold text-foreground mb-6">
-            Join 500,000+ customers around the world who trust Brevo
-          </h2>
-          <div className="logo-marquee overflow-hidden whitespace-nowrap w-full">
-            <div className="logo-track inline-flex gap-16 animate-scroll-marquee">
-              {allLogos.map((logo, index) => (
-                <Image 
-                    key={index} 
-                    src={logo.src} 
-                    alt={logo.name} 
-                    width={150} 
-                    height={50} 
-                    className="h-10 w-auto object-contain opacity-80 transition-opacity duration-200 ease-in-out hover:opacity-100" 
-                />
-              ))}
-            </div>
-          </div>
+      <section className="py-10 text-center bg-[#fffaf0]">
+        <h3 className="text-xl font-semibold text-gray-800 mb-6">
+          Join 500,000+ customers around the world who trust Brevo
+        </h3>
+        <div className="flex justify-center gap-12 flex-wrap px-4">
+          <span className="text-lg text-gray-600 font-medium">Ebay</span>
+          <span className="text-lg text-gray-600 font-medium">Michelin</span>
+          <span className="text-lg text-gray-600 font-medium">Montblanc</span>
+          <span className="text-lg text-gray-600 font-medium">The Kooples</span>
+          <span className="text-lg text-gray-600 font-medium">Bodybuilding.com</span>
+          <span className="text-lg text-gray-600 font-medium">Bloomreach</span>
         </div>
       </section>
 
