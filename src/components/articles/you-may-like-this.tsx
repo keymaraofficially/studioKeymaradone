@@ -26,7 +26,7 @@ export const YouMayLikeThis = ({ currentSlug }: { currentSlug: string }) => {
         <div className="space-y-3">
             {shuffled.map(article => {
                 const category = categories.find(c => c.name === article.category);
-                const categorySlug = category ? category.slug : 'tools-comparison';
+                const categorySlug = category ? category.slug : 'brevo-tools-comparison-hub';
                 return (
                     <Link key={article.slug} href={`/category/${categorySlug}/${article.slug}`} className="sidebar-article-card group">
                         <span className="article-tag">{article.category}</span>

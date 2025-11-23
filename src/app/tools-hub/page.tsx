@@ -11,7 +11,7 @@ export default function ToolsHubPage() {
           A single place to learn email platforms, automation builders, CRMs, and multi-channel messaging. Use this hub to explore comparisons, walkthroughs, and practical guides for implementing email systems that actually scale.
         </p>
         <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold">
-            <Link href="/category/tools-comparison">Explore Tool Guides</Link>
+            <Link href="/category/brevo-tools-comparison-hub">Explore Tool Guides</Link>
         </Button>
       </div>
 
@@ -102,7 +102,7 @@ export default function ToolsHubPage() {
                 <CardHeader><CardTitle>Quick Links</CardTitle></CardHeader>
                 <CardContent>
                     <ul className="list-disc pl-4 text-gray-700 space-y-2">
-                        <li><Link href="/category/tools-comparison">Tools comparison</Link></li>
+                        <li><Link href="/category/brevo-tools-comparison-hub">Tools comparison</Link></li>
                         <li><Link href="/category/tools-saas">Individual tool tutorials</Link></li>
                         <li><Link href="/category/automation-workflows">Automation guides</Link></li>
                         <li><Link href="/category/crm-integrations">CRM breakdowns</Link></li>

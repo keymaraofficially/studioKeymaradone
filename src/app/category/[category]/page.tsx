@@ -54,7 +54,7 @@ export default function CategoryListPage({ params }: { params: { category: strin
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {postsInCategory.map((post) => {
             const postCategory = categories.find(c => c.name === post.category);
-            const categorySlug = postCategory ? postCategory.slug : 'tools-comparison';
+            const categorySlug = postCategory ? postCategory.slug : 'brevo-tools-comparison-hub';
             
             return (
               <Link href={`/category/${categorySlug}/${post.slug}`} key={post.slug} className="group flex">

@@ -82,7 +82,7 @@ export default function Home() {
             </p>
             <div className="flex gap-4 items-center">
                 <Button asChild size="lg">
-                    <Link href="/tools-hub">Email &amp; Automation Tools — Complete Learning Hub</Link>
+                    <Link href="/brevo-tools-comparison-hub">Email &amp; Automation Tools — Complete Learning Hub</Link>
                 </Button>
                 <Link href="https://www.brevo.com/company/about/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline text-sm">About Brevo</Link>
             </div>
@@ -233,7 +233,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredInsights.map((insight, index) => {
                 const category = categories.find(c => c.name === insight.category);
-                const categorySlug = category ? category.slug : 'tools-comparison';
+                const categorySlug = category ? category.slug : 'brevo-tools-comparison-hub';
                 return (
                     <Link href={`/category/${categorySlug}/${insight.slug}`} key={index} className="group flex">
                         <Card className="w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 bg-background overflow-hidden shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
