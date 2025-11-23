@@ -134,7 +134,12 @@ export default function Home() {
               <Link href={`/category/${category.slug}`} key={category.slug} className="group">
                 <Card className="h-full transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 group-hover:border-primary bg-background shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]">
                   <CardHeader>
-                    <category.icon className="h-10 w-10 mb-4 text-primary" />
+                    <div className="flex justify-between items-start">
+                      <category.icon className="h-10 w-10 mb-4 text-primary" />
+                      {category.badge && (
+                        <span className="text-xs font-semibold text-primary bg-primary/10 px-2 py-1 rounded-full">{category.badge}</span>
+                      )}
+                    </div>
                     <CardTitle className="font-headline">{category.name}</CardTitle>
                     <CardDescription>{category.description}</CardDescription>
                   </CardHeader>

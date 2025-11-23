@@ -6,6 +6,7 @@ export type Category = {
   description: string;
   icon: LucideIcon;
   image: string;
+  badge?: string;
 };
 
 export const brevoFeatures = [
@@ -78,7 +79,8 @@ export const categories: Category[] = [
     slug: 'tools-saas',
     description: 'Integrate with your favorite tools.',
     icon: Share2,
-    image: 'saas-ad'
+    image: 'saas-ad',
+    badge: 'Brevo Top'
   },
   {
     name: 'Lead Generation',
@@ -231,7 +233,7 @@ export const latestInsights = [
   {
     slug: 'how-multi-platform-data-sync-works',
     title: 'How Multi-Platform Data Sync Works (Contacts, Events, Tags, and Custom Fields)',
-    description: 'A complete educational breakdown explaining how multi-platform data sync works across CRM systems. Learn how contacts, events, tags, and custom fields flow between tools, and how platforms like Brevo manage clean, real-time syncing.',
+    description: 'A complete educational guide explaining how multi-platform data sync works across CRM systems. Learn how contacts, events, tags, and custom fields flow between tools, and how platforms like Brevo manage clean, real-time syncing.',
     category: 'CRM & Integrations',
     image: 'crm-ad',
     author: 'Keymara Team',
@@ -374,9 +376,9 @@ export const latestInsights = [
     glossary: 'Unified Multi-Channel Strategy: A communication approach that integrates email, SMS, and WhatsApp into a single, cohesive system where each channel serves a distinct purpose without overlapping messages.',
     facts: ['Companies with strong omnichannel customer engagement retain on average 89% of their customers, compared to 33% for companies with weak omnichannel strategies.', 'A unified strategy can improve customer lifetime value by 30%.'],
     summary: 'This guide explains how to create a non-overlapping multi-channel strategy by assigning unique roles to email, SMS, and WhatsApp, respecting user behavior and timing to improve engagement.',
-    insight: 'Users report that by clearly defining the purpose for each channel (e.g., email for education, SMS for urgency), they have seen a significant reduction in subscriber fatigue and a boost in overall response rates.',
+    insight: 'Users report that by clearly defining the purpose for each channel (e.g., email for education, SMS for urgency), they have significantly reduced subscriber fatigue and a boost in overall response rates.',
     keyTip1: 'Multi-channel does not mean multi-copies. Each channel should deliver the right message in a unique format.',
-    keyTip2: 'If a subscriber needs time to read, choose email. If they need to know instantly, choose SMS. If they need clarity, choose WhatsApp.',
+    keyTip2: 'If a subscriber needs time to read, choose email. If they need to know instantly, choose SMS. If they may reply, use WhatsApp.',
     keyTip3: 'Multi-channel wins when messages feel coordinated—not duplicated.',
     recommendation: 'Create a simple rule: one message, one channel. Decide the purpose before choosing the delivery method to build a clean, effective communication system.',
   },
@@ -1352,6 +1354,7 @@ export const latestInsights = [
 ];
 
     
+
 
 
 
