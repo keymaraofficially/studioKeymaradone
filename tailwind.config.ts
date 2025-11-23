@@ -106,6 +106,10 @@ export default {
         'scroll-marquee': {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
+        },
+        'scroll-brands': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
         }
       },
       animation: {
@@ -113,6 +117,7 @@ export default {
         'accordion-up': 'accordion-up 0.2s ease-out',
         'fade-in': 'fade-in 0.5s ease-out forwards',
         'scroll-marquee': 'scroll-marquee 18s linear infinite',
+        'scroll-brands': 'scrollBrands 22s linear infinite',
       },
       transitionDelay: {
         '200': '200ms',

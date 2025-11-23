@@ -30,17 +30,10 @@ const whyChooseKeymara = [
   }
 ]
 
-const brandLogos = [
-  { name: "eBay", src: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ebay_logo.png" },
-  { name: "Michelin", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Michelin.svg/512px-Michelin.svg.png" },
-  { name: "Montblanc", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Montblanc_logo.svg/512px-Montblanc_logo.svg.png" },
-  { name: "The Kooples", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/The_Kooples_Logo.svg/512px-The_Kooples_Logo.svg.png" },
-  { name: "Bodybuilding.com", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bodybuilding.com_logo.png/512px-Bodybuilding.com_logo.png" },
-  { name: "Bloomreach", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bloomreach_logo.png/512px-Bloomreach_logo.png" },
+const brandNames = [
+  "Ebay", "Michelin", "Montblanc", "The Kooples", "Bodybuilding.com", "Bloomreach", 
+  "Louis Vuitton", "L’Occitane", "Florida Trend", "Amnesty International"
 ];
-
-
-const allLogos = [...brandLogos, ...brandLogos, ...brandLogos];
 
 
 export default function Home() {
@@ -74,17 +67,20 @@ export default function Home() {
         `}</style>
       </section>
 
-      <section className="py-10 text-center bg-[#fffaf0]">
-        <h3 className="text-xl font-semibold text-gray-800 mb-6">
+      <section className="py-12 bg-[#faf7ef] text-center">
+        <h3 className="text-2xl font-semibold text-gray-800 mb-8">
           Join 500,000+ customers around the world who trust Brevo
         </h3>
-        <div className="flex justify-center gap-12 flex-wrap px-4">
-          <span className="text-lg text-gray-600 font-medium">Ebay</span>
-          <span className="text-lg text-gray-600 font-medium">Michelin</span>
-          <span className="text-lg text-gray-600 font-medium">Montblanc</span>
-          <span className="text-lg text-gray-600 font-medium">The Kooples</span>
-          <span className="text-lg text-gray-600 font-medium">Bodybuilding.com</span>
-          <span className="text-lg text-gray-600 font-medium">Bloomreach</span>
+        <div className="w-full overflow-hidden relative">
+          <div className="flex gap-x-16 whitespace-nowrap animate-scroll-brands">
+            {brandNames.map((name, index) => (
+              <span key={index} className="text-xl font-medium text-gray-700 opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
+            ))}
+            {/* Duplicate for infinite loop */}
+            {brandNames.map((name, index) => (
+              <span key={`dup-${index}`} className="text-xl font-medium text-gray-700 opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
+            ))}
+          </div>
         </div>
       </section>
 
