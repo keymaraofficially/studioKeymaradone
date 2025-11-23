@@ -1,9 +1,11 @@
 
+
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { categories, marketingTools, latestInsights } from '@/lib/data';
 import { ArrowRight, CheckCircle2, Zap, LineChart, Workflow, Award, BarChart, Bot, Handshake, BrainCircuit } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const whyChooseKeymara = [
   {
@@ -27,6 +29,20 @@ const whyChooseKeymara = [
     description: 'Learn sender reputation, warm-up routines, authentication setup, and deliverability techniques that help your Brevo campaigns reach the inbox.'
   }
 ]
+
+const brandLogos = [
+    { name: "eBay", src: "https://picsum.photos/seed/ebay/150/50" },
+    { name: "Bodybuilding", src: "https://picsum.photos/seed/bodybuilding/150/50" },
+    { name: "Bloomreach", src: "https://picsum.photos/seed/bloomreach/150/50" },
+    { name: "Amnesty International", src: "https://picsum.photos/seed/amnesty/150/50" },
+    { name: "The Kooples", src: "https://picsum.photos/seed/kooples/150/50" },
+    { name: "Montblanc", src: "https://picsum.photos/seed/montblanc/150/50" },
+    { name: "Michelin", src: "https://picsum.photos/seed/michelin/150/50" },
+    { name: "Louis Vuitton", src: "https://picsum.photos/seed/vuitton/150/50" },
+];
+
+const allLogos = [...brandLogos, ...brandLogos];
+
 
 export default function Home() {
   const brevoArticles = latestInsights.filter(insight => insight.title.toLowerCase().includes('brevo')).slice(0, 3);
@@ -57,6 +73,28 @@ export default function Home() {
                 to   { transform: translateY(0);  opacity: 1; }
             }
         `}</style>
+      </section>
+
+      <section className="py-16 bg-[#faf7ef]">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-2xl font-bold text-foreground mb-6">
+            Join 500,000+ customers around the world who trust Brevo
+          </h2>
+          <div className="logo-marquee overflow-hidden whitespace-nowrap w-full">
+            <div className="logo-track inline-flex gap-16 animate-scroll-marquee">
+              {allLogos.map((logo, index) => (
+                <Image 
+                    key={index} 
+                    src={logo.src} 
+                    alt={logo.name} 
+                    width={150} 
+                    height={50} 
+                    className="h-10 w-auto opacity-80 transition-opacity duration-200 ease-in-out hover:opacity-100" 
+                />
+              ))}
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="py-20 md:py-24 animate-fade-in animation-delay-200">
