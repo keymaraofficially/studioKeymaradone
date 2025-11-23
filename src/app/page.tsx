@@ -84,7 +84,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="bg-card py-16 rounded-2xl my-16">
+      <section className="py-16 bg-card rounded-2xl my-16">
         <div className="container max-w-6xl mx-auto text-center">
           
           <h2 className="text-4xl font-bold text-foreground mb-5">
