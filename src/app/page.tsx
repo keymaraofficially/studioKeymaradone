@@ -31,14 +31,13 @@ const whyChooseKeymara = [
 ]
 
 const brandLogos = [
-    { name: "eBay", src: "https://picsum.photos/seed/ebay/150/50" },
-    { name: "Bodybuilding", src: "https://picsum.photos/seed/bodybuilding/150/50" },
-    { name: "Bloomreach", src: "https://picsum.photos/seed/bloomreach/150/50" },
-    { name: "Amnesty International", src: "https://picsum.photos/seed/amnesty/150/50" },
-    { name: "The Kooples", src: "https://picsum.photos/seed/kooples/150/50" },
-    { name: "Montblanc", src: "https://picsum.photos/seed/montblanc/150/50" },
-    { name: "Michelin", src: "https://picsum.photos/seed/michelin/150/50" },
-    { name: "Louis Vuitton", src: "https://picsum.photos/seed/vuitton/150/50" },
+    { name: "eBay", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/1280px-EBay_logo.svg.png" },
+    { name: "Bodybuilding.com", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bodybuilding.com_logo.svg/1280px-Bodybuilding.com_logo.svg.png" },
+    { name: "Amnesty International", src: "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Amnesty_International_logo.svg/1280px-Amnesty_International_logo.svg.png" },
+    { name: "The Kooples", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Kooples_logo.svg/1280px-The_Kooples_logo.svg.png" },
+    { name: "Montblanc", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Montblanc_logo.svg/1280px-Montblanc_logo.svg.png" },
+    { name: "Michelin", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Michelin_logo.svg/1280px-Michelin_logo.svg.png" },
+    { name: "Louis Vuitton", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Louis_Vuitton_LV_logo.svg/1280px-Louis_Vuitton_LV_logo.svg.png" },
 ];
 
 const allLogos = [...brandLogos, ...brandLogos];
@@ -89,7 +88,7 @@ export default function Home() {
                     alt={logo.name} 
                     width={150} 
                     height={50} 
-                    className="h-10 w-auto opacity-80 transition-opacity duration-200 ease-in-out hover:opacity-100" 
+                    className="h-10 w-auto object-contain opacity-80 transition-opacity duration-200 ease-in-out hover:opacity-100" 
                 />
               ))}
             </div>
