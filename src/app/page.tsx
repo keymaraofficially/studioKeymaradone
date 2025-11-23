@@ -31,7 +31,7 @@ const whyChooseKeymara = [
 ]
 
 const brandLogos = [
-    { name: "eBay", src: "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg/1280px-EBay_logo.svg.png" },
+    { name: "eBay", src: "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" },
     { name: "Bodybuilding.com", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bodybuilding.com_logo.svg/1280px-Bodybuilding.com_logo.svg.png" },
     { name: "Amnesty International", src: "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Amnesty_International_logo.svg/1280px-Amnesty_International_logo.svg.png" },
     { name: "The Kooples", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Kooples_logo.svg/1280px-The_Kooples_logo.svg.png" },
