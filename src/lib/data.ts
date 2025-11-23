@@ -46,6 +46,13 @@ export const brevoIntegrations = [
 
 export const categories: Category[] = [
   {
+    name: 'Brevo Tools Comparison Hub',
+    slug: 'brevo-tools-comparison-hub',
+    description: 'Find the best tools for your needs.',
+    icon: GitCompareArrows,
+    image: 'comparison-ad'
+  },
+  {
     name: 'Email Marketing',
     slug: 'email-marketing',
     description: 'Engage your audience directly.',
@@ -72,13 +79,6 @@ export const categories: Category[] = [
     description: 'Integrate with your favorite tools.',
     icon: Share2,
     image: 'saas-ad'
-  },
-  {
-    name: 'Brevo Tools Comparison Hub',
-    slug: 'brevo-tools-comparison-hub',
-    description: 'Find the best tools for your needs.',
-    icon: GitCompareArrows,
-    image: 'comparison-ad'
   },
   {
     name: 'Lead Generation',
@@ -1352,6 +1352,7 @@ export const latestInsights = [
 ];
 
     
+
 
 
 
