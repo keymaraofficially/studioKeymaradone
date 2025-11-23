@@ -30,6 +30,34 @@ const whyChooseKeymara = [
   }
 ]
 
+const brevoFeatureSections = [
+  {
+    title: "Brevo Automation Workflows",
+    description: "Learn how Brevo’s workflows, triggers, delays, and conditions help automate customer journeys with precision.",
+    quote: "“Smart automation isn’t about sending more emails — it’s about sending the right email at the right time.”"
+  },
+  {
+    title: "Brevo Analytics & Reporting",
+    description: "Understand engagement, conversions, and customer behavior using Brevo’s powerful real-time analytics.",
+    quote: "“Data turns guesswork into clarity — and Brevo gives you the data that actually moves revenue.”"
+  },
+  {
+    title: "Brevo CRM + Contact Management",
+    description: "Manage contacts, segment audiences, score leads, and personalize experiences inside Brevo’s unified CRM.",
+    quote: "“A powerful CRM doesn’t collect contacts — it builds relationships that convert.”"
+  },
+  {
+    title: "Brevo Multi-Channel Messaging",
+    description: "Use email, SMS, WhatsApp, and push notifications in one centralized platform for smoother customer communication.",
+    quote: "“Consistent messaging builds trust — and Brevo helps you stay consistent across every channel.”"
+  },
+  {
+    title: "Brevo Email Deliverability Tools",
+    description: "Improve inbox placement with Brevo’s warm-up systems, authentication setup, domain reputation checks, and deliverability tools.",
+    quote: "“Deliverability decides everything — if your email isn’t seen, nothing else matters.”"
+  }
+];
+
 const brandNames = [
   "Ebay", "Michelin", "Montblanc", "The Kooples", "Bodybuilding.com", 
   "Bloomreach", "Louis Vuitton", "L’Occitane", "Florida Trend", "Amnesty International"
@@ -86,9 +114,12 @@ export default function Home() {
       <section className="py-20 md:py-24 animate-fade-in animation-delay-200">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold">Why Marketers Choose Keymara for Brevo Learning</h2>
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">Why Marketers Rely on Brevo for Smarter Email Automation</h2>
             <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
-              We simplify email marketing by teaching you how to use Brevo’s automation, CRM, segmentation, and multi-channel tools in a practical, beginner-friendly way. Keymara helps businesses understand Brevo deeply — so every campaign becomes smarter, faster, and easier to manage.
+              We simplify email marketing by teaching you how to use Brevo’s automation, CRM,
+              segmentation, and multi-channel tools in a practical, beginner-friendly way.
+              Keymara helps businesses understand Brevo deeply — so every campaign becomes smarter,
+              faster, and easier to manage.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -111,7 +142,20 @@ export default function Home() {
         </div>
       </section>
       
-      
+      <section className="py-8">
+          <div className="container mx-auto px-4">
+              <div className="flex flex-col gap-10">
+                  {brevoFeatureSections.map((section, index) => (
+                      <div key={index} className="bg-white rounded-2xl p-8 border border-border">
+                          <h3 className="text-2xl font-headline font-bold mb-3">{section.title}</h3>
+                          <p className="text-muted-foreground mb-5">{section.description}</p>
+                          <hr className="my-5 border-border" />
+                          <p className="text-muted-foreground italic">{section.quote}</p>
+                      </div>
+                  ))}
+              </div>
+          </div>
+      </section>
 
       <section className="py-20 md:py-24 bg-card animate-fade-in animation-delay-400">
         <div className="container mx-auto px-4">
@@ -236,7 +280,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {featuredInsights.map((insight, index) => {
+            {latestInsights.map((insight, index) => {
                 const category = categories.find(c => c.name === insight.category);
                 const categorySlug = category ? category.slug : 'brevo-tools-comparison-hub';
                 return (
