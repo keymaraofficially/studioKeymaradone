@@ -136,6 +136,25 @@ export const marketingTools = [
 
 export const latestInsights = [
   {
+    slug: 'what-is-brevo',
+    title: 'What Is Brevo? Complete Breakdown of Features, Automation, and CRM Tools',
+    description: 'A complete guide to Brevo’s email marketing, automation, CRM, segmentation, and multi-channel tools.',
+    category: 'Tools & SaaS',
+    image: 'saas-ad',
+    author: 'Keymara Team',
+    date: 'October 25, 2025',
+    quote: 'Automation is to your time what compound interest is to your money.',
+    takeaways: ['Automation first, not just email.', 'CRM integration is a superpower.', 'Multichannel communication is key.'],
+    glossary: 'Workflow: A series of automated actions that you set up in your marketing platform. A workflow can be triggered by a specific user action.',
+    facts: ['Businesses that use marketing automation can see a 451% increase in qualified leads.', 'Brevo is used by over 500,000 businesses worldwide.'],
+    summary: 'Brevo is an all-in-one platform for marketing and sales, offering email, SMS, CRM, and automation. It is designed for small to medium-sized businesses looking for a powerful yet affordable solution.',
+    insight: 'Community members find Brevo\'s CRM a game-changer for managing leads without extra cost.',
+    keyTip1: 'Think of Brevo as an “automation-first marketing platform,” not just an email tool. The real value is in its workflows, CRM, and multi-channel communication.',
+    keyTip2: 'Brevo works best when you use automation + CRM together. Most businesses only use the email side and miss 60% of the platform’s power.',
+    keyTip3: 'Before choosing any email tool, map out your customer journey. The tool doesn’t create results — the system you design does.',
+    recommendation: 'Choose Brevo if you want automation, CRM, segmentation, and multi-channel communication all in one place. It saves money, removes complexity, and scales with you as your customer base grows.',
+  },
+  {
     slug: 'how-to-improve-email-engagement',
     title: 'How to Improve Email Engagement Without Discounts or Promotions',
     description: 'A complete educational guide explaining how to increase email engagement without using discounts or promotions. Learn content structure, timing, segmentation, behavior logic, and multi-channel practices used by modern email marketers.',
@@ -1029,25 +1048,6 @@ export const latestInsights = [
     recommendation: 'Use Brevo automation to build predictable revenue systems. Start with simple journeys, then add behavior-based branches, scoring, and CRM steps to scale your customer relationship system.',
   },
   {
-    slug: 'what-is-brevo',
-    title: 'What Is Brevo? Complete Breakdown of Features, Automation, and CRM Tools',
-    description: 'A complete guide to Brevo’s email marketing, automation, CRM, segmentation, and multi-channel tools.',
-    category: 'Tools & SaaS',
-    image: 'saas-ad',
-    author: 'Keymara Team',
-    date: 'October 25, 2025',
-    quote: 'Automation is to your time what compound interest is to your money.',
-    takeaways: ['Automation first, not just email.', 'CRM integration is a superpower.', 'Multichannel communication is key.'],
-    glossary: 'Workflow: A series of automated actions that you set up in your marketing platform. A workflow can be triggered by a specific user action.',
-    facts: ['Businesses that use marketing automation can see a 451% increase in qualified leads.', 'Brevo is used by over 500,000 businesses worldwide.'],
-    summary: 'Brevo is an all-in-one platform for marketing and sales, offering email, SMS, CRM, and automation. It is designed for small to medium-sized businesses looking for a powerful yet affordable solution.',
-    insight: 'Users consistently praise Brevo for its powerful automation features that are accessible even on its free and low-cost plans, a major advantage over competitors.',
-    keyTip1: 'Think of Brevo as an “automation-first marketing platform,” not just an email tool. The real value is in its workflows, CRM, and multi-channel communication.',
-    keyTip2: 'Brevo works best when you use automation + CRM together. Most businesses only use the email side and miss 60% of the platform’s power.',
-    keyTip3: 'Before choosing any email tool, map out your customer journey. The tool doesn’t create results — the system you design does.',
-    recommendation: 'Choose Brevo if you want automation, CRM, segmentation, and multi-channel communication all in one place. It saves money, removes complexity, and scales with you as your customer base grows.',
-  },
-  {
     slug: 'best-ecommerce-automation-tools-brevo-vs-klaviyo-vs-activecampaign',
     title: 'Best Ecommerce Automation Tools: Brevo vs Klaviyo vs ActiveCampaign',
     description: 'A complete expert comparison of Brevo, Klaviyo, and ActiveCampaign for ecommerce automation. Explore scalability, workflows, segmentation, personalization, pricing, and advanced automation features for online stores.',
@@ -1316,6 +1316,7 @@ export const latestInsights = [
 ];
 
     
+
 
 
 
