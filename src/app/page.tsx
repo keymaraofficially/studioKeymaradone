@@ -395,9 +395,6 @@ export default function Home() {
                         Using Brevo’s forms, WhatsApp messaging, and follow-up automation, a small business
                         tripled inbound leads and kept clients engaged automatically.
                     </p>
-                    <span className="text-primary font-medium">
-                       View their results →
-                    </span>
                 </div>
 
             </div>
