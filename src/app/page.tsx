@@ -205,7 +205,7 @@ export default function Home() {
             </div>
             <div className="text-center mt-12">
             <Button asChild size="lg">
-                <Link href="/category/crm-integrations">
+                <Link href="https://www.brevo.com/integrations/" target="_blank" rel="noopener noreferrer">
                     Explore Full Integration Hub →
                 </Link>
             </Button>
