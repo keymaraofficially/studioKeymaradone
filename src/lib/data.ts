@@ -37,12 +37,12 @@ export const brevoFeatures = [
 ];
 
 export const brevoIntegrations = [
-    { name: 'WordPress', description: 'Connect Brevo to WordPress for email capture, automation, and subscriber syncing.' },
-    { name: 'Shopify', description: 'Sync ecommerce customers, abandoned carts, SMS alerts, and automated marketing flows.' },
-    { name: 'WooCommerce', description: 'Integrate sales data and trigger campaigns based on customer behavior.' },
-    { name: 'Google Analytics', description: 'Track conversions, engagement, and performance from inside your Brevo campaigns.' },
-    { name: 'Zapier', description: 'Automate thousands of workflows connecting Brevo to your entire toolset.' },
-    { name: 'Facebook Lead Ads', description: 'Automatically send Facebook leads into Brevo for instant follow-ups.' }
+    { name: 'WordPress', description: 'Connect Brevo to WordPress for email capture, automation, and subscriber syncing.', url: 'https://www.brevo.com/integrations/wordpress/' },
+    { name: 'Shopify', description: 'Sync ecommerce customers, abandoned carts, SMS alerts, and automated marketing flows.', url: 'https://www.brevo.com/integrations/shopify/' },
+    { name: 'WooCommerce', description: 'Integrate sales data and trigger campaigns based on customer behavior.', url: 'https://www.brevo.com/integrations/woocommerce/' },
+    { name: 'Google Analytics', description: 'Track conversions, engagement, and performance from inside your Brevo campaigns.', url: 'https://www.brevo.com/integrations/google-analytics/' },
+    { name: 'Zapier', description: 'Automate thousands of workflows connecting Brevo to your entire toolset.', url: 'https://www.brevo.com/integrations/zapier/' },
+    { name: 'Facebook Lead Ads', description: 'Automatically send Facebook leads into Brevo for instant follow-ups.', url: 'https://www.brevo.com/integrations/facebook-lead-ads/' }
 ];
 
 export const categories: Category[] = [
@@ -52,6 +52,14 @@ export const categories: Category[] = [
     description: 'Find the best tools for your needs.',
     icon: GitCompareArrows,
     image: 'comparison-ad'
+  },
+  {
+    name: 'Tools & SaaS',
+    slug: 'tools-saas',
+    description: 'Integrate with your favorite tools.',
+    icon: Share2,
+    image: 'saas-ad',
+    badge: 'Brevo Top'
   },
   {
     name: 'Email Marketing',
@@ -73,14 +81,6 @@ export const categories: Category[] = [
     description: 'Track performance and find opportunities.',
     icon: BarChart,
     image: 'analytics-ad'
-  },
-  {
-    name: 'Tools & SaaS',
-    slug: 'tools-saas',
-    description: 'Integrate with your favorite tools.',
-    icon: Share2,
-    image: 'saas-ad',
-    badge: 'Brevo Top'
   },
   {
     name: 'Lead Generation',
@@ -1354,6 +1354,7 @@ export const latestInsights = [
 ];
 
     
+
 
 
 

@@ -1,5 +1,3 @@
-
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { categories, marketingTools, latestInsights, brevoFeatures, brevoIntegrations } from '@/lib/data';
@@ -208,12 +206,14 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {brevoIntegrations.map((integration, index) => (
-                    <div key={index} className="bg-background rounded-xl p-6 border border-border">
-                        <h3 className="text-xl font-semibold text-foreground">{integration.name}</h3>
-                        <p className="text-muted-foreground text-base mt-2">
-                            {integration.description}
-                        </p>
-                    </div>
+                    <Link href={integration.url} key={index} target="_blank" rel="noopener noreferrer" className="group flex">
+                        <div className="bg-background rounded-xl p-6 border border-border w-full transition-all duration-300 group-hover:shadow-lg group-hover:border-primary">
+                            <h3 className="text-xl font-semibold text-foreground">{integration.name}</h3>
+                            <p className="text-muted-foreground text-base mt-2">
+                                {integration.description}
+                            </p>
+                        </div>
+                    </Link>
                 ))}
             </div>
             <div className="text-center mt-12">
@@ -341,51 +341,42 @@ export default function Home() {
       </section>
       
       <section className="py-20 bg-background">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-            
-            <h2 className="text-4xl font-bold text-foreground mb-4">
-               Real Brands Growing Faster With Brevo
-            </h2>
-
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-14">
-               These real-world case studies show how businesses use Brevo’s automation, CRM, and
-               multi-channel tools to boost engagement, save time, and increase revenue.
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-                <div className="p-8 bg-card shadow-sm rounded-2xl border border-border">
-                    <h3 className="text-xl font-semibold text-foreground mb-3">
-                        Ecommerce Brand Increased Repeat Customers by 42%
-                    </h3>
-                    <p className="text-muted-foreground mb-4">
-                        A mid-sized ecommerce store used Brevo’s automation workflows and segmentation to send
-                        perfectly-timed product reminders, boosting customer retention and lifetime value.
-                    </p>
-                </div>
-
-                <div className="p-8 bg-card shadow-sm rounded-2xl border border-border">
-                    <h3 className="text-xl font-semibold text-foreground mb-3">
-                        SaaS Company Cut Manual Work by 70%
-                    </h3>
-                    <p className="text-muted-foreground mb-4">
-                        By using Brevo’s CRM + automation triggers, the team removed repetitive tasks, launched
-                        smarter onboarding emails, and doubled their activation rate.
-                    </p>
-                </div>
-
-                <div className="p-8 bg-card shadow-sm rounded-2xl border border-border">
-                    <h3 className="text-xl font-semibold text-foreground mb-3">
-                        Local Services Business 3× More Leads With Brevo
-                    </h3>
-                    <p className="text-muted-foreground mb-4">
-                        Using Brevo’s forms, WhatsApp messaging, and follow-up automation, a small business
-                        tripled inbound leads and kept clients engaged automatically.
-                    </p>
-                </div>
-
+          <div className="container mx-auto max-w-6xl py-12 px-4 md:px-6">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold text-foreground">
+                Real Brands Growing Faster With Brevo
+              </h2>
+              <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
+                These real-world case studies show how businesses use Brevo’s automation, CRM, and multi-channel tools to boost engagement, save time, and increase revenue.
+              </p>
             </div>
-        </div>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="p-8 bg-card shadow-sm rounded-2xl border border-border">
+                <h3 className="text-xl font-semibold text-foreground mb-3">
+                  Ecommerce Brand Increased Repeat Customers by 42%
+                </h3>
+                <p className="text-muted-foreground mb-4">
+                  A mid-sized ecommerce store used Brevo’s automation workflows and segmentation to send perfectly-timed product reminders, boosting customer retention and lifetime value.
+                </p>
+              </div>
+              <div className="p-8 bg-card shadow-sm rounded-2xl border border-border">
+                <h3 className="text-xl font-semibold text-foreground mb-3">
+                  SaaS Company Cut Manual Work by 70%
+                </h3>
+                <p className="text-muted-foreground mb-4">
+                  By using Brevo’s CRM + automation triggers, the team removed repetitive tasks, launched smarter onboarding emails, and doubled their activation rate.
+                </p>
+              </div>
+              <div className="p-8 bg-card shadow-sm rounded-2xl border border-border">
+                <h3 className="text-xl font-semibold text-foreground mb-3">
+                  Local Services Business 3× More Leads With Brevo
+                </h3>
+                <p className="text-muted-foreground mb-4">
+                  Using Brevo’s forms, WhatsApp messaging, and follow-up automation, a small business tripled inbound leads and kept clients engaged automatically.
+                </p>
+              </div>
+            </div>
+          </div>
       </section>
 
       <section className="py-20 bg-card">
