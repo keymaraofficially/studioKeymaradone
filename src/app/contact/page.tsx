@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 export default function ContactPage() {
   return (
     <div className="bg-background py-16">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-4xl px-4">
         <h1 className="text-4xl md:text-5xl font-headline font-bold text-foreground mb-4">
           Contact Keymara
         </h1>
@@ -17,7 +17,7 @@ export default function ContactPage() {
           learning support only. You can reach us directly at <a href="mailto:support@keymara.com" className="font-semibold text-foreground hover:text-primary">support@keymara.com</a>.
         </p>
 
-        <Card className="bg-card p-8 border">
+        <Card className="bg-card p-6 sm:p-8 border">
             <CardContent className="p-0">
                 <h2 className="text-2xl font-headline font-semibold mb-4">
                     How can we help you?

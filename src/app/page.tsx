@@ -25,7 +25,7 @@ export default function Home() {
           marketers rely on to scale campaigns with confidence.
         </p>
 
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button asChild size="lg">
             <Link 
               href="https://www.brevo.com/features/automation/"
@@ -48,15 +48,15 @@ export default function Home() {
 
       <section className="py-12 bg-card text-center">
         <div className="w-full overflow-hidden relative">
-          <h3 className="text-2xl font-semibold text-foreground mb-8">
+          <h3 className="text-xl md:text-2xl font-semibold text-foreground mb-8 px-4">
             Join 500,000+ customers around the world who trust Brevo
           </h3>
           <div className="flex gap-x-16 whitespace-nowrap animate-scroll-brands">
             {brandNames.map((name, index) => (
-              <span key={index} className="text-xl font-medium text-muted-foreground opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
+              <span key={index} className="text-lg md:text-xl font-medium text-muted-foreground opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
             ))}
             {brandNames.map((name, index) => (
-              <span key={`dup-${index}`} className="text-xl font-medium text-muted-foreground opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
+              <span key={`dup-${index}`} className="text-lg md:text-xl font-medium text-muted-foreground opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100">{name}</span>
             ))}
           </div>
         </div>
@@ -64,8 +64,8 @@ export default function Home() {
 
       <section className="bg-background text-foreground py-20 md:py-24">
         <div className="container max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-2.5">Why Marketers Prefer Brevo for Email Automation</h2>
-          <p className="text-muted-foreground mb-9 text-lg">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2.5">Why Marketers Prefer Brevo for Email Automation</h2>
+          <p className="text-muted-foreground mb-9 text-lg px-4">
             Powerful email, automation and analytics built to grow revenue — simple to use, reliable at scale.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -87,7 +87,7 @@ export default function Home() {
       <section className="py-16 bg-card rounded-2xl my-16">
         <div className="container max-w-6xl mx-auto text-center">
           
-          <h2 className="text-4xl font-bold text-foreground mb-5">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-5">
             Brevo is Used Worldwide — Every Single Month
           </h2>
 
@@ -98,17 +98,17 @@ export default function Home() {
           <div className="flex flex-wrap justify-center gap-10">
 
             <div className="flex-1 min-w-[220px]">
-              <h3 className="text-5xl text-primary font-bold mb-2">500k+</h3>
+              <h3 className="text-4xl md:text-5xl text-primary font-bold mb-2">500k+</h3>
               <p className="text-base text-muted-foreground">Active Monthly Businesses</p>
             </div>
 
             <div className="flex-1 min-w-[220px]">
-              <h3 className="text-5xl text-primary font-bold mb-2">180+</h3>
+              <h3 className="text-4xl md:text-5xl text-primary font-bold mb-2">180+</h3>
               <p className="text-base text-muted-foreground">Countries Using Brevo</p>
             </div>
 
             <div className="flex-1 min-w-[220px]">
-              <h3 className="text-5xl text-primary font-bold mb-2">12B+</h3>
+              <h3 className="text-4xl md:text-5xl text-primary font-bold mb-2">12B+</h3>
               <p className="text-base text-muted-foreground">Emails & Messages Sent Monthly</p>
             </div>
 
@@ -197,7 +197,7 @@ export default function Home() {
 
        <section className="py-16 bg-card">
         <div className="container max-w-6xl mx-auto">
-            <h2 className="text-center text-4xl text-foreground mb-4 font-bold">
+            <h2 className="text-center text-3xl md:text-4xl text-foreground mb-4 font-bold">
             Brevo Integrations That Power Your Marketing
             </h2>
             <p className="text-center max-w-3xl mx-auto text-muted-foreground text-lg mb-12">
@@ -267,8 +267,8 @@ export default function Home() {
 
       <section className="py-20 bg-background text-foreground">
         <div className="container max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-2.5">Enterprise Power with Brevo Intelligence</h2>
-          <p className="text-muted-foreground mb-9 text-lg">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2.5">Enterprise Power with Brevo Intelligence</h2>
+          <p className="text-muted-foreground mb-9 text-lg px-4">
             Take your marketing operations to the next level with Brevo’s enterprise-grade tools. 
             From automation to analytics, manage everything at scale with the reliability global brands trust.
           </p>
@@ -343,7 +343,7 @@ export default function Home() {
       <section className="py-20 bg-background">
           <div className="container mx-auto max-w-6xl py-12 px-4 md:px-6">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-foreground">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground">
                 Real Brands Growing Faster With Brevo
               </h2>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -384,7 +384,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-headline font-bold mb-8">
             Dive Deeper into Brevo
           </h2>
-          <div className="flex flex-col md:flex-row justify-center gap-4">
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg" variant="outline">
               <Link href="https://www.brevo.com/products/" target="_blank" rel="noopener noreferrer">
                 Explore Products

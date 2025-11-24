@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useState, useRef } from 'react';
+import { Button } from '../ui/button';
+import { Input } from '../ui/input';
 
 const footerNav = [
     { name: 'Blog', href: '/blog' },
@@ -86,11 +88,11 @@ export function Footer() {
                             No promotions. No spam.
                         </p>
 
-                        <form onSubmit={handleSubscribe} className="flex gap-2.5 max-w-lg">
-                            <input ref={emailInputRef} id="km-sub-email" type="email" placeholder="Enter your email" aria-label="Subscribe email" className="flex-1 p-3 border border-gray-300 rounded-md text-base"/>
-                            <button type="submit" className="bg-[#f4c02a] py-3 px-5 border-none rounded-md cursor-pointer font-semibold">
+                        <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-2.5 max-w-lg">
+                            <Input ref={emailInputRef} id="km-sub-email" type="email" placeholder="Enter your email" aria-label="Subscribe email" className="flex-1"/>
+                            <Button type="submit">
                                 Subscribe to Insights
-                            </button>
+                            </Button>
                         </form>
 
                         <div className="mt-4 bg-[#fff8dc] p-3.5 rounded-md text-sm">
@@ -123,7 +125,7 @@ export function Footer() {
                             <div className="flex gap-4 items-center">
                                 {socialLinks.map(social => (
                                 <Link href={social.href} key={social.name} target="_blank" rel="noopener noreferrer">
-                                    <Image src={social.icon} alt={social.name} width={social.name === 'YouTube' ? 28 : 24} height={social.name === 'YouTube' ? 28 : 24} />
+                                    <Image src={social.icon} alt={social.name} width={24} height={24} />
                                 </Link>
                                 ))}
                             </div>
@@ -139,9 +141,9 @@ export function Footer() {
             </footer>
 
             {showCookieBanner && (
-                 <div id="km-cookie" className="fixed right-4 bottom-4 bg-card p-3.5 rounded-lg shadow-lg z-[9999] flex gap-2.5 items-center border border-border">
+                 <div id="km-cookie" className="fixed right-4 bottom-4 bg-card p-3.5 rounded-lg shadow-lg z-[9999] flex flex-col sm:flex-row gap-2.5 items-center border border-border">
                     <p className="m-0 text-foreground max-w-xs text-sm">We use cookies to improve your browsing experience, analyze traffic, and deliver relevant educational content.</p>
-                    <div className="flex gap-2 items-center">
+                    <div className="flex gap-2 items-center shrink-0">
                         <button className="py-2 px-3 rounded-lg border-none cursor-pointer bg-primary text-primary-foreground font-bold text-sm" onClick={handleAcceptCookie}>Accept</button>
                         <button className="py-2 px-3 rounded-lg border-none cursor-pointer bg-muted/20 text-foreground text-sm" onClick={handleDeclineCookie}>Decline</button>
                         <Link href="/cookie-policy" className="ml-2 text-primary no-underline text-sm font-semibold">Learn more</Link>

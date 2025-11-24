@@ -47,7 +47,7 @@ export default function AboutPage() {
         </p>
       </div>
 
-      <div className="bg-card border rounded-lg p-8 space-y-6 text-center mb-16">
+      <div className="bg-card border rounded-lg p-6 sm:p-8 space-y-6 text-center mb-16">
         <h2 className="text-2xl font-headline font-bold">Our Story</h2>
         <p className="text-muted-foreground">
           Keymara was founded with the belief that powerful marketing tools should be accessible to everyone, not just large corporations. Our platform is designed to be intuitive, intelligent, and effective, empowering you to create campaigns that deliver real value.

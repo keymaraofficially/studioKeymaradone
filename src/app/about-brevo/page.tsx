@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Info } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function AboutBrevoPage() {
   return (
@@ -14,7 +15,7 @@ export default function AboutBrevoPage() {
         </p>
       </div>
 
-      <div className="bg-card border rounded-lg p-8 space-y-6 text-center mb-16">
+      <div className="bg-card border rounded-lg p-6 sm:p-8 space-y-6 text-center mb-16">
         <h2 className="text-2xl font-headline font-bold">What is Brevo?</h2>
         <p className="text-muted-foreground">
           Brevo (formerly Sendinblue) is a comprehensive marketing and sales platform that provides a suite of tools for email marketing, automation, CRM, SMS marketing, chat, and more. It's designed to be an affordable and powerful solution for small to medium-sized businesses looking to grow.
@@ -22,9 +23,11 @@ export default function AboutBrevoPage() {
         <p className="text-muted-foreground">
           With Brevo, you can automate your marketing workflows, manage customer relationships, and communicate across multiple channels—all from a single dashboard.
         </p>
-        <Link href="https://www.brevo.com/company/about/" target="_blank" rel="noopener noreferrer" className="inline-block bg-primary text-primary-foreground font-semibold px-6 py-3 rounded-md transition hover:bg-primary/90">
+        <Button asChild>
+          <Link href="https://www.brevo.com/company/about/" target="_blank" rel="noopener noreferrer">
             Visit Brevo's Official Site
-        </Link>
+          </Link>
+        </Button>
       </div>
     </div>
   );
