@@ -31,6 +31,7 @@ const complianceLinks = [
 const socialLinks = [
     { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61583123623267', icon: '/icons/facebook.svg' },
     { name: 'Instagram', href: 'https://www.instagram.com/keymara001/', icon: '/icons/instagram.svg' },
+    { name: 'YouTube', href: 'https://www.youtube.com/channel/UCFyfjkZbo0z6DspaxoFQsew', icon: '/icons/youtube.svg' },
 ];
 
 export function Footer() {
