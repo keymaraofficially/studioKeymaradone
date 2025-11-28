@@ -32,6 +32,7 @@ const socialLinks = [
     { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61583123623267', icon: '/icons/facebook.svg' },
     { name: 'Instagram', href: 'https://www.instagram.com/keymara001/', icon: '/icons/instagram.svg' },
     { name: 'YouTube', href: 'https://www.youtube.com/channel/UCFyfjkZbo0z6DspaxoFQsew', icon: '/icons/youtube.svg' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/keymara-email-marketing-827623392/', icon: '/icons/linkedin.svg' },
 ];
 
 export function Footer() {
