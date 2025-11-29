@@ -16,7 +16,7 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="px-6 py-20 max-w-5xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold text-foreground mb-6 leading-tight">
-          Become a Brevo-Powered Email Marketer
+          Become a <span className="text-[#006600]">Brevo</span>-Powered Email Marketer
         </h1>
 
         <p className="text-lg text-muted-foreground mb-10 max-w-3xl mx-auto">
