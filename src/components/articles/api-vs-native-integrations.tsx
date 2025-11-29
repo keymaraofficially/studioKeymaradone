@@ -8,7 +8,7 @@ export function ApiVsNativeIntegrationsArticle() {
 
   return (
     <article id="api-vs-native-integrations" className="prose max-w-none">
-        <p><span className="drop-cap">I</span>ntegrations hold your digital system together. Whether someone fills a form, places an order, or downloads a resource, integrations deliver that data to your CRM instantly. But not all integrations work the same way. Some tools connect through simple, pre-built native integrations. Others rely on APIs for custom data syncing. Platforms like <strong>Brevo</strong> support both methods so businesses can connect websites, ecommerce platforms, apps, and workflows in the way that suits them best. This guide explains the difference between API and native integrations, how they work, and when you should choose one or the other.</p>
+        <p><span className="drop-cap">I</span>ntegrations hold your digital system together. Whether someone fills a form, places an order, or downloads a resource, integrations deliver that data to your CRM instantly. But not all integrations work the same way. Some tools connect through simple, pre-built native integrations. Others rely on APIs for custom data syncing. Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> support both methods so businesses can connect websites, ecommerce platforms, apps, and workflows in the way that suits them best. This guide explains the difference between API and native integrations, how they work, and when you should choose one or the other.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #1:</strong> {post.keyTip1}
@@ -29,7 +29,7 @@ export function ApiVsNativeIntegrationsArticle() {
         <p>Clean integrations = clean CRM.<br />Clean CRM = clean communication.</p>
 
         <h2>What Are Native Integrations?</h2>
-        <p>Native integrations are pre-built connectors inside your email tool. You simply click, authenticate your account, and the data sync begins. Platforms like <strong>Brevo</strong>, <strong>Mailchimp</strong>, <strong>MailerLite</strong>, <strong>GetResponse</strong>, <strong>ActiveCampaign</strong>, and <strong>ConvertKit</strong> offer native connectors for the most common tools.</p>
+        <p>Native integrations are pre-built connectors inside your email tool. You simply click, authenticate your account, and the data sync begins. Platforms like <strong><span className="text-[#046404]">Brevo</span></strong>, <strong>Mailchimp</strong>, <strong>MailerLite</strong>, <strong>GetResponse</strong>, <strong>ActiveCampaign</strong>, and <strong>ConvertKit</strong> offer native connectors for the most common tools.</p>
         
         <h3>Native integrations are best known for:</h3>
         <ul>
@@ -64,7 +64,7 @@ export function ApiVsNativeIntegrationsArticle() {
             <li>Gravity Forms</li>
             <li>Jotform</li>
         </ul>
-        <p>Platforms like <strong>Brevo</strong> provide strong native integrations with these systems, making it easy for beginners to connect without technical setup.</p>
+        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> provide strong native integrations with these systems, making it easy for beginners to connect without technical setup.</p>
 
         <h2>What Are API Integrations?</h2>
         <p>An API (Application Programming Interface) is a system that lets software tools talk to each other directly. Unlike native integrations, APIs give full control over what data moves and how it moves. Developers use API integrations when they need custom logic or when no native connector exists.</p>
@@ -77,7 +77,7 @@ export function ApiVsNativeIntegrationsArticle() {
             <li>trigger advanced automations</li>
             <li>sync private or internal systems</li>
         </ul>
-        <p>Platforms like <strong>Brevo</strong> provide clear API documentation to support this workflow.</p>
+        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> provide clear API documentation to support this workflow.</p>
 
         <h2>Common Use Cases for API Integrations</h2>
         <ul>
@@ -121,7 +121,7 @@ export function ApiVsNativeIntegrationsArticle() {
             <li>full data control</li>
             <li>requires developer experience</li>
         </ul>
-        <p>Platforms like <strong>Brevo</strong> offer both, so teams can scale naturally.</p>
+        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> offer both, so teams can scale naturally.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #2:</strong> {post.keyTip2}
@@ -138,7 +138,7 @@ export function ApiVsNativeIntegrationsArticle() {
             <li>standardized data</li>
             <li>clean syncing</li>
         </ul>
-        <p>For example, using the <strong>Brevo</strong> → <strong>Shopify</strong> integration allows real-time order syncing without technical setup.</p>
+        <p>For example, using the <strong><span className="text-[#046404]">Brevo</span></strong> → <strong>Shopify</strong> integration allows real-time order syncing without technical setup.</p>
 
         <h2>When to Use API Integrations</h2>
         <p>APIs are best when your system is unique or your data requires special handling.</p>
@@ -161,7 +161,7 @@ export function ApiVsNativeIntegrationsArticle() {
             <li>payment confirmed</li>
             <li>subscription cancelled</li>
         </ul>
-        <p>Platforms like <strong>Brevo</strong> support inbound and outbound webhooks to make automation faster and more responsive.</p>
+        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> support inbound and outbound webhooks to make automation faster and more responsive.</p>
 
         <h2>Mapping Data: The Most Important Step</h2>
         <p>Mapping determines how incoming data is stored. Whether you use API or native integration, mapping must be clean.</p>
@@ -261,7 +261,7 @@ export function ApiVsNativeIntegrationsArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>API and native integrations both serve essential roles in connecting your CRM with websites, ecommerce platforms, and apps. Native integrations offer simplicity, stability, and speed — ideal for beginners and standard tools. APIs offer customization, flexibility, and power — ideal for advanced workflows and custom systems. Platforms like <strong>Brevo</strong> provide strong support for both, making it easy for businesses to scale their integration strategy while keeping their CRM clean and predictable.</p>
+        <p>API and native integrations both serve essential roles in connecting your CRM with websites, ecommerce platforms, and apps. Native integrations offer simplicity, stability, and speed — ideal for beginners and standard tools. APIs offer customization, flexibility, and power — ideal for advanced workflows and custom systems. Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> provide strong support for both, making it easy for businesses to scale their integration strategy while keeping their CRM clean and predictable.</p>
 
         <div className="recommendation-box">
             <strong>Keymara Recommendation:</strong>

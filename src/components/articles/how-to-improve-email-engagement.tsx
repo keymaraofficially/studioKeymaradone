@@ -9,7 +9,7 @@ export function HowToImproveEmailEngagementArticle() {
 
   return (
     <article id="how-to-improve-email-engagement" className="prose max-w-none">
-      <p><span className="drop-cap">E</span>mail engagement is not about discounts, urgency, or promotions. It is about value, clarity, timing, relevance, and structure. When subscribers open your emails, they are trying to understand whether the message is worth their time. If the content is predictable, helpful, and aligned with their interests, they engage without incentives. Platforms like <strong>Brevo</strong>, <strong>Mailchimp</strong>, <strong>MailerLite</strong>, <strong>GetResponse</strong>, <strong>ActiveCampaign</strong>, and <strong>ConvertKit</strong> support this approach with segmentation and behavior-based messaging. This guide explains the deep logic behind improving email engagement naturally—without using coupons, offers, or pressure-based tactics.</p>
+      <p><span className="drop-cap">E</span>mail engagement is not about discounts, urgency, or promotions. It is about value, clarity, timing, relevance, and structure. When subscribers open your emails, they are trying to understand whether the message is worth their time. If the content is predictable, helpful, and aligned with their interests, they engage without incentives. Platforms like <strong><span className="text-[#046404]">Brevo</span></strong>, <strong>Mailchimp</strong>, <strong>MailerLite</strong>, <strong>GetResponse</strong>, <strong>ActiveCampaign</strong>, and <strong>ConvertKit</strong> support this approach with segmentation and behavior-based messaging. This guide explains the deep logic behind improving email engagement naturally—without using coupons, offers, or pressure-based tactics.</p>
 
       <div className="key-tip-block">
         <strong>Key Tip #1:</strong> {post.keyTip1}
@@ -57,7 +57,7 @@ export function HowToImproveEmailEngagementArticle() {
         <li>build content funnels around subscriber intent</li>
       </ul>
 
-      <p>Platforms like <strong>Brevo</strong> let you tag subscribers automatically based on page visits or message clicks, making relevance easier.</p>
+      <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> let you tag subscribers automatically based on page visits or message clicks, making relevance easier.</p>
 
       <h2>2. Clarity: Simple Emails Perform Best</h2>
 
@@ -87,7 +87,7 @@ export function HowToImproveEmailEngagementArticle() {
         <li>inactive for 7 days → send check-in</li>
       </ul>
 
-      <p>Platforms like <strong>Brevo</strong> allow timing rules based on real subscriber behavior.</p>
+      <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> allow timing rules based on real subscriber behavior.</p>
 
       <h2>4. Intent-Based Segmentation</h2>
 
@@ -157,7 +157,7 @@ export function HowToImproveEmailEngagementArticle() {
         <li>higher deliverability</li>
       </ul>
 
-      <p>This works especially well in tools like <strong>Brevo</strong>.</p>
+      <p>This works especially well in tools like <strong><span className="text-[#046404]">Brevo</span></strong>.</p>
 
       <h2>4. Add Micro Stories</h2>
 
@@ -244,7 +244,7 @@ export function HowToImproveEmailEngagementArticle() {
 
       <h2>Final Verdict</h2>
 
-      <p>Improving email engagement without discounts or promotions is completely achievable. When your content is relevant, clean, well-timed, and matched to reader intent, subscribers engage naturally. They open because they trust you. They click because your content is useful. They stay because the relationship feels consistent. Platforms like <strong>Brevo</strong> and other email tools support this approach by offering segmentation, tagging, event tracking, and behavior-based timing. Engagement is not a trick—it's a structure.</p>
+      <p>Improving email engagement without discounts or promotions is completely achievable. When your content is relevant, clean, well-timed, and matched to reader intent, subscribers engage naturally. They open because they trust you. They click because your content is useful. They stay because the relationship feels consistent. Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> and other email tools support this approach by offering segmentation, tagging, event tracking, and behavior-based timing. Engagement is not a trick—it's a structure.</p>
 
       <div className="recommendation-box">
         <strong>Keymara Recommendation:</strong>

@@ -8,7 +8,7 @@ export function WhatIsCrmExplainedArticle() {
 
   return (
     <article id="what-is-crm-explained" className="prose max-w-none">
-        <p><span className="drop-cap">C</span>RM stands for Customer Relationship Management, but in email marketing, it means something deeper. A CRM is the central brain where all your subscriber data lives—contacts, behaviors, tags, deals, preferences, activities, and every action your audience takes. Instead of scattering your data across tools, a CRM brings everything into one clean system. Platforms like <strong>Brevo</strong> have made CRM simpler, more modern, and more accessible for small businesses by combining email, automation, and contact management inside one workspace. This guide explains CRM from the ground up so you can understand how it works, why it matters, and how to use it responsibly inside a multi-channel communication system.</p>
+        <p><span className="drop-cap">C</span>RM stands for Customer Relationship Management, but in email marketing, it means something deeper. A CRM is the central brain where all your subscriber data lives—contacts, behaviors, tags, deals, preferences, activities, and every action your audience takes. Instead of scattering your data across tools, a CRM brings everything into one clean system. Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> have made CRM simpler, more modern, and more accessible for small businesses by combining email, automation, and contact management inside one workspace. This guide explains CRM from the ground up so you can understand how it works, why it matters, and how to use it responsibly inside a multi-channel communication system.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #1:</strong> {post.keyTip1}
@@ -39,7 +39,7 @@ export function WhatIsCrmExplainedArticle() {
             <li>behavior logs</li>
             <li>multi-channel communication</li>
         </ul>
-        <p>Platforms like <strong>Brevo</strong> bring all these features into one simplified interface so even small teams can use CRM professionally.</p>
+        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> bring all these features into one simplified interface so even small teams can use CRM professionally.</p>
 
         <h2>Contact Management: The Center of CRM</h2>
         <p>Every CRM starts with a contact. A contact represents a person on your list. But unlike a simple subscriber email, a CRM contact stores dozens of attributes that help you understand them better.</p>
@@ -54,7 +54,7 @@ export function WhatIsCrmExplainedArticle() {
             <li>past interactions</li>
             <li>automation status</li>
         </ul>
-        <p>This detailed record helps you build clean, personalized communication. Tools like <strong>Brevo</strong> add activity timelines so you can see exactly what the subscriber did and when.</p>
+        <p>This detailed record helps you build clean, personalized communication. Tools like <strong><span className="text-[#046404]">Brevo</span></strong> add activity timelines so you can see exactly what the subscriber did and when.</p>
 
         <h2>Segmentation: The Heart of Smart Email Marketing</h2>
         <p>Segmentation separates contacts based on actions, interests, or data. Instead of treating everyone the same, segmentation allows you to speak with accuracy.</p>
@@ -67,7 +67,7 @@ export function WhatIsCrmExplainedArticle() {
             <li>interested in specific topics</li>
             <li>clicked certain links</li>
         </ul>
-        <p>Segmentation improves relevance and makes your communication cleaner. Platforms like <strong>Brevo</strong> offer rule-based segmentation so your lists update automatically.</p>
+        <p>Segmentation improves relevance and makes your communication cleaner. Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> offer rule-based segmentation so your lists update automatically.</p>
 
         <h2>Tags and Custom Fields</h2>
         <p>Tags represent quick labels. Custom fields store structured data. Both help you categorize contacts inside the CRM.</p>
@@ -100,7 +100,7 @@ export function WhatIsCrmExplainedArticle() {
             <li>qualified</li>
             <li>converted</li>
         </ul>
-        <p>Platforms like <strong>Brevo</strong> allow drag-and-drop pipelines so you can visually track where contacts are and move them as they progress.</p>
+        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> allow drag-and-drop pipelines so you can visually track where contacts are and move them as they progress.</p>
 
         <h2>Activity Tracking: Understanding Subscriber Behavior</h2>
         <p>A strong CRM records every action, such as:</p>
@@ -124,7 +124,7 @@ export function WhatIsCrmExplainedArticle() {
             <li>send email when user becomes active</li>
             <li>notify team when contact qualifies</li>
         </ul>
-        <p>Tools like <strong>Brevo</strong> simplify automation so even beginners can set logical rules.</p>
+        <p>Tools like <strong><span className="text-[#046404]">Brevo</span></strong> simplify automation so even beginners can set logical rules.</p>
 
         <h2>Integrations: Connecting Tools to CRM</h2>
         <p>CRMs get stronger when connected with your website, store, or apps through integrations. This brings real-time data into your communication system.</p>
@@ -137,7 +137,7 @@ export function WhatIsCrmExplainedArticle() {
             <li>landing page builders</li>
             <li>API connections</li>
         </ul>
-        <p>Platforms like <strong>Brevo</strong> offer many native integrations, making CRM easier to use without custom coding.</p>
+        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> offer many native integrations, making CRM easier to use without custom coding.</p>
 
         <h2>Multi-Channel CRM: Unifying Email, SMS, and WhatsApp</h2>
         <p>A modern CRM unifies multiple channels into one timeline. This creates a consistent experience and helps teams understand communication across platforms.</p>
@@ -148,7 +148,7 @@ export function WhatIsCrmExplainedArticle() {
             <li>WhatsApp confirmations</li>
             <li>transactional updates</li>
         </ul>
-        <p>With tools like <strong>Brevo</strong>, all of this sits inside one contact record.</p>
+        <p>With tools like <strong><span className="text-[#046404]">Brevo</span></strong>, all of this sits inside one contact record.</p>
 
         <h2>Common CRM Mistakes</h2>
         <ul>
@@ -225,7 +225,7 @@ export function WhatIsCrmExplainedArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>A CRM is the foundation of modern email marketing. It organizes data, tracks behavior, supports segmentation, and powers automation. With a clean CRM, every message becomes more relevant, every workflow becomes smoother, and every subscriber receives the right communication. Tools like <strong>Brevo</strong> make CRM accessible for beginners while maintaining professional depth.</p>
+        <p>A CRM is the foundation of modern email marketing. It organizes data, tracks behavior, supports segmentation, and powers automation. With a clean CRM, every message becomes more relevant, every workflow becomes smoother, and every subscriber receives the right communication. Tools like <strong><span className="text-[#046404]">Brevo</span></strong> make CRM accessible for beginners while maintaining professional depth.</p>
 
         <div className="recommendation-box">
             <strong>Keymara Recommendation:</strong>

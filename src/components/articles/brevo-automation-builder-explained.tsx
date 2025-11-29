@@ -8,7 +8,7 @@ export function BrevoAutomationBuilderExplainedArticle() {
 
   return (
     <article id="brevo-automation-builder-explained" className="prose max-w-none">
-        <p><span className="drop-cap">T</span>he automation builder inside <strong>Brevo</strong> is the real engine behind most of its results. Email campaigns help you stay visible, but automation builds the structure that keeps customers moving through your funnel even when you’re not working. Whether you're sending onboarding sequences, abandoned cart reminders, newsletters, lead nurturing flows, or multi-channel messages, the <strong>Brevo</strong> automation system gives you full control over customer journeys. This guide breaks the entire builder down step-by-step so you understand exactly how Brevo workflows work — and how they help your business grow consistently.</p>
+        <p><span className="drop-cap">T</span>he automation builder inside <strong><span className="text-[#046404]">Brevo</span></strong> is the real engine behind most of its results. Email campaigns help you stay visible, but automation builds the structure that keeps customers moving through your funnel even when you’re not working. Whether you're sending onboarding sequences, abandoned cart reminders, newsletters, lead nurturing flows, or multi-channel messages, the <strong><span className="text-[#046404]">Brevo</span></strong> automation system gives you full control over customer journeys. This guide breaks the entire builder down step-by-step so you understand exactly how <span className="text-[#046404]">Brevo</span> workflows work — and how they help your business grow consistently.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #1:</strong> {post.keyTip1}
@@ -18,7 +18,7 @@ export function BrevoAutomationBuilderExplainedArticle() {
 
         <p>Most businesses send emails only when they have time. This breaks consistency. Customers forget, lose interest, or never take the next step. Automation solves this problem by reacting to customer behavior, sending emails at the perfect time, and guiding people from first visit to final purchase without constant manual effort.</p>
         
-        <p>The automation builder inside <strong>Brevo</strong> is powerful because:</p>
+        <p>The automation builder inside <strong><span className="text-[#046404]">Brevo</span></strong> is powerful because:</p>
         <ul>
             <li>you can build end-to-end journeys visually,</li>
             <li>multiple channels (email, SMS, WhatsApp) run together,</li>
@@ -26,12 +26,12 @@ export function BrevoAutomationBuilderExplainedArticle() {
             <li>CRM stages and tasks can be automated,</li>
             <li>behavior and event triggers allow deep personalization.</li>
         </ul>
-        <p>Unlike many email tools, <strong>Brevo</strong> gives advanced automation even on lower plans, making it accessible for small teams and beginners.</p>
+        <p>Unlike many email tools, <strong><span className="text-[#046404]">Brevo</span></strong> gives advanced automation even on lower plans, making it accessible for small teams and beginners.</p>
 
-        <h2>How Brevo Automation Works (Full Breakdown)</h2>
+        <h2>How <span className="text-[#046404]">Brevo</span> Automation Works (Full Breakdown)</h2>
 
         <h3>1. Workflow Overview</h3>
-        <p>A workflow in <strong>Brevo</strong> is a pre-built sequence that starts with a trigger and continues with a set of automated actions. You can use workflows to:</p>
+        <p>A workflow in <strong><span className="text-[#046404]">Brevo</span></strong> is a pre-built sequence that starts with a trigger and continues with a set of automated actions. You can use workflows to:</p>
         <ul>
             <li>welcome new subscribers</li>
             <li>send onboarding lessons</li>
@@ -43,10 +43,10 @@ export function BrevoAutomationBuilderExplainedArticle() {
             <li>send SMS/WhatsApp reminders</li>
             <li>create CRM deals automatically</li>
         </ul>
-        <p>Everything inside Brevo automation is built visually — no coding, no technical setup.</p>
+        <p>Everything inside <span className="text-[#046404]">Brevo</span> automation is built visually — no coding, no technical setup.</p>
 
         <h3>2. Triggers: The Event That Starts a Workflow</h3>
-        <p>Every automation begins with a trigger. Brevo offers multiple types of triggers that connect directly to customer behavior and ecommerce actions.</p>
+        <p>Every automation begins with a trigger. <span className="text-[#046404]">Brevo</span> offers multiple types of triggers that connect directly to customer behavior and ecommerce actions.</p>
         <ul>
             <li><strong>When a contact subscribes</strong> — perfect for welcome sequences.</li>
             <li><strong>When a contact submits a form</strong> — great for lead magnets and onboarding.</li>
@@ -55,10 +55,10 @@ export function BrevoAutomationBuilderExplainedArticle() {
             <li><strong>Ecommerce events</strong> (if connected) like abandoned cart, order created, product viewed.</li>
             <li><strong>CRM activity triggers</strong> — deals, stages, tasks, or scoring.</li>
         </ul>
-        <p>Triggers tell Brevo: “When this happens, start the journey.”</p>
+        <p>Triggers tell <span className="text-[#046404]">Brevo</span>: “When this happens, start the journey.”</p>
 
-        <h3>3. Actions: What Brevo Does Automatically</h3>
-        <p>Once a trigger activates a workflow, <strong>Brevo</strong> runs a series of actions you define. These actions manage communication, CRM, segmentation, and behavior tracking.</p>
+        <h3>3. Actions: What <span className="text-[#046404]">Brevo</span> Does Automatically</h3>
+        <p>Once a trigger activates a workflow, <strong><span className="text-[#046404]">Brevo</span></strong> runs a series of actions you define. These actions manage communication, CRM, segmentation, and behavior tracking.</p>
 
         <h4>Email Actions</h4>
         <ul>
@@ -99,7 +99,7 @@ export function BrevoAutomationBuilderExplainedArticle() {
         </ul>
 
         <h3>4. Conditions & Branching Logic</h3>
-        <p>This is what makes Brevo workflows intelligent. You can split customers into different paths based on:</p>
+        <p>This is what makes <span className="text-[#046404]">Brevo</span> workflows intelligent. You can split customers into different paths based on:</p>
         <ul>
             <li>email engagement</li>
             <li>behavior (clicks, opens, visits)</li>
@@ -112,7 +112,7 @@ export function BrevoAutomationBuilderExplainedArticle() {
         <p>This means your automation reacts automatically and sends the right message at the exact right moment.</p>
 
         <h3>5. Lead Scoring in Automation</h3>
-        <p><strong>Brevo</strong> allows scoring based on actions inside a workflow. You can add or remove points when customers:</p>
+        <p><strong><span className="text-[#046404]">Brevo</span></strong> allows scoring based on actions inside a workflow. You can add or remove points when customers:</p>
         <ul>
             <li>open emails</li>
             <li>click important links</li>
@@ -123,7 +123,7 @@ export function BrevoAutomationBuilderExplainedArticle() {
         <p>Lead scoring makes automation smarter by identifying high-intent contacts.</p>
 
         <h3>6. Personalization in Automation</h3>
-        <p>Personalization is not just “name tags.” Brevo supports deep personalization inside automation:</p>
+        <p>Personalization is not just “name tags.” <span className="text-[#046404]">Brevo</span> supports deep personalization inside automation:</p>
         <ul>
             <li>insert customer attributes dynamically</li>
             <li>insert product details automatically</li>
@@ -177,7 +177,7 @@ export function BrevoAutomationBuilderExplainedArticle() {
             <li>score behavior to identify hot leads</li>
         </ul>
 
-        <h2>Brevo Automation Pricing Overview</h2>
+        <h2><span className="text-[#046404]">Brevo</span> Automation Pricing Overview</h2>
         <table>
             <thead>
                 <tr>
@@ -203,14 +203,14 @@ export function BrevoAutomationBuilderExplainedArticle() {
                     <td>Growing businesses with automation goals</td>
                 </tr>
                 <tr>
-                    <td>BrevoPlus (Custom)</td>
+                    <td><span className="text-[#046404]">Brevo</span>Plus (Custom)</td>
                     <td>Enterprise automation + priority support</td>
                     <td>Large teams, ecommerce & agencies</td>
                 </tr>
             </tbody>
         </table>
 
-        <h2>Pros & Cons of Brevo Automation Builder</h2>
+        <h2>Pros & Cons of <span className="text-[#046404]">Brevo</span> Automation Builder</h2>
         <h3>Pros</h3>
         <ul>
             <li>Easy visual workflow builder</li>
@@ -228,14 +228,14 @@ export function BrevoAutomationBuilderExplainedArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>If automation is central to your business, the <strong>Brevo</strong> automation builder gives you a complete system to guide customers through onboarding, content delivery, buyer journeys, and repeat purchase cycles. It balances power and simplicity better than most tools in this price range, making it ideal for small businesses, ecommerce stores, agencies, and educators.</p>
+        <p>If automation is central to your business, the <strong><span className="text-[#046404]">Brevo</span></strong> automation builder gives you a complete system to guide customers through onboarding, content delivery, buyer journeys, and repeat purchase cycles. It balances power and simplicity better than most tools in this price range, making it ideal for small businesses, ecommerce stores, agencies, and educators.</p>
 
         <div className="recommendation-box">
             <strong>Keymara Recommendation:</strong>
             <p>{post.recommendation}</p>
         </div>
         
-        <p>Explore the rest of our Brevo Series to understand CRM, multi-channel messaging, and pricing — and build a smarter automation system for your business.</p>
+        <p>Explore the rest of our <span className="text-[#046404]">Brevo</span> Series to understand CRM, multi-channel messaging, and pricing — and build a smarter automation system for your business.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #3:</strong> {post.keyTip3}
