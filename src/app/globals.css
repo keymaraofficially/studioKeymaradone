@@ -76,7 +76,7 @@
     @apply text-foreground mb-6;
   }
 
-  .hero-title .brevo-strong {
+  .hero-title .brevo-strong, .brevo-strong {
     font-weight: 900;
     color: #046404;
     letter-spacing: 0.8px;

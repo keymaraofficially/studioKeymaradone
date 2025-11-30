@@ -63,15 +63,15 @@ export function BestEmailToolForSmallBusinessesArticle() {
 
         <h2>Use Cases</h2>
         <h3>Best for Startups with Automation Needs on a Budget</h3>
-        <p><strong>Brevo</strong> wins: multichannel, CRM, automation at a low entry price.</p>
+        <p><strong><span className="brevo-strong">Brevo</span></strong> wins: multichannel, CRM, automation at a low entry price.</p>
         <h3>Best for Creative Brands on Tight Budgets</h3>
         <p><strong>MailerLite</strong> wins: best design templates, ease of use, great for brand-led communication.</p>
         <h3>Best for Content Creators & Solo Entrepreneurs</h3>
         <p><strong>ConvertKit</strong> wins: strong tagging, content sequences, creator workflows—but cost may rise fast.</p>
         <h3>Best for Ecommerce at Low Cost</h3>
-        <p><strong>Brevo</strong> wins due to email + SMS + WhatsApp automation on a budget.</p>
+        <p><strong><span className="brevo-strong">Brevo</span></strong> wins due to email + SMS + WhatsApp automation on a budget.</p>
         <h3>Best for Growing Audit Teams and Coaching Brands</h3>
-        <p><strong>MailerLite</strong> is great for newsletters and engagement.<br/><strong>ConvertKit</strong> is ideal for teachers and creators.<br/><strong>Brevo</strong> is scalable automation without big costs.</p>
+        <p><strong>MailerLite</strong> is great for newsletters and engagement.<br/><strong>ConvertKit</strong> is ideal for teachers and creators.<br/><strong><span className="brevo-strong">Brevo</span></strong> is scalable automation without big costs.</p>
 
         <h2>Pricing Table</h2>
         <table>
@@ -149,7 +149,7 @@ export function BestEmailToolForSmallBusinessesArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>For budget-conscious teams that still need automation and CRM, choose <strong>Brevo</strong>.<br/>For design-led brands and beautiful newsletters on a budget, choose <strong>MailerLite</strong>.<br/>For creators and solo entrepreneurs focused on content delivery and tagging, choose <strong>ConvertKit</strong>.</p>
+        <p>For budget-conscious teams that still need automation and CRM, choose <strong><span className="brevo-strong">Brevo</span></strong>.<br/>For design-led brands and beautiful newsletters on a budget, choose <strong>MailerLite</strong>.<br/>For creators and solo entrepreneurs focused on content delivery and tagging, choose <strong>ConvertKit</strong>.</p>
 
         <div className="recommendation-box">
             <strong>Keymara Recommendation:</strong>

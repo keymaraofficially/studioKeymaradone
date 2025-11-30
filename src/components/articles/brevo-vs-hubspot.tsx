@@ -8,7 +8,7 @@ export function BrevoVsHubspotArticle() {
 
   return (
     <article id="hubspot-vs-brevo" className="prose max-w-none">
-      <p><span className="drop-cap">B</span>usinesses looking for a full marketing solution need more than an email tool. They need CRM visibility, automation across multiple channels, clear segmentation, strong analytics, task management, and a system that brings everything into one place. <strong>HubSpot</strong> and <strong><span className="text-[#046404]">Brevo</span></strong> are two powerful options. <strong>HubSpot</strong> is a premium all-in-one ecosystem built for enterprises and fast-scaling teams. <strong><span className="text-[#046404]">Brevo</span></strong> is a streamlined automation and CRM platform designed for affordability, ease, and practical multichannel marketing. Both are impressive—but deciding which one is the right all-in-one system is not always obvious. This detailed comparison breaks down every important factor so you can make the smartest decision for your business.</p>
+      <p><span className="drop-cap">B</span>usinesses looking for a full marketing solution need more than an email tool. They need CRM visibility, automation across multiple channels, clear segmentation, strong analytics, task management, and a system that brings everything into one place. <strong>HubSpot</strong> and <strong><span className="brevo-strong">Brevo</span></strong> are two powerful options. <strong>HubSpot</strong> is a premium all-in-one ecosystem built for enterprises and fast-scaling teams. <strong><span className="brevo-strong">Brevo</span></strong> is a streamlined automation and CRM platform designed for affordability, ease, and practical multichannel marketing. Both are impressive—but deciding which one is the right all-in-one system is not always obvious. This detailed comparison breaks down every important factor so you can make the smartest decision for your business.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #1:</strong> {post.keyTip1}
@@ -34,7 +34,7 @@ export function BrevoVsHubspotArticle() {
 
         <p>
         <strong>HubSpot</strong> positions itself as the ultimate “all-in-one growth platform.”<br/>
-        <strong><span className="text-[#046404]">Brevo</span></strong> positions itself as the “affordable all-in-one marketing suite for growing teams.”<br/>
+        <strong><span className="brevo-strong">Brevo</span></strong> positions itself as the “affordable all-in-one marketing suite for growing teams.”<br/>
         The difference isn’t who can do more—it's who can deliver what YOU need without slowing you down.
         </p>
 
@@ -43,49 +43,49 @@ export function BrevoVsHubspotArticle() {
         <h3>1. CRM & Contact Management</h3>
         <ul>
             <li><strong>HubSpot:</strong> One of the strongest CRMs in the industry. Tracks lifecycle stages, deals, tasks, activities, sales pipelines, custom objects, multi-team collaboration, and client histories in detail.</li>
-            <li><strong><span className="text-[#046404]">Brevo</span>:</strong> Full CRM included for free. Supports pipelines, tasks, notes, call logs, and deal management. Simpler than HubSpot but efficient and easy to manage.</li>
+            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Full CRM included for free. Supports pipelines, tasks, notes, call logs, and deal management. Simpler than HubSpot but efficient and easy to manage.</li>
         </ul>
 
         <h3>2. Email Marketing & Templates</h3>
         <ul>
             <li><strong>HubSpot:</strong> Highly impressive templates, advanced branding controls, dynamic content, and better design flexibility.</li>
-            <li><strong><span className="text-[#046404]">Brevo</span>:</strong> Clean and reliable templates aimed at clarity and deliverability.</li>
+            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Clean and reliable templates aimed at clarity and deliverability.</li>
         </ul>
 
         <h3>3. Automation & Customer Journeys</h3>
         <ul>
             <li><strong>HubSpot:</strong> Enterprise-grade workflow builder with CRM triggers, lifecycle stages, smart branching, task assignments, and integrated sales-marketing automation.</li>
-            <li><strong><span className="text-[#046404]">Brevo</span>:</strong> Advanced automation with email, SMS, WhatsApp, and CRM triggers in a beginner-friendly visual interface.</li>
+            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Advanced automation with email, SMS, WhatsApp, and CRM triggers in a beginner-friendly visual interface.</li>
         </ul>
 
         <h3>4. Multichannel Communication</h3>
         <ul>
             <li><strong>HubSpot:</strong> Email + chat + ads + forms + limited SMS via integrations.</li>
-            <li><strong><span className="text-[#046404]">Brevo</span>:</strong> Email, SMS, WhatsApp, marketing automation, CRM follow-ups, and transactional emails—built-in without add-ons.</li>
+            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Email, SMS, WhatsApp, marketing automation, CRM follow-ups, and transactional emails—built-in without add-ons.</li>
         </ul>
 
         <h3>5. Landing Pages & Forms</h3>
         <ul>
             <li><strong>HubSpot:</strong> Beautiful landing pages with deep CRM integration, personalization, and strong A/B testing.</li>
-            <li><strong><span className="text-[#046404]">Brevo</span>:</strong> Good forms and landing pages, simpler but effective for lead capture.</li>
+            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Good forms and landing pages, simpler but effective for lead capture.</li>
         </ul>
 
         <h3>6. AI Features</h3>
         <ul>
             <li><strong>HubSpot:</strong> AI writing, predictive scoring, AI insights, AI sales recommendations, smart workflows.</li>
-            <li><strong><span className="text-[#046404]">Brevo</span>:</strong> AI send-time optimization, AI segmentation, content suggestions, and automated improvements.</li>
+            <li><strong><span className="brevo-strong">Brevo</span>:</strong> AI send-time optimization, AI segmentation, content suggestions, and automated improvements.</li>
         </ul>
 
         <h3>7. Reporting & Analytics</h3>
         <ul>
             <li><strong>HubSpot:</strong> World-class reporting. Attribution, funnel analytics, revenue tracking, lifecycle dashboards, sales-marketing alignment reports.</li>
-            <li><strong><span className="text-[#046404]">Brevo</span>:</strong> Clean, simple analytics for email, automation, and CRM performance.</li>
+            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Clean, simple analytics for email, automation, and CRM performance.</li>
         </ul>
 
         <h3>8. Learning Curve</h3>
         <ul>
             <li><strong>HubSpot:</strong> Steep learning curve—especially for beginners.</li>
-            <li><strong><span className="text-[#046404]">Brevo</span>:</strong> Easy to start, simple to manage, and suitable for small-medium teams.</li>
+            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Easy to start, simple to manage, and suitable for small-medium teams.</li>
         </ul>
         
         <div className="key-tip-block">
@@ -98,26 +98,26 @@ export function BrevoVsHubspotArticle() {
         <p><strong>HubSpot</strong> wins with enterprise-level CRM, advanced reporting, and multi-department coordination.</p>
 
         <h3>Best for Small-Medium Businesses & Growing Teams</h3>
-        <p><strong><span className="text-[#046404]">Brevo</span></strong> wins by delivering CRM + automation + multichannel marketing at an affordable price.</p>
+        <p><strong><span className="brevo-strong">Brevo</span></strong> wins by delivering CRM + automation + multichannel marketing at an affordable price.</p>
 
         <h3>Best for Sales-Heavy Businesses</h3>
         <p><strong>HubSpot</strong> dominates due to deep sales pipelines, lead scoring, forecasting, and sales-team automation.</p>
         
         <h3>Best for Email-Driven Businesses</h3>
-        <p><strong><span className="text-[#046404]">Brevo</span></strong> excels with strong deliverability, transactional messaging, and simple automation flows.</p>
+        <p><strong><span className="brevo-strong">Brevo</span></strong> excels with strong deliverability, transactional messaging, and simple automation flows.</p>
         
         <h3>Best for Agencies Managing Multiple Clients</h3>
-        <p><strong><span className="text-[#046404]">Brevo</span></strong> is far more cost-effective and easier to manage.<br/><strong>HubSpot</strong> is suitable for enterprise-level agency clients with large budgets.</p>
+        <p><strong><span className="brevo-strong">Brevo</span></strong> is far more cost-effective and easier to manage.<br/><strong>HubSpot</strong> is suitable for enterprise-level agency clients with large budgets.</p>
         
         <h3>Best for Multichannel Marketing</h3>
-        <p><strong><span className="text-[#046404]">Brevo</span></strong> wins because SMS + WhatsApp + email works in one workflow with no add-ons.</p>
+        <p><strong><span className="brevo-strong">Brevo</span></strong> wins because SMS + WhatsApp + email works in one workflow with no add-ons.</p>
         
         <h2>Pricing Table</h2>
         <table>
             <thead>
                 <tr>
                     <th>Plan</th>
-                    <th><span className="text-[#046404]">Brevo</span> Price</th>
+                    <th><span className="brevo-strong">Brevo</span> Price</th>
                     <th>HubSpot Price</th>
                     <th>Best For</th>
                 </tr>
@@ -152,7 +152,7 @@ export function BrevoVsHubspotArticle() {
         
         <h2>Pros & Cons</h2>
 
-        <h3><span className="text-[#046404]">Brevo</span> Pros</h3>
+        <h3><span className="brevo-strong">Brevo</span> Pros</h3>
         <ul>
             <li>Built-in CRM</li>
             <li>Affordable all-in-one system</li>
@@ -160,7 +160,7 @@ export function BrevoVsHubspotArticle() {
             <li>Beginner-friendly automation</li>
         </ul>
 
-        <h3><span className="text-[#046404]">Brevo</span> Cons</h3>
+        <h3><span className="brevo-strong">Brevo</span> Cons</h3>
         <ul>
             <li>Templates are basic</li>
             <li>Analytics less advanced than HubSpot</li>
@@ -182,7 +182,7 @@ export function BrevoVsHubspotArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>Choose <strong><span className="text-[#046404]">Brevo</span></strong> if you want a practical all-in-one platform with CRM, automation, and multichannel messaging without massive costs.<br/>Choose <strong>HubSpot</strong> if your business depends on advanced CRM, multi-team workflows, and enterprise-level reporting.</p>
+        <p>Choose <strong><span className="brevo-strong">Brevo</span></strong> if you want a practical all-in-one platform with CRM, automation, and multichannel messaging without massive costs.<br/>Choose <strong>HubSpot</strong> if your business depends on advanced CRM, multi-team workflows, and enterprise-level reporting.</p>
 
         <div className="recommendation-box">
             <strong>Keymara Recommendation:</strong>
