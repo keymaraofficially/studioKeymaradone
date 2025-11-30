@@ -67,3 +67,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .hero-section .brevo-emphasis {
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: #046404;
+  }
+}

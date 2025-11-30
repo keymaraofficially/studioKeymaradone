@@ -14,9 +14,9 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <section className="px-6 py-20 max-w-5xl mx-auto text-center">
+      <section className="hero-section px-6 py-20 max-w-5xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold text-foreground mb-6 leading-tight">
-          Become a <span className="text-[#046404] font-black">Brevo</span>-Powered Email Marketer
+          Become a <span className="brevo-emphasis">Brevo</span>-Powered Email Marketer
         </h1>
 
         <p className="text-lg text-muted-foreground mb-10 max-w-3xl mx-auto">
