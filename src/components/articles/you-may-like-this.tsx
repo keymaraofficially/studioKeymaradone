@@ -15,7 +15,7 @@ export const YouMayLikeThis = ({ currentSlug }: { currentSlug: string }) => {
         const filteredInsights = latestInsights.filter(insight => insight.slug !== currentSlug);
         const shuffledInsights = [...filteredInsights].sort(() => 0.5 - Math.random());
         setShuffled(shuffledInsights.slice(0, 2));
-    }, [currentSlug]);
+    }, [currentSlug, latestInsights]);
 
     if (!shuffled.length) {
         // Render a placeholder or null on the server and initial client render
@@ -37,3 +37,5 @@ export const YouMayLikeThis = ({ currentSlug }: { currentSlug: string }) => {
         </div>
     );
 };
+
+    

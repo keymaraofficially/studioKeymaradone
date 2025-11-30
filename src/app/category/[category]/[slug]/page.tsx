@@ -66,7 +66,7 @@ import { ApiVsNativeIntegrationsArticle } from '@/components/articles/api-vs-nat
 import { HowMultiPlatformDataSyncWorksArticle } from '@/components/articles/how-multi-platform-data-sync-works';
 import { CrmAutomationExplainedArticle } from '@/components/articles/crm-automation-explained';
 import { HowToImproveEmailEngagementArticle } from '@/components/articles/how-to-improve-email-engagement';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, use } from 'react';
 
 // We can't use generateStaticParams here because this is a client component
 // due to the fix for the hydration error. Next.js will still be able
@@ -128,7 +128,8 @@ const PeopleAlsoRead = ({ currentSlug }: { currentSlug: string }) => {
     );
 };
 
-export default function ArticlePage({ params }: { params: { category: string, slug: string } }) {
+export default function ArticlePage({ params: paramsPromise }: { params: Promise<{ category: string, slug: string }> }) {
+  const params = use(paramsPromise);
   const post = latestInsights.find(p => p.slug === params.slug);
 
   if (!post) {
@@ -331,3 +332,5 @@ export default function ArticlePage({ params }: { params: { category: string, sl
     </div>
   );
 }
+
+    
