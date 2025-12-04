@@ -84,21 +84,13 @@
   }
 
   .brevo-premium {
-    background: linear-gradient(135deg, #046404 0%, #08a63d 100%);
-    color: #ffffff;
-    font-weight: 900;
-    padding: 6px 18px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(4, 100, 4, 0.35);
-    letter-spacing: 0.5px;
-    display: inline-block;
-    transform: translateY(-2px);
-    transition: 0.2s ease;
-  }
-
-  /* Hover effect – premium touch */
-  .brevo-premium:hover {
-    transform: translateY(-4px) scale(1.03);
-    box-shadow: 0 6px 18px rgba(4, 100, 4, 0.45);
+    background: #F3F7F1;
+    padding: 6px 16px;
+    border-radius: 40px;
+    font-weight: 700;
+    color: #0A4A1F;
+    font-size: 1.1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+    border: 1px solid #e5efe6;
   }
 }
