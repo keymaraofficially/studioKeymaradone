@@ -8,7 +8,7 @@ export function BrevoVsActiveCampaignArticle() {
 
   return (
     <article id="brevo-vs-activecampaign" className="prose max-w-none">
-        <p><span className="drop-cap">C</span>hoosing between <strong><span className="brevo-strong">Brevo</span></strong> and <strong>ActiveCampaign</strong> is one of the toughest decisions for businesses looking for serious automation power. Both platforms specialize in workflows, segmentation, behavioral triggers, and data-driven marketing—but they are built for different types of marketers. <strong><span className="brevo-strong">Brevo</span></strong> focuses on affordability, multichannel automation, CRM integration, and ease of use. <strong>ActiveCampaign</strong> focuses on deep-level automation, predictive actions, complex workflows, and advanced customer experience mapping. This guide compares every major detail—AI, segmentation, CRM, deliverability, analytics, templates, and pricing—so you can confidently pick the right platform.</p>
+        <p><span className="drop-cap">C</span>hoosing between <strong><span className="brevo-marker">Brevo</span></strong> and <strong>ActiveCampaign</strong> is one of the toughest decisions for businesses looking for serious automation power. Both platforms specialize in workflows, segmentation, behavioral triggers, and data-driven marketing—but they are built for different types of marketers. <strong><span className="brevo-marker">Brevo</span></strong> focuses on affordability, multichannel automation, CRM integration, and ease of use. <strong>ActiveCampaign</strong> focuses on deep-level automation, predictive actions, complex workflows, and advanced customer experience mapping. This guide compares every major detail—AI, segmentation, CRM, deliverability, analytics, templates, and pricing—so you can confidently pick the right platform.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #1:</strong> {post.keyTip1}
@@ -17,55 +17,55 @@ export function BrevoVsActiveCampaignArticle() {
         <h2>Why This Comparison Matters</h2>
 
         <p>Modern email marketing is no longer about sending broadcasts or promoting weekly newsletters. Businesses now need automation systems that track user behavior, predict intent, and deliver the right message at the right time. Picking the wrong platform leads to stalled campaigns, slow workflow execution, and lost revenue opportunities.</p>
-        <p>Both <strong><span className="brevo-strong">Brevo</span></strong> and <strong>ActiveCampaign</strong> are top choices for automation-driven marketing, but they belong to different categories: <strong><span className="brevo-strong">Brevo</span></strong> is designed for small to mid-sized growing businesses, while <strong>ActiveCampaign</strong> is built for advanced marketers who manage multi-layer customer journeys. Understanding these distinctions helps you avoid overpaying—or underpowering—your automation system.</p>
+        <p>Both <strong><span className="brevo-marker">Brevo</span></strong> and <strong>ActiveCampaign</strong> are top choices for automation-driven marketing, but they belong to different categories: <strong><span className="brevo-marker">Brevo</span></strong> is designed for small to mid-sized growing businesses, while <strong>ActiveCampaign</strong> is built for advanced marketers who manage multi-layer customer journeys. Understanding these distinctions helps you avoid overpaying—or underpowering—your automation system.</p>
 
         <h2>Feature Breakdown</h2>
 
         <h3>1. Email Builder</h3>
         <ul>
-            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Clean drag-and-drop builder optimized for deliverability and simplicity. Templates are functional but not design-heavy.</li>
+            <li><strong><span className="brevo-marker">Brevo</span>:</strong> Clean drag-and-drop builder optimized for deliverability and simplicity. Templates are functional but not design-heavy.</li>
             <li><strong>ActiveCampaign:</strong> Solid builder with better customization and dynamic content, but its UI is slightly more complex.</li>
         </ul>
 
         <h3>2. Automation & Workflow Power</h3>
         <ul>
-            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Strong automation with multichannel triggers (email, SMS, WhatsApp) and CRM attributes. Easy for beginners and efficient for pros.</li>
+            <li><strong><span className="brevo-marker">Brevo</span>:</strong> Strong automation with multichannel triggers (email, SMS, WhatsApp) and CRM attributes. Easy for beginners and efficient for pros.</li>
             <li><strong>ActiveCampaign:</strong> Industry-leading automation engine. Visual paths, predictive actions, goal-based triggers, tagging systems, conditions, and deep segmentation options.</li>
         </ul>
 
         <h3>3. CRM & Sales Automations</h3>
         <ul>
-            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Full CRM built-in: pipeline management, activity tracking, notes, tasks, deals, and segmentation powered directly by CRM fields.</li>
+            <li><strong><span className="brevo-marker">Brevo</span>:</strong> Full CRM built-in: pipeline management, activity tracking, notes, tasks, deals, and segmentation powered directly by CRM fields.</li>
             <li><strong>ActiveCampaign:</strong> Advanced CRM with automated deal movement, scoring models, customer journey mapping, and deep sales-email automation.</li>
         </ul>
 
         <h3>4. Segmentation & Personalization</h3>
         <ul>
-            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Behavioral segmentation, time-based triggers, predictive send, custom fields, tag-based segments, and event-based automation.</li>
+            <li><strong><span className="brevo-marker">Brevo</span>:</strong> Behavioral segmentation, time-based triggers, predictive send, custom fields, tag-based segments, and event-based automation.</li>
             <li><strong>ActiveCampaign:</strong> Extremely granular segmentation: site tracking, event tracking, machine-learning insights, tags, goals, and user interaction scoring.</li>
         </ul>
 
         <h3>5. AI Features</h3>
         <ul>
-            <li><strong><span className="brevo-strong">Brevo</span>:</strong> AI send-time optimization, predictive segmentation, content suggestions, and AI-supported automation rules.</li>
+            <li><strong><span className="brevo-marker">Brevo</span>:</strong> AI send-time optimization, predictive segmentation, content suggestions, and AI-supported automation rules.</li>
             <li><strong>ActiveCampaign:</strong> Predictive actions, predictive sending, machine-learning scoring, and automated CX mapping intelligence.</li>
         </ul>
 
         <h3>6. Deliverability</h3>
         <ul>
-            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Excellent deliverability due to a strong transactional infrastructure and clean sending reputation.</li>
+            <li><strong><span className="brevo-marker">Brevo</span>:</strong> Excellent deliverability due to a strong transactional infrastructure and clean sending reputation.</li>
             <li><strong>ActiveCampaign:</strong> Known for strong deliverability but sometimes sensitive for new accounts due to strict warming processes.</li>
         </ul>
 
         <h3>7. Learning Curve</h3>
         <ul>
-            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Beginner-friendly. Easy to set up, easy to automate, and excellent for small teams.</li>
+            <li><strong><span className="brevo-marker">Brevo</span>:</strong> Beginner-friendly. Easy to set up, easy to automate, and excellent for small teams.</li>
             <li><strong>ActiveCampaign:</strong> Steeper learning curve because of its advanced automation and multi-layer options.</li>
         </ul>
         
         <h3>8. Reporting & Analytics</h3>
         <ul>
-            <li><strong><span className="brevo-strong">Brevo</span>:</strong> Clean, simple, and visual. Good for growing businesses.</li>
+            <li><strong><span className="brevo-marker">Brevo</span>:</strong> Clean, simple, and visual. Good for growing businesses.</li>
             <li><strong>ActiveCampaign:</strong> Deep analytics including goal tracking, attribution, engagement scoring, and revenue metrics.</li>
         </ul>
         
@@ -79,23 +79,23 @@ export function BrevoVsActiveCampaignArticle() {
         <p><strong>ActiveCampaign</strong> wins due to unmatched automation complexity, predictive intelligence, and deep segmentation power.</p>
 
         <h3>Best for Small Businesses & Simple Systems</h3>
-        <p><strong><span className="brevo-strong">Brevo</span></strong> wins because it offers advanced automation without complexity or high subscription costs.</p>
+        <p><strong><span className="brevo-marker">Brevo</span></strong> wins because it offers advanced automation without complexity or high subscription costs.</p>
 
         <h3>Best for Ecommerce</h3>
-        <p>Both are strong, but <strong>ActiveCampaign</strong> excels with advanced site tracking and purchase-based triggers. <br/><strong><span className="brevo-strong">Brevo</span></strong> works well for ecommerce brands that need email + SMS + WhatsApp flows at a lower cost.</p>
+        <p>Both are strong, but <strong>ActiveCampaign</strong> excels with advanced site tracking and purchase-based triggers. <br/><strong><span className="brevo-marker">Brevo</span></strong> works well for ecommerce brands that need email + SMS + WhatsApp flows at a lower cost.</p>
         
         <h3>Best for Coaches & Online Creators</h3>
-        <p><strong><span className="brevo-strong">Brevo</span></strong> fits creators who want simple automated sequences without needing funnels.<br/><strong>ActiveCampaign</strong> fits advanced coaches who use multi-step journeys and behavior scoring.</p>
+        <p><strong><span className="brevo-marker">Brevo</span></strong> fits creators who want simple automated sequences without needing funnels.<br/><strong>ActiveCampaign</strong> fits advanced coaches who use multi-step journeys and behavior scoring.</p>
 
         <h3>Best for Agencies</h3>
-        <p><strong><span className="brevo-strong">Brevo</span></strong> shines with multi-account support and simpler management.<br/><strong>ActiveCampaign</strong> shines for agencies handling complex journeys for many clients.</p>
+        <p><strong><span className="brevo-marker">Brevo</span></strong> shines with multi-account support and simpler management.<br/><strong>ActiveCampaign</strong> shines for agencies handling complex journeys for many clients.</p>
         
         <h2>Pricing Table</h2>
         <table>
             <thead>
                 <tr>
                     <th>Plan</th>
-                    <th><span className="brevo-strong">Brevo</span> Monthly Price</th>
+                    <th><span className="brevo-marker">Brevo</span> Monthly Price</th>
                     <th>ActiveCampaign Monthly Price</th>
                     <th>Best For</th>
                 </tr>
@@ -130,7 +130,7 @@ export function BrevoVsActiveCampaignArticle() {
         
         <h2>Pros & Cons</h2>
 
-        <h3><span className="brevo-strong">Brevo</span> Pros</h3>
+        <h3><span className="brevo-marker">Brevo</span> Pros</h3>
         <ul>
             <li>Affordable automation plans</li>
             <li>Multichannel workflows (email, SMS, WhatsApp)</li>
@@ -139,7 +139,7 @@ export function BrevoVsActiveCampaignArticle() {
             <li>Beginner-friendly automation builder</li>
         </ul>
 
-        <h3><span className="brevo-strong">Brevo</span> Cons</h3>
+        <h3><span className="brevo-marker">Brevo</span> Cons</h3>
         <ul>
             <li>Templates are not as advanced</li>
             <li>Limited funnel-building capabilities</li>
@@ -161,7 +161,7 @@ export function BrevoVsActiveCampaignArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>Choose <strong><span className="brevo-strong">Brevo</span></strong> if you want multichannel automation, CRM support, and strong segmentation at an affordable price.<br/>Choose <strong>ActiveCampaign</strong> if you need advanced predictive automation, deep workflows, and enterprise-level customization.</p>
+        <p>Choose <strong><span className="brevo-marker">Brevo</span></strong> if you want multichannel automation, CRM support, and strong segmentation at an affordable price.<br/>Choose <strong>ActiveCampaign</strong> if you need advanced predictive automation, deep workflows, and enterprise-level customization.</p>
 
         <div className="recommendation-box">
             <strong>Keymara Recommendation:</strong>

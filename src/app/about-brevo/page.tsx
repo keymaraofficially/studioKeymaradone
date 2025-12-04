@@ -8,7 +8,7 @@ export default function AboutBrevoPage() {
       <div className="text-center mb-12">
         <Info className="mx-auto h-12 w-12 text-primary mb-4" />
         <h1 className="text-4xl md:text-5xl font-headline font-bold">
-          About <span className="brevo-neo">Brevo</span>
+          About <span className="brevo-marker">Brevo</span>
         </h1>
         <p className="text-lg text-muted-foreground mt-3 max-w-2xl mx-auto">
           Brevo is the all-in-one platform empowering businesses to build customer relationships through end-to-end campaigns.
@@ -16,7 +16,7 @@ export default function AboutBrevoPage() {
       </div>
 
       <div className="bg-card border rounded-lg p-6 sm:p-8 space-y-6 text-center mb-16">
-        <h2 className="text-2xl font-headline font-bold">What is <span className="brevo-neo">Brevo</span>?</h2>
+        <h2 className="text-2xl font-headline font-bold">What is <span className="brevo-marker">Brevo</span>?</h2>
         <p className="text-muted-foreground">
           Brevo (formerly Sendinblue) is a comprehensive marketing and sales platform that provides a suite of tools for email marketing, automation, CRM, SMS marketing, chat, and more. It's designed to be an affordable and powerful solution for small to medium-sized businesses looking to grow.
         </p>

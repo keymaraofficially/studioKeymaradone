@@ -8,15 +8,15 @@ export function BrevoCrmExplainedArticle() {
 
   return (
     <article id="brevo-crm-explained" className="prose max-w-none">
-        <p><span className="drop-cap">T</span>he CRM inside <strong><span className="brevo-strong">Brevo</span></strong> is one of its most underrated features. Most people use <span className="brevo-strong">Brevo</span> only for email and automation, but the real power starts when you combine those tools with built-in deals, pipelines, tasks, scoring, and full customer tracking. You no longer need an external CRM like Pipedrive, Zoho, or HubSpot. Instead, <span className="brevo-strong">Brevo</span> gives you a simple, clean, and highly effective CRM system that keeps your customer journeys organized and your follow-ups consistent. This guide explains <span className="brevo-strong">Brevo</span> CRM from the ground up so you know exactly how to use it to organize leads, track opportunities, and manage your customer relationships like a professional sales team.</p>
+        <p><span className="drop-cap">T</span>he CRM inside <strong><span className="brevo-marker">Brevo</span></strong> is one of its most underrated features. Most people use <span className="brevo-marker">Brevo</span> only for email and automation, but the real power starts when you combine those tools with built-in deals, pipelines, tasks, scoring, and full customer tracking. You no longer need an external CRM like Pipedrive, Zoho, or HubSpot. Instead, <span className="brevo-marker">Brevo</span> gives you a simple, clean, and highly effective CRM system that keeps your customer journeys organized and your follow-ups consistent. This guide explains <span className="brevo-marker">Brevo</span> CRM from the ground up so you know exactly how to use it to organize leads, track opportunities, and manage your customer relationships like a professional sales team.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #1:</strong> {post.keyTip1}
         </div>
 
-        <h2>Why <span className="brevo-strong">Brevo</span> CRM Matters</h2>
+        <h2>Why <span className="brevo-marker">Brevo</span> CRM Matters</h2>
 
-        <p>CRM systems are often expensive, complicated, or overwhelming for small teams. But without a structured CRM, you lose leads, forget follow-ups, and miss growth opportunities. <strong><span className="brevo-strong">Brevo</span></strong> solves this by giving you a simple but powerful CRM that connects directly with your email, automation, multi-channel messages, and segmentation system.</p>
+        <p>CRM systems are often expensive, complicated, or overwhelming for small teams. But without a structured CRM, you lose leads, forget follow-ups, and miss growth opportunities. <strong><span className="brevo-marker">Brevo</span></strong> solves this by giving you a simple but powerful CRM that connects directly with your email, automation, multi-channel messages, and segmentation system.</p>
         
         <p>This means:</p>
         <ul>
@@ -25,12 +25,12 @@ export function BrevoCrmExplainedArticle() {
             <li>every contact has full history saved,</li>
             <li>you can track each customer’s journey end-to-end.</li>
         </ul>
-        <p>For small businesses, agencies, service providers, ecommerce brands, coaches, and freelancers, <span className="brevo-strong">Brevo</span> CRM offers everything needed to manage customer relationships without paying for a separate CRM tool.</p>
+        <p>For small businesses, agencies, service providers, ecommerce brands, coaches, and freelancers, <span className="brevo-marker">Brevo</span> CRM offers everything needed to manage customer relationships without paying for a separate CRM tool.</p>
 
-        <h2>Inside <span className="brevo-strong">Brevo</span> CRM: The Full Breakdown</h2>
+        <h2>Inside <span className="brevo-marker">Brevo</span> CRM: The Full Breakdown</h2>
 
         <h3>1. Contact Management</h3>
-        <p>Contacts are the foundation of your CRM. In <strong><span className="brevo-strong">Brevo</span></strong>, each contact has a complete profile that includes:</p>
+        <p>Contacts are the foundation of your CRM. In <strong><span className="brevo-marker">Brevo</span></strong>, each contact has a complete profile that includes:</p>
         <ul>
             <li>contact details (name, email, phone)</li>
             <li>custom attributes</li>
@@ -43,10 +43,10 @@ export function BrevoCrmExplainedArticle() {
             <li>tasks and follow-up reminders</li>
             <li>lead scoring history</li>
         </ul>
-        <p>Every contact becomes a complete customer record—making <span className="brevo-strong">Brevo</span> a true CRM, not just an email tool.</p>
+        <p>Every contact becomes a complete customer record—making <span className="brevo-marker">Brevo</span> a true CRM, not just an email tool.</p>
 
         <h3>2. Deals: Tracking Opportunities</h3>
-        <p>Deals represent potential sales or opportunities. You can create deals manually or automatically inside <strong><span className="brevo-strong">Brevo</span></strong>.</p>
+        <p>Deals represent potential sales or opportunities. You can create deals manually or automatically inside <strong><span className="brevo-marker">Brevo</span></strong>.</p>
         <p>Every deal includes:</p>
         <ul>
             <li>deal name</li>
@@ -82,7 +82,7 @@ export function BrevoCrmExplainedArticle() {
         <p>Pipelines help you track where each customer stands, what they need next, and how close they are to converting.</p>
 
         <h3>4. Activities & Tasks</h3>
-        <p>Keeping track of follow-ups is where most businesses fail. <strong><span className="brevo-strong">Brevo</span></strong> helps with:</p>
+        <p>Keeping track of follow-ups is where most businesses fail. <strong><span className="brevo-marker">Brevo</span></strong> helps with:</p>
         <ul>
             <li>call reminders</li>
             <li>meeting reminders</li>
@@ -93,7 +93,7 @@ export function BrevoCrmExplainedArticle() {
         <p>This keeps your team consistent and removes the risk of forgetting important follow-ups.</p>
 
         <h3>5. Lead Scoring</h3>
-        <p>Lead scoring in <strong><span className="brevo-strong">Brevo</span></strong> evaluates contact interest based on behavior, helping you identify hot leads quickly.</p>
+        <p>Lead scoring in <strong><span className="brevo-marker">Brevo</span></strong> evaluates contact interest based on behavior, helping you identify hot leads quickly.</p>
         <p>Scoring can be based on:</p>
         <ul>
             <li>email opens</li>
@@ -106,7 +106,7 @@ export function BrevoCrmExplainedArticle() {
         <p>High-scoring contacts can automatically move into sales pipelines or email nurturing sequences.</p>
 
         <h3>6. Tags & Custom Fields</h3>
-        <p><span className="brevo-strong">Brevo</span> allows detailed contact organization:</p>
+        <p><span className="brevo-marker">Brevo</span> allows detailed contact organization:</p>
         <ul>
             <li><strong>Tags</strong> classify behavioral or interest-based segments.</li>
             <li><strong>Custom fields</strong> store unique data such as location, membership level, product interest, or onboarding progress.</li>
@@ -114,7 +114,7 @@ export function BrevoCrmExplainedArticle() {
         <p>This level of segmentation makes CRM actions smarter and more personalized.</p>
 
         <h3>7. Automation Integration with CRM</h3>
-        <p>This is where <span className="brevo-strong">Brevo</span> becomes extremely powerful. Automation can:</p>
+        <p>This is where <span className="brevo-marker">Brevo</span> becomes extremely powerful. Automation can:</p>
         <ul>
             <li>create deals automatically</li>
             <li>move deals to new stages</li>
@@ -130,7 +130,7 @@ export function BrevoCrmExplainedArticle() {
             <strong>Key Tip #2:</strong> {post.keyTip2}
         </div>
 
-        <h2>Practical Use Cases for <span className="brevo-strong">Brevo</span> CRM</h2>
+        <h2>Practical Use Cases for <span className="brevo-marker">Brevo</span> CRM</h2>
         <h3>1. Coaches & Trainers</h3>
         <ul>
             <li>track student progress</li>
@@ -162,7 +162,7 @@ export function BrevoCrmExplainedArticle() {
             <li>project onboarding workflows</li>
         </ul>
 
-        <h2><span className="brevo-strong">Brevo</span> CRM Pricing Overview</h2>
+        <h2><span className="brevo-marker">Brevo</span> CRM Pricing Overview</h2>
         <table>
             <thead>
                 <tr>
@@ -188,14 +188,14 @@ export function BrevoCrmExplainedArticle() {
                     <td>Growing businesses</td>
                 </tr>
                 <tr>
-                    <td><span className="brevo-strong">Brevo</span>Plus (Custom)</td>
+                    <td><span className="brevo-marker">Brevo</span>Plus (Custom)</td>
                     <td>Advanced CRM + team management</td>
                     <td>Agencies & enterprises</td>
                 </tr>
             </tbody>
         </table>
 
-        <h2>Pros & Cons of <span className="brevo-strong">Brevo</span> CRM</h2>
+        <h2>Pros & Cons of <span className="brevo-marker">Brevo</span> CRM</h2>
         <h3>Pros</h3>
         <ul>
             <li>Simple and beginner-friendly</li>
@@ -213,14 +213,14 @@ export function BrevoCrmExplainedArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p><strong><span className="brevo-strong">Brevo</span> CRM</strong> gives you everything you need to organize your leads, manage your pipeline, automate follow-ups, and keep customers moving through your buying journey. It’s built for simplicity and practical use — not complicated enterprise setups. If you want a CRM that works closely with your email and automation system, <span className="brevo-strong">Brevo</span> gives unmatched value for the price.</p>
+        <p><strong><span className="brevo-marker">Brevo</span> CRM</strong> gives you everything you need to organize your leads, manage your pipeline, automate follow-ups, and keep customers moving through your buying journey. It’s built for simplicity and practical use — not complicated enterprise setups. If you want a CRM that works closely with your email and automation system, <span className="brevo-marker">Brevo</span> gives unmatched value for the price.</p>
 
         <div className="recommendation-box">
             <strong>Keymara Recommendation:</strong>
             <p>{post.recommendation}</p>
         </div>
         
-        <p>Continue exploring our <span className="brevo-strong">Brevo</span> Series to understand multi-channel messaging and pricing — and learn how to build a complete customer experience system.</p>
+        <p>Continue exploring our <span className="brevo-marker">Brevo</span> Series to understand multi-channel messaging and pricing — and learn how to build a complete customer experience system.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #3:</strong> {post.keyTip3}

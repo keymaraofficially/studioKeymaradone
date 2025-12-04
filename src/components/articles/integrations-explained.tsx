@@ -8,7 +8,7 @@ export function IntegrationsExplainedArticle() {
 
   return (
     <article id="integrations-explained" className="prose max-w-none">
-        <p><span className="drop-cap">I</span>ntegrations are the bridge that connects your email marketing system to the rest of your digital tools. Whenever a subscriber joins through a website form, whenever a customer buys something in your store, or whenever someone fills a landing page — an integration is quietly working in the background. Without integrations, email tools cannot receive real-time updates, cannot create contact records, and cannot trigger automation. Modern platforms like <strong><span className="text-[#046404]">Brevo</span></strong> make integrations easier with native connectors, visual sync options, and API support. This guide explains exactly how integrations work and why they matter for clean, predictable communication.</p>
+        <p><span className="drop-cap">I</span>ntegrations are the bridge that connects your email marketing system to the rest of your digital tools. Whenever a subscriber joins through a website form, whenever a customer buys something in your store, or whenever someone fills a landing page — an integration is quietly working in the background. Without integrations, email tools cannot receive real-time updates, cannot create contact records, and cannot trigger automation. Modern platforms like <strong><span className="brevo-marker">Brevo</span></strong> make integrations easier with native connectors, visual sync options, and API support. This guide explains exactly how integrations work and why they matter for clean, predictable communication.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #1:</strong> {post.keyTip1}
@@ -30,7 +30,7 @@ export function IntegrationsExplainedArticle() {
         <p>A strong integration setup gives you clarity and automation without extra work.</p>
 
         <h2>Types of Integrations Email Tools Use</h2>
-        <p>Email platforms like <strong><span className="text-[#046404]">Brevo</span></strong>, <strong>Mailchimp</strong>, <strong>MailerLite</strong>, <strong>GetResponse</strong>, <strong>ActiveCampaign</strong>, and <strong>ConvertKit</strong> support three main categories of integrations.</p>
+        <p>Email platforms like <strong><span className="brevo-marker">Brevo</span></strong>, <strong>Mailchimp</strong>, <strong>MailerLite</strong>, <strong>GetResponse</strong>, <strong>ActiveCampaign</strong>, and <strong>ConvertKit</strong> support three main categories of integrations.</p>
 
         <h3>1. Native Integrations</h3>
         <p>These are pre-built connectors inside the platform. You select the app, connect your account, and sync begins instantly.</p>
@@ -43,7 +43,7 @@ export function IntegrationsExplainedArticle() {
             <li>Stripe</li>
             <li>Calendly</li>
         </ul>
-        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> offer dozens of native integrations so even beginners can connect tools without complexity.</p>
+        <p>Platforms like <strong><span className="brevo-marker">Brevo</span></strong> offer dozens of native integrations so even beginners can connect tools without complexity.</p>
 
         <h3>2. API Integrations</h3>
         <p>APIs connect more advanced systems. Developers use them to push or pull custom data.</p>
@@ -62,7 +62,7 @@ export function IntegrationsExplainedArticle() {
             <li>real-time triggers</li>
             <li>automation support</li>
         </ul>
-        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> support inbound and outbound webhooks for high-speed syncing.</p>
+        <p>Platforms like <strong><span className="brevo-marker">Brevo</span></strong> support inbound and outbound webhooks for high-speed syncing.</p>
 
         <h2>What Data Gets Synced Through Integrations?</h2>
         <p>Integrations can send a wide range of data into your CRM. The goal is not to sync everything — just what matters.</p>
@@ -79,7 +79,7 @@ export function IntegrationsExplainedArticle() {
             <li>activity logs</li>
             <li>segment triggers</li>
         </ul>
-        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> create clean, structured records for each synced contact, making the CRM easier to navigate.</p>
+        <p>Platforms like <strong><span className="brevo-marker">Brevo</span></strong> create clean, structured records for each synced contact, making the CRM easier to navigate.</p>
 
         <h2>How Website Integrations Work</h2>
         <p>Website integrations connect your forms, popups, and landing pages to your CRM. When someone submits a form, the data is pushed immediately into your email tool.</p>
@@ -92,7 +92,7 @@ export function IntegrationsExplainedArticle() {
             <li>choose tags or segments</li>
             <li>sync new subscribers automatically</li>
         </ul>
-        <p>Systems like <strong><span className="text-[#046404]">Brevo</span></strong> simplify setup with plugins for WordPress, Shopify, and other platforms.</p>
+        <p>Systems like <strong><span className="brevo-marker">Brevo</span></strong> simplify setup with plugins for WordPress, Shopify, and other platforms.</p>
 
         <h2>Ecommerce Integrations</h2>
         <p>Ecommerce stores need strong integrations. Without real-time order and product syncing, you cannot send abandoned cart reminders, post-purchase messages, or product recommendations.</p>
@@ -106,7 +106,7 @@ export function IntegrationsExplainedArticle() {
             <li>customer history</li>
             <li>order value</li>
         </ul>
-        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> offer native Shopify and WooCommerce integrations so data flows instantly.</p>
+        <p>Platforms like <strong><span className="brevo-marker">Brevo</span></strong> offer native Shopify and WooCommerce integrations so data flows instantly.</p>
 
         <h2>Form Integrations</h2>
         <p>Forms are the most common entry point for new contacts. A clean integration ensures every submission becomes a CRM contact instantly.</p>
@@ -137,7 +137,7 @@ export function IntegrationsExplainedArticle() {
             <li>tracking purchase details</li>
             <li>triggering automations</li>
         </ul>
-        <p>Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> provide clean documentation so developers can integrate without complexity.</p>
+        <p>Platforms like <strong><span className="brevo-marker">Brevo</span></strong> provide clean documentation so developers can integrate without complexity.</p>
 
         <h2>How Webhooks Work</h2>
         <p>Webhooks help systems talk to each other instantly. When an event happens, the webhook fires a notification to the CRM.</p>
@@ -161,7 +161,7 @@ export function IntegrationsExplainedArticle() {
             <li>WhatsApp confirmations</li>
             <li>transactional messages</li>
         </ul>
-        <p>With platforms like <strong><span className="text-[#046404]">Brevo</span></strong>, all channel activity appears in one timeline.</p>
+        <p>With platforms like <strong><span className="brevo-marker">Brevo</span></strong>, all channel activity appears in one timeline.</p>
 
         <h2>Integration Mapping: Keeping Data Clean</h2>
         <p>Mapping decides how incoming data is stored. Bad mapping creates messy CRM records. Good mapping keeps everything clean.</p>
@@ -251,7 +251,7 @@ export function IntegrationsExplainedArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>Integrations are the foundation of modern email marketing and CRM systems. They connect your website, store, landing pages, and apps to your central communication hub. With clean integrations, you get live data, accurate segments, real-time triggers, and smooth automation. Platforms like <strong><span className="text-[#046404]">Brevo</span></strong> make this easy with native connectors and stable syncing tools, helping even beginners build a professional multi-channel environment.</p>
+        <p>Integrations are the foundation of modern email marketing and CRM systems. They connect your website, store, landing pages, and apps to your central communication hub. With clean integrations, you get live data, accurate segments, real-time triggers, and smooth automation. Platforms like <strong><span className="brevo-marker">Brevo</span></strong> make this easy with native connectors and stable syncing tools, helping even beginners build a professional multi-channel environment.</p>
 
         <div className="recommendation-box">
             <strong>Keymara Recommendation:</strong>

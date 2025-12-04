@@ -8,7 +8,7 @@ export function HowCrmPipelinesWorkArticle() {
 
   return (
     <article id="how-crm-pipelines-work" className="prose max-w-none">
-        <p><span className="drop-cap">A</span> CRM pipeline is a visual representation of how your contacts move through different stages of your relationship. Instead of treating every subscriber the same, the pipeline helps you see who is new, who is engaged, who is close to taking action, and who needs attention. For email marketers, pipelines add clarity and structure to communication. Platforms like <strong>Brevo</strong> simplify this process with drag-and-drop pipelines, clean stage management, and automated contact movement. This guide explains how pipelines work from the ground up and how to use stages, deals, scoring, and activity data to create clear, predictable communication.</p>
+        <p><span className="drop-cap">A</span> CRM pipeline is a visual representation of how your contacts move through different stages of your relationship. Instead of treating every subscriber the same, the pipeline helps you see who is new, who is engaged, who is close to taking action, and who needs attention. For email marketers, pipelines add clarity and structure to communication. Platforms like <strong>Brevo</strong> make this process with drag-and-drop pipelines, clean stage management, and automated contact movement. This guide explains how pipelines work from the ground up and how to use stages, deals, scoring, and activity data to create clear, predictable communication.</p>
 
         <div className="key-tip-block">
             <strong>Key Tip #1:</strong> {post.keyTip1}
