@@ -102,9 +102,10 @@
   }
 
   .brevo-neo-card {
-    background-color: #fff3c2;
+    background-color: #e6f7e6; /* Light green background */
+    border: 2px solid hsl(var(--primary)); /* Yellow line border */
     box-shadow: 4px 4px 10px rgba(0,0,0,0.07), -4px -4px 10px rgba(255,255,255,0.9);
-    border: 1px solid #f0e68c;
+    animation: green-blink 2s infinite;
   }
 
 }
@@ -117,4 +118,10 @@
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+@keyframes green-blink {
+  0% { box-shadow: 0 0 5px 0px rgba(4, 100, 4, 0.2); }
+  50% { box-shadow: 0 0 15px 5px rgba(4, 100, 4, 0.5); }
+  100% { box-shadow: 0 0 5px 0px rgba(4, 100, 4, 0.2); }
 }
