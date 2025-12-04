@@ -229,7 +229,7 @@ export default function Home() {
       <section className="py-20 md:py-24 bg-card animate-fade-in animation-delay-400">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold">
+            <h2 className="text-3xl md:text-4xl font-headline font-bold text-center">
               Automate Smarter. Connect Better. Grow Faster.
             </h2>
             <p className="text-lg text-muted-foreground mt-2 max-w-3xl mx-auto">
@@ -239,7 +239,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {marketingTools.map((tool) => (
               <Link href={tool.url} key={tool.name} target="_blank" rel="noopener noreferrer" className="group flex">
-                <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)] ${tool.isRecommended ? 'border-primary bg-primary/5' : 'bg-background'}`}>
+                <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)] ${tool.isRecommended ? 'brevo-neo-card' : 'bg-background'}`}>
                   <CardHeader>
                     {tool.isRecommended && (
                       <div className="flex items-center gap-2 text-sm font-semibold text-primary mb-2">
@@ -249,7 +249,7 @@ export default function Home() {
                     )}
                      <div className="flex items-center gap-3">
                       {!tool.isRecommended && <tool.icon className="h-6 w-6 text-primary" />}
-                      <CardTitle className="font-headline text-lg">{tool.name.replace(' Recommended', '')}</CardTitle>
+                      <CardTitle className={`font-headline text-lg ${tool.isRecommended ? 'font-bold' : ''}`}>{tool.name.replace(' Recommended', '')}</CardTitle>
                     </div>
                   </CardHeader>
                   <CardContent className="flex-grow">
