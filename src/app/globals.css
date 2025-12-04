@@ -76,7 +76,7 @@
     @apply text-foreground mb-6;
   }
 
-  .brevo-strong, .brevo-marker {
+  .brevo-marker {
     font-weight: 900;
     color: #046404;
     background: linear-gradient(180deg, transparent 60%, #d6ffd6 60%);
@@ -94,5 +94,20 @@
       4px 4px 10px rgba(0,0,0,0.07),
       -4px -4px 10px rgba(255,255,255,0.9);
     display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid orange;
+    animation: typing 2s steps(5, end), blink-caret .75s step-end infinite;
+    width: 6.5ch;
   }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 6.5ch }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
