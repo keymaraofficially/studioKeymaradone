@@ -69,23 +69,36 @@
 }
 
 @layer components {
-  .hero-title {
+  .hero-title, .hero-heading {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
     @apply text-foreground mb-6;
   }
 
-  .hero-title .brevo-strong, .brevo-strong {
+  .brevo-strong, .brevo-marker {
     font-weight: 900;
     color: #046404;
-    letter-spacing: 0.8px;
-    text-shadow:
-        0px 0px 5px #034802,
-        0px 4px 4px rgba(0,0,0,0.25);
-    background-color: hsl(var(--primary));
-    border: 1px solid hsl(var(--primary) / 0.8);
-    padding: 0.1em 0.3em;
-    border-radius: 0.25rem;
+    background: linear-gradient(180deg, transparent 60%, #d6ffd6 60%);
+    padding: 0 2px;
+  }
+
+  .brevo-premium {
+    background: linear-gradient(135deg, #046404 0%, #08a63d 100%);
+    color: #ffffff;
+    font-weight: 900;
+    padding: 6px 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(4, 100, 4, 0.35);
+    letter-spacing: 0.5px;
+    display: inline-block;
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+  }
+
+  /* Hover effect – premium touch */
+  .brevo-premium:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 6px 18px rgba(4, 100, 4, 0.45);
   }
 }
