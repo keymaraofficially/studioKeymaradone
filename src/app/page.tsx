@@ -11,6 +11,8 @@ const brandNames = [
 
 export default function Home() {
   const brevoArticles = latestInsights.filter(insight => insight.title.toLowerCase().includes('brevo')).slice(0, 6);
+  const recommendedTool = marketingTools.find(tool => tool.isRecommended);
+  const otherTools = marketingTools.filter(tool => !tool.isRecommended);
 
   return (
     <div className="flex flex-col">
@@ -236,20 +238,39 @@ export default function Home() {
              Discover tools that make email marketing simpler, smarter, and more effective. Learn, automate, and scale with Keymara’s AI-powered marketing suite.
             </p>
           </div>
+          
+          <div className="flex justify-center mb-8">
+            {recommendedTool && (
+                <Link href={recommendedTool.url} key={recommendedTool.name} target="_blank" rel="noopener noreferrer" className="group flex w-full max-w-md">
+                    <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)] brevo-neo-card`}>
+                        <CardHeader>
+                            <div className="flex items-center gap-2 text-sm font-semibold text-primary mb-2">
+                                <Award className="h-5 w-5" />
+                                Keymara pick
+                            </div>
+                            <div className="flex items-center gap-3">
+                                <CardTitle className={`font-headline text-lg font-bold`}>{recommendedTool.name.replace(' Recommended', '')}</CardTitle>
+                            </div>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            <CardDescription>{recommendedTool.description}</CardDescription>
+                        </CardContent>
+                        <CardFooter>
+                            <ArrowRight className="h-5 w-5 text-muted-foreground ml-auto transition-transform group-hover:translate-x-1" />
+                        </CardFooter>
+                    </Card>
+                </Link>
+            )}
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {marketingTools.map((tool) => (
+            {otherTools.map((tool) => (
               <Link href={tool.url} key={tool.name} target="_blank" rel="noopener noreferrer" className="group flex">
-                <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)] ${tool.isRecommended ? 'brevo-neo-card' : 'bg-background'}`}>
+                <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)] bg-background`}>
                   <CardHeader>
-                    {tool.isRecommended && (
-                      <div className="flex items-center gap-2 text-sm font-semibold text-primary mb-2">
-                        <Award className="h-5 w-5" />
-                        Keymara pick
-                      </div>
-                    )}
                      <div className="flex items-center gap-3">
-                      {!tool.isRecommended && <tool.icon className="h-6 w-6 text-primary" />}
-                      <CardTitle className={`font-headline text-lg ${tool.isRecommended ? 'font-bold' : ''}`}>{tool.name.replace(' Recommended', '')}</CardTitle>
+                      <tool.icon className="h-6 w-6 text-primary" />
+                      <CardTitle className={`font-headline text-lg`}>{tool.name}</CardTitle>
                     </div>
                   </CardHeader>
                   <CardContent className="flex-grow">
