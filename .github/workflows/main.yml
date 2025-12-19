@@ -1,14 +1,1 @@
-name: Mirror Repo To Second Account
 
-on:
-  workflow_dispatch:
-
-jobs:
-  mirror:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Mirror repository
-        run: |
-          git clone --mirror https://github.com/keymaraofficially/studioKeymaradone.git
-          cd studioKeymaradone.git
-          git push --mirror https://x-access-token:${{ secrets.TARGET_GITHUB_TOKEN }}@github.com/fatmayalcinkayaxsq-ctrl/AiEmail.git
