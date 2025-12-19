@@ -28,6 +28,12 @@ const complianceLinks = [
     { name: 'Disclaimer', href: '/disclaimer' },
 ];
 
+const brevoLinks = [
+    { name: 'About Brevo', href: '/about-brevo' },
+    { name: 'Brevo Pricing', href: '/category/brevo-pricing' },
+    { name: 'Brevo vs. ActiveCampaign', href: '/category/brevo-vs-activecampaign' },
+];
+
 const socialLinks = [
     { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61583123623267', icon: '/icons/facebook.svg' },
     { name: 'Instagram', href: 'https://www.instagram.com/keymara001/', icon: '/icons/instagram.svg' },
@@ -40,18 +46,34 @@ export function Footer() {
     const emailInputRef = useRef<HTMLInputElement>(null);
 
     useEffect(() => {
-        if (typeof window !== 'undefined' && !localStorage.getItem('km_cookie_choice')) {
+        const cookieChoice = localStorage.getItem('km_cookie_choice');
+        if (typeof window !== 'undefined' && !cookieChoice) {
             setShowCookieBanner(true);
+        } else if (cookieChoice === 'accepted') {
+            const cookieTimestamp = localStorage.getItem('km_cookie_timestamp');
+            if (cookieTimestamp) {
+                const now = new Date().getTime();
+                const acceptedTime = new Date(parseInt(cookieTimestamp)).getTime();
+                const ninetyDaysInMillis = 90 * 24 * 60 * 60 * 1000;
+                if (now - acceptedTime > ninetyDaysInMillis) {
+                    // More than 90 days, show banner again
+                    localStorage.removeItem('km_cookie_choice');
+                    localStorage.removeItem('km_cookie_timestamp');
+                    setShowCookieBanner(true);
+                }
+            }
         }
     }, []);
 
     const handleAcceptCookie = () => {
         localStorage.setItem('km_cookie_choice', 'accepted');
+        localStorage.setItem('km_cookie_timestamp', new Date().getTime().toString());
         setShowCookieBanner(false);
     };
 
     const handleDeclineCookie = () => {
-        localStorage.setItem('km_cookie_choice', 'declined');
+        localStorage.setItem('km_cookie_choice', 'declined'); // Optionally store 'declined' if you need to track it
+        localStorage.removeItem('km_cookie_timestamp'); // Clear timestamp if declined
         setShowCookieBanner(false);
     };
 
@@ -117,6 +139,15 @@ export function Footer() {
                             <h4 className="font-bold mb-3">Compliance</h4>
                             <ul className="list-none p-0 leading-loose">
                                 {complianceLinks.map(item => (
+                                    <li key={item.name}><Link href={item.href} className="text-foreground no-underline hover:text-primary transition-colors">{item.name}</Link></li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className="min-w-[200px] mb-7">
+                            <h4 className="font-bold mb-3">Brevo</h4>
+                            <ul className="list-none p-0 leading-loose">
+                                {brevoLinks.map(item => (
                                     <li key={item.name}><Link href={item.href} className="text-foreground no-underline hover:text-primary transition-colors">{item.name}</Link></li>
                                 ))}
                             </ul>
