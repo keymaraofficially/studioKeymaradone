@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useEffect, useState, useRef } from 'react';
+import { useRef } from 'react';
 import { Button } from '../ui/button';
 import { Input } from '../ui/input';
 
@@ -49,42 +49,7 @@ const socialLinks = [
 ];
 
 export function Footer() {
-    const [showCookieBanner, setShowCookieBanner] = useState(false);
     const emailInputRef = useRef<HTMLInputElement>(null);
-
-    useEffect(() => {
-        const cookieChoice = localStorage.getItem('km_cookie_choice');
-        if (typeof window !== 'undefined' && !cookieChoice) {
-            setShowCookieBanner(true);
-        } else if (cookieChoice === 'accepted') {
-            const cookieTimestamp = localStorage.getItem('km_cookie_timestamp');
-            if (cookieTimestamp) {
-                const now = new Date().getTime();
-                const acceptedTime = new Date(parseInt(cookieTimestamp)).getTime();
-                const ninetyDaysInMillis = 90 * 24 * 60 * 60 * 1000;
-                if (now - acceptedTime > ninetyDaysInMillis) {
-                    // More than 90 days, show banner again
-                    localStorage.removeItem('km_cookie_choice');
-                    localStorage.removeItem('km_cookie_timestamp');
-                    setShowCookieBanner(true);
-                }
-            } else {
-                 setShowCookieBanner(true); // Show if no timestamp
-            }
-        }
-    }, []);
-
-    const handleAcceptCookie = () => {
-        localStorage.setItem('km_cookie_choice', 'accepted');
-        localStorage.setItem('km_cookie_timestamp', new Date().getTime().toString());
-        setShowCookieBanner(false);
-    };
-
-    const handleDeclineCookie = () => {
-        localStorage.setItem('km_cookie_choice', 'declined');
-        localStorage.removeItem('km_cookie_timestamp');
-        setShowCookieBanner(false);
-    };
 
     const handleSubscribe = (event: React.FormEvent) => {
         event.preventDefault();
@@ -181,25 +146,6 @@ export function Footer() {
 
                 </div>
             </footer>
-
-            {showCookieBanner && (
-                 <div id="km-cookie" className="fixed bottom-4 right-4 w-full max-w-md p-6 bg-background border border-border rounded-lg shadow-lg z-50">
-                    <p className="text-sm text-foreground">
-                        We use cookies to improve your browsing experience and analyze site traffic. By accepting, you agree to our use of cookies. Your consent will remain valid for 90 days.
-                    </p>
-                    <div className="mt-4 flex items-center justify-end gap-x-3">
-                        <Link href="/cookie-policy" className="text-sm font-medium text-muted-foreground hover:text-foreground">
-                            Manage Preferences
-                        </Link>
-                        <Button variant="outline" size="sm" onClick={handleDeclineCookie}>
-                            Reject
-                        </Button>
-                        <Button variant="default" size="sm" onClick={handleAcceptCookie}>
-                            Accept
-                        </Button>
-                    </div>
-                </div>
-            )}
         </>
     );
 }
