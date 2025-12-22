@@ -28,7 +28,7 @@ export default function TermsOfServicePage() {
         <p>We may update these Terms to improve compliance and clarity.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Contact</h2>
-        <p>For questions, email us at: <a href="mailto:support@keymara.com" className="font-semibold text-foreground hover:text-primary">support@keymara.com</a></p>
+        <p>For questions, email us at: <a href="mailto:hello@keymara.com" className="font-semibold text-foreground hover:text-primary">hello@keymara.com</a></p>
       </div>
     </div>
   );

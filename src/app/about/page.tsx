@@ -78,7 +78,7 @@ export default function AboutPage() {
       <section className="mt-16 text-center">
         <h3 className="text-2xl font-headline font-bold">Contact</h3>
         <p className="text-muted-foreground mt-2">
-            For any questions related to our educational content, feel free to email us at <a href="mailto:support@keymara.com" className="font-semibold text-foreground hover:text-primary">support@keymara.com</a>.
+            For any questions related to our educational content, feel free to email us at <a href="mailto:hello@keymara.com" className="font-semibold text-foreground hover:text-primary">hello@keymara.com</a>.
         </p>
       </section>
 

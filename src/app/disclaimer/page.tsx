@@ -20,7 +20,7 @@ export default function DisclaimerPage() {
         <p>Keymara is not responsible for external websites or third-party tools referenced in guides.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Contact</h2>
-        <p>For clarification, email us at <a href="mailto:support@keymara.com" className="font-semibold text-foreground hover:text-primary">support@keymara.com</a></p>
+        <p>For clarification, email us at <a href="mailto:hello@keymara.com" className="font-semibold text-foreground hover:text-primary">hello@keymara.com</a></p>
       </div>
     </div>
   );

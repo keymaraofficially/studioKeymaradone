@@ -29,9 +29,16 @@ const complianceLinks = [
 ];
 
 const brevoLinks = [
-    { name: 'About Brevo', href: '/about-brevo' },
-    { name: 'Brevo Pricing', href: '/category/brevo-pricing' },
-    { name: 'Brevo vs. ActiveCampaign', href: '/category/brevo-vs-activecampaign' },
+    { name: "Brevo Review", href: "/category/email-marketing/what-is-brevo" },
+    { name: "Brevo Pricing", href: "/category/email-marketing/brevo-pricing-explained" },
+    { name: "Brevo CRM Explained", href: "/category/crm-integrations/brevo-crm-explained" },
+    { name: "Brevo Automation Builder Explained", href: "/category/automation-workflows/brevo-automation-builder-explained" },
+    { name: "Brevo Multi-Channel Messaging Explained", href: "/category/whatsapp-multichannel/brevo-multichannel-messaging-explained" },
+    { name: "Brevo vs MailerLite", href: "/category/tools-comparison/brevo-vs-mailerlite" },
+    { name: "Brevo vs Mailchimp", href: "/category/tools-comparison/brevo-vs-mailchimp" },
+    { name: "Brevo vs HubSpot", href: "/category/tools-comparison/brevo-vs-hubspot" },
+    { name: "Brevo vs GetResponse", href: "/category/tools-comparison/brevo-vs-getresponse" },
+    { name: "Brevo vs ActiveCampaign", href: "/category/tools-comparison/brevo-vs-activecampaign" },
 ];
 
 const socialLinks = [

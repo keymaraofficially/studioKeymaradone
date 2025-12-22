@@ -35,7 +35,7 @@ export default function PrivacyPolicyPage() {
         <p>You can request to update or remove your email from our system at any time.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Contact</h2>
-        <p>If you have privacy questions, contact us at: <a href="mailto:support@keymara.com" className="font-semibold text-foreground hover:text-primary">support@keymara.com</a></p>
+        <p>If you have privacy questions, contact us at: <a href="mailto:hello@keymara.com" className="font-semibold text-foreground hover:text-primary">hello@keymara.com</a></p>
       </div>
     </div>
   );
