@@ -68,6 +68,8 @@ export function Footer() {
                     localStorage.removeItem('km_cookie_timestamp');
                     setShowCookieBanner(true);
                 }
+            } else {
+                 setShowCookieBanner(true); // Show if no timestamp
             }
         }
     }, []);
@@ -79,8 +81,8 @@ export function Footer() {
     };
 
     const handleDeclineCookie = () => {
-        localStorage.setItem('km_cookie_choice', 'declined'); // Optionally store 'declined' if you need to track it
-        localStorage.removeItem('km_cookie_timestamp'); // Clear timestamp if declined
+        localStorage.setItem('km_cookie_choice', 'declined');
+        localStorage.removeItem('km_cookie_timestamp');
         setShowCookieBanner(false);
     };
 
@@ -181,12 +183,20 @@ export function Footer() {
             </footer>
 
             {showCookieBanner && (
-                 <div id="km-cookie" className="fixed right-4 bottom-4 bg-card p-3.5 rounded-lg shadow-lg z-[9999] flex flex-col sm:flex-row gap-2.5 items-center border border-border">
-                    <p className="m-0 text-foreground max-w-xs text-sm">We use cookies to improve your browsing experience, analyze traffic, and deliver relevant educational content.</p>
-                    <div className="flex gap-2 items-center shrink-0">
-                        <button className="py-2 px-3 rounded-lg border-none cursor-pointer bg-primary text-primary-foreground font-bold text-sm" onClick={handleAcceptCookie}>Accept</button>
-                        <button className="py-2 px-3 rounded-lg border-none cursor-pointer bg-muted/20 text-foreground text-sm" onClick={handleDeclineCookie}>Decline</button>
-                        <Link href="/cookie-policy" className="ml-2 text-primary no-underline text-sm font-semibold">Learn more</Link>
+                 <div id="km-cookie" className="fixed bottom-4 right-4 w-full max-w-md p-6 bg-background border border-border rounded-lg shadow-lg z-50">
+                    <p className="text-sm text-foreground">
+                        We use cookies to improve your browsing experience and analyze site traffic. By accepting, you agree to our use of cookies. Your consent will remain valid for 90 days.
+                    </p>
+                    <div className="mt-4 flex items-center justify-end gap-x-3">
+                        <Link href="/cookie-policy" className="text-sm font-medium text-muted-foreground hover:text-foreground">
+                            Manage Preferences
+                        </Link>
+                        <Button variant="outline" size="sm" onClick={handleDeclineCookie}>
+                            Reject
+                        </Button>
+                        <Button variant="default" size="sm" onClick={handleAcceptCookie}>
+                            Accept
+                        </Button>
                     </div>
                 </div>
             )}
