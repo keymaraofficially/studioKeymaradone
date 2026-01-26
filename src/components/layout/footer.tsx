@@ -67,7 +67,7 @@ export function Footer() {
     
     return (
         <>
-            <footer className="bg-[#fdf8e8] py-16 border-t border-[#eee]" id="keymara-footer">
+            <footer className="bg-card py-16 border-t border-border" id="keymara-footer">
                 <div className="container max-w-7xl mx-auto px-5">
 
                     <div className="mb-10">
@@ -93,7 +93,7 @@ export function Footer() {
                             </Button>
                         </form>
 
-                        <div className="mt-4 bg-[#fff8dc] p-3.5 rounded-md text-sm">
+                        <div className="mt-4 bg-secondary p-3.5 rounded-md text-sm">
                             <strong>No Selling — Educational Only.</strong> All content on Keymara is educational. 
                             We do not sell email services or manage campaigns.
                         </div>
@@ -139,9 +139,9 @@ export function Footer() {
                         </div>
                     </div>
                     
-                    <div className="mt-10 text-sm text-gray-500">
+                    <div className="mt-10 text-sm text-muted-foreground">
                         <p>All content on Keymara is educational. We do not sell email services or manage campaigns.</p>
-                        <p className="mt-2">© 2025 Keymara. All rights reserved.</p>
+                        <p className="mt-2">© 2026 Keymara. All rights reserved.</p>
                     </div>
 
                 </div>

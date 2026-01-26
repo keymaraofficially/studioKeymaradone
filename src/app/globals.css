@@ -1,61 +1,54 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 50 75% 96%; /* #fdfaf0 - Very light beige */
-    --foreground: 206 28% 18%; /* #24323a - Dark blue/grey */
-    --card: 50 75% 96%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 50 75% 96%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 45 93% 54%; /* #f5c21a - Yellow/gold accent */
-    --primary-foreground: 222.2 84% 4.9%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 200 8% 52%; /* #7a8a8f - Muted grey */
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 35 92% 61%; /* #ffbf00 - Bright yellow */
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* RenoEasy-inspired Dark Theme */
+    --background: 0 0% 8%; /* Near Black */
+    --foreground: 0 0% 98%; /* White */
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 45 100% 51%; /* Yellow */
+    --primary-foreground: 20 15% 15%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 24%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 45 100% 51%;
+    --accent-foreground: 20 15% 15%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 45 50% 80%; /* #efe5c9 - Light border */
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 45 100% 51%;
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 47 98% 50%;
-    --primary-foreground: 60 25% 15%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 47 98% 50%;
-    --accent-foreground: 210 40% 98%;
+    /* RenoEasy-inspired Dark Theme */
+    --background: 0 0% 8%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 45 100% 51%;
+    --primary-foreground: 20 15% 15%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 24%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 45 100% 51%;
+    --accent-foreground: 20 15% 15%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 45 100% 51%;
   }
 }
 
@@ -64,64 +57,64 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline font-bold;
+  }
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  p {
+    @apply mb-4;
   }
 }
 
 @layer components {
-  .hero-title, .hero-heading {
-    font-size: 3rem;
-    font-weight: 700;
+  .hero-heading {
+    font-size: 2.5rem; /* ~40px */
     line-height: 1.2;
-    @apply text-foreground mb-6;
+    @apply font-headline font-bold mb-4 text-foreground;
+  }
+  @screen sm {
+    .hero-heading {
+      font-size: 3.5rem; /* ~56px */
+    }
   }
 
-  .brevo-marker {
-    text-decoration: underline;
-    text-decoration-color: hsl(var(--primary));
-    text-decoration-thickness: 3px;
-    text-underline-offset: 4px;
+  /* Removing old brevo-specific styles */
+  .brevo-marker, .brevo-neo, .brevo-neo-card {
+    all: unset;
   }
-
-  .brevo-neo {
-    background: #fff3c2;
-    padding: 8px 22px;
-    border-radius: 50px;
-    font-weight: 700;
-    color: #046404;
-    font-size: 1.1em;
-    box-shadow:
-      4px 4px 10px rgba(0,0,0,0.07),
-      -4px -4px 10px rgba(255,255,255,0.9);
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: .15em solid orange;
-    animation: typing 2s steps(5, end), blink-caret .75s step-end infinite;
-    width: 6.5ch;
-  }
-
-  .brevo-neo-card {
-    background-color: #e6f7e6; /* Light green background */
-    border: 2px solid hsl(var(--primary)); /* Yellow line border */
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.07), -4px -4px 10px rgba(255,255,255,0.9);
-    animation: green-blink 2s infinite;
-  }
-
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 6.5ch }
+/* Removing old keyframes */
+@keyframes typing {}
+@keyframes blink-caret {}
+@keyframes green-blink {}
+
+/* Hide author + publish date everywhere */
+time,
+[class*="date"],
+[class*="meta"],
+[class*="author"] {
+  display: none !important;
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes green-blink {
-  0% { box-shadow: 0 0 5px 0px rgba(4, 100, 4, 0.2); }
-  50% { box-shadow: 0 0 15px 5px rgba(4, 100, 4, 0.5); }
-  100% { box-shadow: 0 0 5px 0px rgba(4, 100, 4, 0.2); }
+/* Remove all "Key Tip" boxes globally */
+[class*="key-tip"],
+[class*="keytip"],
+[class*="tip-box"],
+[class*="highlight"],
+[class*="callout"],
+[class*="note"] {
+  display: none !important;
 }

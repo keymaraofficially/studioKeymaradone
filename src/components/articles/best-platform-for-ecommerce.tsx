@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -147,11 +148,12 @@ export function BestPlatformForEcommerceArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>If you want affordable automation, multichannel messaging, and CRM support—choose <strong><span className="brevo-strong">Brevo</span></strong>. <br/>If you run funnels, upsells, and conversion-first ecommerce—choose <strong>GetResponse</strong>. <br/>If you scale heavily, use behavioral triggers, personalization, and segmentation—choose <strong>ActiveCampaign</strong>.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
         
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
 
         <div className="key-tip-block">

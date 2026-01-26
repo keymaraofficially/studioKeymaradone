@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -301,14 +302,15 @@ export function WhatsAppMessagingExplainedArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
         <p>
         WhatsApp is one of the strongest communication channels available today, but it must be used responsibly. When you respect opt-in rules, use clear messaging, follow template guidelines, and send only what users expect, WhatsApp becomes a powerful part of your multi-channel system. The goal is not to send more messages—it is to send better messages.
         </p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
 
         <div className="key-tip-block">

@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -261,11 +262,12 @@ export function BrevoPricingExplainedArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p><strong><span className="brevo-marker">Brevo</span></strong> offers one of the simplest and most cost-effective pricing systems in the email marketing world. Instead of pressuring users with subscriber-based pricing, <span className="brevo-marker">Brevo</span> lets you grow your contact list without increasing costs. This makes it far more predictable and beginner-friendly than many competitors. Whether you're a small business, ecommerce brand, coach, or agency, <span className="brevo-marker">Brevo</span>’s Business plan offers the best balance of features and affordability.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Explore the rest of our <span className="brevo-marker">Brevo</span> Series to understand automation, CRM, and multi-channel messaging — and build a complete customer journey system.</p>

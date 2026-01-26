@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -250,14 +251,15 @@ export function WhatIsConvertKitArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
         <p>
         <strong>ConvertKit</strong> is a creator-focused email platform built for simplicity, storytelling, and audience growth. It offers clear workflows, clean tagging, email sequences, landing pages, and built-in tools for selling digital products. If your work depends on creativity, writing, or building a community, ConvertKit gives you the perfect balance of simplicity and power.
         </p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Continue reading our Tools & SaaS series to compare ConvertKit with other major email platforms and choose the tool that fits your content strategy best.</p>

@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -222,11 +223,12 @@ export function WhenToUseEmailVsSmsVsWhatsappArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>Choosing between email, SMS, and WhatsApp should never feel confusing. When you understand message purpose, user behavior, timing expectations, and urgency levels, the correct channel becomes obvious. Email teaches, SMS alerts, WhatsApp clarifies, and transactional messages confirm. When each channel performs its specific role, your communication becomes stronger, clearer, and more respectful. A good multi-channel strategy is not loud—it is balanced.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
 
         <p>Continue exploring our WhatsApp & Multi-Channel series to understand how each channel supports responsible, clear, and behavior-based communication.</p>

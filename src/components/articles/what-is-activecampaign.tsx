@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -181,11 +182,12 @@ export function WhatIsActiveCampaignArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p><strong>ActiveCampaign</strong> is one of the most powerful email and CRM automation platforms for growing businesses. If you want personalized journeys, deep behavior tracking, lead scoring, and advanced CRM-connected workflows, it’s easily one of the best tools available. It’s more advanced than platforms like <strong>MailerLite</strong> or <strong>ConvertKit</strong>, but that power pays off when your business scales.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
 
         <div className="cta-box">

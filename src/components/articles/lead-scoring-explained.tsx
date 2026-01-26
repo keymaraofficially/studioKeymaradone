@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -225,11 +226,12 @@ export function LeadScoringExplainedArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>Lead scoring is one of the most valuable tools for understanding audience behavior. It identifies your most engaged subscribers, highlights silent segments early, and helps guide content, timing, and segmentation strategies. When used ethically and thoughtfully, lead scoring becomes a long-term stability system that protects your list health, improves engagement, and strengthens your email foundation. Lead scoring is not about numbers—it is about clarity.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Continue exploring our Lead Generation series to strengthen your subscriber journey and build long-term engagement stability.</p>

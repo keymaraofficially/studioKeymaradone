@@ -1,3 +1,4 @@
+
 .prose {
     color: hsl(var(--foreground));
 }
@@ -23,7 +24,7 @@
 .article-hero-title {
     font-size: 46px;
     font-weight: 900;
-    color: #0a0a0a;
+    color: hsl(var(--foreground));
     letter-spacing: -0.8px;
     line-height: 1.15;
     margin-bottom: 20px;
@@ -265,4 +266,13 @@
     letter-spacing: 0.6px;
     display: block;
     margin-bottom: 4px;
+}
+/* Ensure article titles are visible */
+.article-title,
+.post-title,
+.blog-title,
+h1, h2, h3 {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }

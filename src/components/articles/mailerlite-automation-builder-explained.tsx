@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -300,14 +301,15 @@ export function MailerliteAutomationBuilderExplainedArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
         <p>
         <strong>MailerLite</strong> automation is perfect for small businesses, creators, coaches, and ecommerce stores that want clean and simple workflows without complexity. It offers enough power to build onboarding sequences, abandoned cart flows, lead nurturing journeys, and email courses — all without needing technical skills. While not as advanced as enterprise-level tools, MailerLite’s automation strikes the right balance between simplicity and functionality.
         </p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Continue exploring our Tools & SaaS guides to compare automation systems across platforms and choose the tool that fits your long-term strategy best.</p>

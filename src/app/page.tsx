@@ -18,7 +18,7 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="hero-section px-6 py-20 max-w-5xl mx-auto text-center">
         <h1 className="hero-heading">
-          Become a <span className="brevo-neo">Brevo</span>-Powered Email Marketer
+          Expand Your Business with <span className="text-primary">Brevo’s</span> All-In-One Email Marketing and CRM
         </h1>
 
         <p className="text-lg text-muted-foreground mb-10 max-w-3xl mx-auto">
@@ -51,7 +51,7 @@ export default function Home() {
       <section className="py-12 bg-card text-center">
         <div className="w-full overflow-hidden relative">
           <h3 className="text-xl md:text-2xl font-semibold text-foreground mb-8 px-4">
-            Join 500,000+ customers around the world who trust <span className="brevo-neo">Brevo</span>
+            Join 500,000+ customers around the world who trust Brevo
           </h3>
           <div className="flex gap-x-16 whitespace-nowrap animate-scroll-brands">
             {brandNames.map((name, index) => (
@@ -66,7 +66,7 @@ export default function Home() {
 
       <section className="bg-background text-foreground py-20 md:py-24">
         <div className="container max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2.5">Why Marketers Prefer <span className="brevo-neo">Brevo</span> for Email Automation</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2.5">Why Marketers Prefer Brevo for Email Automation</h2>
           <p className="text-muted-foreground mb-9 text-lg px-4">
             Powerful email, automation and analytics built to grow revenue — simple to use, reliable at scale.
           </p>
@@ -83,39 +83,6 @@ export default function Home() {
               <Link href="https://www.brevo.com/features/" target="_blank" rel="noopener noreferrer">Explore Brevo Features →</Link>
             </Button>
           </div>
-        </div>
-      </section>
-      
-      <section className="py-16 bg-card rounded-2xl my-16">
-        <div className="container max-w-6xl mx-auto text-center">
-          
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-5">
-            <span className="brevo-neo">Brevo</span> is Used Worldwide — Every Single Month
-          </h2>
-
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12">
-            Millions of businesses rely on <strong>Brevo</strong> each month to automate campaigns, drive conversions, and power customer experiences across the globe.
-          </p>
-
-          <div className="flex flex-wrap justify-center gap-10">
-
-            <div className="flex-1 min-w-[220px]">
-              <h3 className="text-4xl md:text-5xl text-primary font-bold mb-2">500k+</h3>
-              <p className="text-base text-muted-foreground">Active Monthly Businesses</p>
-            </div>
-
-            <div className="flex-1 min-w-[220px]">
-              <h3 className="text-4xl md:text-5xl text-primary font-bold mb-2">180+</h3>
-              <p className="text-base text-muted-foreground">Countries Using Brevo</p>
-            </div>
-
-            <div className="flex-1 min-w-[220px]">
-              <h3 className="text-4xl md:text-5xl text-primary font-bold mb-2">12B+</h3>
-              <p className="text-base text-muted-foreground">Emails & Messages Sent Monthly</p>
-            </div>
-
-          </div>
-
         </div>
       </section>
       
@@ -150,57 +117,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 md:py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold">How <span className="brevo-neo">Brevo</span> AI Helps You Grow Smarter</h2>
-            <p className="text-lg text-muted-foreground mt-2 max-w-3xl mx-auto">
-              Brevo AI turns your everyday marketing tasks into automated, insight-driven workflows. 
-              From messaging to analytics, AI gives you more clarity, more efficiency, and more growth — 
-              with less effort.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-card p-8 rounded-lg shadow-[0_0_15px_5px_hsl(var(--primary)/0.05)] border border-border">
-              <h3 className="text-xl font-headline font-bold mb-2">AI-Powered Content Suggestions</h3>
-              <p className="text-muted-foreground mb-4">
-                Generate subject lines, email copy, and message variations instantly. Brevo AI improves 
-                your tone, clarity, and engagement using real performance data.
-              </p>
-              <p className="text-sm italic text-muted-foreground/80 border-t pt-4">“Better content isn’t written — it’s optimized with AI.”</p>
-            </div>
-            <div className="bg-card p-8 rounded-lg shadow-[0_0_15px_5px_hsl(var(--primary)/0.05)] border border-border">
-              <h3 className="text-xl font-headline font-bold mb-2">Smarter Audience Targeting</h3>
-              <p className="text-muted-foreground mb-4">
-                Brevo AI analyzes user behavior and segments customers intelligently so you reach the 
-                right people at exactly the right moment.
-              </p>
-              <p className="text-sm italic text-muted-foreground/80 border-t pt-4">“Precision targeting creates real conversions.”</p>
-            </div>
-            <div className="bg-card p-8 rounded-lg shadow-[0_0_15px_5px_hsl(var(--primary)/0.05)] border border-border">
-              <h3 className="text-xl font-headline font-bold mb-2">AI-Driven Workflow Efficiency</h3>
-              <p className="text-muted-foreground mb-4">
-                Reduce manual steps with AI that triggers actions, builds journeys, and recommends 
-                automation improvements based on your performance.
-              </p>
-              <p className="text-sm italic text-muted-foreground/80 border-t pt-4">“Automation gets powerful when AI runs the logic.”</p>
-            </div>
-            <div className="bg-card p-8 rounded-lg shadow-[0_0_15px_5px_hsl(var(--primary)/0.05)] border border-border">
-              <h3 className="text-xl font-headline font-bold mb-2">Instant Insights & Predictions</h3>
-              <p className="text-muted-foreground mb-4">
-                Track engagement, conversions, and trends through AI-powered reporting that predicts 
-                what will perform best before you even hit send.
-              </p>
-              <p className="text-sm italic text-muted-foreground/80 border-t pt-4">“Data becomes useful when AI turns it into direction.”</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
        <section className="py-16 bg-card">
         <div className="container max-w-6xl mx-auto">
             <h2 className="text-center text-3xl md:text-4xl text-foreground mb-4 font-bold">
-            <span className="brevo-neo">Brevo</span> Integrations That Power Your Marketing
+            Brevo Integrations That Power Your Marketing
             </h2>
             <p className="text-center max-w-3xl mx-auto text-muted-foreground text-lg mb-12">
             Connect Brevo with your favorite business tools—from CRM to ecommerce, analytics, forms, and automation systems. 
@@ -242,7 +162,7 @@ export default function Home() {
           <div className="flex justify-center mb-8">
             {recommendedTool && (
                 <Link href={recommendedTool.url} key={recommendedTool.name} target="_blank" rel="noopener noreferrer" className="group flex w-full max-w-md">
-                    <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)] brevo-neo-card`}>
+                    <Card className={`w-full flex flex-col transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-2 shadow-[0_0_15px_5px_hsl(var(--primary)/0.1)]`}>
                         <CardHeader>
                             <div className="flex items-center gap-2 text-sm font-semibold text-primary mb-2">
                                 <Award className="h-5 w-5" />
@@ -288,7 +208,7 @@ export default function Home() {
 
       <section className="py-20 bg-background text-foreground">
         <div className="container max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2.5">Enterprise Power with <span className="brevo-neo">Brevo</span> Intelligence</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2.5">Enterprise Power with Brevo Intelligence</h2>
           <p className="text-muted-foreground mb-9 text-lg px-4">
             Take your marketing operations to the next level with Brevo’s enterprise-grade tools. 
             From automation to analytics, manage everything at scale with the reliability global brands trust.
@@ -365,7 +285,7 @@ export default function Home() {
           <div className="container mx-auto max-w-6xl py-12 px-4 md:px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                Real Brands Growing Faster With <span className="brevo-neo">Brevo</span>
+                Real Brands Growing Faster With Brevo
               </h2>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
                 These real-world case studies show how businesses use Brevo’s automation, CRM, and multi-channel tools to boost engagement, save time, and increase revenue.
@@ -400,28 +320,36 @@ export default function Home() {
           </div>
       </section>
 
-      <section className="py-20 bg-card">
+      <section className="py-16 bg-card rounded-2xl my-16">
         <div className="container max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-headline font-bold mb-8">
-            Dive Deeper into <span className="brevo-neo">Brevo</span>
+          
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-5">
+            Brevo is Used Worldwide — Every Single Month
           </h2>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button asChild size="lg" variant="outline">
-              <Link href="https://www.brevo.com/products/" target="_blank" rel="noopener noreferrer">
-                Explore Products
-              </Link>
-            </Button>
-            <Button asChild size="lg" variant="outline">
-              <Link href="https://www.brevo.com/pricing/" target="_blank" rel="noopener noreferrer">
-                View Pricing
-              </Link>
-            </Button>
-            <Button asChild size="lg" variant="outline">
-              <Link href="https://www.brevo.com/resources/" target="_blank" rel="noopener noreferrer">
-                Browse Resources
-              </Link>
-            </Button>
+
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12">
+            Millions of businesses rely on <strong>Brevo</strong> each month to automate campaigns, drive conversions, and power customer experiences across the globe.
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-10">
+
+            <div className="flex-1 min-w-[220px]">
+              <h3 className="text-4xl md:text-5xl text-primary font-bold mb-2">500k+</h3>
+              <p className="text-base text-muted-foreground">Active Monthly Businesses</p>
+            </div>
+
+            <div className="flex-1 min-w-[220px]">
+              <h3 className="text-4xl md:text-5xl text-primary font-bold mb-2">180+</h3>
+              <p className="text-base text-muted-foreground">Countries Using Brevo</p>
+            </div>
+
+            <div className="flex-1 min-w-[220px]">
+              <h3 className="text-4xl md:text-5xl text-primary font-bold mb-2">12B+</h3>
+              <p className="text-base text-muted-foreground">Emails & Messages Sent Monthly</p>
+            </div>
+
           </div>
+
         </div>
       </section>
 

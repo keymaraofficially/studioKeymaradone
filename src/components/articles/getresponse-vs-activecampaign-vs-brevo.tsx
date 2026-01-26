@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -179,11 +180,12 @@ export function GetResponseVsActiveCampaignVsBrevoArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>Choose <strong><span className="brevo-marker">Brevo</span></strong> if you want affordable automation, CRM access, multichannel messaging, and clean workflow execution.<br/>Choose <strong>GetResponse</strong> if you rely on funnels, webinars, landing pages, and conversion-driven marketing.<br/>Choose <strong>ActiveCampaign</strong> if your strategy revolves around deep segmentation, personalization, and behavioral automation.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Want to explore more comparisons? Check our other expert reviews to find the best tool for your business.</p>

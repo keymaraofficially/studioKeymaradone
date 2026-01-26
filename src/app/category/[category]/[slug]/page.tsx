@@ -274,10 +274,6 @@ export default function ArticlePage({ params: paramsPromise }: { params: Promise
         <div className="lg:col-span-3">
           <div className="article-category">{post.category}</div>
           <h1 className="article-hero-title fade-in">{post.title}</h1>
-          <div className="article-meta">
-            <span className="author-name">{post.author}</span>
-            <span className="publish-date">{post.date}</span>
-          </div>
           <div className="prose-container">
             {renderArticleContent()}
           </div>
@@ -304,11 +300,6 @@ export default function ArticlePage({ params: paramsPromise }: { params: Promise
             </div>
 
             <div className="sidebar-section">
-              <h3>Key Takeaways</h3>
-              <ul>{post.takeaways.map((t, i) => <li key={i}>{t}</li>)}</ul>
-            </div>
-
-            <div className="sidebar-section">
               <h3>Mini Glossary</h3>
               <p className="glossary-box">{post.glossary}</p>
             </div>
@@ -332,5 +323,3 @@ export default function ArticlePage({ params: paramsPromise }: { params: Promise
     </div>
   );
 }
-
-    

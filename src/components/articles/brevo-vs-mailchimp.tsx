@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -214,12 +215,13 @@ export function BrevoVsMailchimpArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p><strong><span className="brevo-marker">Brevo</span></strong> wins if automation, workflows, segmentation, and value are your top priorities.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
         <p><strong>Mailchimp</strong> wins if design-rich templates and creative branding are more important to your business.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
 
         <h2>CTA</h2>

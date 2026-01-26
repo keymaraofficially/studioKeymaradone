@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -222,11 +223,12 @@ export function HowToUseEmailToNurtureColdLeadsIntoEngagedSubscribersArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>Nurturing cold leads is one of the most powerful steps in email growth. It transforms unfamiliar subscribers into engaged readers using clarity, timing, and structured value. When done correctly, nurturing creates predictable engagement, stronger deliverability, and a more stable long-term audience. Cold leads are not inactive—they are uneducated. Your nurturing sequence becomes the teacher.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Continue reading our Lead Generation series to understand ethical lead practices that improve list quality and long-term engagement.</p>

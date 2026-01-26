@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -182,11 +183,12 @@ export function BrevoVsHubspotArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>Choose <strong><span className="brevo-marker">Brevo</span></strong> if you want a practical all-in-one platform with CRM, automation, and multichannel messaging without massive costs.<br/>Choose <strong>HubSpot</strong> if your business depends on advanced CRM, multi-team workflows, and enterprise-level reporting.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Explore more expert comparisons in our marketing platform library to find the best long-term system for your business.</p>

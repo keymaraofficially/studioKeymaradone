@@ -1,5 +1,6 @@
 import { latestInsights } from '@/lib/data';
 import './article.css';
+import { Button } from "@/components/ui/button"
 
 export function WhatIsMailerliteArticle() {
   const post = latestInsights.find(p => p.slug === 'what-is-mailerlite');
@@ -163,11 +164,13 @@ export function WhatIsMailerliteArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p><strong>MailerLite</strong> is one of the best lightweight email tools available. It combines beautiful design, simplicity, affordable pricing, and modern features without overwhelming you. If your business needs clean campaigns, simple automation, and reliable deliverability, MailerLite is an excellent choice. It may not be as advanced as platforms like <strong>GetResponse</strong> or <strong>ActiveCampaign</strong>, but it delivers tremendous value for small businesses that want results without complexity.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
+			<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Continue to the next MailerLite article to learn how the automation builder works — and how to design effective customer journeys using simple workflows.</p>

@@ -1,5 +1,6 @@
 import { latestInsights } from '@/lib/data';
 import './article.css';
+import { Button } from "@/components/ui/button"
 
 export function BrevoAutomationBuilderExplainedArticle() {
   const post = latestInsights.find(p => p.slug === 'brevo-automation-builder-explained');
@@ -228,11 +229,13 @@ export function BrevoAutomationBuilderExplainedArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>If automation is central to your business, the <strong><span className="brevo-marker">Brevo</span></strong> automation builder gives you a complete system to guide customers through onboarding, content delivery, buyer journeys, and repeat purchase cycles. It balances power and simplicity better than most tools in this price range, making it ideal for small businesses, ecommerce stores, agencies, and educators.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
+			<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Explore the rest of our <span className="brevo-marker">Brevo</span> Series to understand CRM, multi-channel messaging, and pricing — and build a smarter automation system for your business.</p>

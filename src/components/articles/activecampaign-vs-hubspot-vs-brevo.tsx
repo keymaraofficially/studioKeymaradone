@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -178,11 +179,12 @@ export function ActiveCampaignVsHubspotVsBrevoArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>Choose <strong><span className="brevo-marker">Brevo</span></strong> if you want simple, affordable automation with CRM and multichannel messaging.<br/>Choose <strong>ActiveCampaign</strong> if your business depends on deep behavioral automation, personalization, and segmentation.<br/>Choose <strong>HubSpot</strong> if your organization needs full CRM integration, multi-team automation, and enterprise-level marketing tools.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Explore more comparisons in our review library to choose the best automation platform for your business.</p>

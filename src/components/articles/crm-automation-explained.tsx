@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { latestInsights } from '@/lib/data';
 import './article.css';
 
@@ -248,11 +249,12 @@ export function CrmAutomationExplainedArticle() {
         </ul>
 
         <h2>Final Verdict</h2>
-        <p>CRM automation transforms email marketing from manual sending into structured, behavior-based communication. With clean data, clear segments, and intentional triggers, automations create predictable journeys that respond to real behavior. Platforms like <strong>Brevo</strong> simplify this experience by combining events, tags, fields, and multi-channel actions inside one visual automation builder. When automation is built with discipline, your CRM becomes powerful, organized, and scalable.</p>
+<p>If ' looking for a platform that can handle everything from multichannel automation and CRM integration to e-commerce scaling, Brevo is the clear choice. Its affordability and powerful feature set make it the ideal solution for businesses of all sizes.</p>
 
         <div className="recommendation-box">
-            <strong>Keymara Recommendation:</strong>
+            <strong><a href="https://www.brevo.com/" target="_blank">Here’s What You Need:</a></strong>
             <p>{post.recommendation}</p>
+<a href="https://www.brevo.com/" target="_blank"><Button>Brevo Official</Button></a>
         </div>
         
         <p>Explore more in our CRM &amp; Integrations series to understand how integrations and synced data shape stronger automation workflows.</p>
