@@ -15,7 +15,7 @@ export function BrevoPricingExplainedArticle() {
             <strong>Key Tip #1:</strong> {post.keyTip1}
         </div>
 
-        <h2>Why <span className="brevo-marker">Brevo</span> Pricing Stands Out</h2>
+        <h2>Why <span class="text-primary">Brevo</span> Pricing Stands Out</h2>
 
         <p>Traditional email platforms (like <strong>Mailchimp</strong>, <strong>MailerLite</strong>, <strong>GetResponse</strong>, <strong>ActiveCampaign</strong>, and <strong>ConvertKit</strong>) increase pricing based on subscriber count. Even if you don’t email those contacts, you still get charged more every month.</p>
         <p><strong><span className="brevo-marker">Brevo</span></strong> flips this model completely by offering:</p>
@@ -28,7 +28,7 @@ export function BrevoPricingExplainedArticle() {
         </ul>
         <p>This reduces cost pressure and lets your business grow longer before scaling pricing.</p>
 
-        <h2><span className="brevo-marker">Brevo</span> Pricing Plans — Full Breakdown</h2>
+        <h2><span class="text-primary">Brevo</span> Pricing Plans — Full Breakdown</h2>
 
         <h3>1. The Free Plan</h3>
         <p><span className="brevo-marker">Brevo</span>’s free plan is one of the most generous in the industry. It’s designed for learning, testing, and early-stage list building.</p>
@@ -104,7 +104,7 @@ export function BrevoPricingExplainedArticle() {
             <li>$59/month → 60k emails</li>
         </ul>
 
-        <h3>4. <span className="brevo-marker">Brevo</span>Plus — Custom Pricing</h3>
+        <h3>4. BrevoPlus — Custom Pricing</h3>
         <p><span className="brevo-marker">Brevo</span>Plus is the enterprise-grade plan designed for teams that need reliability, support, and volume-based pricing for larger operations.</p>
         <h4>What You Get:</h4>
         <ul>
@@ -218,19 +218,19 @@ export function BrevoPricingExplainedArticle() {
         </div>
 
         <h2>Who Should Choose Each Plan?</h2>
-        <h3><span className="brevo-marker">Brevo</span> Free</h3>
+        <h3><span class="text-primary">Brevo</span> Free</h3>
         <ul>
             <li>testing email marketing</li>
             <li>collecting early subscribers</li>
             <li>creating simple newsletters</li>
         </ul>
-        <h3><span className="brevo-marker">Brevo</span> Starter</h3>
+        <h3><span class="text-primary">Brevo</span> Starter</h3>
         <ul>
             <li>small email lists</li>
             <li>businesses sending occasional campaigns</li>
             <li>users who want unlimited sending without automation needs</li>
         </ul>
-        <h3><span className="brevo-marker">Brevo</span> Business</h3>
+        <h3><span class="text-primary">Brevo</span> Business</h3>
         <ul>
             <li>most small businesses</li>
             <li>ecommerce stores</li>
@@ -238,14 +238,14 @@ export function BrevoPricingExplainedArticle() {
             <li>coaches & consultants</li>
             <li>agencies</li>
         </ul>
-        <h3><span className="brevo-marker">Brevo</span>Plus</h3>
+        <h3>BrevoPlus</h3>
         <ul>
             <li>large teams</li>
             <li>high-volume email operations</li>
             <li>brands requiring SLAs and dedicated support</li>
         </ul>
 
-        <h2>Pros & Cons of <span className="brevo-marker">Brevo</span> Pricing</h2>
+        <h2>Pros & Cons of <span class="text-primary">Brevo</span> Pricing</h2>
         <h3>Pros</h3>
         <ul>
             <li>unlimited contacts</li>

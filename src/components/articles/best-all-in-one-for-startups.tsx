@@ -122,14 +122,14 @@ export function BestAllInOneForStartupsArticle() {
         </table>
 
         <h2>Pros & Cons</h2>
-        <h3><span className="brevo-strong">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Full-suite marketing + CRM for startups</li>
             <li>Automation + multichannel built-in</li>
             <li>Low-cost entry</li>
             <li>Easy to manage and scale</li>
         </ul>
-        <h3><span className="brevo-strong">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Template designs are not as stylish as MailerLite</li>
             <li>Analytics are simpler than enterprise-level</li>

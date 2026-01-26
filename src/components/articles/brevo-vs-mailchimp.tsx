@@ -184,7 +184,7 @@ export function BrevoVsMailchimpArticle() {
 
         <h2 className="font-headline">Pros & Cons</h2>
 
-        <h3><span className="brevo-marker">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
         <li>Better automation at lower pricing</li>
         <li>Built-in CRM tools</li>
@@ -193,7 +193,7 @@ export function BrevoVsMailchimpArticle() {
         <li>Clean workflow builder</li>
         </ul>
 
-        <h3><span className="brevo-marker">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
         <li>Fewer templates</li>
         <li>High-volume pricing increases fast</li>

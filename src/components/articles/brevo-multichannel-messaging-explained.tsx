@@ -30,9 +30,9 @@ export function BrevoMultichannelMessagingExplainedArticle() {
         </ul>
         <p>This approach helps small businesses and ecommerce stores compete at a higher level without needing multiple tools.</p>
 
-        <h2><span className="brevo-marker">Brevo</span> Multi-Channel Messaging: Full Breakdown</h2>
+        <h2><span class="text-primary">Brevo</span> Multi-Channel Messaging: Full Breakdown</h2>
 
-        <h3>1. <span className="brevo-marker">Brevo</span> Email Messaging</h3>
+        <h3>1. <span class="text-primary">Brevo</span> Email Messaging</h3>
         <p>Email is the foundation of communication inside <strong><span className="brevo-marker">Brevo</span></strong>, but it’s more than a basic editor. <span className="brevo-marker">Brevo</span> combines email campaigns, automation, transactional email, personalization, and dynamic content into one system.</p>
 
         <h4>What Email Can Do in <span className="brevo-marker">Brevo</span></h4>
@@ -54,7 +54,7 @@ export function BrevoMultichannelMessagingExplainedArticle() {
         </ul>
         <p><span className="brevo-marker">Brevo</span> email is built to be efficient — not overly designed — which keeps messages fast, clean, and easy to manage.</p>
 
-        <h3>2. <span className="brevo-marker">Brevo</span> SMS Messaging</h3>
+        <h3>2. <span class="text-primary">Brevo</span> SMS Messaging</h3>
         <p>SMS is essential for urgent messages, reminders, and real-time updates. Most tools charge extra or require integrations for SMS, but <strong><span className="brevo-marker">Brevo</span></strong> includes SMS inside the core system and automation builder.</p>
         
         <h4>What You Can Do with SMS</h4>
@@ -76,7 +76,7 @@ export function BrevoMultichannelMessagingExplainedArticle() {
         </ul>
         <p>SMS in <span className="brevo-marker">Brevo</span> becomes especially powerful when combined with email or WhatsApp to complete multi-step customer journeys.</p>
 
-        <h3>3. <span className="brevo-marker">Brevo</span> WhatsApp Messaging</h3>
+        <h3>3. <span class="text-primary">Brevo</span> WhatsApp Messaging</h3>
         <p>WhatsApp is one of <span className="brevo-marker">Brevo</span>’s strongest competitive advantages. Most email tools do NOT include WhatsApp messaging inside automation, but <strong><span className="brevo-marker">Brevo</span></strong> lets you send WhatsApp messages in journeys, campaigns, and customer triggers.</p>
         
         <h4>What You Can Do with WhatsApp</h4>
@@ -98,7 +98,7 @@ export function BrevoMultichannelMessagingExplainedArticle() {
         </ul>
         <p>WhatsApp gives your business a direct personal connection with customers that email alone cannot match.</p>
 
-        <h3>4. <span className="brevo-marker">Brevo</span> Transactional Messaging</h3>
+        <h3>4. <span class="text-primary">Brevo</span> Transactional Messaging</h3>
         <p>Transactional messaging includes receipts, password resets, shipping updates, and verification codes. These are the messages customers rely on the most — and <span className="brevo-marker">Brevo</span> handles them through dedicated infrastructure to ensure instant delivery.</p>
 
         <h4>Transactional Emails Include:</h4>
@@ -165,7 +165,7 @@ export function BrevoMultichannelMessagingExplainedArticle() {
             <li>communication adapts to customer preferences</li>
         </ul>
 
-        <h2><span className="brevo-marker">Brevo</span> Multi-Channel Pricing Overview</h2>
+        <h2><span class="text-primary">Brevo</span> Multi-Channel Pricing Overview</h2>
         <table>
             <thead>
                 <tr>
@@ -198,7 +198,7 @@ export function BrevoMultichannelMessagingExplainedArticle() {
             </tbody>
         </table>
 
-        <h2>Pros & Cons of Multi-Channel Messaging in <span className="brevo-marker">Brevo</span></h2>
+        <h2>Pros & Cons of Multi-Channel Messaging in <span class="text-primary">Brevo</span></h2>
         <h3>Pros</h3>
         <ul>
             <li>All channels in one platform</li>

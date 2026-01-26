@@ -112,14 +112,14 @@ export function BestPlatformForEcommerceArticle() {
         </table>
 
         <h2>Pros & Cons</h2>
-        <h3><span className="brevo-strong">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Multichannel messaging built-in</li>
             <li>CRM included</li>
             <li>Strong automation value</li>
             <li>Good deliverability</li>
         </ul>
-        <h3><span className="brevo-strong">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Templates not as strong design-wise</li>
             <li>Landing page builder less advanced</li>

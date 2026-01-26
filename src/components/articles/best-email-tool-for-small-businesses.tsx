@@ -113,14 +113,14 @@ export function BestEmailToolForSmallBusinessesArticle() {
         </table>
 
         <h2>Pros & Cons</h2>
-        <h3>Brevo Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Affordable automation + CRM</li>
             <li>Multichannel messaging</li>
             <li>Scalable pricing</li>
             <li>Strong deliverability</li>
         </ul>
-        <h3>Brevo Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Templates not top-tier design-wise</li>
             <li>Landing pages not as advanced</li>

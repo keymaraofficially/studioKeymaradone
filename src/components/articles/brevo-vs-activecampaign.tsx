@@ -131,7 +131,7 @@ export function BrevoVsActiveCampaignArticle() {
         
         <h2>Pros & Cons</h2>
 
-        <h3><span className="brevo-marker">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Affordable automation plans</li>
             <li>Multichannel workflows (email, SMS, WhatsApp)</li>
@@ -140,7 +140,7 @@ export function BrevoVsActiveCampaignArticle() {
             <li>Beginner-friendly automation builder</li>
         </ul>
 
-        <h3><span className="brevo-marker">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Templates are not as advanced</li>
             <li>Limited funnel-building capabilities</li>

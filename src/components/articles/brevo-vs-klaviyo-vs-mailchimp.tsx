@@ -120,14 +120,14 @@ export function BrevoVsKlaviyoVsMailchimpArticle() {
             </tbody>
         </table>
         <h2>Pros & Cons</h2>
-        <h3><span className="brevo-marker">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Multichannel: email + SMS + WhatsApp</li>
             <li>Affordable pricing for scaling stores</li>
             <li>Built-in CRM</li>
             <li>Strong automation for ecommerce</li>
         </ul>
-        <h3><span className="brevo-marker">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Templates are basic</li>
             <li>Landing pages are limited</li>

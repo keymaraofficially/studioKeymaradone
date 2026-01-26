@@ -137,7 +137,7 @@ export function BrevoVsGetResponseArticle() {
 
         <h2>Pros & Cons</h2>
 
-        <h3><span className="brevo-marker">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Affordable automation and CRM features</li>
             <li>Strong segmentation and behavioral triggers</li>
@@ -146,7 +146,7 @@ export function BrevoVsGetResponseArticle() {
             <li>Very clean workflows</li>
         </ul>
 
-        <h3><span className="brevo-marker">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Templates are basic</li>
             <li>No full funnel builder</li>

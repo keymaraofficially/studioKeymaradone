@@ -133,7 +133,7 @@ export function ActiveCampaignVsHubspotVsBrevoArticle() {
         
         <h2>Pros & Cons</h2>
 
-        <h3><span className="brevo-marker">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Affordable automation</li>
             <li>Multichannel messaging (SMS, WhatsApp, email)</li>
@@ -142,7 +142,7 @@ export function ActiveCampaignVsHubspotVsBrevoArticle() {
             <li>Strong deliverability</li>
         </ul>
 
-        <h3><span className="brevo-marker">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Limited advanced templates</li>
             <li>Not ideal for enterprise complexity</li>

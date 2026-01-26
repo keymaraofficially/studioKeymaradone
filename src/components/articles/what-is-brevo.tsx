@@ -15,10 +15,10 @@ export function WhatIsBrevoArticle() {
             <strong>Key Tip #1:</strong> Think of <span className="brevo-marker">Brevo</span> as an “automation-first marketing platform,” not just an email tool. The real value is in its workflows, CRM, and multi-channel communication.
         </div>
 
-        <h2>Why Understanding <span className="brevo-marker">Brevo</span> Matters</h2>
+        <h2>Why Understanding <span class="text-primary">Brevo</span> Matters</h2>
         <p>Most businesses use email tools only for newsletters, but that’s not where the results come from. Results come from automation — triggered messages, behavior tracking, segmentation, and consistent customer journeys. <strong><span className="brevo-marker">Brevo</span></strong> was built around exactly this foundation. While other platforms rely heavily on templates and design-first tools, <span className="brevo-marker">Brevo</span> focuses on intelligent workflows, data, and long-term communication that actually converts. If you're scaling with limited resources or want to automate repetitive tasks, <span className="brevo-marker">Brevo</span>’s system can replace 3–5 separate marketing tools.</p>
 
-        <h2>Feature Breakdown: What <span className="brevo-marker">Brevo</span> Actually Does</h2>
+        <h2>Feature Breakdown: What <span class="text-primary">Brevo</span> Actually Does</h2>
 
         <h3>1. Email Marketing Tools</h3>
         <ul>
@@ -39,7 +39,7 @@ export function WhatIsBrevoArticle() {
             <li>Multi-channel sequences (email + SMS + WhatsApp).</li>
         </ul>
 
-        <h3>3. <span className="brevo-marker">Brevo</span>’s Built-In CRM</h3>
+        <h3>3. <span class="text-primary">Brevo</span>’s Built-In CRM</h3>
         <p>This is what separates <span className="brevo-marker">Brevo</span> from many competitors:</p>
         <ul>
             <li>Deal pipelines with drag-and-drop stages.</li>
@@ -85,7 +85,7 @@ export function WhatIsBrevoArticle() {
             <strong>Key Tip #2:</strong> <span className="brevo-marker">Brevo</span> works best when you use automation + CRM together. Most businesses only use the email side and miss 60% of the platform’s power.
         </div>
 
-        <h2>Best Use Cases for <span className="brevo-marker">Brevo</span></h2>
+        <h2>Best Use Cases for <span class="text-primary">Brevo</span></h2>
         <ul>
             <li><strong>Small Businesses:</strong> Affordable automation + CRM in one place.</li>
             <li><strong>Coaches & Creators:</strong> Simple workflows and easy segmentation.</li>
@@ -94,7 +94,7 @@ export function WhatIsBrevoArticle() {
             <li><strong>Service Businesses:</strong> Appointment reminders, follow-up sequences, and pipeline tracking.</li>
         </ul>
 
-        <h2><span className="brevo-marker">Brevo</span> Pricing (Clear Breakdown)</h2>
+        <h2><span class="text-primary">Brevo</span> Pricing (Clear Breakdown)</h2>
         <table>
             <thead>
                 <tr>
@@ -129,7 +129,7 @@ export function WhatIsBrevoArticle() {
         
         <h2>Pros & Cons</h2>
 
-        <h3><span className="brevo-marker">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Advanced automation at low pricing.</li>
             <li>Built-in CRM — no need for separate tools.</li>
@@ -138,7 +138,7 @@ export function WhatIsBrevoArticle() {
             <li>Beginner-friendly editor and workflows.</li>
         </ul>
 
-        <h3><span className="brevo-marker">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Fewer design-heavy email templates.</li>
             <li>High-volume email plans can get expensive.</li>

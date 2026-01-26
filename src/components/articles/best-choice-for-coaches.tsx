@@ -151,7 +151,7 @@ export function BestChoiceForCoachesArticle() {
         
         <h2>Pros & Cons</h2>
 
-        <h3><span className="brevo-strong">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Full CRM for coaching clients</li>
             <li>SMS + WhatsApp reminders</li>
@@ -159,7 +159,7 @@ export function BestChoiceForCoachesArticle() {
             <li>Strong deliverability</li>
         </ul>
 
-        <h3><span className="brevo-strong">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Basic templates</li>
             <li>Landing page tools are limited</li>

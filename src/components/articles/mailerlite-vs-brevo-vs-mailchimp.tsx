@@ -138,7 +138,7 @@ export function MailerliteVsBrevoVsMailchimpArticle() {
 
         <h2>Pros & Cons</h2>
 
-        <h3><span className="brevo-marker">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Automation + CRM + multichannel in one platform</li>
             <li>Strong segmentation for advanced users</li>
@@ -146,7 +146,7 @@ export function MailerliteVsBrevoVsMailchimpArticle() {
             <li>Great deliverability</li>
         </ul>
 
-        <h3><span className="brevo-marker">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Design templates simple</li>
             <li>Landing pages less flexible</li>

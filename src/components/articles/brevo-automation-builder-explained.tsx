@@ -29,7 +29,7 @@ export function BrevoAutomationBuilderExplainedArticle() {
         </ul>
         <p>Unlike many email tools, <strong><span className="brevo-marker">Brevo</span></strong> gives advanced automation even on lower plans, making it accessible for small teams and beginners.</p>
 
-        <h2>How <span className="brevo-marker">Brevo</span> Automation Works (Full Breakdown)</h2>
+        <h2>How <span class="text-primary">Brevo</span> Automation Works (Full Breakdown)</h2>
 
         <h3>1. Workflow Overview</h3>
         <p>A workflow in <strong><span className="brevo-marker">Brevo</span></strong> is a pre-built sequence that starts with a trigger and continues with a set of automated actions. You can use workflows to:</p>
@@ -58,7 +58,7 @@ export function BrevoAutomationBuilderExplainedArticle() {
         </ul>
         <p>Triggers tell <span className="brevo-marker">Brevo</span>: “When this happens, start the journey.”</p>
 
-        <h3>3. Actions: What <span className="brevo-marker">Brevo</span> Does Automatically</h3>
+        <h3>3. Actions: What <span class="text-primary">Brevo</span> Does Automatically</h3>
         <p>Once a trigger activates a workflow, <strong><span className="brevo-marker">Brevo</span></strong> runs a series of actions you define. These actions manage communication, CRM, segmentation, and behavior tracking.</p>
 
         <h4>Email Actions</h4>
@@ -178,7 +178,7 @@ export function BrevoAutomationBuilderExplainedArticle() {
             <li>score behavior to identify hot leads</li>
         </ul>
 
-        <h2><span className="brevo-marker">Brevo</span> Automation Pricing Overview</h2>
+        <h2><span class="text-primary">Brevo</span> Automation Pricing Overview</h2>
         <table>
             <thead>
                 <tr>
@@ -211,7 +211,7 @@ export function BrevoAutomationBuilderExplainedArticle() {
             </tbody>
         </table>
 
-        <h2>Pros & Cons of <span className="brevo-marker">Brevo</span> Automation Builder</h2>
+        <h2>Pros & Cons of <span class="text-primary">Brevo</span> Automation Builder</h2>
         <h3>Pros</h3>
         <ul>
             <li>Easy visual workflow builder</li>

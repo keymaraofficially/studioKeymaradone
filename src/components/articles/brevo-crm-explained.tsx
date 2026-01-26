@@ -15,7 +15,7 @@ export function BrevoCrmExplainedArticle() {
             <strong>Key Tip #1:</strong> {post.keyTip1}
         </div>
 
-        <h2>Why <span className="brevo-marker">Brevo</span> CRM Matters</h2>
+        <h2>Why <span class="text-primary">Brevo</span> CRM Matters</h2>
 
         <p>CRM systems are often expensive, complicated, or overwhelming for small teams. But without a structured CRM, you lose leads, forget follow-ups, and miss growth opportunities. <strong><span className="brevo-marker">Brevo</span></strong> solves this by giving you a simple but powerful CRM that connects directly with your email, automation, multi-channel messages, and segmentation system.</p>
         
@@ -28,7 +28,7 @@ export function BrevoCrmExplainedArticle() {
         </ul>
         <p>For small businesses, agencies, service providers, ecommerce brands, coaches, and freelancers, <span className="brevo-marker">Brevo</span> CRM offers everything needed to manage customer relationships without paying for a separate CRM tool.</p>
 
-        <h2>Inside <span className="brevo-marker">Brevo</span> CRM: The Full Breakdown</h2>
+        <h2>Inside <span class="text-primary">Brevo</span> CRM: The Full Breakdown</h2>
 
         <h3>1. Contact Management</h3>
         <p>Contacts are the foundation of your CRM. In <strong><span className="brevo-marker">Brevo</span></strong>, each contact has a complete profile that includes:</p>
@@ -131,7 +131,7 @@ export function BrevoCrmExplainedArticle() {
             <strong>Key Tip #2:</strong> {post.keyTip2}
         </div>
 
-        <h2>Practical Use Cases for <span className="brevo-marker">Brevo</span> CRM</h2>
+        <h2>Practical Use Cases for <span class="text-primary">Brevo</span> CRM</h2>
         <h3>1. Coaches & Trainers</h3>
         <ul>
             <li>track student progress</li>
@@ -163,7 +163,7 @@ export function BrevoCrmExplainedArticle() {
             <li>project onboarding workflows</li>
         </ul>
 
-        <h2><span className="brevo-marker">Brevo</span> CRM Pricing Overview</h2>
+        <h2><span class="text-primary">Brevo</span> CRM Pricing Overview</h2>
         <table>
             <thead>
                 <tr>
@@ -196,7 +196,7 @@ export function BrevoCrmExplainedArticle() {
             </tbody>
         </table>
 
-        <h2>Pros & Cons of <span className="brevo-marker">Brevo</span> CRM</h2>
+        <h2>Pros & Cons of <span class="text-primary">Brevo</span> CRM</h2>
         <h3>Pros</h3>
         <ul>
             <li>Simple and beginner-friendly</li>

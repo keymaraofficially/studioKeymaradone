@@ -153,7 +153,7 @@ export function BrevoVsHubspotArticle() {
         
         <h2>Pros & Cons</h2>
 
-        <h3><span className="brevo-marker">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Built-in CRM</li>
             <li>Affordable all-in-one system</li>
@@ -161,7 +161,7 @@ export function BrevoVsHubspotArticle() {
             <li>Beginner-friendly automation</li>
         </ul>
 
-        <h3><span className="brevo-marker">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Templates are basic</li>
             <li>Analytics less advanced than HubSpot</li>

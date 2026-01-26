@@ -145,7 +145,7 @@ export function BestEcommerceAutomationToolsBrevoVsKlaviyoVsActiveCampaignArticl
 
         <h2>Pros & Cons</h2>
 
-        <h3><span className="brevo-marker">Brevo</span> Pros</h3>
+        <h3><span class="text-primary">Brevo</span> Pros</h3>
         <ul>
             <li>Multichannel messaging (email + SMS + WhatsApp)</li>
             <li>Built-in CRM at no extra cost</li>
@@ -153,7 +153,7 @@ export function BestEcommerceAutomationToolsBrevoVsKlaviyoVsActiveCampaignArticl
             <li>Strong ecommerce automation</li>
         </ul>
 
-        <h3><span className="brevo-marker">Brevo</span> Cons</h3>
+        <h3><span class="text-primary">Brevo</span> Cons</h3>
         <ul>
             <li>Templates are basic</li>
             <li>Landing pages less advanced</li>

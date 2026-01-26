@@ -127,7 +127,7 @@ export function BrevoVsMailerliteArticle() {
       </table>
 
       <h2 className="font-headline">Pros & Cons</h2>
-      <h3><span className="brevo-marker">Brevo</span> Pros</h3>
+      <h3><span class="text-primary">Brevo</span> Pros</h3>
       <ul>
           <li>Superior automation depth</li>
           <li>Built-in CRM</li>
@@ -135,7 +135,7 @@ export function BrevoVsMailerliteArticle() {
           <li>Affordable automation tiers</li>
           <li>Better for serious growth systems</li>
       </ul>
-      <h3><span className="brevo-marker">Brevo</span> Cons</h3>
+      <h3><span class="text-primary">Brevo</span> Cons</h3>
       <ul>
           <li>Template designs are not as strong as MailerLite</li>
           <li>High-volume email plans become expensive</li>
