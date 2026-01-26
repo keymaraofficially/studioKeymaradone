@@ -94,6 +94,10 @@
   .brevo-marker, .brevo-neo, .brevo-neo-card {
     all: unset;
   }
+
+  .social-icon {
+    filter: brightness(0) invert(1);
+  }
 }
 
 /* Removing old keyframes */

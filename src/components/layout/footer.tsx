@@ -132,7 +132,7 @@ export function Footer() {
                             <div className="flex gap-4 items-center">
                                 {socialLinks.map(social => (
                                 <Link href={social.href} key={social.name} target="_blank" rel="noopener noreferrer">
-                                    <Image src={social.icon} alt={social.name} width={24} height={24} />
+                                    <Image src={social.icon} alt={social.name} width={24} height={24} className="social-icon" />
                                 </Link>
                                 ))}
                             </div>
