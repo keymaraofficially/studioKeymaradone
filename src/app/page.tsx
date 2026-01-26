@@ -66,7 +66,7 @@ export default function Home() {
 
       <section className="bg-background text-foreground py-20 md:py-24">
         <div className="container max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2.5">Why Marketers Prefer <span className="brevo-marker">Brevo</span> for Email Automation</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2.5">Why Marketers Prefer <span className="text-primary">Brevo</span> for Email Automation</h2>
           <p className="text-muted-foreground mb-9 text-lg px-4">
             Powerful email, automation and analytics built to grow revenue — simple to use, reliable at scale.
           </p>
@@ -120,7 +120,7 @@ export default function Home() {
        <section className="py-16 bg-card">
         <div className="container max-w-6xl mx-auto">
             <h2 className="text-center text-3xl md:text-4xl text-foreground mb-4 font-bold">
-            <span className="brevo-marker">Brevo</span> Integrations That Power Your Marketing
+            <span className="text-primary">Brevo</span> Integrations That Power Your Marketing
             </h2>
             <p className="text-center max-w-3xl mx-auto text-muted-foreground text-lg mb-12">
             Connect Brevo with your favorite business tools—from CRM to ecommerce, analytics, forms, and automation systems. 
@@ -208,7 +208,7 @@ export default function Home() {
 
       <section className="py-20 bg-background text-foreground">
         <div className="container max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2.5">Enterprise Power with <span className="brevo-marker">Brevo</span> Intelligence</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2.5">Enterprise Power with <span className="text-primary">Brevo</span> Intelligence</h2>
           <p className="text-muted-foreground mb-9 text-lg px-4">
             Take your marketing operations to the next level with Brevo’s enterprise-grade tools. 
             From automation to analytics, manage everything at scale with the reliability global brands trust.
@@ -285,7 +285,7 @@ export default function Home() {
           <div className="container mx-auto max-w-6xl py-12 px-4 md:px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                Real Brands Growing Faster With <span className="brevo-marker">Brevo</span>
+                Real Brands Growing Faster With <span className="text-primary">Brevo</span>
               </h2>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
                 These real-world case studies show how businesses use Brevo’s automation, CRM, and multi-channel tools to boost engagement, save time, and increase revenue.
@@ -324,11 +324,11 @@ export default function Home() {
         <div className="container max-w-6xl mx-auto text-center">
           
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-5">
-            <span className="brevo-marker">Brevo</span> is Used Worldwide — Every Single Month
+            <span className="text-primary">Brevo</span> is Used Worldwide — Every Single Month
           </h2>
 
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12">
-            Millions of businesses rely on <strong>Brevo</strong> each month to automate campaigns, drive conversions, and power customer experiences across the globe.
+            Millions of businesses rely on <strong className="text-primary">Brevo</strong> each month to automate campaigns, drive conversions, and power customer experiences across the globe.
           </p>
 
           <div className="flex flex-wrap justify-center gap-10">
