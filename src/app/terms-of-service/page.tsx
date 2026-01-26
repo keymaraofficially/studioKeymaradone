@@ -1,10 +1,12 @@
 
 export default function TermsOfServicePage() {
+  const currentDate = new Date().toLocaleString('default', { month: 'long', year: 'numeric' });
+
   return (
     <div className="container mx-auto max-w-4xl py-12 px-4">
       <div className="prose max-w-none">
         <h1 className="text-4xl md:text-5xl font-headline font-bold mb-4">Terms of Service</h1>
-        <p className="text-sm text-muted-foreground">Last updated: November 2025</p>
+        <p className="text-sm text-muted-foreground">Last updated: {currentDate}</p>
 
         <p>These Terms govern your use of the Keymara educational website. By accessing the site, you agree to the following:</p>
 
@@ -28,7 +30,7 @@ export default function TermsOfServicePage() {
         <p>We may update these Terms to improve compliance and clarity.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Contact</h2>
-        <p>For questions, email us at: <a href="mailto:hello@keymara.com" className="font-semibold text-foreground hover:text-primary">hello@keymara.com</a></p>
+        <p>For questions, email us at: <a href="mailto:contact@keymara.com" className="font-semibold text-foreground hover:text-primary">contact@keymara.com</a></p>
       </div>
     </div>
   );

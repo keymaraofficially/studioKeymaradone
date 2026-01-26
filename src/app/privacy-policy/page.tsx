@@ -1,10 +1,12 @@
 
 export default function PrivacyPolicyPage() {
+  const currentDate = new Date().toLocaleString('default', { month: 'long', year: 'numeric' });
+
   return (
     <div className="container mx-auto max-w-4xl py-12 px-4">
       <div className="prose max-w-none">
         <h1 className="text-4xl md:text-5xl font-headline font-bold mb-4">Privacy Policy</h1>
-        <p className="text-sm text-muted-foreground">Last updated: November 2025</p>
+        <p className="text-sm text-muted-foreground">Last updated: {currentDate}</p>
 
         <p>At Keymara, we respect your privacy. This Privacy Policy explains how we collect, use, and protect information when you visit our website or interact with our educational content.</p>
 
@@ -35,7 +37,7 @@ export default function PrivacyPolicyPage() {
         <p>You can request to update or remove your email from our system at any time.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Contact</h2>
-        <p>If you have privacy questions, contact us at: <a href="mailto:hello@keymara.com" className="font-semibold text-foreground hover:text-primary">hello@keymara.com</a></p>
+        <p>If you have privacy questions, contact us at: <a href="mailto:contact@keymara.com" className="font-semibold text-foreground hover:text-primary">contact@keymara.com</a></p>
       </div>
     </div>
   );

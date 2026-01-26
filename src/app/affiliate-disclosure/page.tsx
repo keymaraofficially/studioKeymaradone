@@ -4,7 +4,7 @@ export default function AffiliateDisclosurePage() {
     <div className="container mx-auto max-w-4xl py-12 px-4">
       <div className="prose max-w-none">
         <h1 className="text-4xl md:text-5xl font-headline font-bold mb-4">Affiliate Disclosure</h1>
-        <p className="text-sm text-muted-foreground">Last updated: November 2025</p>
+        <p className="text-sm text-muted-foreground">Last updated: January 2026</p>
 
         <p>Keymara publishes educational content on email marketing tools and platforms.
         Some links on this website may be affiliate links, meaning we may earn a small commission if you choose to sign up through them.</p>

@@ -14,7 +14,7 @@ export default function ContactPage() {
         <p className="text-lg text-muted-foreground mb-10">
           We&apos;re here to help with educational questions about email marketing, automation,
           CRM, and growth tools. We do not sell email services — our goal is to provide
-          learning support only. You can reach us directly at <a href="mailto:hello@keymara.com" className="font-semibold text-foreground hover:text-primary">hello@keymara.com</a>.
+          learning support only. You can reach us directly at <a href="mailto:contact@keymara.com" className="font-semibold text-foreground hover:text-primary">contact@keymara.com</a>.
         </p>
 
         <Card className="bg-card p-6 sm:p-8 border">

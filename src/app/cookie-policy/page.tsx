@@ -1,10 +1,12 @@
 
 export default function CookiePolicyPage() {
+  const currentDate = new Date().toLocaleString('default', { month: 'long', year: 'numeric' });
+
   return (
     <div className="container mx-auto max-w-4xl py-12 px-4">
       <div className="prose max-w-none">
         <h1 className="text-4xl md:text-5xl font-headline font-bold mb-4">Cookie Policy</h1>
-        <p className="text-sm text-muted-foreground">Last updated: November 2025</p>
+        <p className="text-sm text-muted-foreground">Last updated: {currentDate}</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">What Are Cookies?</h2>
         <p>Cookies are small files stored on your device to improve your browsing experience.</p>
@@ -27,7 +29,7 @@ export default function CookiePolicyPage() {
         <p>You can accept or decline cookies through the cookie banner. You can also disable cookies in your browser settings.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Contact</h2>
-        <p>If you have questions about our cookie usage, email <a href="mailto:hello@keymara.com" className="font-semibold text-foreground hover:text-primary">hello@keymara.com</a></p>
+        <p>If you have questions about our cookie usage, email <a href="mailto:contact@keymara.com" className="font-semibold text-foreground hover:text-primary">contact@keymara.com</a></p>
       </div>
     </div>
   );

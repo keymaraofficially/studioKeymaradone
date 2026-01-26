@@ -1,10 +1,12 @@
 
 export default function DisclaimerPage() {
+  const currentDate = new Date().toLocaleString('default', { month: 'long', year: 'numeric' });
+
   return (
     <div className="container mx-auto max-w-4xl py-12 px-4">
       <div className="prose max-w-none">
         <h1 className="text-4xl md:text-5xl font-headline font-bold mb-4">Disclaimer</h1>
-        <p className="text-sm text-muted-foreground">Last updated: November 2025</p>
+        <p className="text-sm text-muted-foreground">Last updated: {currentDate}</p>
 
         <p>All content on Keymara is provided for educational purposes only.
         We do not offer marketing services, campaign management, or financial advice.</p>
@@ -13,6 +15,12 @@ export default function DisclaimerPage() {
         <p>Any strategies, tutorials, or recommendations are shared for learning.
         We do not guarantee outcomes such as revenue, leads, or growth.</p>
 
+        <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Affiliate Disclosure</h2>
+        <p>
+          Some of the links on this site are affiliate links, which means we may earn a commission if you make a purchase through them.
+          This comes at no extra cost to you and helps support our educational mission. We only recommend tools we believe in.
+        </p>
+
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Accuracy of Information</h2>
         <p>We aim to keep information accurate and up-to-date, but tools and platforms may change over time.</p>
 
@@ -20,7 +28,7 @@ export default function DisclaimerPage() {
         <p>Keymara is not responsible for external websites or third-party tools referenced in guides.</p>
 
         <h2 className="text-2xl font-headline font-bold mt-8 mb-4">Contact</h2>
-        <p>For clarification, email us at <a href="mailto:hello@keymara.com" className="font-semibold text-foreground hover:text-primary">hello@keymara.com</a></p>
+        <p>For clarification, email us at <a href="mailto:contact@keymara.com" className="font-semibold text-foreground hover:text-primary">contact@keymara.com</a></p>
       </div>
     </div>
   );

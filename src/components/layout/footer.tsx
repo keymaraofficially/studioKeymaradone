@@ -122,7 +122,7 @@ export function Footer() {
                             <h4 className="font-bold mb-3">Brevo</h4>
                             <ul className="list-none p-0 leading-loose">
                                 {brevoLinks.map(item => (
-                                    <li key={item.name}><Link href={item.href} className="text-foreground no-underline hover:text-primary transition-colors">{item.name}</Link></li>
+                                    <li key={item.name}><Link href={item.href} a className="text-foreground no-underline hover:text-primary transition-colors">{item.name}</Link></li>
                                 ))}
                             </ul>
                         </div>
@@ -136,6 +136,7 @@ export function Footer() {
                                 </Link>
                                 ))}
                             </div>
+                            <p className="mt-4"><a href="mailto:contact@keymara.com" className="text-foreground no-underline hover:text-primary transition-colors">contact@keymara.com</a></p>
                         </div>
                     </div>
                     
