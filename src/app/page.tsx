@@ -30,7 +30,7 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button asChild size="lg">
             <Link 
-              href="https://www.brevo.com/"
+              href="https://get.brevo.com/r0bl7dgxkvd4"
               target="_blank" 
               rel="noopener noreferrer">
               Start Free Brevo
