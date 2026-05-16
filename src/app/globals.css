@@ -1,0 +1,124 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* RenoEasy-inspired Dark Theme */
+    --background: 0 0% 8%; /* Near Black */
+    --foreground: 0 0% 98%; /* White */
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 45 100% 51%; /* Yellow */
+    --primary-foreground: 20 15% 15%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 24%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 45 100% 51%;
+    --accent-foreground: 20 15% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 45 100% 51%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* RenoEasy-inspired Dark Theme */
+    --background: 0 0% 8%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 45 100% 51%;
+    --primary-foreground: 20 15% 15%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 24%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 45 100% 51%;
+    --accent-foreground: 20 15% 15%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 45 100% 51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline font-bold;
+  }
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  p {
+    @apply mb-4;
+  }
+}
+
+@layer components {
+  .hero-heading {
+    font-size: 2.5rem; /* ~40px */
+    line-height: 1.2;
+    @apply font-headline font-bold mb-4 text-foreground;
+  }
+  @screen sm {
+    .hero-heading {
+      font-size: 3.5rem; /* ~56px */
+    }
+  }
+
+  /* Removing old brevo-specific styles */
+  .brevo-marker, .brevo-neo, .brevo-neo-card {
+    all: unset;
+  }
+
+  .social-icon {
+    filter: brightness(0) invert(1);
+  }
+}
+
+/* Removing old keyframes */
+@keyframes typing {}
+@keyframes blink-caret {}
+@keyframes green-blink {}
+
+/* Hide author + publish date everywhere */
+time,
+[class*="date"],
+[class*="meta"],
+[class*="author"] {
+  display: none !important;
+}
+
+/* Remove all "Key Tip" boxes globally */
+[class*="key-tip"],
+[class*="keytip"],
+[class*="tip-box"],
+[class*="highlight"],
+[class*="callout"],
+[class*="note"] {
+  display: none !important;
+}
